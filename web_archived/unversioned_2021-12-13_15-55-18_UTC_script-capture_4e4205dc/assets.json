@@ -1,0 +1,537 @@
+{
+  "folder": "unversioned_2021-12-13_15-55-18_UTC_script-capture_4e4205dc",
+  "event_timestamp": "20211213155518",
+  "files": [
+    {
+      "path": "_asset_alternatives/3ffccbaa3c943d33/data/twitchStreams.json",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20211212204409",
+        "original": "https://shellshock.io/data/twitchStreams.json?1638797455011",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "DM23LQKEY3AF26CERK6ABNWGDESZXPT3",
+        "sha256": "3ffccbaa3c943d33b11730220fd1a77d9aec45402759c2b3c9b1c6ed26646403",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/data/twitchstreams.json?1638797455011",
+        "timestamp": "20211212204409",
+        "original": "https://shellshock.io/data/twitchStreams.json?1638797455011",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "DM23LQKEY3AF26CERK6ABNWGDESZXPT3",
+        "replay_url": "https://web.archive.org/web/20211212204409id_/https://shellshock.io/data/twitchStreams.json?1638797455011",
+        "final_url": "https://web.archive.org/web/20211212204409id_/https://shellshock.io/data/twitchStreams.json?1638797455011",
+        "sha256": "3ffccbaa3c943d33b11730220fd1a77d9aec45402759c2b3c9b1c6ed26646403",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20211212204409"
+      },
+      "requested_capture": {
+        "timestamp": "20211212204409",
+        "original": "https://shellshock.io/data/twitchStreams.json?1638797455011",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "DM23LQKEY3AF26CERK6ABNWGDESZXPT3"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20211212204409",
+          "original": "https://shellshock.io/data/twitchStreams.json?1638797455011",
+          "mimetype": "application/json",
+          "statuscode": "200",
+          "digest": "DM23LQKEY3AF26CERK6ABNWGDESZXPT3"
+        },
+        "offset_seconds": -69069,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "unversioned_2021-12-13_15-55-18_UTC_script-capture_4e4205dc",
+        "anchor_timestamp": "20211213155518"
+      }
+    },
+    {
+      "path": "_asset_alternatives/4e4205dc97c95d3c/src/shellshock.js",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20211213155518",
+        "original": "https://shellshock.io/src/shellshock.js?1638991661",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "6ATD3OPAZBZKZBWVVNX3YTTP673O2LVH",
+        "sha256": "4e4205dc97c95d3c5be5e760464031b318393ae2bbd509d38f77cc12727d6b1d",
+        "verification": "indexed_capture_digest_matches_verified_payload"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/src/shellshock.js?1638991661",
+        "timestamp": "20211213155518",
+        "original": "https://shellshock.io/src/shellshock.js?1638991661",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "6ATD3OPAZBZKZBWVVNX3YTTP673O2LVH",
+        "replay_url": "https://web.archive.org/web/20211213155518id_/https://shellshock.io/src/shellshock.js?1638991661",
+        "final_url": "https://web.archive.org/web/20211213155518id_/https://shellshock.io/src/shellshock.js?1638991661",
+        "verification": "indexed_capture_digest_matches_verified_payload",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20211213155518",
+        "sha256": "4e4205dc97c95d3c5be5e760464031b318393ae2bbd509d38f77cc12727d6b1d"
+      },
+      "requested_capture": {
+        "timestamp": "20211213155518",
+        "original": "https://shellshock.io/src/shellshock.js?1638991661",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "6ATD3OPAZBZKZBWVVNX3YTTP673O2LVH"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20211213155518",
+          "original": "https://shellshock.io/src/shellshock.js?1638991661",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "6ATD3OPAZBZKZBWVVNX3YTTP673O2LVH"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "unversioned_2021-12-13_15-55-18_UTC_script-capture_4e4205dc",
+        "anchor_timestamp": "20211213155518"
+      }
+    },
+    {
+      "path": "_asset_alternatives/d3f9424ec189455b/data/shellYouTube.json",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20211213155544",
+        "original": "https://shellshock.io/data/shellYouTube.json?1639252680028",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "5JXYB7OV3PDW6XH6E2SNC2M6ABVDRZDC",
+        "sha256": "d3f9424ec189455b845cc3a0bd2eeeb023f8e575a2b7b974476d3fba36447e88",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/data/shellyoutube.json?1639252680028",
+        "timestamp": "20211213155544",
+        "original": "https://shellshock.io/data/shellYouTube.json?1639252680028",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "5JXYB7OV3PDW6XH6E2SNC2M6ABVDRZDC",
+        "replay_url": "https://web.archive.org/web/20211213155544id_/https://shellshock.io/data/shellYouTube.json?1639252680028",
+        "final_url": "https://web.archive.org/web/20211213155544id_/https://shellshock.io/data/shellYouTube.json?1639252680028",
+        "sha256": "d3f9424ec189455b845cc3a0bd2eeeb023f8e575a2b7b974476d3fba36447e88",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20211213155544"
+      },
+      "requested_capture": {
+        "timestamp": "20211213155544",
+        "original": "https://shellshock.io/data/shellYouTube.json?1639252680028",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "5JXYB7OV3PDW6XH6E2SNC2M6ABVDRZDC"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20211213155544",
+          "original": "https://shellshock.io/data/shellYouTube.json?1639252680028",
+          "mimetype": "application/json",
+          "statuscode": "200",
+          "digest": "5JXYB7OV3PDW6XH6E2SNC2M6ABVDRZDC"
+        },
+        "offset_seconds": 26,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "unversioned_2021-12-13_15-55-18_UTC_script-capture_4e4205dc",
+        "anchor_timestamp": "20211213155518"
+      }
+    },
+    {
+      "path": "_asset_alternatives/aefe1fa753584fd9/data/shellYouTube.json",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20211213232453",
+        "original": "https://shellshock.io/data/shellYouTube.json?1639252632343",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "MBE27DKVEVZJSIFWIQHQ7OZNUMOE24RY",
+        "sha256": "aefe1fa753584fd9b45f6853636dc12273d6d6b9f967f626300f1c1f601c3cf1",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/data/shellyoutube.json?1639252632343",
+        "timestamp": "20211213232453",
+        "original": "https://shellshock.io/data/shellYouTube.json?1639252632343",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "MBE27DKVEVZJSIFWIQHQ7OZNUMOE24RY",
+        "replay_url": "https://web.archive.org/web/20211213232453id_/https://shellshock.io/data/shellYouTube.json?1639252632343",
+        "final_url": "https://web.archive.org/web/20211213232453id_/https://shellshock.io/data/shellYouTube.json?1639252632343",
+        "sha256": "aefe1fa753584fd9b45f6853636dc12273d6d6b9f967f626300f1c1f601c3cf1",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20211213232453"
+      },
+      "requested_capture": {
+        "timestamp": "20211213232453",
+        "original": "https://shellshock.io/data/shellYouTube.json?1639252632343",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "MBE27DKVEVZJSIFWIQHQ7OZNUMOE24RY"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20211213232453",
+          "original": "https://shellshock.io/data/shellYouTube.json?1639252632343",
+          "mimetype": "application/json",
+          "statuscode": "200",
+          "digest": "MBE27DKVEVZJSIFWIQHQ7OZNUMOE24RY"
+        },
+        "offset_seconds": 26975,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "unversioned_2021-12-13_15-55-18_UTC_script-capture_4e4205dc",
+        "anchor_timestamp": "20211213155518"
+      }
+    },
+    {
+      "path": "_asset_alternatives/cf226b9c6906ee03/data/twitchStreams.json",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20211213232458",
+        "original": "https://shellshock.io/data/twitchStreams.json?1639252632341",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "KM6PP55QM7JEBX3DX4IASC5XWRMMKYH2",
+        "sha256": "cf226b9c6906ee033de3eae659f443ab47be70e72a856327a55597d25435ad97",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/data/twitchstreams.json?1639252632341",
+        "timestamp": "20211213232458",
+        "original": "https://shellshock.io/data/twitchStreams.json?1639252632341",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "KM6PP55QM7JEBX3DX4IASC5XWRMMKYH2",
+        "replay_url": "https://web.archive.org/web/20211213232458id_/https://shellshock.io/data/twitchStreams.json?1639252632341",
+        "final_url": "https://web.archive.org/web/20211213232458id_/https://shellshock.io/data/twitchStreams.json?1639252632341",
+        "sha256": "cf226b9c6906ee033de3eae659f443ab47be70e72a856327a55597d25435ad97",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20211213232458"
+      },
+      "requested_capture": {
+        "timestamp": "20211213232458",
+        "original": "https://shellshock.io/data/twitchStreams.json?1639252632341",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "KM6PP55QM7JEBX3DX4IASC5XWRMMKYH2"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20211213232458",
+          "original": "https://shellshock.io/data/twitchStreams.json?1639252632341",
+          "mimetype": "application/json",
+          "statuscode": "200",
+          "digest": "KM6PP55QM7JEBX3DX4IASC5XWRMMKYH2"
+        },
+        "offset_seconds": 26980,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "unversioned_2021-12-13_15-55-18_UTC_script-capture_4e4205dc",
+        "anchor_timestamp": "20211213155518"
+      }
+    },
+    {
+      "path": "img/store/items/item_gun_smg_retro.gif",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20211213232530",
+        "original": "https://shellshock.io/img/store/items/item_gun_smg_retro.gif",
+        "mimetype": "image/gif",
+        "statuscode": "200",
+        "digest": "EI4QITP6RYNQYA4CVIGNWQ4XRRPUI72A",
+        "sha256": "7e124ee680ba56d07782ed75678f22f54a9693d676145589dea0eb472178a2af",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/img/store/items/item_gun_smg_retro.gif",
+        "timestamp": "20211213232530",
+        "original": "https://shellshock.io/img/store/items/item_gun_smg_retro.gif",
+        "mimetype": "image/gif",
+        "statuscode": "200",
+        "digest": "EI4QITP6RYNQYA4CVIGNWQ4XRRPUI72A",
+        "replay_url": "https://web.archive.org/web/20211213232530id_/https://shellshock.io/img/store/items/item_gun_smg_retro.gif",
+        "final_url": "https://web.archive.org/web/20211213232530id_/https://shellshock.io/img/store/items/item_gun_smg_retro.gif",
+        "sha256": "7e124ee680ba56d07782ed75678f22f54a9693d676145589dea0eb472178a2af",
+        "verification": "cdx_sha1_plain",
+        "replay_capture_timestamp": "20211213232530"
+      },
+      "requested_capture": {
+        "timestamp": "20211213232530",
+        "original": "https://shellshock.io/img/store/items/item_gun_smg_retro.gif",
+        "mimetype": "image/gif",
+        "statuscode": "200",
+        "digest": "EI4QITP6RYNQYA4CVIGNWQ4XRRPUI72A"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20211213232530",
+          "original": "https://shellshock.io/img/store/items/item_gun_smg_retro.gif",
+          "mimetype": "image/gif",
+          "statuscode": "200",
+          "digest": "EI4QITP6RYNQYA4CVIGNWQ4XRRPUI72A"
+        },
+        "offset_seconds": 27012,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "unversioned_2021-12-13_15-55-18_UTC_script-capture_4e4205dc",
+        "anchor_timestamp": "20211213155518"
+      }
+    },
+    {
+      "path": "data/twitchStreams.json",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20211214122625",
+        "original": "https://shellshock.io/data/twitchStreams.json?1637886404321",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "DTYHL7VYQCV7XLG3SN5LO4L3WV4ARMMO",
+        "sha256": "9bb687a4226263f9519a00f699626eee3a0131804cbc200811f23ee0c28f1430",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/data/twitchstreams.json?1637886404321",
+        "timestamp": "20211214122625",
+        "original": "https://shellshock.io/data/twitchStreams.json?1637886404321",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "DTYHL7VYQCV7XLG3SN5LO4L3WV4ARMMO",
+        "replay_url": "https://web.archive.org/web/20211214122625id_/https://shellshock.io/data/twitchStreams.json?1637886404321",
+        "final_url": "https://web.archive.org/web/20211214122625id_/https://shellshock.io/data/twitchStreams.json?1637886404321",
+        "sha256": "9bb687a4226263f9519a00f699626eee3a0131804cbc200811f23ee0c28f1430",
+        "verification": "cdx_sha1_plain",
+        "replay_capture_timestamp": "20211214122625"
+      },
+      "requested_capture": {
+        "timestamp": "20211214122625",
+        "original": "https://shellshock.io/data/twitchStreams.json?1637886404321",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "DTYHL7VYQCV7XLG3SN5LO4L3WV4ARMMO"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20211214122625",
+          "original": "https://shellshock.io/data/twitchStreams.json?1637886404321",
+          "mimetype": "application/json",
+          "statuscode": "200",
+          "digest": "DTYHL7VYQCV7XLG3SN5LO4L3WV4ARMMO"
+        },
+        "offset_seconds": 73867,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "unversioned_2021-12-13_15-55-18_UTC_script-capture_4e4205dc",
+        "anchor_timestamp": "20211213155518"
+      }
+    },
+    {
+      "path": "maps/helix.png",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20211214125037",
+        "original": "https://shellshock.io/maps/helix.png?23jkzmya3vk",
+        "mimetype": "image/png",
+        "statuscode": "200",
+        "digest": "DXP6ZLNQYVBWODD6CRJ7QLE2XA23VEUC",
+        "sha256": "1629874ceb37d7f33fc0a55daf3308214f720fda6f294b08fb593ee3443de4bc",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/maps/helix.png?23jkzmya3vk",
+        "timestamp": "20211214125037",
+        "original": "https://shellshock.io/maps/helix.png?23jkzmya3vk",
+        "mimetype": "image/png",
+        "statuscode": "200",
+        "digest": "DXP6ZLNQYVBWODD6CRJ7QLE2XA23VEUC",
+        "replay_url": "https://web.archive.org/web/20211214125037id_/https://shellshock.io/maps/helix.png?23jkzmya3vk",
+        "final_url": "https://web.archive.org/web/20211214125037id_/https://shellshock.io/maps/helix.png?23jkzmya3vk",
+        "sha256": "1629874ceb37d7f33fc0a55daf3308214f720fda6f294b08fb593ee3443de4bc",
+        "verification": "cdx_sha1_plain",
+        "replay_capture_timestamp": "20211214125037"
+      },
+      "requested_capture": {
+        "timestamp": "20211214125037",
+        "original": "https://shellshock.io/maps/helix.png?23jkzmya3vk",
+        "mimetype": "image/png",
+        "statuscode": "200",
+        "digest": "DXP6ZLNQYVBWODD6CRJ7QLE2XA23VEUC"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20211214125037",
+          "original": "https://shellshock.io/maps/helix.png?23jkzmya3vk",
+          "mimetype": "image/png",
+          "statuscode": "200",
+          "digest": "DXP6ZLNQYVBWODD6CRJ7QLE2XA23VEUC"
+        },
+        "offset_seconds": 75319,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "unversioned_2021-12-13_15-55-18_UTC_script-capture_4e4205dc",
+        "anchor_timestamp": "20211213155518"
+      }
+    },
+    {
+      "path": "_asset_alternatives/1d125431d176c57a/data/twitchStreams.json",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20211214143201",
+        "original": "https://shellshock.io/data/twitchStreams.json?1639437822187",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "LLRIMCKFIRZSSQDMZ6BWMDWYFCDCVM6Y",
+        "sha256": "1d125431d176c57aabb32d46366f6c96d1c81ee26752284bcf03fae58b29a6db",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/data/twitchstreams.json?1639437822187",
+        "timestamp": "20211214143201",
+        "original": "https://shellshock.io/data/twitchStreams.json?1639437822187",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "LLRIMCKFIRZSSQDMZ6BWMDWYFCDCVM6Y",
+        "replay_url": "https://web.archive.org/web/20211214143201id_/https://shellshock.io/data/twitchStreams.json?1639437822187",
+        "final_url": "https://web.archive.org/web/20211214143201id_/https://shellshock.io/data/twitchStreams.json?1639437822187",
+        "sha256": "1d125431d176c57aabb32d46366f6c96d1c81ee26752284bcf03fae58b29a6db",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20211214143201"
+      },
+      "requested_capture": {
+        "timestamp": "20211214143201",
+        "original": "https://shellshock.io/data/twitchStreams.json?1639437822187",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "LLRIMCKFIRZSSQDMZ6BWMDWYFCDCVM6Y"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20211214143201",
+          "original": "https://shellshock.io/data/twitchStreams.json?1639437822187",
+          "mimetype": "application/json",
+          "statuscode": "200",
+          "digest": "LLRIMCKFIRZSSQDMZ6BWMDWYFCDCVM6Y"
+        },
+        "offset_seconds": 81403,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "unversioned_2021-12-13_15-55-18_UTC_script-capture_4e4205dc",
+        "anchor_timestamp": "20211213155518"
+      }
+    },
+    {
+      "path": "_asset_alternatives/e7f6f582f22e350d/data/twitchStreams.json",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20211214222512",
+        "original": "https://shellshock.io/data/twitchStreams.json?1639520711932",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "LABXPMYSVIWAGPIDUQPCW2XYCT7Y7WXZ",
+        "sha256": "e7f6f582f22e350d1e3c5d0218941d7806b49f89e7276c5c5050dbcfcde2d5e6",
+        "verification": "cdx_sha1_encoded",
+        "encoded_payload": "_recovery/encoded/LABXPMYSVIWAGPIDUQPCW2XYCT7Y7WXZ",
+        "encoded_sha256": "8e2d1b9690f1d1b2778c171ba2f412591a4e6d6d4addab66e5fad44540213979",
+        "content_encoding": "gzip",
+        "decoded_sha1": "SBRV32LDQWYV3BKPGBMVPK2LVYWRMVQK"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/data/twitchstreams.json?1639520711932",
+        "timestamp": "20211214222512",
+        "original": "https://shellshock.io/data/twitchStreams.json?1639520711932",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "LABXPMYSVIWAGPIDUQPCW2XYCT7Y7WXZ",
+        "replay_url": "https://web.archive.org/web/20211214222512id_/https://shellshock.io/data/twitchStreams.json?1639520711932",
+        "final_url": "https://web.archive.org/web/20211214222512id_/https://shellshock.io/data/twitchStreams.json?1639520711932",
+        "sha256": "e7f6f582f22e350d1e3c5d0218941d7806b49f89e7276c5c5050dbcfcde2d5e6",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/LABXPMYSVIWAGPIDUQPCW2XYCT7Y7WXZ",
+        "encoded_sha256": "8e2d1b9690f1d1b2778c171ba2f412591a4e6d6d4addab66e5fad44540213979",
+        "decoded_sha1": "SBRV32LDQWYV3BKPGBMVPK2LVYWRMVQK",
+        "replay_capture_timestamp": "20211214222512"
+      },
+      "requested_capture": {
+        "timestamp": "20211214222512",
+        "original": "https://shellshock.io/data/twitchStreams.json?1639520711932",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "LABXPMYSVIWAGPIDUQPCW2XYCT7Y7WXZ"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20211214222512",
+          "original": "https://shellshock.io/data/twitchStreams.json?1639520711932",
+          "mimetype": "application/json",
+          "statuscode": "200",
+          "digest": "LABXPMYSVIWAGPIDUQPCW2XYCT7Y7WXZ"
+        },
+        "offset_seconds": 109794,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "unversioned_2021-12-13_15-55-18_UTC_script-capture_4e4205dc",
+        "anchor_timestamp": "20211213155518"
+      }
+    }
+  ],
+  "references": [],
+  "status_counts": {
+    "placed": 0
+  },
+  "policy": "Supporting resources are part of the game capture; each file retains its own digest-proven observation date and URL. Release membership is unverified."
+}

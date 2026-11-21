@@ -1,0 +1,354 @@
+{
+  "folder": "unversioned_2018-09-04_17-10-17_UTC_script-capture_b91534bc",
+  "event_timestamp": "20180904171017",
+  "files": [
+    {
+      "path": "img/egg_icon.png",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20180904171027",
+        "original": "https://shellshock.io/img/egg_icon.png",
+        "mimetype": "image/png",
+        "statuscode": "200",
+        "digest": "INN5DLIQK3UF7T5DUINRRFRR6D6C4AHY",
+        "sha256": "28e7720d1a1caf6d9c42ce77de53717f9bdf9c899480cfcbc47d64f3ede0624b"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/img/egg_icon.png",
+        "timestamp": "20190418141029",
+        "original": "https://shellshock.io/img/egg_icon.png",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "INN5DLIQK3UF7T5DUINRRFRR6D6C4AHY",
+        "replay_url": "https://web.archive.org/web/20190418141029id_/https://shellshock.io/img/egg_icon.png",
+        "final_url": "https://web.archive.org/web/20190418141029id_/https://shellshock.io/img/egg_icon.png",
+        "sha256": "28e7720d1a1caf6d9c42ce77de53717f9bdf9c899480cfcbc47d64f3ede0624b"
+      },
+      "requested_capture": {
+        "timestamp": "20180904171027",
+        "original": "https://shellshock.io/img/egg_icon.png",
+        "mimetype": "image/png",
+        "statuscode": "200",
+        "digest": "INN5DLIQK3UF7T5DUINRRFRR6D6C4AHY"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20180904171027",
+          "original": "https://shellshock.io/img/egg_icon.png",
+          "mimetype": "image/png",
+          "statuscode": "200",
+          "digest": "INN5DLIQK3UF7T5DUINRRFRR6D6C4AHY"
+        },
+        "offset_seconds": 10,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "unversioned_2018-09-04_17-10-17_UTC_script-capture_b91534bc",
+        "anchor_timestamp": "20180904171017"
+      }
+    },
+    {
+      "path": "src/adDefines.js",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20180904171215",
+        "original": "https://shellshock.io/src/adDefines.js?1535617694",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "VBHZQOTHETS7ZAKBV2LQXNUTE2QRIK5F",
+        "sha256": "ec5a179bcc94e2f5d679e60e017976ecc74b0644ebab53e61fa29428c5c2f5a7"
+      },
+      "actual_replay_source": {
+        "timestamp": "20180904171215",
+        "original": "https://shellshock.io/src/adDefines.js?1535617694",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "VBHZQOTHETS7ZAKBV2LQXNUTE2QRIK5F",
+        "replay_url": "https://web.archive.org/web/20180904171215id_/https://shellshock.io/src/adDefines.js?1535617694",
+        "final_url": "https://web.archive.org/web/20180904171215id_/https://shellshock.io/src/adDefines.js?1535617694",
+        "sha256": "ec5a179bcc94e2f5d679e60e017976ecc74b0644ebab53e61fa29428c5c2f5a7"
+      },
+      "requested_capture": {
+        "timestamp": "20180904171215",
+        "original": "https://shellshock.io/src/adDefines.js?1535617694",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "VBHZQOTHETS7ZAKBV2LQXNUTE2QRIK5F"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20180904171215",
+          "original": "https://shellshock.io/src/adDefines.js?1535617694",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "VBHZQOTHETS7ZAKBV2LQXNUTE2QRIK5F"
+        },
+        "offset_seconds": 118,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "unversioned_2018-09-04_17-10-17_UTC_script-capture_b91534bc",
+        "anchor_timestamp": "20180904171017"
+      }
+    },
+    {
+      "path": "src/servers.js",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20180904235932",
+        "original": "https://shellshock.io/src/servers.js?1535343197",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "ORUICNQCN72BITWHNKENPPVESOINZRPI",
+        "sha256": "a015e0cd4502016e3ec8e4d545c3c00581e756c14d2c21e2fd793f20e4d67e6b"
+      },
+      "actual_replay_source": {
+        "timestamp": "20180912201459",
+        "original": "https://shellshock.io/src/servers.js?1535343197",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "ORUICNQCN72BITWHNKENPPVESOINZRPI",
+        "replay_url": "https://web.archive.org/web/20180912201459id_/https://shellshock.io/src/servers.js?1535343197",
+        "final_url": "https://web.archive.org/web/20180912201459id_/https://shellshock.io/src/servers.js?1535343197",
+        "sha256": "a015e0cd4502016e3ec8e4d545c3c00581e756c14d2c21e2fd793f20e4d67e6b"
+      },
+      "requested_capture": {
+        "timestamp": "20180904235932",
+        "original": "https://shellshock.io/src/servers.js?1535343197",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "ORUICNQCN72BITWHNKENPPVESOINZRPI"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20180904235932",
+          "original": "https://shellshock.io/src/servers.js?1535343197",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "ORUICNQCN72BITWHNKENPPVESOINZRPI"
+        },
+        "offset_seconds": 24555,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "unversioned_2018-09-04_17-10-17_UTC_script-capture_b91534bc",
+        "anchor_timestamp": "20180904171017"
+      }
+    },
+    {
+      "path": "img/ads/small/piratehat_banner_ad_1.png",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20180904235959",
+        "original": "https://shellshock.io/img/ads/small/piratehat_banner_ad_1.png",
+        "mimetype": "image/png",
+        "statuscode": "200",
+        "digest": "I465Q2HLXAZ36BS23QNIIRFN5QONOLR5",
+        "sha256": "8314eb1de9a47579abbea984252b9acc776aec12de5d0026d7e3601b53eaa1a0",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/img/ads/small/piratehat_banner_ad_1.png",
+        "timestamp": "20180904235959",
+        "original": "https://shellshock.io/img/ads/small/piratehat_banner_ad_1.png",
+        "mimetype": "image/png",
+        "statuscode": "200",
+        "digest": "I465Q2HLXAZ36BS23QNIIRFN5QONOLR5",
+        "replay_url": "https://web.archive.org/web/20180904235959id_/https://shellshock.io/img/ads/small/piratehat_banner_ad_1.png",
+        "final_url": "https://web.archive.org/web/20180904235959id_/https://shellshock.io/img/ads/small/piratehat_banner_ad_1.png",
+        "sha256": "8314eb1de9a47579abbea984252b9acc776aec12de5d0026d7e3601b53eaa1a0",
+        "verification": "cdx_sha1_plain",
+        "replay_capture_timestamp": "20180904235959",
+        "replay_timestamp_matches_request": true
+      },
+      "requested_capture": {
+        "timestamp": "20180904235959",
+        "original": "https://shellshock.io/img/ads/small/piratehat_banner_ad_1.png",
+        "mimetype": "image/png",
+        "statuscode": "200",
+        "digest": "I465Q2HLXAZ36BS23QNIIRFN5QONOLR5"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20180904235959",
+          "original": "https://shellshock.io/img/ads/small/piratehat_banner_ad_1.png",
+          "mimetype": "image/png",
+          "statuscode": "200",
+          "digest": "I465Q2HLXAZ36BS23QNIIRFN5QONOLR5"
+        },
+        "offset_seconds": 24582,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "unversioned_2018-09-04_17-10-17_UTC_script-capture_b91534bc",
+        "anchor_timestamp": "20180904171017"
+      }
+    },
+    {
+      "path": "sound/rooster.mp3",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20180905000009",
+        "original": "https://shellshock.io/sound/rooster.mp3",
+        "mimetype": "audio/mpeg",
+        "statuscode": "200",
+        "digest": "OJF4MIAZX764K3GUP4AFHNH5YGMK2BD5",
+        "sha256": "f7a33b8e1b041daff28ecd0553b412050a684b97a4ae2af8b642f002d963a6ea",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/sound/rooster.mp3",
+        "timestamp": "20180905000009",
+        "original": "https://shellshock.io/sound/rooster.mp3",
+        "mimetype": "audio/mpeg",
+        "statuscode": "200",
+        "digest": "OJF4MIAZX764K3GUP4AFHNH5YGMK2BD5",
+        "replay_url": "https://web.archive.org/web/20180905000009id_/https://shellshock.io/sound/rooster.mp3",
+        "final_url": "https://web.archive.org/web/20180905000009id_/https://shellshock.io/sound/rooster.mp3",
+        "sha256": "f7a33b8e1b041daff28ecd0553b412050a684b97a4ae2af8b642f002d963a6ea",
+        "verification": "cdx_sha1_plain",
+        "replay_capture_timestamp": "20180905000009",
+        "replay_timestamp_matches_request": true
+      },
+      "requested_capture": {
+        "timestamp": "20180905000009",
+        "original": "https://shellshock.io/sound/rooster.mp3",
+        "mimetype": "audio/mpeg",
+        "statuscode": "200",
+        "digest": "OJF4MIAZX764K3GUP4AFHNH5YGMK2BD5"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20180905000009",
+          "original": "https://shellshock.io/sound/rooster.mp3",
+          "mimetype": "audio/mpeg",
+          "statuscode": "200",
+          "digest": "OJF4MIAZX764K3GUP4AFHNH5YGMK2BD5"
+        },
+        "offset_seconds": 24592,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "unversioned_2018-09-04_17-10-17_UTC_script-capture_b91534bc",
+        "anchor_timestamp": "20180904171017"
+      }
+    },
+    {
+      "path": "models/map.babylon",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20180905000022",
+        "original": "https://shellshock.io/models/map.babylon",
+        "mimetype": "application/octet-stream",
+        "statuscode": "200",
+        "digest": "ZCJS5ONQ2ZW7ZPPCS55F6IXMSWWGD2JK",
+        "sha256": "999f90a817a05d4bb29bcd08c01d796f0ea04ee203a4f632520a1b3c4d6772c8",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/models/map.babylon",
+        "timestamp": "20180905000022",
+        "original": "https://shellshock.io/models/map.babylon",
+        "mimetype": "application/octet-stream",
+        "statuscode": "200",
+        "digest": "ZCJS5ONQ2ZW7ZPPCS55F6IXMSWWGD2JK",
+        "replay_url": "https://web.archive.org/web/20180905000022id_/https://shellshock.io/models/map.babylon",
+        "final_url": "https://web.archive.org/web/20180905000022id_/https://shellshock.io/models/map.babylon",
+        "sha256": "999f90a817a05d4bb29bcd08c01d796f0ea04ee203a4f632520a1b3c4d6772c8",
+        "verification": "cdx_sha1_plain",
+        "replay_capture_timestamp": "20180905000022",
+        "replay_timestamp_matches_request": true
+      },
+      "requested_capture": {
+        "timestamp": "20180905000022",
+        "original": "https://shellshock.io/models/map.babylon",
+        "mimetype": "application/octet-stream",
+        "statuscode": "200",
+        "digest": "ZCJS5ONQ2ZW7ZPPCS55F6IXMSWWGD2JK"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20180905000022",
+          "original": "https://shellshock.io/models/map.babylon",
+          "mimetype": "application/octet-stream",
+          "statuscode": "200",
+          "digest": "ZCJS5ONQ2ZW7ZPPCS55F6IXMSWWGD2JK"
+        },
+        "offset_seconds": 24605,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "unversioned_2018-09-04_17-10-17_UTC_script-capture_b91534bc",
+        "anchor_timestamp": "20180904171017"
+      }
+    },
+    {
+      "path": "img/ads/large/PirateHat.png",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20180905000025",
+        "original": "https://shellshock.io/img/ads/large/PirateHat.png",
+        "mimetype": "image/png",
+        "statuscode": "200",
+        "digest": "ZVVUDZ7KTPYYCYP4JBAP5USNMPWCVNYK",
+        "sha256": "d3b8e41948c0ed50aa35373c10ef5193e5524311544b9f5fcf736858151d7dc3",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/img/ads/large/piratehat.png",
+        "timestamp": "20180905000025",
+        "original": "https://shellshock.io/img/ads/large/PirateHat.png",
+        "mimetype": "image/png",
+        "statuscode": "200",
+        "digest": "ZVVUDZ7KTPYYCYP4JBAP5USNMPWCVNYK",
+        "replay_url": "https://web.archive.org/web/20180905000025id_/https://shellshock.io/img/ads/large/PirateHat.png",
+        "final_url": "https://web.archive.org/web/20180905000025id_/https://shellshock.io/img/ads/large/PirateHat.png",
+        "sha256": "d3b8e41948c0ed50aa35373c10ef5193e5524311544b9f5fcf736858151d7dc3",
+        "verification": "cdx_sha1_plain",
+        "replay_capture_timestamp": "20180905000025",
+        "replay_timestamp_matches_request": true
+      },
+      "requested_capture": {
+        "timestamp": "20180905000025",
+        "original": "https://shellshock.io/img/ads/large/PirateHat.png",
+        "mimetype": "image/png",
+        "statuscode": "200",
+        "digest": "ZVVUDZ7KTPYYCYP4JBAP5USNMPWCVNYK"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20180905000025",
+          "original": "https://shellshock.io/img/ads/large/PirateHat.png",
+          "mimetype": "image/png",
+          "statuscode": "200",
+          "digest": "ZVVUDZ7KTPYYCYP4JBAP5USNMPWCVNYK"
+        },
+        "offset_seconds": 24608,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "unversioned_2018-09-04_17-10-17_UTC_script-capture_b91534bc",
+        "anchor_timestamp": "20180904171017"
+      }
+    }
+  ],
+  "references": [],
+  "status_counts": {
+    "placed": 0
+  },
+  "policy": "Supporting resources are part of the game capture; each file retains its own digest-proven observation date and URL. Release membership is unverified."
+}

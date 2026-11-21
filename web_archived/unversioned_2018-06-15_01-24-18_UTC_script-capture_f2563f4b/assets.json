@@ -1,0 +1,57 @@
+{
+  "folder": "unversioned_2018-06-15_01-24-18_UTC_script-capture_f2563f4b",
+  "event_timestamp": "20180615012418",
+  "files": [
+    {
+      "path": "src/babylon.max.js",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20180615022156",
+        "original": "https://shellshock.io/src/babylon.max.js?1528560795",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "NXP574EUCSYJSLMJNKT3MM4ZYHQIZBEH",
+        "sha256": "d3a0f991a8ab9b4f16cbcbbeee669dda3c43c0925f6caf96333a9c09d78a8672"
+      },
+      "actual_replay_source": {
+        "timestamp": "20180615022156",
+        "original": "https://shellshock.io/src/babylon.max.js?1528560795",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "NXP574EUCSYJSLMJNKT3MM4ZYHQIZBEH",
+        "replay_url": "https://web.archive.org/web/20180615022156id_/https://shellshock.io/src/babylon.max.js?1528560795",
+        "final_url": "https://web.archive.org/web/20180615022156id_/https://shellshock.io/src/babylon.max.js?1528560795",
+        "sha256": "d3a0f991a8ab9b4f16cbcbbeee669dda3c43c0925f6caf96333a9c09d78a8672"
+      },
+      "requested_capture": {
+        "timestamp": "20180615022156",
+        "original": "https://shellshock.io/src/babylon.max.js?1528560795",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "NXP574EUCSYJSLMJNKT3MM4ZYHQIZBEH"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20180615022156",
+          "original": "https://shellshock.io/src/babylon.max.js?1528560795",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "NXP574EUCSYJSLMJNKT3MM4ZYHQIZBEH"
+        },
+        "offset_seconds": 3458,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "unversioned_2018-06-15_01-24-18_UTC_script-capture_f2563f4b",
+        "anchor_timestamp": "20180615012418"
+      }
+    }
+  ],
+  "references": [],
+  "status_counts": {
+    "placed": 0
+  },
+  "policy": "Supporting resources are part of the game capture; each file retains its own digest-proven observation date and URL. Release membership is unverified."
+}

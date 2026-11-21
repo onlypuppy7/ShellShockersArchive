@@ -1,0 +1,441 @@
+{
+  "categories": {
+    "audio": {
+      "requested_payload_groups": 106,
+      "verified_payload_groups": 106,
+      "distinct_decoded_files": 106,
+      "decoded_bytes": 6965721
+    },
+    "json_data": {
+      "requested_payload_groups": 2105,
+      "verified_payload_groups": 2101,
+      "failed_payload_groups": 4,
+      "distinct_decoded_files": 2058,
+      "decoded_bytes": 3640680
+    },
+    "miscellaneous": {
+      "requested_payload_groups": 7,
+      "verified_payload_groups": 5,
+      "failed_payload_groups": 2,
+      "distinct_decoded_files": 5,
+      "decoded_bytes": 51862
+    },
+    "remaining_html_javascript": {
+      "requested_payload_groups": 111,
+      "verified_payload_groups": 104,
+      "failed_payload_groups": 7,
+      "distinct_decoded_files": 86,
+      "decoded_bytes": 17119913
+    },
+    "remaining_images": {
+      "requested_payload_groups": 248,
+      "verified_payload_groups": 247,
+      "failed_payload_groups": 1,
+      "distinct_decoded_files": 247,
+      "decoded_bytes": 48026084
+    },
+    "video": {
+      "requested_payload_groups": 1,
+      "verified_payload_groups": 1,
+      "distinct_decoded_files": 1,
+      "decoded_bytes": 1494
+    }
+  },
+  "distinct_decoded_files": 2503,
+  "decoded_bytes": 75805754,
+  "gaps": [
+    {
+      "category": "json_data",
+      "digest": "FW3JU7BGABUE4AI5KS4ZEJXBRJDFTCQX",
+      "status": "failed",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/twitchstreams.json?1582899797322",
+          "timestamp": "20200228142330",
+          "original": "https://shellshock.io/twitchStreams.json?1582899797322",
+          "mimetype": "application/json",
+          "statuscode": "200",
+          "digest": "FW3JU7BGABUE4AI5KS4ZEJXBRJDFTCQX"
+        }
+      ],
+      "errors": [
+        {
+          "capture": {
+            "urlkey": "io,shellshock)/twitchstreams.json?1582899797322",
+            "timestamp": "20200228142330",
+            "original": "https://shellshock.io/twitchStreams.json?1582899797322",
+            "mimetype": "application/json",
+            "statuscode": "200",
+            "digest": "FW3JU7BGABUE4AI5KS4ZEJXBRJDFTCQX"
+          },
+          "error": "Replay HTTP 404"
+        }
+      ]
+    },
+    {
+      "category": "json_data",
+      "digest": "JEPKUORGALTVPWEJAONSGECAS6BOQB4L",
+      "status": "failed",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/twitchstreams.json?1550198442610",
+          "timestamp": "20190215024045",
+          "original": "https://shellshock.io/twitchStreams.json?1550198442610",
+          "mimetype": "application/json",
+          "statuscode": "200",
+          "digest": "JEPKUORGALTVPWEJAONSGECAS6BOQB4L"
+        }
+      ],
+      "errors": [
+        {
+          "capture": {
+            "urlkey": "io,shellshock)/twitchstreams.json?1550198442610",
+            "timestamp": "20190215024045",
+            "original": "https://shellshock.io/twitchStreams.json?1550198442610",
+            "mimetype": "application/json",
+            "statuscode": "200",
+            "digest": "JEPKUORGALTVPWEJAONSGECAS6BOQB4L"
+          },
+          "error": "Replay HTTP 404"
+        }
+      ]
+    },
+    {
+      "category": "json_data",
+      "digest": "PPXVB5PBLNH74BWIY767CFD4HGAPON7C",
+      "status": "failed",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/twitchstreams.json?1562900292280",
+          "timestamp": "20190712025815",
+          "original": "https://shellshock.io/twitchStreams.json?1562900292280",
+          "mimetype": "application/json",
+          "statuscode": "200",
+          "digest": "PPXVB5PBLNH74BWIY767CFD4HGAPON7C"
+        }
+      ],
+      "errors": [
+        {
+          "capture": {
+            "urlkey": "io,shellshock)/twitchstreams.json?1562900292280",
+            "timestamp": "20190712025815",
+            "original": "https://shellshock.io/twitchStreams.json?1562900292280",
+            "mimetype": "application/json",
+            "statuscode": "200",
+            "digest": "PPXVB5PBLNH74BWIY767CFD4HGAPON7C"
+          },
+          "error": "Replay HTTP 404"
+        }
+      ]
+    },
+    {
+      "category": "json_data",
+      "digest": "Y4T6THLXUAHFJRTYWICYVI2PDUM56CTI",
+      "status": "failed",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/twitchstreams.json?1582049392447",
+          "timestamp": "20200218180957",
+          "original": "https://shellshock.io/twitchStreams.json?1582049392447",
+          "mimetype": "application/json",
+          "statuscode": "200",
+          "digest": "Y4T6THLXUAHFJRTYWICYVI2PDUM56CTI"
+        }
+      ],
+      "errors": [
+        {
+          "capture": {
+            "urlkey": "io,shellshock)/twitchstreams.json?1582049392447",
+            "timestamp": "20200218180957",
+            "original": "https://shellshock.io/twitchStreams.json?1582049392447",
+            "mimetype": "application/json",
+            "statuscode": "200",
+            "digest": "Y4T6THLXUAHFJRTYWICYVI2PDUM56CTI"
+          },
+          "error": "Replay HTTP 404"
+        }
+      ]
+    },
+    {
+      "category": "miscellaneous",
+      "digest": "RP7PHB7W5DCHOEAC2XQ2KOUS3LPOQJJM",
+      "status": "failed",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/styles/asc.video.outstream.min.css?1568932877",
+          "timestamp": "20191029235146",
+          "original": "https://shellshock.io/styles/asc.video.outstream.min.css?1568932877",
+          "mimetype": "text/css",
+          "statuscode": "200",
+          "digest": "RP7PHB7W5DCHOEAC2XQ2KOUS3LPOQJJM"
+        }
+      ],
+      "errors": [
+        {
+          "capture": {
+            "urlkey": "io,shellshock)/styles/asc.video.outstream.min.css?1568932877",
+            "timestamp": "20191029235146",
+            "original": "https://shellshock.io/styles/asc.video.outstream.min.css?1568932877",
+            "mimetype": "text/css",
+            "statuscode": "200",
+            "digest": "RP7PHB7W5DCHOEAC2XQ2KOUS3LPOQJJM"
+          },
+          "error": "Replay content does not match CDX SHA-1, before or after transfer decoding"
+        }
+      ]
+    },
+    {
+      "category": "miscellaneous",
+      "digest": "U2B5FRX5R6ZL4LF6CUPCHN5VASW4WFS3",
+      "status": "failed",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/styles/style.css?1569364920",
+          "timestamp": "20191029235123",
+          "original": "https://shellshock.io/styles/style.css?1569364920",
+          "mimetype": "text/css",
+          "statuscode": "200",
+          "digest": "U2B5FRX5R6ZL4LF6CUPCHN5VASW4WFS3"
+        }
+      ],
+      "errors": [
+        {
+          "capture": {
+            "urlkey": "io,shellshock)/styles/style.css?1569364920",
+            "timestamp": "20191029235123",
+            "original": "https://shellshock.io/styles/style.css?1569364920",
+            "mimetype": "text/css",
+            "statuscode": "200",
+            "digest": "U2B5FRX5R6ZL4LF6CUPCHN5VASW4WFS3"
+          },
+          "error": "Replay content does not match CDX SHA-1, before or after transfer decoding"
+        }
+      ]
+    },
+    {
+      "category": "remaining_html_javascript",
+      "digest": "5FFGFW7EUSZD5OYALOGAPD7VLY725SJ6",
+      "status": "failed",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/js/vue/vue.min.2.6.10.js",
+          "timestamp": "20191029235119",
+          "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "5FFGFW7EUSZD5OYALOGAPD7VLY725SJ6"
+        }
+      ],
+      "errors": [
+        {
+          "capture": {
+            "urlkey": "io,shellshock)/js/vue/vue.min.2.6.10.js",
+            "timestamp": "20191029235119",
+            "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+            "mimetype": "application/javascript",
+            "statuscode": "200",
+            "digest": "5FFGFW7EUSZD5OYALOGAPD7VLY725SJ6"
+          },
+          "error": "Replay content does not match CDX SHA-1, before or after transfer decoding"
+        }
+      ]
+    },
+    {
+      "category": "remaining_html_javascript",
+      "digest": "A6FTSHARRMSL2XN46RPHDTDQKY6FKXRB",
+      "status": "failed",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/feedback.html",
+          "timestamp": "20171217185538",
+          "original": "http://www.shellshock.io:80/feedback.html",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "A6FTSHARRMSL2XN46RPHDTDQKY6FKXRB"
+        }
+      ],
+      "errors": [
+        {
+          "capture": {
+            "urlkey": "io,shellshock)/feedback.html",
+            "timestamp": "20171217185538",
+            "original": "http://www.shellshock.io:80/feedback.html",
+            "mimetype": "text/html",
+            "statuscode": "200",
+            "digest": "A6FTSHARRMSL2XN46RPHDTDQKY6FKXRB"
+          },
+          "error": "Replay content does not match CDX SHA-1, before or after transfer decoding"
+        }
+      ]
+    },
+    {
+      "category": "remaining_html_javascript",
+      "digest": "DAF4TTSO4YZDRDRA4RLP3Z537BJIQ3TB",
+      "status": "failed",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/src/shellshock.min.js?1571781519",
+          "timestamp": "20191029235119",
+          "original": "https://shellshock.io/src/shellshock.min.js?1571781519",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "DAF4TTSO4YZDRDRA4RLP3Z537BJIQ3TB"
+        }
+      ],
+      "errors": [
+        {
+          "capture": {
+            "urlkey": "io,shellshock)/src/shellshock.min.js?1571781519",
+            "timestamp": "20191029235119",
+            "original": "https://shellshock.io/src/shellshock.min.js?1571781519",
+            "mimetype": "application/javascript",
+            "statuscode": "200",
+            "digest": "DAF4TTSO4YZDRDRA4RLP3Z537BJIQ3TB"
+          },
+          "error": "Replay content does not match CDX SHA-1, before or after transfer decoding"
+        }
+      ]
+    },
+    {
+      "category": "remaining_html_javascript",
+      "digest": "GP32IPPFWKBMQYWZQ4SHTRR5UIUCHHQY",
+      "status": "failed",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/js/asc-ad-video/asc.video.outsteam.min.js",
+          "timestamp": "20191029235139",
+          "original": "https://shellshock.io/js/asc-ad-video/asc.video.outsteam.min.js",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "GP32IPPFWKBMQYWZQ4SHTRR5UIUCHHQY"
+        }
+      ],
+      "errors": [
+        {
+          "capture": {
+            "urlkey": "io,shellshock)/js/asc-ad-video/asc.video.outsteam.min.js",
+            "timestamp": "20191029235139",
+            "original": "https://shellshock.io/js/asc-ad-video/asc.video.outsteam.min.js",
+            "mimetype": "application/javascript",
+            "statuscode": "200",
+            "digest": "GP32IPPFWKBMQYWZQ4SHTRR5UIUCHHQY"
+          },
+          "error": "Replay content does not match CDX SHA-1, before or after transfer decoding"
+        }
+      ]
+    },
+    {
+      "category": "remaining_html_javascript",
+      "digest": "J4CVJRHBIJUMBIQHDV2I4LQDSGPKTKXG",
+      "status": "failed",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20180821151854",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "J4CVJRHBIJUMBIQHDV2I4LQDSGPKTKXG"
+        }
+      ],
+      "errors": [
+        {
+          "capture": {
+            "urlkey": "io,shellshock)/",
+            "timestamp": "20180821151854",
+            "original": "https://shellshock.io/",
+            "mimetype": "text/html",
+            "statuscode": "200",
+            "digest": "J4CVJRHBIJUMBIQHDV2I4LQDSGPKTKXG"
+          },
+          "error": "Replay content does not match CDX SHA-1, before or after transfer decoding"
+        }
+      ]
+    },
+    {
+      "category": "remaining_html_javascript",
+      "digest": "V2RKTDRIP27UFVNZ2WQ55WU5A437VDO5",
+      "status": "failed",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20191029031045",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "V2RKTDRIP27UFVNZ2WQ55WU5A437VDO5"
+        }
+      ],
+      "errors": [
+        {
+          "capture": {
+            "urlkey": "io,shellshock)/",
+            "timestamp": "20191029031045",
+            "original": "https://shellshock.io/",
+            "mimetype": "text/html",
+            "statuscode": "200",
+            "digest": "V2RKTDRIP27UFVNZ2WQ55WU5A437VDO5"
+          },
+          "error": "Replay content does not match CDX SHA-1, before or after transfer decoding"
+        }
+      ]
+    },
+    {
+      "category": "remaining_html_javascript",
+      "digest": "YN35PBMG7DMRV2QKVATTCWWAUA724YV4",
+      "status": "failed",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20180817015613",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "YN35PBMG7DMRV2QKVATTCWWAUA724YV4"
+        }
+      ],
+      "errors": [
+        {
+          "capture": {
+            "urlkey": "io,shellshock)/",
+            "timestamp": "20180817015613",
+            "original": "https://shellshock.io/",
+            "mimetype": "text/html",
+            "statuscode": "200",
+            "digest": "YN35PBMG7DMRV2QKVATTCWWAUA724YV4"
+          },
+          "error": "Replay content does not match CDX SHA-1, before or after transfer decoding"
+        }
+      ]
+    },
+    {
+      "category": "remaining_images",
+      "digest": "UYMO222SUESEZT6L6OZPQMT77ZR6XCEO",
+      "status": "failed",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/img/stamps.png?v=0.21.3",
+          "timestamp": "20190712025820",
+          "original": "https://shellshock.io/img/stamps.png?v=0.21.3",
+          "mimetype": "image/png",
+          "statuscode": "200",
+          "digest": "UYMO222SUESEZT6L6OZPQMT77ZR6XCEO"
+        }
+      ],
+      "errors": [
+        {
+          "capture": {
+            "urlkey": "io,shellshock)/img/stamps.png?v=0.21.3",
+            "timestamp": "20190712025820",
+            "original": "https://shellshock.io/img/stamps.png?v=0.21.3",
+            "mimetype": "image/png",
+            "statuscode": "200",
+            "digest": "UYMO222SUESEZT6L6OZPQMT77ZR6XCEO"
+          },
+          "error": "Replay HTTP 404"
+        }
+      ]
+    }
+  ],
+  "snapshot_note": "Recovered resources have been associated with incremental snapshots; see remaining_integration_report.md and audio_integration_report.md. Unmatched capture variants remain preserved in the recovery catalog."
+}

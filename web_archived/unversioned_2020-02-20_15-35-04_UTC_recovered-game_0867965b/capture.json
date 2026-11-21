@@ -1,0 +1,62 @@
+{
+  "folder": "unversioned_2020-02-20_15-35-04_UTC_recovered-game_0867965b",
+  "version": "unversioned",
+  "version_source": null,
+  "origin_id": "archive_org",
+  "capture_kind": "game_capture",
+  "event": {
+    "timestamp": "20200220153504",
+    "timezone": "UTC"
+  },
+  "files": [
+    {
+      "path": "src/ss.088aec1c0dd5e8ae9f8bef5f64167065.js",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20200220153504",
+        "original": "https://shellshock.io/src/ss.088aec1c0dd5e8ae9f8bef5f64167065.js?1582134877",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "7HGQX5CGLEES373AA7NX74TEG4OLI7TR",
+        "sha256": "44a9bc724782784396ced123d630e59cd6404bd996f92f53859a119de279f39d"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/src/ss.088aec1c0dd5e8ae9f8bef5f64167065.js?1582134877",
+        "timestamp": "20200220153504",
+        "original": "https://shellshock.io/src/ss.088aec1c0dd5e8ae9f8bef5f64167065.js?1582134877",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "7HGQX5CGLEES373AA7NX74TEG4OLI7TR",
+        "replay_url": "https://web.archive.org/web/20200220153504id_/https://shellshock.io/src/ss.088aec1c0dd5e8ae9f8bef5f64167065.js?1582134877",
+        "final_url": "https://web.archive.org/web/20200220153504id_/https://shellshock.io/src/ss.088aec1c0dd5e8ae9f8bef5f64167065.js?1582134877",
+        "sha256": "44a9bc724782784396ced123d630e59cd6404bd996f92f53859a119de279f39d"
+      },
+      "requested_capture": {
+        "timestamp": "20200220153504",
+        "original": "https://shellshock.io/src/ss.088aec1c0dd5e8ae9f8bef5f64167065.js?1582134877",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "7HGQX5CGLEES373AA7NX74TEG4OLI7TR"
+      },
+      "exact_event_timestamp": true,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20200220153504",
+          "original": "https://shellshock.io/src/ss.088aec1c0dd5e8ae9f8bef5f64167065.js?1582134877",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "7HGQX5CGLEES373AA7NX74TEG4OLI7TR"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "missing_scripts": [],
+  "pairing_verified": false,
+  "html_available": false,
+  "channel": null,
+  "version_evidence": null
+}

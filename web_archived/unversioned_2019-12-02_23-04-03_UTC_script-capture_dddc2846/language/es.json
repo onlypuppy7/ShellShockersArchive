@@ -1,0 +1,551 @@
+﻿{
+    "twitch_title": "Twitch Live",
+    "twitch_viewers": "espectadores",
+
+    "youtube_title": "YouTube Live",
+    "youtube_viewers": "espectadores",
+
+    "play_enter_name": "Nombre",
+    "play_pu_name_title": "Necesitas un nombre",
+    "play_pu_name_content": "¿Cómo te llamas, camarada?",
+
+    "gametype_ffa": "Gratis para todos",
+    "gametype_teams": "Equipos",
+    "gametype_ctf": "Captula la espatula",
+
+    "server": "Servidor",
+    "server_useast": "Este de EUA",
+    "server_uswest": "Oeste de EUA",
+    "server_uscentral": "Centro de EUA",
+    "server_brazil": "Brasil",
+    "server_germany": "Alemania",
+    "server_singapore": "Singapur",
+    "server_sydney": "Sídney",
+    "server_local": "localhost",
+    "server_gamedev": "gamedev",
+    "server_staging": "Montaje",
+    "server_dev": "Dev",
+    "server_localshelldev": "Local Dev",
+
+    "close": "Cerrar",
+    "cancel": "Cancelar",
+    "back" : "Volver",
+    "confirm": "Confirmar",
+    "ok": "Aceptar",
+    "yes": "Sí",
+    "no": "No",
+    "uh_oh": "¡Oh, no!",
+    "oh_no": "¡Ay, no!",
+    "team_red": "Rojo",
+    "team_blue": "Azul",
+    "kills": "Muertes",
+    "deaths": "Bajas",
+    "kdr": "RMB",
+    "streak": "Racha",
+
+	"home_play": "Jugar",
+	"home_privategames": "Juegos privados",
+	"home_create": "Crear",
+    "home_join": "Unirse",
+    "home_stats": "Estadísticas",
+    "home_latestnews": "Últimas noticias",
+
+    "home_desc_about": "About the Shell Shockers io Game",
+    "home_desc_pick": "Pick your Egg type",
+    "home_desc_loadout": "Customize your loadout",
+    "home_desc_madeof" : "Show everyone what you are made of!",
+    "home_desc_p1": "Shell Shockers is a leading free-to-play multiplayer first person shooter .io game based in-browser with no download required. Born from the devious minds of Blue Wizard Digital, founded by the creator of Bejeweled Jason Kapalka, Shell Shockers is a fun, new, free and eggciting video game where eggs from around the world fight for online supremacy in a variety of multiplayer mayhem maps.",
+    "home_desc_p2": "Scramble to best your eggy friends and rivals with one of 7 different powerful weapons - Crackshot, Scrambler, Whipper, Free Ranger, Eggsploder, Cluck 9MM and Soldier. Be careful, these other eggs won’t just roll over, they are likewise geared up and will be gunning for your shell!",
+    "home_desc_p3": "Join a public server near you and push for the highest killstreak or jump in on a private game to hone your sniping skills, perfect your shotgun timing or practice your EggK recoil.",
+    "home_desc_p4": "If you make a hit, your egg will crack and show weakness to your opponents, beware, they are out for yolk. A few more hits and you will eggsplode and gooey yolk gets splattered everywhere!",
+    "home_desc_p5": "Show everyone what you’re made of by customizing your egg with stamps, weapon skins and limited edition hats! Dominate your server looking good or enjoy dying in style as you jump in for a quick 10 minute battle, or stay for a 1 hour war. You choose from 3 eggstra special game play types - free for all, teams and capture the spatula modes.",
+    "home_desc_p6": "What are you waiting for? Get Cracking!",
+    "home_desc_controls": "Shell Shockers Game Controls",
+    "home_desc_standard": "The Shell Shockers io game uses standard first person shooter controls:",
+    "home_desc_control1": "WASD keys for movement",
+    "home_desc_control2": "Left mouse for shooting",
+    "home_desc_control3": "Spacebar for jumping",
+    "home_desc_control4": "Shift for aiming",
+    "home_desc_control5": "E for changing weapons",
+    "home_desc_control6": "R for reloading",
+
+    "home_backtotop": "Back to Top",
+
+    "account_title_home": "Inicio",
+    "account_title_eggshop": "¡Consigue más huevos!",
+    "account_title_shop": "Tienda de equipo",
+    "account_title_faq": "Preguntas frecuentes/Comentarios",
+    "account_title_invite": "Invitar a un amigo",
+    "account_title_settings": "Configuración",
+    "account_title_fullscreen": "Pantalla completa",
+    "account_anon_warn_popup_title": "Atención",
+    "account_anon_warn_paragraph_block": "Tus objetos y huevos dorados se están guardando temporalmente en este navegador. Sin crear una cuenta, puedes <strong>perder inesperadamente el acceso a ellos de forma permanente</strong>.",
+    "account_anon_warn_paragraph_block_two": "¡Inicia sesión para asegurarte de que tus objetos se guarden de forma permanente y usa tu información de inicio de sesión para acceder a tu cuenta desde otros navegadores y dispositivos!",
+    "account_anon_warn_confirm": "Entendido", 
+
+    "missing_features": "Shell Shockers requiere una característica que tu navegador no posee.",
+    "missing_help": "Por lo general, esto se corrige al descargar la versión más reciente de tu navegador preferido. Internet Explorer no es compatible.",
+    "missing_webgl": "WebGL",
+    "missing_pointerlock": "Bloqueo del puntero",
+    "missing_localstorage": "LocalStorage",
+    "missing_keyboardevent": "KeyboardEvent.key",
+    "missing_moreinfo": "Más información",
+
+    "sign_in": "Iniciar sesión",
+    "sign_out": "Cerrar sesión",
+    "p_signin_head" : "Iniciar sesión",
+    
+    "map_blue": {
+        "name": "Azul",
+        "suggested_player_limit": "16"
+    },
+    "map_castle": {
+        "name": "Castillo",
+        "suggested_player_limit": "18"
+    },
+    "map_dirt": {
+        "name": "Tierra",
+        "suggested_player_limit": "18"
+    },
+    "map_feedlot": {
+        "name": "Comedero",
+        "suggested_player_limit": "18"
+    },
+    "map_fortflip": {
+        "name": "Fortín volteado",
+        "suggested_player_limit": "18"
+    },
+    "map_moonbase": {
+        "name": "Base lunar",
+        "suggested_player_limit": "18"
+    },
+    "map_ruins": {
+        "name": "Ruinas",
+        "suggested_player_limit": "18"
+    },
+    "map_shipyard": {
+        "name": "Astillero",
+        "suggested_player_limit": "18"
+    },
+    "map_town": {
+        "name": "Pueblo",
+        "suggested_player_limit": "18"
+    },
+    "map_twotowers": {
+        "name": "Dos torres",
+        "suggested_player_limit": "18"
+    },
+    "map_arena_2P_castle": {
+        "name": "Arena del castillo",
+        "suggested_player_limit": "2"
+    },
+    "map_arena_2P_dust": {
+        "name": "Base de tierra",
+        "suggested_player_limit": "2"
+    },
+    "map_arena_2P_field": {
+        "name": "Campo",
+        "suggested_player_limit": "2"
+    },
+    "map_arena_2P_moon": {
+        "name": "Arena espacial",
+        "suggested_player_limit": "2"
+    },
+    "map_arena_4P_dust": {
+        "name": "Pozo de la muerte",
+        "suggested_player_limit": "4"
+    },
+    "map_arena_4P_town": {
+        "name": "Camino",
+        "suggested_player_limit": "4"
+    },
+    "map_arena_palace_siege": {
+        "name": "Palace Siege",
+        "suggested_player_limit": "18"
+    },
+    "map_arena_duel_pyramid": {
+        "name": "Duel Pyramid",
+        "suggested_player_limit": "6"
+    },
+    "map_cluck_grounds": {
+        "name": "Cluck Grounds",
+        "suggested_player_limit": "18"
+    },
+    "map_sky_scratcher": {
+        "name": "Sky Scratcher",
+        "suggested_player_limit": "18"
+    },
+    "map_mud_gultch": {
+        "name": "Mud Gultch",
+        "suggested_player_limit": "18"
+    },
+
+    "purchase_disabled": "Algo se rompió. Intenta recargar el juego.",
+
+	"keybindings_forward": "Adelante",
+	"keybindings_backward": "Atrás",
+	"keybindings_left": "Izquierda",
+	"keybindings_right": "Derecha",
+	"keybindings_jump": "Saltar",
+	"keybindings_fire": "Disparar",
+	"keybindings_aim": "Apuntar",
+	"keybindings_reload": "Recargar",
+	"keybindings_swapweapon": "Cambiar de arma",
+	"keybindings_grenade": "Granada",
+    "keybindings_spectate_ascend": "Observar: Arriba",
+    "keybindings_spectate_descend": "Observar: Abajo",
+	
+    "p_settings_title" : "Configuración",
+    "p_settings_keybindings" : "Asignación de teclas",
+    "p_settings_language" : "Idioma",
+    "p_settings_mastervol" : "Volumen principal",
+    "p_settings_mousespeed" : "Velocidad del mouse",
+	"p_settings_invertmouse" : "Invertir el mouse",
+	"p_settings_holdtoaim" : "Mantener para apuntar",
+	"p_settings_enablechat" : "Habilitar el chat",
+	"p_settings_autodetail" : "Detalles automáticos",
+	"p_settings_shadows" : "Sombras",
+    "p_settings_highres" : "Alta resolución",
+    "p_settings_privacy" : "Opciones de privacidad",
+    "p_settings_of_age" : "Tengo al menos 16 años de edad.",
+    "p_settings_target_ads" : "Doy mi consentimiento para el procesamiento de mis datos personales con el fin de adaptar los anuncios a mis intereses.",
+    "p_settings_reset" : "Restablecer valores predeterminados",
+
+    "p_servers_title" : "Servidores",
+
+    "p_check_email_title": "¡Revisa tu correo electrónico!",
+    "p_check_email_text1": "Se envió un correo electrónico a",
+    "p_check_email_text2": "Haz clic en el enlace adjunto para completar tu registro.",
+
+    "p_resend_email_title": "¡Verifica tu correo electrónico!",
+    "p_resend_email_text1": "Se envió un correo electrónico de verificación a",
+    "p_resend_email_text2": "Haz clic en el enlace que se encuentra en el correo electrónico para completar tu registro, o haz clic en Reenviar para enviar un nuevo correo electrónico.",
+    "p_resend_email_resend": "Reenviar",
+
+    "p_game_code_title": "Unirse al juego",
+    "p_game_code_enter": "Ingresa tu código",
+    "p_game_code_blank": "¡Tienes que ingresar un código!",
+
+    "p_switch_team_title": "¿Cambiarse al equipo",
+    "p_switch_team_text": "¡Tu puntuación se restablecerá!",
+    "p_switch_team_red": "Rojo",
+    "p_switch_team_blue": "Azul",
+    
+    "p_sharelink_title": "¡No vayas sin compañía!",
+    "p_sharelink_text" : "¡Comparte este enlace con tus amigos para que puedan jugar contigo!",
+    "p_sharelink_copylink":  "Copiar enlace",
+    
+    "chicken_cta": "¡COCOROCÓ!<br>¡GANA PODER CON UN NUGGET DE POLLO!",
+    
+    "p_chicken_title" : "¡Es hora del pollo dorado!",
+    "p_chicken_goldchicken" : "¡Pollo dorado!",
+    "p_chicken_goldchicken_price" : "¡SOLO 4.99 USD!",
+    "p_chicken_goldbutton" : "¡Consíguelo ahora!",
+    "p_chicken_goldfeature1" : "¡NO MÁS ANUNCIOS!",
+    "p_chicken_goldfeature2" : "¡DUPLICADOR DE HUEVOS!",
+    "p_chicken_goldfeature3" : "<span>¡MÁS <span class=\"text_red\">C</span><span class=\"text_orange\">O</span><span class=\"text_white\">L</span><span class=\"text_darkgreen\">O</span><span class=\"text_darkblue\">R</span><span class=\"text_purple\">E</span><span class=\"text_red\">S</span> DE CÁSCARAS!</span>",
+    "p_chicken_goldfeature4" : "¡DURA 30 DÍAS!",
+    "p_chicken_nugget" : "Nugget de pollo",
+    "p_chicken_nugget_price" : "¡GRATIS!",
+    "p_chicken_nuggetbutton" : "¡Pruébalo!",
+    "p_chicken_nuggetfeature1" : "¡DALE UN VISTAZO DE UN PLUMAZO!",
+    "p_chicken_nuggetfeature2" : "¡DUPLICADOR DE HUEVOS!",
+    "p_chicken_nuggetfeature3" : "<span>¡MÁS <span class=\"text_red\">C</span><span class=\"text_orange\">O</span><span class=\"text_white\">L</span><span class=\"text_darkgreen\">O</span><span class=\"text_darkblue\">R</span><span class=\"text_purple\">E</span><span class=\"text_red\">S</span> DE CÁSCARAS!</span>",
+    "p_chicken_nuggetfeature4" : "DURA 1 HORA",
+
+    "p_nugget_instruction" : "¡HAZ CLIC EN EL HUEVO!",
+    "p_nugget_done" : "¡NUGGET DE POLLO DESBLOQUEADO POR 1 HORA!",
+    "p_nugget_button" : "¡PÍO, PÍO!",
+    
+    "p_privatematch_title" : "Crear juego privado",
+    "p_privatematch_gametype": "Seleccionar tipo de juego",
+    "p_privatematch_players": "Jugadores",
+    "p_privatematch_selectmap": "Seleccionar mapa",
+    "p_privatematch_create": "Jugar",
+    
+    "p_help_title": "Ayuda",
+    
+    "p_pause_title" : "Juego pausado",
+	"p_pause_home" : "Inicio",
+	"p_pause_leaderboards" : "Marcadores",
+	"p_pause_shop" : "Tienda",
+	"p_pause_help" : "Ayuda",
+	"p_pause_sharelink" : "Compartir enlace",
+	"p_pause_settings" : "Configuración",
+    "p_pause_tipoftheday" : "Consejo del día",
+    
+    "p_egg_shop_title" : "Choza de huevos",
+    "p_egg_shop_mostpopular" : "Más popular",
+    "p_egg_shop_bestvalue" : "Mejor oferta",
+    "p_egg_shop_eggpile" : "Pila de huevos",
+    "p_egg_shop_eggpile_desc" : "3000 de nuestros mejores huevos",
+    "p_egg_shop_eggbasket" : "Canasta de huevos",
+    "p_egg_shop_eggbasket_desc" : "6500 huevos",
+    "p_egg_shop_eggbox" : "Cajota de huevos",
+    "p_egg_shop_eggbox_desc" : "15 000 huevos",
+    "p_egg_shop_eggcluckton" : "Tonelada de huevos",
+    "p_egg_shop_eggcluckton_desc" : "50 000 huevos",
+	
+    "tip_001" : "Este es un consejo que te informará y te deleitará.",
+    "tip_ofthe_day": [
+        "Tus disparos hacen más daño si golpean el centro de un huevo enemigo.",
+        "Tu precisión disminuye si disparas mientras te mueves, en especial con el rifle de francotirador.",
+        "Mantén presionado el botón Granada para lanzar más lejos.",
+        "Puedes cancelar un lanzamiento de granada si presionas el botón Disparar.",
+        "Habilita el chat en el menú Opciones (pero ten cuidado con los patanes malhablados).",
+        "Dispara mejor para morir menos.",
+        "Tu salud se regenera lentamente con el tiempo.",
+        "Gana huevos dorados para comprar nuevos sombreros, calcomanías y diseños de armas en la tienda.",
+        "Haz tu tarea en vez de jugar videojuegos.",
+        "Escuchen a su maestro, niños, no terminen en la calle.",
+        "Cambia a tu arma de mano para matar a corta distancia.",
+        "Tus amigos de Shell Shockers son importantes, pero también lo son tus amigos de la vida real.",
+        "No consumas drogas, son para fracasados.",
+        "Puedes crear juegos privados para tus amigos y enviarles un enlace.",
+        "Desactiva los detalles en Configuración si la velocidad de fotogramas es baja.",
+        "Las sartenes de hierro fundido fríen los mejores huevos.",
+        "Mira a tu alrededor al subir escaleras.",
+        "¿No estás en medio de la acción?  No olvides recargar.",
+        "El HuevoK-47 es más preciso a larga distancia si disparas lentamente.",
+        "Los dueños de juegos privados pueden expulsar a los jugadores problemáticos haciendo clic sobre ellos en los marcadores.",
+        "Puedes silenciar y cambiar los nombres de los jugadores haciendo clic sobre ellos en los marcadores.",
+        "Los cohetes RPHUEVO deben viajar una distancia corta antes de que puedan activarse y explotar."
+    ],
+	
+	"p_pause_joinred" : "Unirse al equipo rojo",
+	"p_pause_joinblue" : "Unirse al equipo azul",
+	"p_pause_equipment" : "Inventario",
+	"p_pause_play" : "Jugar",
+    "p_pause_spectate" : "Observar",
+
+    "test_popup_header": "¡OH, SÍ!",
+    "test_popup_content": "Emerge la ventana",
+
+    "p_largetest_title": "Título emergente grande",
+    "p_largetest_content": "Aquí hay un montón de contenido que va en la ventana emergente. Disfrútalo mientras dura.",
+
+    "faq": "Preguntas frecuentes",
+    "feedback": "Comentarios",
+    "fb_type_commquest": "Preguntas y comentarios",
+    "fb_type_request": "Peticiones de características",
+    "fb_type_bug": "Informes de errores",
+    "fb_type_purchase": "Compras de huevos y objetos",
+    "fb_type_account": "Cuenta y privacidad",
+    "fb_type_abuse": "Informar abuso",
+    "fb_type_other": "Otros",
+    "fb_email_ph": "Correo electrónico",
+    "fb_feedback_title": "¡Mándanos un mensaje!",
+    "fb_feedback_intro": "Consulta las preguntas frecuentes antes de enviar. ¡Tal vez ya exista una solución para tu pregunta o problema! ¡Nunca compartiremos ni distribuiremos tu dirección de correo electrónico!",
+    "fb_feedback_ph": "Tu mensaje...",
+    "fb_send": "Enviar",
+    "fb_bad_email": "La dirección de correo electrónico no es válida.",
+    "fb_no_comment": "¡El campo de comentarios está vacío!",
+
+    "eq_equipment": "Inventario",
+    "eq_inventory": "Inventario",
+    "eq_shop": "Tienda",
+    "eq_equipped": "Equipado",
+    "eq_color": "Color",
+    "eq_redeem": "Canjear código",
+    "eq_hour": "H",
+    "eq_day": "D",
+    "eq_remaining": "Restante(s)",
+    "eq_buy": "¡Comprar ahora!",
+    "eq_buy_stuff": "¡OBTÉN MÁS COSAS!",
+    "eq_sold_out_head": "¡AGOTADO!",
+    "eq_sold_out_text": "Vuelve pronto para ver más objetos.",
+
+    "p_buy_item_title": "¡Nuevo equipo!",
+    "p_physical_unlock_title": "¡Mercancía oficial!",
+    "p_buy_special_price": "¡Especial!",
+    "p_buy_item_cancel": "Nah...",
+    "p_buy_item_confirm": "¡Comprar!",
+
+    "p_redeem_code_title": "Ingresar código",
+    "p_redeem_code_enter" : "Ingresa el código del objeto",
+    "p_redeem_code_no_code": "Espera, ¿cuál es tu código?",
+    "p_give_stuff_title": "¡Código descifrado!",
+    "p_redeem_prev_title": "Código usado",
+    "p_redeem_prev_content": "¡Ese código ya ha sido usado!",
+    "p_redeem_badcode_title": "Código no válido",
+    "p_redeem_badcode_content": "¿Lo escribiste bien?",
+    "p_redeem_error_title": "Oh, no...",
+    "p_redeem_error_content": "Hubo un problema. Intenta recargar el juego.",
+
+    "p_buy_isf_title": "¡Necesitas más huevos!",
+    "p_buy_isf_content": "Necesitas más huevos",
+    "p_buy_owned_title": "Ya lo tienes",
+    "p_buy_owned_content": "Ya tienes esto. Intenta recargar el juego.",
+    "p_buy_error_title": "Oh, no...",
+    "p_buy_error_content": "Hubo un problema. Intenta recargar el juego.",
+    "p_error_4225_title": "Procedure error 4225",
+    
+    "eq_special_merch": "¡Especial!",
+    "p_physical_unlock_hat": "¡Compra la gorra OFICIAL de Shell Shockers para desbloquear este sombrero en el juego!",
+    "p_physical_unlock_pan": "¡Compra la camiseta OFICIAL de Shell Shockers para obtener este sombrero en el juego!",
+    "p_physical_unlock_shirt": "¡Compra la camiseta OFICIAL de Shell Shockers para obtener este sombrero en el juego!",
+
+    "faq_question_": "",
+    "faq_title": "Preguntas frecuentes",
+
+    "faqItems": {
+        "q1": { "anchor": "issues", "q": "¿Conocen este error?", "a": "<p>Es probable que sí. Estos son algunos errores conocidos con los que estamos lidiando actualmente:</p><ul><li>El sonido se entrecorta o no existe en algunos sistemas.</li><li>Algunos jugadores tienen cáscaras invisibles. Es un error, NO son «hackers», ¿de acuerdo?</li></ul>" },
+        "q2": { "anchor": "lag", "q": "¡Hay retardo! ¿Qué debo hacer?", "a": "<p>Si tus disparos están saliendo muy tarde, o si estás rebotando por todas partes, estas son algunas cosas que puedes probar:<ul><li>Cierra cualquier otra pestaña abierta.</li><li>Pausa o cancela cualquier descarga o transmisión activa. ¡Cierra ese video del gato!</li><li>Cierra todas las aplicaciones para compartir archivos.</li><li>Cierra las aplicaciones que realizan descargas en segundo plano (Steam, etc.).</li><li>Prueba un servidor diferente.</li><li>Reinicia tu enrutador.</li><li>Si estás usando wifi, prueba una conexión por cable si es posible.</li></ul><p>En términos generales, nos gusta ver un ping de 100 ms o menos. Puedes ver tu ping en la esquina superior derecha de la ventana del juego mientras estás jugando. La experiencia de juego puede ser buena con pings más altos si son consistentes. Sin embargo, los picos de retardo (cuando tu ping se dispara momentáneamente) te arruinarán el día por completo y, por desgracia, no hay forma de que el juego los compense.</p>" },
+        "q3": { "anchor": "slow", "q": "La velocidad de fotogramas es baja. ¿Ahora qué?", "a": "<p>(El indicador de FPS en la esquina superior derecha de la ventana del juego indica la velocidad de fotogramas. ¡La mejor es 60!)</p><ul><li>Intenta cerrar otras aplicaciones, navegadores y pestañas.</li><li>Abre la configuración y deshabilita los Detalles automáticos; luego desmarca Alta resolución y Sombras (si están habilitadas).</li><li>Si hay varias pantallas funcionando, intenta mover la ventana del navegador a otra.</li><li>Instala los controladores de video más recientes para tu tarjeta. Aquí tienes algunos enlaces para las marcas más comunes:<br><a target=\"_window\" href=\"http://www.nvidia.com/Download/index.aspx\">NVIDIA</a>&nbsp;<a target=\"_window\" href=\"http://support.amd.com/en-us/download\">ATI</a>&nbsp;<a target=\"_window\" href=\"https://www.intel.com/content/www/us/en/support/graphics-drivers.html\">Intel</a></li><li>Si tu GPU se encuentra en la lista negra de Chrome, es posible que use un representador por software conocido como «SwiftShader», el cual es terriblemente lento. Escribe chrome://flags en la barra de direcciones, busca «Ignorar la lista de renderización del software» y habilítalo. PRECAUCIÓN: La lista negra existe por una razón. Esto puede hacer que tu sistema se vuelva inestable. ¡Asegúrate de guardar todo en lo que estés trabajando antes de intentar esto!</li></ul><p>Si estás ejecutando Chrome, intenta habilitar los Elementos canvas experimentales:</p><ul><li>Escribe chrome://flags en la barra de direcciones.</li><li>Escribe «canvas» en el cuadro de búsqueda.</li><li>Busca «Elementos canvas experimentales» y habilítalo.</li><li>Reinicia Chrome.</li></ul><p>Esto puede mejorar o empeorar las cosas. Buena suerte con eso.</p>" },
+		"q4": { "anchor": "pointerlock", "q": "¿Por qué no puedo disparar?", "a": "<p>Algunos sistemas tienen problemas para registrar las pulsaciones del panel táctil cuando el bloqueo del puntero está activado. Un clic completo del panel (aunque sea molesto, lo sé) debería funcionar. Es un problema que actualmente está bajo análisis.</p>" },
+		"q5": { "anchor": "palm", "q": "¿Por qué no puedo moverme y disparar al mismo tiempo?", "a": "<p>En algunos sistemas, el software que cancela la palma de la mano está habilitado de forma predeterminada, lo que evita la entrada simultánea del teclado y el mouse/panel táctil. Verifica la configuración de la cancelación o rechazo de la palma de la mano en tu sistema y baja la sensibilidad o deshabilítala por completo.</p>" },
+		"q6": { "anchor": "future", "q": "¿Agregarán más (armas/mapas/modos/etc.)?", "a": "<h1>¡SÍ!</h1><p>Eventualmente. El desarrollo de Shell Shockers está a cargo de un equipo muy pequeño, así que tomará algo de tiempo. Sin embargo, ten la seguridad de que el desarrollo del juego está activo, y cuando las nuevas funciones estén listas, ¡serás de los primeros en saberlo!</p>" },
+		"q7": { "anchor": "webgl", "q": "¿Cómo habilito WebGL?", "a": "<p>¡Eso depende de tu navegador! Shell Shockers requiere WebGL; si ya puedes jugar, significa que está habilitado y no tienes que preocuparte por esto. De lo contrario, sigue las instrucciones para tu navegador a continuación. Si la versión de tu navegador es más antigua que la que aparece en la lista, ¡descarga la más reciente! Me lo agradecerás más adelante.</p><h3>Chrome 49+</h3><b>Paso 1: Habilita la aceleración de hardware</b><ul><li>Escribe <code>chrome://settings</code> en la barra de direcciones.</li><li>Abre la Configuración avanzada (probablemente en la parte inferior).</li><li>En la sección Sistema, asegúrate de que la opción «Utilizar aceleración por hardware cuando esté disponible» esté marcada. Si no lo está, tendrás que reiniciar Chrome después de cambiarla.</li></ul><b>Paso 2: Habilita WebGL</b><ul><li>Escribe <code>chrome://flags</code> en la barra de direcciones.</li><li>En versiones más antiguas, asegúrate de que «Desactivar WebGL» <b><i>no</i></b> esté habilitado. En versiones más nuevas, busca WebGL 2.0 y habilítalo. Una vez más, tendrás que reiniciar Chrome cuando lo hayas hecho.</li></ul><h3>Firefox 54+</h3><ul><li>Escribe <code>about:config</code> en la barra de direcciones.</li><li>Busca «webgl.disabled» y asegúrate de que esté en <code>falso.</code></li></ul><p>Los cambios surten efecto inmediatamente.</p><h3>Safari 10.1+</h3><ul><li>Selecciona Safari->Preferencias en la barra de menús.</li><li>Selecciona la pestaña Avanzado.</li><li>Asegúrate de que la casilla de verificación de «Mostrar el menú Desarrollo en la barra de menús» esté marcada.</li><li>En el menú Desarrollo, selecciona Características experimentales y asegúrate de que «WebGL 2.0» esté marcado.</li></ul><h3>Edge 14+</h3><p>Debería estar habilitado de forma predeterminada. Si no es así, es probable que necesites actualizar el controlador de gráficos.</p><h3>Internet Explorer</h3><p>Lo sentimos, Shell Shockers no es compatible con IE, ya que carece de algunas características clave.</p>" },
+		"q8": { "anchor": "websockets", "q": "¿WebSockets? ¿Qué dijiste?", "a": "<p>Los WebSockets permiten una comunicación eficiente, lo que es vital para los juegos de este tipo. Aquí tienes una lista de los navegadores compatibles. Si el tuyo no está en la lista, o es anterior a la versión que se muestra, debes descargar uno nuevo.</p><h3>Navegadores compatibles:</h3><ul><li>Chrome</li><li>Firefox</li><li>Edge</li><li>Safari</li><li>Opera</li></ul>" },
+        "q9": { "anchor": "system", "q": "¿Cuáles son los requisitos del sistema?", "a": "<p>Todavía estamos en el proceso de resolver esto, pero aquí tienes una idea aproximada:</p><ul><li>un mouse (o un panel táctil; ¡puaj!) y un teclado. No hay soporte oficial para móviles (¡todavía!).</li><li>Procesador de 2,0 GHz.</li><li>4 GB de RAM.</li><li>Acelerador gráfico compatible con WebGL.</li><li>Una conexión de banda ancha.</li><li>Un navegador compatible con <a href=\"#webgl\">WebGL</a> y <a href=\"#websockets\">WebSockets</a>, como Chrome, Firefox, Safari, Edge u Opera<br>¡Internet Explorer no es compatible!</li></ul>" },
+        "q10": { "anchor": "proxy", "q": "¡Ayuda! ¡Shell Shockers está bloqueado en mi red!", "a": "<p>No podemos controlar si tu red local bloquea Shell Shockers. Lo que podemos hacer es crear servidores proxy para que puedas ponerte a romper huevos nuevamente. Si Shellshock.io está bloqueado, prueba los siguientes servidores proxy:</p><ul><li>zygote.cafe</li><li>egghead.institute</li><li>eggfacts.fun</li><li>eggcombat.com</li><li>biologyclass.club</li></ul><p>¡Únete a nosotros en nuestro <a href=\"https://discordapp.com/invite/bluewizard\" target=\"_blank\">servidor Discord</a> para obtener actualizaciones sobre nuevos dominios proxy a medida que se publiquen!</p>" },
+        "q11": { "anchor": "gracias", "q": "¡Agradecimiento especial!", "a": "<p>¡Un agradecimiento especial a nuestros amigos de <a href=\"https://crazygames.com/\" target=\"_blank\">CrazyGames</a> por su continuo apoyo!" }
+    },
+    "footer_merchandise": "Mercadería",
+    "footer_privacypolicy": "Política de privacidad",
+    "footer_termsofservice": "Términos de servicio",
+    "footer_bluewizard": "Blue Wizard Digital",
+
+    "game_not_found": "No se encontró el juego",
+    "game_not_found_msg": "¡Lo sentimos! Este ID de juego no es válido o ya no existe.",
+
+    "game_full": "Juego lleno",
+    "game_full_msg": "Lo sentimos, este juego está lleno actualmente. ¡Espera un momento o intenta con otro!",
+
+    "invalid_name": "Nombre no válido",
+    "invalid_name_msg": "Voy a suponer que sabes por qué.",
+
+    "matchmaker_busy": "Creador de partidas ocupado",
+    "matchmaker_busy_msg": "¡Lo sentimos! El creador de partidas está ocupado actualmente atendiendo a otros jugadores. ¡Inténtalo de nuevo en un momento!",
+
+    "matchmaker_offline": "Creador de partidas fuera de línea",
+    "matchmaker_offline_msg": "¡Ups! No es posible acceder al creador de partidas en este momento. ¡Escríbenos para informarnos!",
+
+    "connection_lost": "Se perdió la conexión",
+    "connection_lost_msg": "Selecciona un servidor diferente o inténtalo de nuevo más tarde.",
+
+    "cannot_connect": "No te puedes conectar",
+    "login_required": "Tienes que iniciar sesión para unirte a este juego",
+    "banned": "No tienes permiso para unirte a este juego. Seguramente sabes por qué.",
+    "generic_conn_failed": "Selecciona un servidor diferente, recarga la página o inténtalo de nuevo más tarde. Además, visita websocketstest.com para comprobar si hay problemas con tu red o sistema.",
+
+    "ui_game_loading": "CARGANDO",
+    "ui_game_waitforit": "Solo espera...",
+    "connecting": "Conectando",
+    "please_wait": "¡Espera!",
+    "building_map": "Construyendo mapa",
+    "ui_game_ping": "Ping",
+    "ui_game_fps": "FPS",
+    "ui_game_youkilled": "Mataste a",
+    "ui_game_killedby": "Te mató",
+    "ui_game_beststreak": "Mejor racha",
+    "ui_game_lights": "Encendiendo las luces...",
+    "ui_game_locked": "Este mapa ahora está bloqueado al público. ¡Únete a un juego nuevo para encontrar más jugadores!",
+    "ui_game_playeractions_header": "Selecciona una acción para este jugador:",
+    "ui_game_playeractions_mute": "Silenciar",
+    "ui_game_playeractions_unmute": "No silenciar",
+    "ui_game_playeractions_boot": "Expulsar",
+    "ui_game_spectating": "Observando - Presiona ESC para salir.",
+    "ui_game_get_ready": "Get Ready!",
+
+    "loading_msgs": [
+        "Poniendo",
+        "Rompiendo",
+        "Haciendo tortillas",
+        "Cacareo al azar",
+        "Raspando",
+        "Revolviendo",
+        "Posándose",
+        "Batiendo",
+        "Haciendo malas yemas... digo, bromas",
+        "Pensando en bromas con huevos",
+        "Mezclando",
+        "Fritando",
+        "Hirviendo",
+        "Haciendo algo MUY interesante",
+        "Haciendo tu tarea, porque ALGUIEN tiene que hacerla",
+        "¿Qué estaba haciendo? Ah, sí; ¡el mapa!",
+        "Haciéndote esperar a ver si cacareas",
+        "Viendo videos de pollos"
+    ],
+
+    "leave_game_title": "Menú principal",
+    "leave_game_text": "¿Salir del juego y volver al menú principal?",
+
+    "press_key": "Presiona una tecla",
+
+    "unverified_email": "Verificar mi correo electrónico",
+    "verify_email_sent": "Correo electrónico de verificación enviado",
+    "verify_email_instr": "Después de verificar tu correo electrónico, vuelva a cargar el juego en el navegador.",
+
+    "reward_title": "¡¡¡HUEVOBULOSO!!!",
+    "reward_already": "¡Ya recibiste esta recompensa!",
+    "reward_expired": "Esta recompensa ya no está disponible.",
+    "reward_not_found": "No se encontró la recompensa.",
+    "reward_url_title": "Tu recompensa",
+
+    "in_game_reward_title": "Rotten Luck!",
+    "in_game_reward_try_again": "You've reacheed your daily limit. Please try again tomorrow",
+
+    "anon_account": "Tu cuenta es anónima. Protege tu cuenta y vuelve a intentarlo.",
+    "no_thanks": "No, gracias.",
+    "error": "Hubo un problema. Intenta recargar el juego.",
+
+    "no_anon_title": "Característica no disponible",
+    "no_anon_msg1": "¡Esta característica no está disponible para los jugadores anónimos!",
+    "no_anon_msg2": "Primero tienes que registrar tu cuenta. También es posible que tengas que verificar tu dirección de correo electrónico.",
+    "no_anon_signup": "¡Regístrate!",
+
+    "gdpr_notification": "Shell Shockers y nuestros socios pueden recopilar y procesar datos personales con el fin de crear cuentas y entregar anuncios adaptados a tus intereses. Al hacer clic en «¡Sí, estoy de acuerdo!», confirmas que tienes al menos 16 años de edad y aceptas el procesamiento de datos personales para estos fines.",
+    "gdpr_link": "Más información",
+    "gdpr_agree": "¡Sí, estoy de acuerdo!",
+    "gdpr_disagree": "No acepto",
+    "gdpr_consent": "¡Gracias! Ahora puedes crear una cuenta y tu experiencia publicitaria será personalizada. Si alguna vez cambias de opinión, puedes ajustar las opciones de privacidad en el menú Configuración.",
+    "gdpr_noConsent": "¡No hay problema! Tus datos personales no serán recopilados ni procesados. Si cambias de opinión y decides que quieres crear una cuenta o personalizar tu experiencia publicitaria, puedes ajustar las opciones de privacidad en el menú Configuración.",
+
+    "changelog_title": "Registro de cambios",
+    "feedback_sent_title": "¡Gracias!",
+    "feedback_sent_msg": "Recibimos tus comentarios.",
+
+    "signin_auth_title": "Recuperando cuenta",
+    "signin_auth_msg": "SÉ que estás aquí en alguna parte...",
+
+    "item_type_1": "Sombreros",
+    "item_type_2": "Sellos",
+    "item_type_3": "Primaria",
+    "item_type_4": "Secundaria",
+    "item_type_5": "¡Edición limitada!",
+    "item_type_3_0": "HuevoK-47",
+    "item_type_3_1": "Calibre docena",
+    "item_type_3_2": "CSG1",
+    "item_type_3_3": "RPHUEVO",
+    "item_type_3_4": "Batidor",
+    "item_type_3_5": "Rompedor",
+
+    "ui_game_fairteams_header": "¡Seamos justos!",
+    "ui_game_fairteams_text": "El otro equipo ya tiene suficientes jugadores. ¡Intenta de nuevo más tarde!",
+
+    "languages": {
+        "en": "Inglés",
+        "fr": "Francés",
+        "de": "Alemán",
+        "ru": "Ruso",
+        "es": "Español",
+        "pt": "Portugués",
+        "ko": "Coreano",
+        "zh": "Chino",
+        "nl": "Holandés"
+    },
+
+    "ingame_captured_the_spatula": "<p>¡CAPTURASTE<br>la espátula!</p>",
+    "ingame_dropped_the_spatula": "<p>¡SOLTASTE<br>la espátula!</p>",
+    "ingame_press_enter_to_chat": "Presiona ENTRAR para chatear",
+    "ingame_press_tab_to_exit": "Presiona TAB para salir",
+    "ingame_kill_text_scrambled": "REVOLVIÓ A",
+    "ingame_kill_text_beat": "BATIÓ A",
+    "ingame_kill_text_poached": "HIRVIÓ A",
+    "ingame_kill_text_whipped" : "MEZCLÓ A",
+    "ingame_kill_text_fried": "FRITÓ A",
+    "ingame_kill_text_cracked": "ROMPIÓ A"
+
+}

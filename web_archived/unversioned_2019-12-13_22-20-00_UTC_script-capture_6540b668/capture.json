@@ -1,0 +1,63 @@
+{
+  "folder": "unversioned_2019-12-13_22-20-00_UTC_script-capture_6540b668",
+  "version": "unversioned",
+  "version_source": null,
+  "origin_id": "archive_org",
+  "capture_kind": "script_capture",
+  "event": {
+    "timestamp": "20191213222000",
+    "timezone": "UTC"
+  },
+  "files": [
+    {
+      "path": "src/shellshock.min.js",
+      "origin_id": "archive_org",
+      "source": {
+        "urlkey": "io,shellshock)/src/shellshock.min.js?1576270786",
+        "timestamp": "20191213222000",
+        "original": "https://shellshock.io/src/shellshock.min.js?1576270786",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "QU2PK575NKQ54MOIZSTYQYM4RBBFONVT",
+        "replay_url": "https://web.archive.org/web/20191213222000id_/https://shellshock.io/src/shellshock.min.js?1576270786",
+        "final_url": "https://web.archive.org/web/20191213222000id_/https://shellshock.io/src/shellshock.min.js?1576270786",
+        "sha256": "6540b6686c9bf4f46a3ef4ff81f8fb1f5ef0ebe3cb9c5dbc2283c908e88d079b",
+        "verification": "indexed_capture_digest_matches_verified_payload",
+        "replay_capture_timestamp": "20191213222000"
+      },
+      "requested_capture": {
+        "urlkey": "io,shellshock)/src/shellshock.min.js?1576270786",
+        "timestamp": "20191213222000",
+        "original": "https://shellshock.io/src/shellshock.min.js?1576270786",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "QU2PK575NKQ54MOIZSTYQYM4RBBFONVT",
+        "replay_url": "https://web.archive.org/web/20191213222000id_/https://shellshock.io/src/shellshock.min.js?1576270786",
+        "final_url": "https://web.archive.org/web/20191213222000id_/https://shellshock.io/src/shellshock.min.js?1576270786"
+      },
+      "exact_event_timestamp": true,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20191213222000",
+          "original": "https://shellshock.io/src/shellshock.min.js?1576270786",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "QU2PK575NKQ54MOIZSTYQYM4RBBFONVT"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "missing_scripts": [],
+  "html_available": false,
+  "javascript_release_version_verified": false,
+  "pairing_verified": false,
+  "warning": "Standalone verified script capture. No HTML or release version is assigned from a cachebuster or nearby page.",
+  "version_audit": {
+    "declarations": [],
+    "release_membership_verified": false
+  }
+}

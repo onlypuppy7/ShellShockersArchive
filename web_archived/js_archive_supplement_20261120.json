@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "new_snapshots": [
+    {
+      "folder": "1.0.1_2025-05-13_17-39-25_UTC_js_archive_dbdf3a92",
+      "timestamp": "20250513173925",
+      "version": "1.0.1",
+      "files": 168,
+      "added": 0,
+      "changed": 1,
+      "removed": 0
+    },
+    {
+      "folder": "1.0.1_2025-05-13_22-00-48_UTC_js_archive_04c26c3d",
+      "timestamp": "20250513220048",
+      "version": "1.0.1",
+      "files": 169,
+      "added": 0,
+      "changed": 1,
+      "removed": 1
+    },
+    {
+      "folder": "1.0.1_2025-05-13_23-37-02_UTC_js_archive_e1f6c218",
+      "timestamp": "20250513233702",
+      "version": "1.0.1",
+      "files": 169,
+      "added": 0,
+      "changed": 1,
+      "removed": 0
+    },
+    {
+      "folder": "1.0.1_2025-05-18_01-34-02_UTC_js_archive_06121105",
+      "timestamp": "20250518013402",
+      "version": "1.0.1",
+      "files": 168,
+      "added": 0,
+      "changed": 1,
+      "removed": 0
+    }
+  ],
+  "new_payload_bytes": 13643274,
+  "new_payload_sha256_verified": true,
+  "all_new_inventory_sources_exist": true,
+  "previous_inventory_contents_preserved": true,
+  "no_prior_payloads_removed_or_relocated": true,
+  "timezone_report": {
+    "iana_timezone": "Europe/London",
+    "basis": "Curator reported UK local time on 2026-11-20, tentatively including DST",
+    "independently_verified": false,
+    "legacy_policy": "Previously imported wall-clock timestamps and legacy folder names are retained; no silent retroactive redating",
+    "new_capture_policy": "New supplementary entries preserve filename local time and record UTC conversion using Europe/London"
+  },
+  "total_snapshots": 1170
+}

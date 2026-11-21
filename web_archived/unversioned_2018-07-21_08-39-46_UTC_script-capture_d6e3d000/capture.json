@@ -1,0 +1,58 @@
+{
+  "folder": "unversioned_2018-07-21_08-39-46_UTC_script-capture_d6e3d000",
+  "version": "unversioned",
+  "version_source": null,
+  "origin_id": "archive_org",
+  "capture_kind": "script_capture",
+  "event": {
+    "timestamp": "20180721083946",
+    "timezone": "UTC"
+  },
+  "files": [
+    {
+      "path": "src/shellshock.min.js",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20180721083946",
+        "original": "https://shellshock.io/src/shellshock.min.js?1512537691",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "TURFSIDHU25ZVOMNPUOC6BX67VCLYBVQ",
+        "sha256": "d6e3d000333d18784277dc770f82c7c2052feb4b77bb6123b6da99a40342e3ce",
+        "verification": "indexed_capture_digest_matches_verified_payload",
+        "replay_url": "https://web.archive.org/web/20180721083946id_/https://shellshock.io/src/shellshock.min.js?1512537691",
+        "replay_capture_timestamp": "20180721083946"
+      },
+      "requested_capture": {
+        "timestamp": "20180721083946",
+        "original": "https://shellshock.io/src/shellshock.min.js?1512537691",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "TURFSIDHU25ZVOMNPUOC6BX67VCLYBVQ"
+      },
+      "exact_event_timestamp": true,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20180721083946",
+          "original": "https://shellshock.io/src/shellshock.min.js?1512537691",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "TURFSIDHU25ZVOMNPUOC6BX67VCLYBVQ"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "missing_scripts": [],
+  "html_available": false,
+  "javascript_release_version_verified": false,
+  "pairing_verified": false,
+  "warning": "Standalone verified script capture. No HTML or release version is assigned from a cachebuster or nearby page.",
+  "version_audit": {
+    "declarations": [],
+    "release_membership_verified": false
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "period": "2017-2020",
+  "remaining_digest_groups": 3697,
+  "categories": {
+    "audio": {
+      "distinct_paths": 89,
+      "payload_groups": 101,
+      "captures": 10872
+    },
+    "json_data": {
+      "distinct_paths": 16,
+      "payload_groups": 2105,
+      "captures": 4407
+    },
+    "miscellaneous": {
+      "distinct_paths": 7,
+      "payload_groups": 7,
+      "captures": 8
+    },
+    "remaining_html_javascript": {
+      "distinct_paths": 21,
+      "payload_groups": 111,
+      "captures": 227
+    },
+    "remaining_images": {
+      "distinct_paths": 1555,
+      "payload_groups": 1367,
+      "captures": 2675
+    },
+    "video": {
+      "distinct_paths": 2,
+      "payload_groups": 6,
+      "captures": 86
+    }
+  },
+  "image_breakdown": {
+    "Other images": 205,
+    "Promotions": 25,
+    "Store items": 18,
+    "Twitch avatars": 1119
+  },
+  "json_breakdown": {
+    "/housePromo.json": 253,
+    "/language/de.json": 1,
+    "/language/en.json": 36,
+    "/language/es.json": 1,
+    "/language/fr.json": 1,
+    "/language/nl.json": 1,
+    "/language/ru.json": 1,
+    "/language/zh.json": 1,
+    "/manifest.json": 2,
+    "/newsItems.json": 3,
+    "/shellNews.json": 12,
+    "/sound/sounds.json": 9,
+    "/sponsors.json": 3,
+    "/ssNews.json": 16,
+    "/twitchStreams.json": 1765
+  },
+  "size_note": "The saved CDX inventory omitted lengths. Verified decoded sizes are measured after recovery.",
+  "payload_note": "CDX payload groups can decode to identical files. Counts are not unique decoded contents.",
+  "deferred_image_payloads": 1119,
+  "requested_payload_groups_after_deferral": 2578
+}

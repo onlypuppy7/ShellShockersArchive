@@ -1,0 +1,66 @@
+{
+  "folder": "unknown_2019-01-10_04-27-49_UTC",
+  "version": "unknown",
+  "html_version": null,
+  "version_source": null,
+  "javascript_release_version_verified": false,
+  "pairing_verified": false,
+  "warning": "HTML version labels this reconstruction; matching cache-busting URLs do not establish the JavaScript release version.",
+  "event": {
+    "urlkey": "io,shellshock)/",
+    "timestamp": "20190110042749",
+    "original": "http://www.shellshock.io:80/",
+    "mimetype": "text/html",
+    "statuscode": "200",
+    "digest": "PXLRV7H3CTQQL2ALBQGX7TRXBIUKIHYK"
+  },
+  "missing_scripts": [],
+  "files": [
+    {
+      "path": "index.html",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20190110042749",
+        "original": "http://www.shellshock.io:80/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PXLRV7H3CTQQL2ALBQGX7TRXBIUKIHYK"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20190110042749",
+        "original": "http://www.shellshock.io:80/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PXLRV7H3CTQQL2ALBQGX7TRXBIUKIHYK",
+        "replay_url": "https://web.archive.org/web/20190110042749id_/http://www.shellshock.io:80/",
+        "final_url": "https://web.archive.org/web/20190110042749id_/http://www.shellshock.io:80/",
+        "sha256": "38ffd4972ae513a0c79a8be4573403edcd709f0f572105362b08ff50cf6de521"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20190110042749",
+          "original": "http://www.shellshock.io:80/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "PXLRV7H3CTQQL2ALBQGX7TRXBIUKIHYK"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "capture_kind": "server_placeholder",
+  "version_reason": "Default nginx welcome page, not a Shell Shockers client; no game version or game JavaScript is present.",
+  "version_evidence": null,
+  "origin_id": "archive_org",
+  "origins_catalog": "origins.json (archive root; included in exports)",
+  "version_audit": {
+    "declarations": [],
+    "release_membership_verified": false
+  }
+}

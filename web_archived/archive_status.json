@@ -1,0 +1,54 @@
+{
+  "updated_at_utc": "2026-11-12T15:32:14.926756+00:00",
+  "task_status": "completed_with_documented_source_gaps",
+  "recovery_2017_2020": {
+    "attempted_payload_groups": 3730,
+    "verified_payload_groups": 3716,
+    "unresolved_payload_groups": 14,
+    "distinct_decoded_files": 3501,
+    "decoded_bytes": 997371235,
+    "unresolved_replays_matching_other_verified_contents": 8
+  },
+  "snapshots": {
+    "folders": 215,
+    "retained_incremental_file_paths": 2544,
+    "full_exported_file_paths": 50248,
+    "all_exports_verified": true,
+    "distinct_audio_contents_associated": 106,
+    "remaining_asset_association_complete": true
+  },
+  "inventory_2021_2026": {
+    "status": "complete",
+    "covered_days": 2142,
+    "total_days": 2142,
+    "coverage_percent": 100.0,
+    "completed_months": 71,
+    "total_months": 71,
+    "captures": 168475,
+    "validation": {
+      "status": "passed",
+      "from_date": "2021-01-01",
+      "through_date": "2026-11-12",
+      "days_verified": 2142,
+      "months": 71,
+      "complete_query_slices": 190,
+      "saved_query_rows_checked": 342178,
+      "captures": 168475,
+      "distinct_urls": 68167,
+      "combined_known_captures": 168475,
+      "query_filters_absent": true,
+      "all_returned_query_rows_retained": true
+    }
+  },
+  "policies": {
+    "third_party_resources": "excluded",
+    "twitch_avatars": "deferred",
+    "newer_year_payload_downloads": "not requested; metadata only"
+  },
+  "limits": [
+    "Capture date pairings are reconstructions, not proof of simultaneous historical releases.",
+    "Unmatched source variants remain in the recovery catalog.",
+    "Unresolved capture proofs are retained as failures; no corrupt bytes are substituted.",
+    "CDX coverage is limited to records exposed by Wayback."
+  ]
+}

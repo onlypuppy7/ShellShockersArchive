@@ -1,0 +1,369 @@
+{
+  "unresolved_payload_groups": 14,
+  "groups_with_replay_contents_already_verified_elsewhere": 8,
+  "records": [
+    {
+      "digest": "5FFGFW7EUSZD5OYALOGAPD7VLY725SJ6",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/js/vue/vue.min.2.6.10.js",
+          "timestamp": "20191029235119",
+          "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "5FFGFW7EUSZD5OYALOGAPD7VLY725SJ6"
+        }
+      ],
+      "accepted_as_verified_capture": false,
+      "matching_verified_contents": true,
+      "note": "A matching decoded file does not establish the requested CDX capture digest.",
+      "observed_replay_sha256": "72194d152571dd375c4365e5c3b4af9db2c06af0102ced18fcb062597d38be26",
+      "verified_object": "assets_2017-2020/objects/72194d152571dd375c4365e5c3b4af9db2c06af0102ced18fcb062597d38be26",
+      "verified_capture": {
+        "urlkey": "io,shellshock)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20191022153445",
+        "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "TV5OJUHXS43WHM3VDWCPIVSSLPX2YY6W",
+        "replay_url": "https://web.archive.org/web/20191022153445id_/https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "final_url": "https://web.archive.org/web/20191022153445id_/https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "sha256": "72194d152571dd375c4365e5c3b4af9db2c06af0102ced18fcb062597d38be26",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/TV5OJUHXS43WHM3VDWCPIVSSLPX2YY6W",
+        "encoded_sha256": "95b71a5e50ac1cd919f9dba8c27a2f4ab1e1c96254bcb9ef43d82d6c351c7087",
+        "decoded_sha1": "INGN5QLGT4WGY5AGFF5HEEQJG26FN3KS"
+      },
+      "rejected_replay": "_recovery/assets_2017-2020/rejected/5FFGFW7EUSZD5OYALOGAPD7VLY725SJ6/20191029235119_be17fd497f74"
+    },
+    {
+      "digest": "A6FTSHARRMSL2XN46RPHDTDQKY6FKXRB",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/feedback.html",
+          "timestamp": "20171217185538",
+          "original": "http://www.shellshock.io:80/feedback.html",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "A6FTSHARRMSL2XN46RPHDTDQKY6FKXRB"
+        }
+      ],
+      "accepted_as_verified_capture": false,
+      "matching_verified_contents": true,
+      "note": "A matching decoded file does not establish the requested CDX capture digest.",
+      "observed_replay_sha256": "351c7614eb02de3b730dfcf6e29485bdbba3473e024f47de71b371978fda6215",
+      "verified_object": "assets_2017-2020/objects/351c7614eb02de3b730dfcf6e29485bdbba3473e024f47de71b371978fda6215",
+      "verified_capture": {
+        "urlkey": "io,shellshock)/feedback.html",
+        "timestamp": "20171101110838",
+        "original": "http://www.shellshock.io:80/feedback.html",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4MDO5JLJCSLTJSY6A4SZOA3TWGEZCVJK",
+        "replay_url": "https://web.archive.org/web/20171101110838id_/http://www.shellshock.io:80/feedback.html",
+        "final_url": "https://web.archive.org/web/20171101110838id_/http://www.shellshock.io:80/feedback.html",
+        "sha256": "351c7614eb02de3b730dfcf6e29485bdbba3473e024f47de71b371978fda6215",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20171101110838",
+        "replay_timestamp_matches_request": true
+      },
+      "rejected_replay": "_recovery/assets_2017-2020/rejected/A6FTSHARRMSL2XN46RPHDTDQKY6FKXRB/20171217185538_6b59045fcde3"
+    },
+    {
+      "digest": "DAF4TTSO4YZDRDRA4RLP3Z537BJIQ3TB",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/src/shellshock.min.js?1571781519",
+          "timestamp": "20191029235119",
+          "original": "https://shellshock.io/src/shellshock.min.js?1571781519",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "DAF4TTSO4YZDRDRA4RLP3Z537BJIQ3TB"
+        }
+      ],
+      "accepted_as_verified_capture": false,
+      "matching_verified_contents": true,
+      "note": "A matching decoded file does not establish the requested CDX capture digest.",
+      "observed_replay_sha256": "5c769e2bae79e290d37b203c836c1bdc241e42e5dc6ec162fd6bd485af37b5f3",
+      "verified_object": "assets_2017-2020/objects/5c769e2bae79e290d37b203c836c1bdc241e42e5dc6ec162fd6bd485af37b5f3",
+      "verified_capture": {
+        "urlkey": "io,shellshock)/src/shellshock.min.js?1571781519",
+        "timestamp": "20191023091300",
+        "original": "https://shellshock.io/src/shellshock.min.js?1571781519",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "SFVCQUV3ZFB4AFTIJIDM4C6PW2Y7BHXN",
+        "replay_url": "https://web.archive.org/web/20191023091300id_/https://shellshock.io/src/shellshock.min.js?1571781519",
+        "final_url": "https://web.archive.org/web/20191023091300id_/https://shellshock.io/src/shellshock.min.js?1571781519",
+        "sha256": "5c769e2bae79e290d37b203c836c1bdc241e42e5dc6ec162fd6bd485af37b5f3"
+      },
+      "rejected_replay": "_recovery/assets_2017-2020/rejected/DAF4TTSO4YZDRDRA4RLP3Z537BJIQ3TB/20191029235119_86b7935d9766"
+    },
+    {
+      "digest": "FW3JU7BGABUE4AI5KS4ZEJXBRJDFTCQX",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/twitchstreams.json?1582899797322",
+          "timestamp": "20200228142330",
+          "original": "https://shellshock.io/twitchStreams.json?1582899797322",
+          "mimetype": "application/json",
+          "statuscode": "200",
+          "digest": "FW3JU7BGABUE4AI5KS4ZEJXBRJDFTCQX"
+        }
+      ],
+      "accepted_as_verified_capture": false,
+      "matching_verified_contents": false,
+      "note": "A matching decoded file does not establish the requested CDX capture digest."
+    },
+    {
+      "digest": "GP32IPPFWKBMQYWZQ4SHTRR5UIUCHHQY",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/js/asc-ad-video/asc.video.outsteam.min.js",
+          "timestamp": "20191029235139",
+          "original": "https://shellshock.io/js/asc-ad-video/asc.video.outsteam.min.js",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "GP32IPPFWKBMQYWZQ4SHTRR5UIUCHHQY"
+        }
+      ],
+      "accepted_as_verified_capture": false,
+      "matching_verified_contents": true,
+      "note": "A matching decoded file does not establish the requested CDX capture digest.",
+      "observed_replay_sha256": "978b1be8e07398811961ea45c7ff3d4cb173fbc27cb21ba460e2bba47971f5d6",
+      "verified_object": "assets_2017-2020/objects/978b1be8e07398811961ea45c7ff3d4cb173fbc27cb21ba460e2bba47971f5d6",
+      "verified_capture": {
+        "urlkey": "io,shellshock)/js/asc-ad-video/asc.video.outsteam.min.js",
+        "timestamp": "20191022153445",
+        "original": "https://shellshock.io/js/asc-ad-video/asc.video.outsteam.min.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "TAY62W5A6SPUKB3VFYVYFGQREPPWU7E7",
+        "replay_url": "https://web.archive.org/web/20191022153445id_/https://shellshock.io/js/asc-ad-video/asc.video.outsteam.min.js",
+        "final_url": "https://web.archive.org/web/20191022153445id_/https://shellshock.io/js/asc-ad-video/asc.video.outsteam.min.js",
+        "sha256": "978b1be8e07398811961ea45c7ff3d4cb173fbc27cb21ba460e2bba47971f5d6",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/TAY62W5A6SPUKB3VFYVYFGQREPPWU7E7",
+        "encoded_sha256": "f5ec84732d0f3248670e29f089160c44bbc11155b19b932c36d9ede4535458f9",
+        "decoded_sha1": "KW455DG376IRINF4QGON2H3OFB4RVY37"
+      },
+      "rejected_replay": "_recovery/assets_2017-2020/rejected/GP32IPPFWKBMQYWZQ4SHTRR5UIUCHHQY/20191029235139_0231e1ae63f0"
+    },
+    {
+      "digest": "J4CVJRHBIJUMBIQHDV2I4LQDSGPKTKXG",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20180821151854",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "J4CVJRHBIJUMBIQHDV2I4LQDSGPKTKXG"
+        }
+      ],
+      "accepted_as_verified_capture": false,
+      "matching_verified_contents": false,
+      "note": "A matching decoded file does not establish the requested CDX capture digest."
+    },
+    {
+      "digest": "JEPKUORGALTVPWEJAONSGECAS6BOQB4L",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/twitchstreams.json?1550198442610",
+          "timestamp": "20190215024045",
+          "original": "https://shellshock.io/twitchStreams.json?1550198442610",
+          "mimetype": "application/json",
+          "statuscode": "200",
+          "digest": "JEPKUORGALTVPWEJAONSGECAS6BOQB4L"
+        }
+      ],
+      "accepted_as_verified_capture": false,
+      "matching_verified_contents": false,
+      "note": "A matching decoded file does not establish the requested CDX capture digest."
+    },
+    {
+      "digest": "PPXVB5PBLNH74BWIY767CFD4HGAPON7C",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/twitchstreams.json?1562900292280",
+          "timestamp": "20190712025815",
+          "original": "https://shellshock.io/twitchStreams.json?1562900292280",
+          "mimetype": "application/json",
+          "statuscode": "200",
+          "digest": "PPXVB5PBLNH74BWIY767CFD4HGAPON7C"
+        }
+      ],
+      "accepted_as_verified_capture": false,
+      "matching_verified_contents": false,
+      "note": "A matching decoded file does not establish the requested CDX capture digest."
+    },
+    {
+      "digest": "RP7PHB7W5DCHOEAC2XQ2KOUS3LPOQJJM",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/styles/asc.video.outstream.min.css?1568932877",
+          "timestamp": "20191029235146",
+          "original": "https://shellshock.io/styles/asc.video.outstream.min.css?1568932877",
+          "mimetype": "text/css",
+          "statuscode": "200",
+          "digest": "RP7PHB7W5DCHOEAC2XQ2KOUS3LPOQJJM"
+        }
+      ],
+      "accepted_as_verified_capture": false,
+      "matching_verified_contents": true,
+      "note": "A matching decoded file does not establish the requested CDX capture digest.",
+      "observed_replay_sha256": "c7c7865fd412c4cf04e7edaff9670cf4d089be167d6630446855cdb6615ad7dc",
+      "verified_object": "assets_2017-2020/objects/c7c7865fd412c4cf04e7edaff9670cf4d089be167d6630446855cdb6615ad7dc",
+      "verified_capture": {
+        "urlkey": "io,shellshock)/styles/asc.video.outstream.min.css?1569367967",
+        "timestamp": "20191022153445",
+        "original": "https://shellshock.io/styles/asc.video.outstream.min.css?1569367967",
+        "mimetype": "text/css",
+        "statuscode": "200",
+        "digest": "TP5IDJWLHQBKS4XWD7MIBQJMMZJOSTQP",
+        "replay_url": "https://web.archive.org/web/20191022153445id_/https://shellshock.io/styles/asc.video.outstream.min.css?1569367967",
+        "final_url": "https://web.archive.org/web/20191022153445id_/https://shellshock.io/styles/asc.video.outstream.min.css?1569367967",
+        "sha256": "c7c7865fd412c4cf04e7edaff9670cf4d089be167d6630446855cdb6615ad7dc",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/TP5IDJWLHQBKS4XWD7MIBQJMMZJOSTQP",
+        "encoded_sha256": "c4d4e3a0e733e61dcfd688beb3904051ee9948dc551573f646b28dbf8b1de197",
+        "decoded_sha1": "3JGKHD43KOAUWSBBM4KLHOCF3426VMUF",
+        "replay_capture_timestamp": "20191022153445",
+        "replay_timestamp_matches_request": true
+      },
+      "rejected_replay": "_recovery/assets_2017-2020/rejected/RP7PHB7W5DCHOEAC2XQ2KOUS3LPOQJJM/20191029235146_26ebfab54ce8"
+    },
+    {
+      "digest": "U2B5FRX5R6ZL4LF6CUPCHN5VASW4WFS3",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/styles/style.css?1569364920",
+          "timestamp": "20191029235123",
+          "original": "https://shellshock.io/styles/style.css?1569364920",
+          "mimetype": "text/css",
+          "statuscode": "200",
+          "digest": "U2B5FRX5R6ZL4LF6CUPCHN5VASW4WFS3"
+        }
+      ],
+      "accepted_as_verified_capture": false,
+      "matching_verified_contents": true,
+      "note": "A matching decoded file does not establish the requested CDX capture digest.",
+      "observed_replay_sha256": "801057b4d21c9dc598c110a3b9fb4cb2482821ff2c1f26d0f164499f462b023b",
+      "verified_object": "assets_2017-2020/objects/801057b4d21c9dc598c110a3b9fb4cb2482821ff2c1f26d0f164499f462b023b",
+      "verified_capture": {
+        "urlkey": "io,shellshock)/styles/style.css?1569368999",
+        "timestamp": "20191002185316",
+        "original": "https://shellshock.io/styles/style.css?1569368999",
+        "mimetype": "text/css",
+        "statuscode": "200",
+        "digest": "QJBJI742N3T6A5E35WUHMVL3DWWQA6QZ",
+        "replay_url": "https://web.archive.org/web/20191002185316id_/https://shellshock.io/styles/style.css?1569368999",
+        "final_url": "https://web.archive.org/web/20191002185316id_/https://shellshock.io/styles/style.css?1569368999",
+        "sha256": "801057b4d21c9dc598c110a3b9fb4cb2482821ff2c1f26d0f164499f462b023b"
+      },
+      "rejected_replay": "_recovery/assets_2017-2020/rejected/U2B5FRX5R6ZL4LF6CUPCHN5VASW4WFS3/20191029235123_ff3f2e47b4db"
+    },
+    {
+      "digest": "UYMO222SUESEZT6L6OZPQMT77ZR6XCEO",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/img/stamps.png?v=0.21.3",
+          "timestamp": "20190712025820",
+          "original": "https://shellshock.io/img/stamps.png?v=0.21.3",
+          "mimetype": "image/png",
+          "statuscode": "200",
+          "digest": "UYMO222SUESEZT6L6OZPQMT77ZR6XCEO"
+        }
+      ],
+      "accepted_as_verified_capture": false,
+      "matching_verified_contents": false,
+      "note": "A matching decoded file does not establish the requested CDX capture digest."
+    },
+    {
+      "digest": "V2RKTDRIP27UFVNZ2WQ55WU5A437VDO5",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20191029031045",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "V2RKTDRIP27UFVNZ2WQ55WU5A437VDO5"
+        }
+      ],
+      "accepted_as_verified_capture": false,
+      "matching_verified_contents": true,
+      "note": "A matching decoded file does not establish the requested CDX capture digest.",
+      "observed_replay_sha256": "8d647856ca4120ef4372a9db9d38584f4abdf4bd0ebf3243c54cc444536f25d0",
+      "verified_object": "assets_2017-2020/objects/8d647856ca4120ef4372a9db9d38584f4abdf4bd0ebf3243c54cc444536f25d0",
+      "verified_capture": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20191030193507",
+        "original": "https://www.shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "V2OHNELXARIV5JUM6SY7ET77G44HBGOK",
+        "replay_url": "https://web.archive.org/web/20191030193507id_/https://www.shellshock.io/",
+        "final_url": "https://web.archive.org/web/20191030193507id_/https://www.shellshock.io/",
+        "sha256": "8d647856ca4120ef4372a9db9d38584f4abdf4bd0ebf3243c54cc444536f25d0",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/V2OHNELXARIV5JUM6SY7ET77G44HBGOK",
+        "encoded_sha256": "49567bebfb23a55378107c1e475e7a9ad371de364a1e1c72ef6ff9ce249f7696",
+        "decoded_sha1": "T6V6D7VIAH3ULANCNB2H26M46F6JJDTD"
+      },
+      "rejected_replay": "_recovery/assets_2017-2020/rejected/V2RKTDRIP27UFVNZ2WQ55WU5A437VDO5/20191029031045_96b1a6e59e36"
+    },
+    {
+      "digest": "Y4T6THLXUAHFJRTYWICYVI2PDUM56CTI",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/twitchstreams.json?1582049392447",
+          "timestamp": "20200218180957",
+          "original": "https://shellshock.io/twitchStreams.json?1582049392447",
+          "mimetype": "application/json",
+          "statuscode": "200",
+          "digest": "Y4T6THLXUAHFJRTYWICYVI2PDUM56CTI"
+        }
+      ],
+      "accepted_as_verified_capture": false,
+      "matching_verified_contents": false,
+      "note": "A matching decoded file does not establish the requested CDX capture digest."
+    },
+    {
+      "digest": "YN35PBMG7DMRV2QKVATTCWWAUA724YV4",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20180817015613",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "YN35PBMG7DMRV2QKVATTCWWAUA724YV4"
+        }
+      ],
+      "accepted_as_verified_capture": false,
+      "matching_verified_contents": true,
+      "note": "A matching decoded file does not establish the requested CDX capture digest.",
+      "observed_replay_sha256": "3157a2a5e4e41aab9c217c7a4586bcd55452942297b59ef38c33f02c6bca8365",
+      "verified_object": "assets_2017-2020/objects/3157a2a5e4e41aab9c217c7a4586bcd55452942297b59ef38c33f02c6bca8365",
+      "verified_capture": {
+        "timestamp": "20180819010902",
+        "original": "https://shellshock.io/",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "WTZF76VBRWFJLXCY3N6AAH2UH3EZW5FK",
+        "replay_url": "https://web.archive.org/web/20180819010902id_/https://shellshock.io/",
+        "final_url": "https://web.archive.org/web/20180819010902id_/https://shellshock.io/",
+        "sha256": "3157a2a5e4e41aab9c217c7a4586bcd55452942297b59ef38c33f02c6bca8365"
+      },
+      "rejected_replay": "_recovery/assets_2017-2020/rejected/YN35PBMG7DMRV2QKVATTCWWAUA724YV4/20180817015613_96b1a6e59e36"
+    }
+  ]
+}

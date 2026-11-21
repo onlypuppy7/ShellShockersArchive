@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>Shell Shockers</title>
+<link rel="icon" type="image/png" href="http://shellshock.io/favicon.png">
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-105800112-1', 'auto');
+	ga('send', 'pageview');
+
+	var languageToServer = {
+		'af': 1, 'sq': 1, 'ar': 1, 'hy': 1, 'as': 1, 'ast': 1,
+		'az': 1, 'eu': 1, 'bg': 1, 'be': 1, 'bn': 1, 'bs': 1,
+		'br': 1, 'bg': 1, 'my': 1, 'ca': 1, 'ch': 1, 'ce': 1,
+		'zh': 1, 'cv': 1, 'co': 1, 'cr': 0, 'hr': 1, 'cs': 1,
+		'da': 1, 'nl': 1, 'en-au': 1, 'en-bz': 0, 'en-ca': 0,
+		'en-le': 1, 'en-jm': 0, 'en-nz': 1, 'en-ph': 1, 'en-za': 1,
+		'en-tt': 0, 'en-gb': 1, 'en-us': 0, 'en-zw': 1, 'eo': 1,
+		'et': 1, 'fo': 1, 'fa': 1, 'fj': 1, 'fi': 1, 'fr-ca': 0,
+		'fr': 1, 'fy': 1, 'fur': 1, 'gd': 1, 'gl': 1, 'ka': 1,
+		'de': 1, 'el': 1, 'gu': 1, 'ht': 0, 'he': 1, 'hi': 1,
+		'hu': 1, 'is': 1, 'id': 1, 'iu': 0, 'ga': 1, 'it': 1,
+		'ja': 1, 'kn': 1, 'ks': 1, 'kk': 1, 'km': 1, 'ky': 1,
+		'tlh': 0, 'ko': 1, 'la': 0, 'lv': 1, 'lt': 1, 'lb': 1,
+		'mk': 1, 'ms': 1, 'ml': 1, 'mt': 1, 'mi': 1, 'mr': 1,
+		'mo': 1, 'nv': 0, 'ng': 1, 'ne': 1, 'no': 1, 'nb': 1,
+		'nn': 1, 'oc': 1, 'or': 1, 'om': 1, 'fa': 1, 'pl': 1,
+		'pt': 1, 'pt-br': 0, 'pa': 1, 'qu': 0, 'rm': 1, 'ro': 1,
+		'ru': 1, 'sz': 1, 'sg': 1, 'sa': 1, 'sc': 1, 'gd': 1,
+		'sd': 1, 'si': 1, 'sr': 1, 'sk': 1, 'sl': 1, 'so': 1,
+		'sb': 1, 'es': 1, 'es-ar': 0, 'es-bo': 0, 'es-cl': 0,
+		'es-co': 0, 'es-cr': 0, 'es-do': 0, 'es-ec': 0, 'es-sv': 0,
+		'es-gt': 0, 'es-hn': 0, 'es-mx': 0, 'es-nl': 0, 'es-pa': 0,
+		'es-py': 0, 'es-pe': 0, 'es-pr': 0, 'es-es': 1, 'es-uy': 0,
+		'es-ve': 0, 'sx': 1, 'sw': 1, 'sv': 1, 'ta': 1, 'tt': 1,
+		'te': 1, 'th': 1, 'tig': 1, 'ts': 1, 'tn': 1, 'tr': 1,
+		'tk': 1, 'uk': 1, 'hsb': 1, 'ur': 1, 've': 1, 'vi': 1,
+		'vo': 1, 'wa': 1, 'cy': 1, 'xh': 1, 'ji': 1, 'zu': 1
+	};
+
+	var serverList = [
+		'http://73.239.154.99:4242',	// United States (Seattle)
+		'http://138.201.129.142:4242'	// Germany
+	];
+
+	function selectServer (i) {
+		localStorage.setItem('defaultServerIdx', i);
+		document.getElementById('GAME_FRAME').src = serverList[i];
+	}
+
+	window.onload = function () {
+		var ls = 1;
+		var language = navigator.language.toLowerCase();
+		if (language) {
+			ls = languageToServer[language];
+			if (!ls) {
+				ls = languageToServer[language.substring(0, 2)];
+			}
+			if (!ls) ls = 1;
+		}
+		var i = localStorage.getItem('defaultServerIdx') || ls;
+		document.getElementById('GAME_FRAME').src = serverList[i];
+	};
+
+	window.onmessage = function (event) {
+	    var data = event.data;
+	    if (typeof(window[data.func]) == "function") {
+	        window[data.func].call(null, data.message);
+	    }
+	};
+</script>
+<style>
+	html, body { margin: 0; padding: 0; }
+</style>
+</head>
+<body>
+
+<iframe id="GAME_FRAME" style="border: 0; width: 100%; height: 100%"></iframe>
+
+</body>
+</html>

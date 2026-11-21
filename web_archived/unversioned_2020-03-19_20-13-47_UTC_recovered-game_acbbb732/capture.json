@@ -1,0 +1,113 @@
+{
+  "folder": "unversioned_2020-03-19_20-13-47_UTC_recovered-game_acbbb732",
+  "version": "unversioned",
+  "version_source": null,
+  "origin_id": "archive_org",
+  "capture_kind": "game_capture",
+  "event": {
+    "timestamp": "20200319201347",
+    "timezone": "UTC"
+  },
+  "files": [
+    {
+      "path": "src/shellshock.min.js",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20200319201347",
+        "original": "https://shellshock.io/src/shellshock.min.js?1584216259",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "WX6I4I22R3PCC5E4LOHXS37DSBELMSDE",
+        "sha256": "6281ec6e38cd1f247fe5968e982651299569d162c3351cb0dc82b0410d824ec0"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/src/shellshock.min.js?1584216259",
+        "timestamp": "20200319201347",
+        "original": "https://shellshock.io/src/shellshock.min.js?1584216259",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "WX6I4I22R3PCC5E4LOHXS37DSBELMSDE",
+        "replay_url": "https://web.archive.org/web/20200319201347id_/https://shellshock.io/src/shellshock.min.js?1584216259",
+        "final_url": "https://web.archive.org/web/20200319201347id_/https://shellshock.io/src/shellshock.min.js?1584216259",
+        "sha256": "6281ec6e38cd1f247fe5968e982651299569d162c3351cb0dc82b0410d824ec0"
+      },
+      "requested_capture": {
+        "timestamp": "20200319201347",
+        "original": "https://shellshock.io/src/shellshock.min.js?1584216259",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "WX6I4I22R3PCC5E4LOHXS37DSBELMSDE"
+      },
+      "exact_event_timestamp": true,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20200319201347",
+          "original": "https://shellshock.io/src/shellshock.min.js?1584216259",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "WX6I4I22R3PCC5E4LOHXS37DSBELMSDE"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "styles/style.css",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20200319201347",
+        "original": "https://shellshock.io/styles/style.css?1584215795",
+        "mimetype": "text/css",
+        "statuscode": "200",
+        "digest": "NI5J7H7D3PAZQGZ2SWXJGHRRMBJJZ7QP",
+        "sha256": "78af259a42dc6ac36271034abc677287ec5855d5cf9fe5546bc84f51e34b1226",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/styles/style.css?1584215795",
+        "timestamp": "20200319201347",
+        "original": "https://shellshock.io/styles/style.css?1584215795",
+        "mimetype": "text/css",
+        "statuscode": "200",
+        "digest": "NI5J7H7D3PAZQGZ2SWXJGHRRMBJJZ7QP",
+        "replay_url": "https://web.archive.org/web/20200319201347id_/https://shellshock.io/styles/style.css?1584215795",
+        "final_url": "https://web.archive.org/web/20200319201347id_/https://shellshock.io/styles/style.css?1584215795",
+        "sha256": "78af259a42dc6ac36271034abc677287ec5855d5cf9fe5546bc84f51e34b1226",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20200319201347",
+        "replay_timestamp_matches_request": true
+      },
+      "requested_capture": {
+        "timestamp": "20200319201347",
+        "original": "https://shellshock.io/styles/style.css?1584215795",
+        "mimetype": "text/css",
+        "statuscode": "200",
+        "digest": "NI5J7H7D3PAZQGZ2SWXJGHRRMBJJZ7QP"
+      },
+      "exact_event_timestamp": true,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20200319201347",
+          "original": "https://shellshock.io/styles/style.css?1584215795",
+          "mimetype": "text/css",
+          "statuscode": "200",
+          "digest": "NI5J7H7D3PAZQGZ2SWXJGHRRMBJJZ7QP"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "missing_scripts": [],
+  "pairing_verified": false,
+  "html_available": false,
+  "channel": null,
+  "version_evidence": null
+}

@@ -1,0 +1,353 @@
+{
+  "status": "download_pass_finished_with_gaps",
+  "updated_utc": "2026-11-12T21:14:06.297919+00:00",
+  "through_date": "2026-11-12",
+  "selected_payload_groups": 11198,
+  "verified_payload_groups": 11181,
+  "downloaded_groups": 11018,
+  "reused_groups": 163,
+  "downloaded_decoded_bytes": 8382672547,
+  "years": {
+    "2021": {
+      "total": 2258,
+      "verified": 2258,
+      "failed": 0,
+      "pending": 0,
+      "percent": 100.0
+    },
+    "2022": {
+      "total": 2287,
+      "verified": 2279,
+      "failed": 8,
+      "pending": 0,
+      "percent": 99.65
+    },
+    "2023": {
+      "total": 4526,
+      "verified": 4525,
+      "failed": 1,
+      "pending": 0,
+      "percent": 99.98
+    },
+    "2024": {
+      "total": 1605,
+      "verified": 1598,
+      "failed": 7,
+      "pending": 0,
+      "percent": 99.56
+    },
+    "2025": {
+      "total": 1041,
+      "verified": 1040,
+      "failed": 1,
+      "pending": 0,
+      "percent": 99.9
+    },
+    "2026": {
+      "total": 496,
+      "verified": 496,
+      "failed": 0,
+      "pending": 0,
+      "percent": 100.0
+    }
+  },
+  "all_selected_groups_have_terminal_outcomes": true,
+  "final_integrity_audit": "passed",
+  "gap_causes": {
+    "Replay redirects to a different capture": 6,
+    "Public replay returns HTTP 404": 3,
+    "Replay returns another indexed digest at the same URL and timestamp": 8
+  },
+  "gaps": [
+    {
+      "digest": "6Y4ZEON74KPS62GCWUO67CHYH5QRDMDX",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20241110190557",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "6Y4ZEON74KPS62GCWUO67CHYH5QRDMDX"
+        }
+      ],
+      "cause": "Replay redirects to a different capture",
+      "requested_utc": "2024-11-10 19:05:57 UTC",
+      "url": "https://shellshock.io/"
+    },
+    {
+      "digest": "B6FFKQWPWLQLXCDDL6C7SYQL7ILCYSNM",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/data/twitchstreams.json?1718931880089",
+          "timestamp": "20241210000737",
+          "original": "https://shellshock.io/data/twitchStreams.json?1718931880089",
+          "mimetype": "application/json",
+          "statuscode": "200",
+          "digest": "B6FFKQWPWLQLXCDDL6C7SYQL7ILCYSNM"
+        }
+      ],
+      "cause": "Public replay returns HTTP 404",
+      "requested_utc": "2024-12-10 00:07:37 UTC",
+      "url": "https://shellshock.io/data/twitchStreams.json?1718931880089"
+    },
+    {
+      "digest": "EHDYZLSXBLOFA5H3MOM7RSA5F7A5UTBS",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20230324174704",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "EHDYZLSXBLOFA5H3MOM7RSA5F7A5UTBS"
+        }
+      ],
+      "cause": "Replay returns another indexed digest at the same URL and timestamp",
+      "requested_utc": "2023-03-24 17:47:04 UTC",
+      "url": "https://shellshock.io/"
+    },
+    {
+      "digest": "ET6LIS5YBIXAWKSHUULB7QA22LRSZX2X",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/data/twitchstreams.json?1731794276475",
+          "timestamp": "20241116215756",
+          "original": "https://shellshock.io/data/twitchStreams.json?1731794276475",
+          "mimetype": "application/json",
+          "statuscode": "200",
+          "digest": "ET6LIS5YBIXAWKSHUULB7QA22LRSZX2X"
+        }
+      ],
+      "cause": "Public replay returns HTTP 404",
+      "requested_utc": "2024-11-16 21:57:56 UTC",
+      "url": "https://shellshock.io/data/twitchStreams.json?1731794276475"
+    },
+    {
+      "digest": "G6MWSQFGE35CYVJ3O7UTJWFCWE4LYPQD",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/twitch",
+          "timestamp": "20220131185030",
+          "original": "https://shellshock.io/twitch",
+          "mimetype": "warc/revisit",
+          "statuscode": "-",
+          "digest": "G6MWSQFGE35CYVJ3O7UTJWFCWE4LYPQD"
+        },
+        {
+          "urlkey": "io,shellshock)/twitch",
+          "timestamp": "20220202002954",
+          "original": "https://shellshock.io/twitch",
+          "mimetype": "warc/revisit",
+          "statuscode": "-",
+          "digest": "G6MWSQFGE35CYVJ3O7UTJWFCWE4LYPQD"
+        }
+      ],
+      "cause": "Replay redirects to a different capture",
+      "requested_utc": "2022-01-31 18:50:30 UTC",
+      "url": "https://shellshock.io/twitch"
+    },
+    {
+      "digest": "GRDJCX3T4FX56ES4PVPLJVVJGYMBF63X",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/data/twitchstreams.json?1732246298386",
+          "timestamp": "20241122033138",
+          "original": "https://shellshock.io/data/twitchStreams.json?1732246298386",
+          "mimetype": "application/json",
+          "statuscode": "200",
+          "digest": "GRDJCX3T4FX56ES4PVPLJVVJGYMBF63X"
+        }
+      ],
+      "cause": "Public replay returns HTTP 404",
+      "requested_utc": "2024-11-22 03:31:38 UTC",
+      "url": "https://shellshock.io/data/twitchStreams.json?1732246298386"
+    },
+    {
+      "digest": "KSLLEQ6XMN22XZRXEFCBAG2DI2E3EIOY",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20221128011133",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "KSLLEQ6XMN22XZRXEFCBAG2DI2E3EIOY"
+        }
+      ],
+      "cause": "Replay returns another indexed digest at the same URL and timestamp",
+      "requested_utc": "2022-11-28 01:11:33 UTC",
+      "url": "https://shellshock.io/"
+    },
+    {
+      "digest": "KZ52HUKCEGESVZIKDBW4BMJPSMNOUYXT",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20221128011133",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "KZ52HUKCEGESVZIKDBW4BMJPSMNOUYXT"
+        }
+      ],
+      "cause": "Replay returns another indexed digest at the same URL and timestamp",
+      "requested_utc": "2022-11-28 01:11:33 UTC",
+      "url": "https://shellshock.io/"
+    },
+    {
+      "digest": "LSPGTCGS6SBU3ZM5GYFUQC5EL6GWT756",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20221128011133",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "LSPGTCGS6SBU3ZM5GYFUQC5EL6GWT756"
+        }
+      ],
+      "cause": "Replay returns another indexed digest at the same URL and timestamp",
+      "requested_utc": "2022-11-28 01:11:33 UTC",
+      "url": "https://shellshock.io/"
+    },
+    {
+      "digest": "QHOQSH4K7WEVVKXO5NLL4WWFZS6QCLZM",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20221128011133",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "QHOQSH4K7WEVVKXO5NLL4WWFZS6QCLZM"
+        }
+      ],
+      "cause": "Replay returns another indexed digest at the same URL and timestamp",
+      "requested_utc": "2022-11-28 01:11:33 UTC",
+      "url": "https://shellshock.io/"
+    },
+    {
+      "digest": "RKP2ZXJJWDRCCQBDEVFGRHMFFAU2IC5M",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20241119022007",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "RKP2ZXJJWDRCCQBDEVFGRHMFFAU2IC5M"
+        }
+      ],
+      "cause": "Replay redirects to a different capture",
+      "requested_utc": "2024-11-19 02:20:07 UTC",
+      "url": "https://shellshock.io/"
+    },
+    {
+      "digest": "SYVFUSLRUKWPPKMFDSTIXVYBE75KEBGH",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20220709002846",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "SYVFUSLRUKWPPKMFDSTIXVYBE75KEBGH"
+        }
+      ],
+      "cause": "Replay returns another indexed digest at the same URL and timestamp",
+      "requested_utc": "2022-07-09 00:28:46 UTC",
+      "url": "https://shellshock.io/"
+    },
+    {
+      "digest": "TLJCF7ALDEDA7AIIQDIOXD5GG7B6PQB5",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20241216010119",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "TLJCF7ALDEDA7AIIQDIOXD5GG7B6PQB5"
+        }
+      ],
+      "cause": "Replay redirects to a different capture",
+      "requested_utc": "2024-12-16 01:01:19 UTC",
+      "url": "https://shellshock.io/"
+    },
+    {
+      "digest": "UGRAQVTG26W4DY2YU2PCSDSWVAR5OZQI",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/privacy.html",
+          "timestamp": "20250618132341",
+          "original": "https://shellshock.io/privacy.html",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "UGRAQVTG26W4DY2YU2PCSDSWVAR5OZQI"
+        }
+      ],
+      "cause": "Replay redirects to a different capture",
+      "requested_utc": "2025-06-18 13:23:41 UTC",
+      "url": "https://shellshock.io/privacy.html"
+    },
+    {
+      "digest": "UNIU6W263RYYQMCU5XKKK26PR3WOKULX",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20221001230937",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "UNIU6W263RYYQMCU5XKKK26PR3WOKULX"
+        }
+      ],
+      "cause": "Replay returns another indexed digest at the same URL and timestamp",
+      "requested_utc": "2022-10-01 23:09:37 UTC",
+      "url": "https://shellshock.io/"
+    },
+    {
+      "digest": "VL2IN6L7HR3SHT22EJNRXEJHN3OSJWX2",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20241122033136",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "VL2IN6L7HR3SHT22EJNRXEJHN3OSJWX2"
+        }
+      ],
+      "cause": "Replay redirects to a different capture",
+      "requested_utc": "2024-11-22 03:31:36 UTC",
+      "url": "https://shellshock.io/"
+    },
+    {
+      "digest": "XV47U26GZD5HOWNYLAC4UCZFWVGKFG2B",
+      "captures": [
+        {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20220328104040",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "XV47U26GZD5HOWNYLAC4UCZFWVGKFG2B"
+        }
+      ],
+      "cause": "Replay returns another indexed digest at the same URL and timestamp",
+      "requested_utc": "2022-03-28 10:40:40 UTC",
+      "url": "https://shellshock.io/"
+    }
+  ],
+  "layout": "Verified 2021–2026 payloads assembled into dated incremental version folders; complete inventories exportable through export_version.py. Recovery cache retained for provenance.",
+  "proofs": "CDX SHA-1 and decoded SHA-256; original encoded bytes retained where required",
+  "evidence": {
+    "inventory": "_recovery/downloads_2021-2026/inventory.json",
+    "results": "_recovery/downloads_2021-2026/results/",
+    "validation": "_recovery/downloads_2021-2026/validation.json",
+    "gap_sources": "_recovery/downloads_2021-2026/gap_source_access.json"
+  },
+  "assembly_status": "complete_with_documented_capture_gaps",
+  "assembly_report": "assembly_report_2021-2026.md"
+}

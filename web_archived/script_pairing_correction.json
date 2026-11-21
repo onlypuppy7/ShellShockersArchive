@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "capture_pairings_corrected": 369,
+  "missing_script_associations": 174,
+  "replaced_payload_associations": 22,
+  "new_script_capture_folders": 101,
+  "snapshots": 1271,
+  "original_unique_payloads": 12204,
+  "preserved_unique_payloads": 12204,
+  "policy": {
+    "time_window_hours": 24,
+    "cachebuster_used_as_release_evidence": false,
+    "release_pairing_verified": false,
+    "raw_responses_retained_at_observed_dates": true
+  },
+  "note": "HTML release labels do not authenticate associated script releases. Missing primary scripts are explicitly omitted; supporting assets remain unverified reconstructions."
+}
