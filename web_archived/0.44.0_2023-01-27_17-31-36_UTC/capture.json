@@ -1,0 +1,230 @@
+{
+  "folder": "0.44.0_2023-01-27_17-31-36_UTC",
+  "version": "0.44.0",
+  "version_source": "javascript",
+  "version_evidence": {
+    "version": "0.44.0",
+    "kind": "game_javascript_changelog",
+    "offset": 2107997,
+    "expression": "version:\"0.44.0\",date:",
+    "original_sha256": "490156dc80ebd94800d845acb18bbb95838707150a9cee0171f38af1a601ea8b",
+    "analyzed_sha256": "490156dc80ebd94800d845acb18bbb95838707150a9cee0171f38af1a601ea8b",
+    "analysis_method": "original plaintext",
+    "path": "js/shellshock.js",
+    "sha256": "490156dc80ebd94800d845acb18bbb95838707150a9cee0171f38af1a601ea8b",
+    "observation": {
+      "timestamp": "20230127194149",
+      "original": "https://shellshock.io/js/shellshock.js?1673909994",
+      "mimetype": "application/javascript",
+      "statuscode": "200",
+      "digest": "H4KS5UF2OU3I52UIW7I2CMU7JPJ7Z2W4"
+    }
+  },
+  "html_version": null,
+  "event": {
+    "urlkey": "io,shellshock)/?gd_sdk_referrer_url=https://www.freepuzzlegames.org/games/shell-shockers/",
+    "timestamp": "20230127173136",
+    "original": "https://www.shellshock.io/?gd_sdk_referrer_url=https://www.freepuzzlegames.org/games/shell-shockers/",
+    "mimetype": "text/html",
+    "statuscode": "200",
+    "digest": "BIG37U5U6D72OOHQSCW3PSBRMQ2PYQLK"
+  },
+  "missing_scripts": [
+    "https://www.shellshock.io/gtm.js"
+  ],
+  "pairing_verified": false,
+  "warning": "Reconstruction from independently captured files. Each selection retains its own date; nearest captures and inferred release labels are unverified.",
+  "files": [
+    {
+      "path": "index.html",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/?gd_sdk_referrer_url=https://www.freepuzzlegames.org/games/shell-shockers/",
+        "timestamp": "20230127173136",
+        "original": "https://www.shellshock.io/?gd_sdk_referrer_url=https://www.freepuzzlegames.org/games/shell-shockers/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "BIG37U5U6D72OOHQSCW3PSBRMQ2PYQLK"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/?gd_sdk_referrer_url=https://www.freepuzzlegames.org/games/shell-shockers/",
+        "timestamp": "20230127173136",
+        "original": "https://www.shellshock.io/?gd_sdk_referrer_url=https://www.freepuzzlegames.org/games/shell-shockers/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "BIG37U5U6D72OOHQSCW3PSBRMQ2PYQLK",
+        "replay_url": "https://web.archive.org/web/20230127173136id_/https://www.shellshock.io/?gd_sdk_referrer_url=https://www.freepuzzlegames.org/games/shell-shockers/",
+        "final_url": "https://web.archive.org/web/20230127173136id_/https://www.shellshock.io/?gd_sdk_referrer_url=https://www.freepuzzlegames.org/games/shell-shockers/",
+        "sha256": "0f8a75fe0fad46dc1a867f37cbe2d22676bf5bb28a302ba59b36c6512b1d1725",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230127173136"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230127173136",
+          "original": "https://www.shellshock.io/?gd_sdk_referrer_url=https://www.freepuzzlegames.org/games/shell-shockers/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "BIG37U5U6D72OOHQSCW3PSBRMQ2PYQLK"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "js/shellshock.js",
+      "origin_id": "archive_org",
+      "source": {
+        "urlkey": "io,shellshock)/js/shellshock.js?1673909994",
+        "timestamp": "20230127194149",
+        "original": "https://shellshock.io/js/shellshock.js?1673909994",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "H4KS5UF2OU3I52UIW7I2CMU7JPJ7Z2W4",
+        "sha256": "490156dc80ebd94800d845acb18bbb95838707150a9cee0171f38af1a601ea8b",
+        "verification": "indexed_capture_digest_matches_verified_payload",
+        "replay_url": "https://web.archive.org/web/20230127194149id_/https://shellshock.io/js/shellshock.js?1673909994",
+        "replay_capture_timestamp": "20230127194149"
+      },
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/shellshock.js?1673909994",
+        "timestamp": "20230127194149",
+        "original": "https://shellshock.io/js/shellshock.js?1673909994",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "H4KS5UF2OU3I52UIW7I2CMU7JPJ7Z2W4"
+      },
+      "exact_event_timestamp": false,
+      "association": "Nearest verified same-path capture within 24 hours, ignoring cachebuster; release pairing unverified",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230127194149",
+          "original": "https://shellshock.io/js/shellshock.js?1673909994",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "H4KS5UF2OU3I52UIW7I2CMU7JPJ7Z2W4"
+        },
+        "offset_seconds": 7813,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "js/vue/vue.min.2.6.10.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20230127194149",
+        "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "SE2B2HI7ST56RPFSB7VH5ETHC3UAANSF"
+      },
+      "source": {
+        "urlkey": "io,shellshock,new)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20221216093150",
+        "original": "https://new.shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "SE2B2HI7ST56RPFSB7VH5ETHC3UAANSF",
+        "replay_url": "https://web.archive.org/web/20221216093150id_/https://new.shellshock.io/js/vue/vue.min.2.6.10.js",
+        "final_url": "https://web.archive.org/web/20221216093150id_/https://new.shellshock.io/js/vue/vue.min.2.6.10.js",
+        "sha256": "72194d152571dd375c4365e5c3b4af9db2c06af0102ced18fcb062597d38be26",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/SE2B2HI7ST56RPFSB7VH5ETHC3UAANSF",
+        "encoded_sha256": "9c2ab05d68d27ca6851eb1c6bb4f96020a6e73938954bc157c0e79d615f84823",
+        "decoded_sha1": "INGN5QLGT4WGY5AGFF5HEEQJG26FN3KS",
+        "replay_capture_timestamp": "20221216093150"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230127194149",
+          "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "SE2B2HI7ST56RPFSB7VH5ETHC3UAANSF"
+        },
+        "offset_seconds": 7813,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "consolidation": {
+    "comparison": "Ignore only Cloudflare rayId in HTML; all other primary bytes compared exactly",
+    "equivalent_captures": [
+      {
+        "folder": "0.44.0_2023-01-27_17-31-36_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?gd_sdk_referrer_url=https://www.freepuzzlegames.org/games/shell-shockers/",
+          "timestamp": "20230127173136",
+          "original": "https://www.shellshock.io/?gd_sdk_referrer_url=https://www.freepuzzlegames.org/games/shell-shockers/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "BIG37U5U6D72OOHQSCW3PSBRMQ2PYQLK"
+        }
+      },
+      {
+        "folder": "0.44.0_2023-01-27_17-53-06_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?gd_sdk_referrer_url=https://www.mzbox.com/games/shell-shockers/",
+          "timestamp": "20230127175306",
+          "original": "https://www.shellshock.io/?gd_sdk_referrer_url=https://www.mzbox.com/games/shell-shockers/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "FAL6HRLD2SBTL4PGIREOVEBXRQXSFT3C"
+        }
+      }
+    ],
+    "warning": "Union preserves distinct assets and original HTML variants; it does not assert simultaneous historical availability"
+  },
+  "origin_id": "archive_org",
+  "origins_catalog": "origins.json (archive root; included in exports)",
+  "javascript_release_version_verified": false,
+  "version_scope": "Version declared by the observed game script only; simultaneous HTML/resource membership is unverified.",
+  "game_script_pairing": {
+    "max_gap_seconds": 86400,
+    "cachebuster_used_as_release_evidence": false,
+    "missing": [],
+    "associations": [
+      {
+        "path": "js/shellshock.js",
+        "script_timestamp": "20230127194149",
+        "pairing_verified": false
+      }
+    ]
+  },
+  "version_audit": {
+    "declarations": [
+      {
+        "version": "0.44.0",
+        "kind": "game_javascript_changelog",
+        "offset": 2107997,
+        "expression": "version:\"0.44.0\",date:",
+        "original_sha256": "490156dc80ebd94800d845acb18bbb95838707150a9cee0171f38af1a601ea8b",
+        "analyzed_sha256": "490156dc80ebd94800d845acb18bbb95838707150a9cee0171f38af1a601ea8b",
+        "analysis_method": "original plaintext",
+        "path": "js/shellshock.js",
+        "sha256": "490156dc80ebd94800d845acb18bbb95838707150a9cee0171f38af1a601ea8b",
+        "observation": {
+          "timestamp": "20230127194149",
+          "original": "https://shellshock.io/js/shellshock.js?1673909994",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "H4KS5UF2OU3I52UIW7I2CMU7JPJ7Z2W4"
+        }
+      }
+    ],
+    "release_membership_verified": false
+  }
+}

@@ -1,0 +1,3419 @@
+{
+  "folder": "0.44.0_2023-01-27_19-41-49_UTC",
+  "event_timestamp": "20230127194149",
+  "files": [
+    {
+      "path": "language/en.json",
+      "sha256": "d7b78cf693c442d981f11e582b08bf3dda4e354b293e5c2714ca9bed353cf41e",
+      "digest": "KZBS3L62IYD36TT24YYNJFYZ2RSHZGYD",
+      "object": "_recovery/bodies/asset_KZBS3L62IYD36TT24YYNJFYZ2RSHZGYD",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/language/en.json?0.44.0",
+        "timestamp": "20230122020729",
+        "original": "https://shellshock.io/language/en.json?0.44.0",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "KZBS3L62IYD36TT24YYNJFYZ2RSHZGYD"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/language/en.json?0.44.0",
+        "timestamp": "20230122020729",
+        "original": "https://shellshock.io/language/en.json?0.44.0",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "KZBS3L62IYD36TT24YYNJFYZ2RSHZGYD",
+        "replay_url": "https://web.archive.org/web/20230122020729id_/https://shellshock.io/language/en.json?0.44.0",
+        "final_url": "https://web.archive.org/web/20230122020729id_/https://shellshock.io/language/en.json?0.44.0",
+        "sha256": "d7b78cf693c442d981f11e582b08bf3dda4e354b293e5c2714ca9bed353cf41e",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/KZBS3L62IYD36TT24YYNJFYZ2RSHZGYD",
+        "encoded_sha256": "211d10106f85e71891d9118ed575d9481ce54c64879b1c22858fb7acc83e8718",
+        "decoded_sha1": "JOJRRUGEL77VJQ2ZMB2UDXAB3E22DXCR",
+        "replay_capture_timestamp": "20230122020729"
+      },
+      "integration": "remaining_references_v1",
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230127194150",
+          "original": "https://shellshock.io/language/en.json?0.44.0",
+          "mimetype": "application/json",
+          "statuscode": "200",
+          "digest": "KZBS3L62IYD36TT24YYNJFYZ2RSHZGYD"
+        },
+        "offset_seconds": 1,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "img/ico_goldenEgg.png",
+      "sha256": "9bc493724fbc4c37c524b9bb01e40df75b7250e7e61e2424823305e301ed9d6b",
+      "digest": "E53UQ4O5SM6TWYJ73GHZDI7Q2RPWOB67",
+      "object": "_recovery/bodies/20191023091310_b83e9e459f7844c5",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/ico_goldenegg.png",
+        "timestamp": "20230122020730",
+        "original": "https://shellshock.io/img/ico_goldenEgg.png",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "E53UQ4O5SM6TWYJ73GHZDI7Q2RPWOB67"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/img/ico_goldenegg.png",
+        "timestamp": "20191023091310",
+        "original": "https://shellshock.io/img/ico_goldenEgg.png",
+        "mimetype": "image/png",
+        "statuscode": "200",
+        "digest": "E53UQ4O5SM6TWYJ73GHZDI7Q2RPWOB67",
+        "replay_url": "https://web.archive.org/web/20191023091310id_/https://shellshock.io/img/ico_goldenEgg.png",
+        "final_url": "https://web.archive.org/web/20191023091310id_/https://shellshock.io/img/ico_goldenEgg.png",
+        "sha256": "9bc493724fbc4c37c524b9bb01e40df75b7250e7e61e2424823305e301ed9d6b"
+      },
+      "integration": "remaining_references_v1",
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230127194150",
+          "original": "https://shellshock.io/img/ico_goldenEgg.png",
+          "mimetype": "warc/revisit",
+          "statuscode": "-",
+          "digest": "E53UQ4O5SM6TWYJ73GHZDI7Q2RPWOB67"
+        },
+        "offset_seconds": 1,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "img/ico_grenadeEmpty.png",
+      "sha256": "833512d7323dfa598388f61ca00aa0a907c744c80490337f17407313d49fd001",
+      "digest": "2YI3NIZAURINNUXTHWL2XKIPJK2NPZAS",
+      "object": "_recovery/bodies/20191030193503_ab55fc5c5c3cb26a",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/ico_grenadeempty.png?v=1",
+        "timestamp": "20230122020732",
+        "original": "https://shellshock.io/img/ico_grenadeEmpty.png?v=1",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "2YI3NIZAURINNUXTHWL2XKIPJK2NPZAS"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/img/ico_grenadeempty.png?v=1",
+        "timestamp": "20191030193503",
+        "original": "https://www.shellshock.io/img/ico_grenadeEmpty.png?v=1",
+        "mimetype": "image/png",
+        "statuscode": "200",
+        "digest": "2YI3NIZAURINNUXTHWL2XKIPJK2NPZAS",
+        "replay_url": "https://web.archive.org/web/20191030193503id_/https://www.shellshock.io/img/ico_grenadeEmpty.png?v=1",
+        "final_url": "https://web.archive.org/web/20191030193503id_/https://www.shellshock.io/img/ico_grenadeEmpty.png?v=1",
+        "sha256": "833512d7323dfa598388f61ca00aa0a907c744c80490337f17407313d49fd001"
+      },
+      "integration": "remaining_references_v1",
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230127194151",
+          "original": "https://shellshock.io/img/ico_grenadeEmpty.png?v=1",
+          "mimetype": "warc/revisit",
+          "statuscode": "-",
+          "digest": "2YI3NIZAURINNUXTHWL2XKIPJK2NPZAS"
+        },
+        "offset_seconds": 2,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "img/stamps.png",
+      "sha256": "a0197779b33f7b3cacb57cee1afb69fd10845b3582b819499b68ee110bcd7efb",
+      "digest": "WPIQQ6XSW62KKWH36BG6NM6XIS6C5OYQ",
+      "object": "_recovery/bodies/asset_WPIQQ6XSW62KKWH36BG6NM6XIS6C5OYQ",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/stamps.png?v=0.44.0",
+        "timestamp": "20230122020732",
+        "original": "https://shellshock.io/img/stamps.png?v=0.44.0",
+        "mimetype": "image/png",
+        "statuscode": "200",
+        "digest": "WPIQQ6XSW62KKWH36BG6NM6XIS6C5OYQ"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/img/stamps.png?v=0.44.0",
+        "timestamp": "20230122020732",
+        "original": "https://shellshock.io/img/stamps.png?v=0.44.0",
+        "mimetype": "image/png",
+        "statuscode": "200",
+        "digest": "WPIQQ6XSW62KKWH36BG6NM6XIS6C5OYQ",
+        "replay_url": "https://web.archive.org/web/20230122020732id_/https://shellshock.io/img/stamps.png?v=0.44.0",
+        "final_url": "https://web.archive.org/web/20230122020732id_/https://shellshock.io/img/stamps.png?v=0.44.0",
+        "sha256": "a0197779b33f7b3cacb57cee1afb69fd10845b3582b819499b68ee110bcd7efb",
+        "verification": "cdx_sha1_plain",
+        "replay_capture_timestamp": "20230122020732"
+      },
+      "integration": "remaining_references_v1",
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230127194151",
+          "original": "https://shellshock.io/img/stamps.png?v=0.44.0",
+          "mimetype": "warc/revisit",
+          "statuscode": "-",
+          "digest": "WPIQQ6XSW62KKWH36BG6NM6XIS6C5OYQ"
+        },
+        "offset_seconds": 2,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "sound/sounds.json",
+      "sha256": "eee86bc0491e0bafb3518b774562a5460bf91ac72d8704309ebd8d3dd7defc22",
+      "digest": "3BNIDUOKIP22GX74E44IGDGYRIIRGNZY",
+      "object": "_recovery/bodies/asset_3BNIDUOKIP22GX74E44IGDGYRIIRGNZY",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/sound/sounds.json?0.44.0",
+        "timestamp": "20230122020732",
+        "original": "https://shellshock.io/sound/sounds.json?0.44.0",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "3BNIDUOKIP22GX74E44IGDGYRIIRGNZY"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/sound/sounds.json?0.44.0",
+        "timestamp": "20230122020732",
+        "original": "https://shellshock.io/sound/sounds.json?0.44.0",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "3BNIDUOKIP22GX74E44IGDGYRIIRGNZY",
+        "replay_url": "https://web.archive.org/web/20230122020732id_/https://shellshock.io/sound/sounds.json?0.44.0",
+        "final_url": "https://web.archive.org/web/20230122020732id_/https://shellshock.io/sound/sounds.json?0.44.0",
+        "sha256": "eee86bc0491e0bafb3518b774562a5460bf91ac72d8704309ebd8d3dd7defc22",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/3BNIDUOKIP22GX74E44IGDGYRIIRGNZY",
+        "encoded_sha256": "6b846b1e4bf477aab0bd3b14bbe63d5ec732aa476fe868f78e3a489c904c6229",
+        "decoded_sha1": "G4UUJOMPLFOA3VC342HQUBMCQNTZGX4E",
+        "replay_capture_timestamp": "20230122020732"
+      },
+      "integration": "remaining_references_v1",
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230127194151",
+          "original": "https://shellshock.io/sound/sounds.json?0.44.0",
+          "mimetype": "warc/revisit",
+          "statuscode": "-",
+          "digest": "3BNIDUOKIP22GX74E44IGDGYRIIRGNZY"
+        },
+        "offset_seconds": 2,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "sound/sounds.webm",
+      "sha256": "a335c343600f87c21af39ccc86a95a9f48ffe5624d6cd1e3d0972e6d66ed6771",
+      "digest": "HCLIMUIV2SM7LAWADCO6PD527ZE62KDQ",
+      "object": "_recovery/bodies/asset_HCLIMUIV2SM7LAWADCO6PD527ZE62KDQ",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/sound/sounds.webm?0.44.0",
+        "timestamp": "20230122020734",
+        "original": "https://shellshock.io/sound/sounds.webm?0.44.0",
+        "mimetype": "video/webm",
+        "statuscode": "200",
+        "digest": "HCLIMUIV2SM7LAWADCO6PD527ZE62KDQ"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/sound/sounds.webm?0.44.0",
+        "timestamp": "20230122020734",
+        "original": "https://shellshock.io/sound/sounds.webm?0.44.0",
+        "mimetype": "video/webm",
+        "statuscode": "200",
+        "digest": "HCLIMUIV2SM7LAWADCO6PD527ZE62KDQ",
+        "replay_url": "https://web.archive.org/web/20230122020734id_/https://shellshock.io/sound/sounds.webm?0.44.0",
+        "final_url": "https://web.archive.org/web/20230122020734id_/https://shellshock.io/sound/sounds.webm?0.44.0",
+        "sha256": "a335c343600f87c21af39ccc86a95a9f48ffe5624d6cd1e3d0972e6d66ed6771",
+        "verification": "cdx_sha1_plain",
+        "replay_capture_timestamp": "20230122020734"
+      },
+      "integration": "remaining_references_v1",
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230127194151",
+          "original": "https://shellshock.io/sound/sounds.webm?0.44.0",
+          "mimetype": "warc/revisit",
+          "statuscode": "-",
+          "digest": "HCLIMUIV2SM7LAWADCO6PD527ZE62KDQ"
+        },
+        "offset_seconds": 2,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "models/munitions.babylon",
+      "sha256": "6d898328f5952014087841bd74db66cee531ca07763441374d5f93498d8ecb04",
+      "digest": "H3HE2QAIQJA3JFQ5SJ6PH4HHXMSAUYIO",
+      "object": "_recovery/bodies/asset_H3HE2QAIQJA3JFQ5SJ6PH4HHXMSAUYIO",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/models/munitions.babylon?1674848513423",
+        "timestamp": "20230127194154",
+        "original": "https://shellshock.io/models/munitions.babylon?1674848513423",
+        "mimetype": "application/babylon",
+        "statuscode": "200",
+        "digest": "H3HE2QAIQJA3JFQ5SJ6PH4HHXMSAUYIO"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/models/munitions.babylon?1674848513423",
+        "timestamp": "20230127194154",
+        "original": "https://shellshock.io/models/munitions.babylon?1674848513423",
+        "mimetype": "application/babylon",
+        "statuscode": "200",
+        "digest": "H3HE2QAIQJA3JFQ5SJ6PH4HHXMSAUYIO",
+        "replay_url": "https://web.archive.org/web/20230127194154id_/https://shellshock.io/models/munitions.babylon?1674848513423",
+        "final_url": "https://web.archive.org/web/20230127194154id_/https://shellshock.io/models/munitions.babylon?1674848513423",
+        "sha256": "6d898328f5952014087841bd74db66cee531ca07763441374d5f93498d8ecb04",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/H3HE2QAIQJA3JFQ5SJ6PH4HHXMSAUYIO",
+        "encoded_sha256": "dfb8640efbb1f78cebb5c0448a5181c142e057e024fc2921a058d001f593d03a",
+        "decoded_sha1": "2CGHVH5NACYSXTXGGXK4QZG34ZWFMKWS",
+        "replay_capture_timestamp": "20230127194154"
+      },
+      "integration": "indexed_capture_preservation",
+      "pairing_verified": false,
+      "association": "Nearest dated snapshot; no reference relationship asserted",
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230127194154",
+          "original": "https://shellshock.io/models/munitions.babylon?1674848513423",
+          "mimetype": "application/babylon",
+          "statuscode": "200",
+          "digest": "H3HE2QAIQJA3JFQ5SJ6PH4HHXMSAUYIO"
+        },
+        "offset_seconds": 5,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "models/gun_aug.babylon",
+      "sha256": "6040fef8b8bdb869cbe63b5eb26f3050e1b2c46c721ce1a550167f01ad9a48b2",
+      "digest": "FCIV5QIIL7AXL2MEZRGKNUAZTYUIFYWO",
+      "object": "_recovery/bodies/asset_FCIV5QIIL7AXL2MEZRGKNUAZTYUIFYWO",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/models/gun_aug.babylon?1674848513549",
+        "timestamp": "20230127194155",
+        "original": "https://shellshock.io/models/gun_aug.babylon?1674848513549",
+        "mimetype": "application/babylon",
+        "statuscode": "200",
+        "digest": "FCIV5QIIL7AXL2MEZRGKNUAZTYUIFYWO"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/models/gun_aug.babylon?1674848513549",
+        "timestamp": "20230127194155",
+        "original": "https://shellshock.io/models/gun_aug.babylon?1674848513549",
+        "mimetype": "application/babylon",
+        "statuscode": "200",
+        "digest": "FCIV5QIIL7AXL2MEZRGKNUAZTYUIFYWO",
+        "replay_url": "https://web.archive.org/web/20230127194155id_/https://shellshock.io/models/gun_aug.babylon?1674848513549",
+        "final_url": "https://web.archive.org/web/20230127194155id_/https://shellshock.io/models/gun_aug.babylon?1674848513549",
+        "sha256": "6040fef8b8bdb869cbe63b5eb26f3050e1b2c46c721ce1a550167f01ad9a48b2",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/FCIV5QIIL7AXL2MEZRGKNUAZTYUIFYWO",
+        "encoded_sha256": "bb47bb7027947c14c7368345b8a12864f2a91fd0226cb5dc7552efb0d961656e",
+        "decoded_sha1": "VHYR6WXCRE7ZJCM6MFP66GKW3XQCQVQG",
+        "replay_capture_timestamp": "20230127194155"
+      },
+      "integration": "indexed_capture_preservation",
+      "pairing_verified": false,
+      "association": "Nearest dated snapshot; no reference relationship asserted",
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230127194155",
+          "original": "https://shellshock.io/models/gun_aug.babylon?1674848513549",
+          "mimetype": "application/babylon",
+          "statuscode": "200",
+          "digest": "FCIV5QIIL7AXL2MEZRGKNUAZTYUIFYWO"
+        },
+        "offset_seconds": 6,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "models/melee.babylon",
+      "sha256": "a88bd4c9d27dce66cf94f72c36ad7a5b0181b8438ee5fee468bdb9c5840ecd0e",
+      "digest": "GS57TBTNLY7TUHIASBXP43UQFAJU4SG7",
+      "object": "_recovery/bodies/asset_GS57TBTNLY7TUHIASBXP43UQFAJU4SG7",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/models/melee.babylon?1674848513576",
+        "timestamp": "20230127194155",
+        "original": "https://shellshock.io/models/melee.babylon?1674848513576",
+        "mimetype": "application/babylon",
+        "statuscode": "200",
+        "digest": "GS57TBTNLY7TUHIASBXP43UQFAJU4SG7"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/models/melee.babylon?1674848513576",
+        "timestamp": "20230127194155",
+        "original": "https://shellshock.io/models/melee.babylon?1674848513576",
+        "mimetype": "application/babylon",
+        "statuscode": "200",
+        "digest": "GS57TBTNLY7TUHIASBXP43UQFAJU4SG7",
+        "replay_url": "https://web.archive.org/web/20230127194155id_/https://shellshock.io/models/melee.babylon?1674848513576",
+        "final_url": "https://web.archive.org/web/20230127194155id_/https://shellshock.io/models/melee.babylon?1674848513576",
+        "sha256": "a88bd4c9d27dce66cf94f72c36ad7a5b0181b8438ee5fee468bdb9c5840ecd0e",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/GS57TBTNLY7TUHIASBXP43UQFAJU4SG7",
+        "encoded_sha256": "72824088e9359037eb44e523a0e46b4361ba3a922e3af8c1e359e6c21b5761d9",
+        "decoded_sha1": "25QHULKA5JAYVUIGW77MMBXKYST6H322",
+        "replay_capture_timestamp": "20230127194155"
+      },
+      "integration": "indexed_capture_preservation",
+      "pairing_verified": false,
+      "association": "Nearest dated snapshot; no reference relationship asserted",
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230127194155",
+          "original": "https://shellshock.io/models/melee.babylon?1674848513576",
+          "mimetype": "application/babylon",
+          "statuscode": "200",
+          "digest": "GS57TBTNLY7TUHIASBXP43UQFAJU4SG7"
+        },
+        "offset_seconds": 6,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "models/map.babylon",
+      "sha256": "3ce1f6cd879439e840a61c0b89609e4b8df666a16dc2813636a0c8621868d304",
+      "digest": "JSYWC4LS5L2QZGDVFURWHHPPYNB26IJA",
+      "object": "_recovery/bodies/asset_JSYWC4LS5L2QZGDVFURWHHPPYNB26IJA",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/models/map.babylon?1674848519630",
+        "timestamp": "20230127194159",
+        "original": "https://shellshock.io/models/map.babylon?1674848519630",
+        "mimetype": "application/babylon",
+        "statuscode": "200",
+        "digest": "JSYWC4LS5L2QZGDVFURWHHPPYNB26IJA"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/models/map.babylon?1674848519630",
+        "timestamp": "20230127194159",
+        "original": "https://shellshock.io/models/map.babylon?1674848519630",
+        "mimetype": "application/babylon",
+        "statuscode": "200",
+        "digest": "JSYWC4LS5L2QZGDVFURWHHPPYNB26IJA",
+        "replay_url": "https://web.archive.org/web/20230127194159id_/https://shellshock.io/models/map.babylon?1674848519630",
+        "final_url": "https://web.archive.org/web/20230127194159id_/https://shellshock.io/models/map.babylon?1674848519630",
+        "sha256": "3ce1f6cd879439e840a61c0b89609e4b8df666a16dc2813636a0c8621868d304",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/JSYWC4LS5L2QZGDVFURWHHPPYNB26IJA",
+        "encoded_sha256": "d5826cf3acf622286b20f483be4173b5f1f407824cb5a3f8f4de16d94006fac4",
+        "decoded_sha1": "ORWCY7OKSPC5K2DAWQK7SRME2CNRCQZK",
+        "replay_capture_timestamp": "20230127194159"
+      },
+      "integration": "indexed_capture_preservation",
+      "pairing_verified": false,
+      "association": "Nearest dated snapshot; no reference relationship asserted",
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230127194159",
+          "original": "https://shellshock.io/models/map.babylon?1674848519630",
+          "mimetype": "application/babylon",
+          "statuscode": "200",
+          "digest": "JSYWC4LS5L2QZGDVFURWHHPPYNB26IJA"
+        },
+        "offset_seconds": 10,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "_capture_variants/c7bc19f789a967ec/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230128150535",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PXG3DXLOLYCJY37ZEVGRY4SLJWYCHVB6",
+        "sha256": "c7bc19f789a967ec1bbe2af019669233986c5bd49f5fb159857f1a4c7699d4ea",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20230128150535",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PXG3DXLOLYCJY37ZEVGRY4SLJWYCHVB6",
+        "replay_url": "https://web.archive.org/web/20230128150535id_/https://shellshock.io/",
+        "final_url": "https://web.archive.org/web/20230128150535id_/https://shellshock.io/",
+        "sha256": "c7bc19f789a967ec1bbe2af019669233986c5bd49f5fb159857f1a4c7699d4ea",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230128150535"
+      },
+      "requested_capture": {
+        "timestamp": "20230128150535",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PXG3DXLOLYCJY37ZEVGRY4SLJWYCHVB6"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230128150535",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "PXG3DXLOLYCJY37ZEVGRY4SLJWYCHVB6"
+        },
+        "offset_seconds": 69826,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_asset_alternatives/58c69b9846160772/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130200055",
+        "original": "https://shellshock.io/?timestamp=1675106462&countryCode=it&siteid=88&channelid=1&siteLocale=it&locale=it",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "CZNKVTXQC4RMEC3TNET7C4XXJEIVJ3DY",
+        "sha256": "58c69b9846160772c42e53aaed7724106712b686f4cf62df15beba713e115762",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=it&locale=it&siteid=88&sitelocale=it&timestamp=1675106462",
+        "timestamp": "20230130200055",
+        "original": "https://shellshock.io/?timestamp=1675106462&countryCode=it&siteid=88&channelid=1&siteLocale=it&locale=it",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "CZNKVTXQC4RMEC3TNET7C4XXJEIVJ3DY",
+        "replay_url": "https://web.archive.org/web/20230130200055id_/https://shellshock.io/?timestamp=1675106462&countryCode=it&siteid=88&channelid=1&siteLocale=it&locale=it",
+        "final_url": "https://web.archive.org/web/20230130200055id_/https://shellshock.io/?timestamp=1675106462&countryCode=it&siteid=88&channelid=1&siteLocale=it&locale=it",
+        "sha256": "58c69b9846160772c42e53aaed7724106712b686f4cf62df15beba713e115762",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130200055"
+      },
+      "requested_capture": {
+        "timestamp": "20230130200055",
+        "original": "https://shellshock.io/?timestamp=1675106462&countryCode=it&siteid=88&channelid=1&siteLocale=it&locale=it",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "CZNKVTXQC4RMEC3TNET7C4XXJEIVJ3DY"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130200055",
+          "original": "https://shellshock.io/?timestamp=1675106462&countryCode=it&siteid=88&channelid=1&siteLocale=it&locale=it",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "CZNKVTXQC4RMEC3TNET7C4XXJEIVJ3DY"
+        },
+        "offset_seconds": 260346,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/58c69b9846160772/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130200055",
+        "original": "https://shellshock.io/?timestamp=1675106462&countryCode=it&siteid=88&channelid=1&siteLocale=it&locale=it",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "CZNKVTXQC4RMEC3TNET7C4XXJEIVJ3DY",
+        "sha256": "58c69b9846160772c42e53aaed7724106712b686f4cf62df15beba713e115762",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=it&locale=it&siteid=88&sitelocale=it&timestamp=1675106462",
+        "timestamp": "20230130200055",
+        "original": "https://shellshock.io/?timestamp=1675106462&countryCode=it&siteid=88&channelid=1&siteLocale=it&locale=it",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "CZNKVTXQC4RMEC3TNET7C4XXJEIVJ3DY",
+        "replay_url": "https://web.archive.org/web/20230130200055id_/https://shellshock.io/?timestamp=1675106462&countryCode=it&siteid=88&channelid=1&siteLocale=it&locale=it",
+        "final_url": "https://web.archive.org/web/20230130200055id_/https://shellshock.io/?timestamp=1675106462&countryCode=it&siteid=88&channelid=1&siteLocale=it&locale=it",
+        "sha256": "58c69b9846160772c42e53aaed7724106712b686f4cf62df15beba713e115762",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130200055"
+      },
+      "requested_capture": {
+        "timestamp": "20230130200055",
+        "original": "https://shellshock.io/?timestamp=1675106462&countryCode=it&siteid=88&channelid=1&siteLocale=it&locale=it",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "CZNKVTXQC4RMEC3TNET7C4XXJEIVJ3DY"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130200055",
+          "original": "https://shellshock.io/?timestamp=1675106462&countryCode=it&siteid=88&channelid=1&siteLocale=it&locale=it",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "CZNKVTXQC4RMEC3TNET7C4XXJEIVJ3DY"
+        },
+        "offset_seconds": 260346,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/ef8e29ba120d2c10/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130200105",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "GV3YQCI7UIZTYNY6353QJ2WFICO2SWJT",
+        "sha256": "ef8e29ba120d2c105f8b11d62a7e0a14ef74b3a64428326467bc7666173198c5",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20230130200105",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "GV3YQCI7UIZTYNY6353QJ2WFICO2SWJT",
+        "replay_url": "https://web.archive.org/web/20230130200105id_/https://shellshock.io/",
+        "final_url": "https://web.archive.org/web/20230130200105id_/https://shellshock.io/",
+        "sha256": "ef8e29ba120d2c105f8b11d62a7e0a14ef74b3a64428326467bc7666173198c5",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130200105"
+      },
+      "requested_capture": {
+        "timestamp": "20230130200105",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "GV3YQCI7UIZTYNY6353QJ2WFICO2SWJT"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130200105",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "GV3YQCI7UIZTYNY6353QJ2WFICO2SWJT"
+        },
+        "offset_seconds": 260356,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/71275e07d796a0ab/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130200107",
+        "original": "https://shellshock.io/?timestamp=1675106464&countryCode=pl&siteid=88&channelid=1&siteLocale=pl&locale=pl",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "K2QNHTGCHUUM4NBK5T73YAY55GXLEF6Y",
+        "sha256": "71275e07d796a0abd6eda74e5d588bd19896339bbe0dd53f61b9793eba008c3a",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=pl&locale=pl&siteid=88&sitelocale=pl&timestamp=1675106464",
+        "timestamp": "20230130200107",
+        "original": "https://shellshock.io/?timestamp=1675106464&countryCode=pl&siteid=88&channelid=1&siteLocale=pl&locale=pl",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "K2QNHTGCHUUM4NBK5T73YAY55GXLEF6Y",
+        "replay_url": "https://web.archive.org/web/20230130200107id_/https://shellshock.io/?timestamp=1675106464&countryCode=pl&siteid=88&channelid=1&siteLocale=pl&locale=pl",
+        "final_url": "https://web.archive.org/web/20230130200107id_/https://shellshock.io/?timestamp=1675106464&countryCode=pl&siteid=88&channelid=1&siteLocale=pl&locale=pl",
+        "sha256": "71275e07d796a0abd6eda74e5d588bd19896339bbe0dd53f61b9793eba008c3a",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130200107"
+      },
+      "requested_capture": {
+        "timestamp": "20230130200107",
+        "original": "https://shellshock.io/?timestamp=1675106464&countryCode=pl&siteid=88&channelid=1&siteLocale=pl&locale=pl",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "K2QNHTGCHUUM4NBK5T73YAY55GXLEF6Y"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130200107",
+          "original": "https://shellshock.io/?timestamp=1675106464&countryCode=pl&siteid=88&channelid=1&siteLocale=pl&locale=pl",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "K2QNHTGCHUUM4NBK5T73YAY55GXLEF6Y"
+        },
+        "offset_seconds": 260358,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/1b48ff0ef2315040/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130200108",
+        "original": "https://shellshock.io/?timestamp=1675106464&countryCode=es&siteid=88&channelid=1&siteLocale=es&locale=es",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "IL7PHDB37ZTFJEUENMZ4G5VNK3EU553D",
+        "sha256": "1b48ff0ef231504016ecf0b083667ec1ce6b65fe35a925e907e15e612a6f84b6",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=es&locale=es&siteid=88&sitelocale=es&timestamp=1675106464",
+        "timestamp": "20230130200108",
+        "original": "https://shellshock.io/?timestamp=1675106464&countryCode=es&siteid=88&channelid=1&siteLocale=es&locale=es",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "IL7PHDB37ZTFJEUENMZ4G5VNK3EU553D",
+        "replay_url": "https://web.archive.org/web/20230130200108id_/https://shellshock.io/?timestamp=1675106464&countryCode=es&siteid=88&channelid=1&siteLocale=es&locale=es",
+        "final_url": "https://web.archive.org/web/20230130200108id_/https://shellshock.io/?timestamp=1675106464&countryCode=es&siteid=88&channelid=1&siteLocale=es&locale=es",
+        "sha256": "1b48ff0ef231504016ecf0b083667ec1ce6b65fe35a925e907e15e612a6f84b6",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130200108"
+      },
+      "requested_capture": {
+        "timestamp": "20230130200108",
+        "original": "https://shellshock.io/?timestamp=1675106464&countryCode=es&siteid=88&channelid=1&siteLocale=es&locale=es",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "IL7PHDB37ZTFJEUENMZ4G5VNK3EU553D"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130200108",
+          "original": "https://shellshock.io/?timestamp=1675106464&countryCode=es&siteid=88&channelid=1&siteLocale=es&locale=es",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "IL7PHDB37ZTFJEUENMZ4G5VNK3EU553D"
+        },
+        "offset_seconds": 260359,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/bf9773e2c9d2dd5e/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130200110",
+        "original": "https://shellshock.io/?timestamp=1675106464&countryCode=tr&siteid=88&channelid=1&siteLocale=tr&locale=tr",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PSSCNBGER2CQAYTHSQGPB7AQLXXVPDPR",
+        "sha256": "bf9773e2c9d2dd5ec053cdd29d101673eca1ec0166d6b62e835ee029f08255df",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=tr&locale=tr&siteid=88&sitelocale=tr&timestamp=1675106464",
+        "timestamp": "20230130200110",
+        "original": "https://shellshock.io/?timestamp=1675106464&countryCode=tr&siteid=88&channelid=1&siteLocale=tr&locale=tr",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PSSCNBGER2CQAYTHSQGPB7AQLXXVPDPR",
+        "replay_url": "https://web.archive.org/web/20230130200110id_/https://shellshock.io/?timestamp=1675106464&countryCode=tr&siteid=88&channelid=1&siteLocale=tr&locale=tr",
+        "final_url": "https://web.archive.org/web/20230130200110id_/https://shellshock.io/?timestamp=1675106464&countryCode=tr&siteid=88&channelid=1&siteLocale=tr&locale=tr",
+        "sha256": "bf9773e2c9d2dd5ec053cdd29d101673eca1ec0166d6b62e835ee029f08255df",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130200110"
+      },
+      "requested_capture": {
+        "timestamp": "20230130200110",
+        "original": "https://shellshock.io/?timestamp=1675106464&countryCode=tr&siteid=88&channelid=1&siteLocale=tr&locale=tr",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PSSCNBGER2CQAYTHSQGPB7AQLXXVPDPR"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130200110",
+          "original": "https://shellshock.io/?timestamp=1675106464&countryCode=tr&siteid=88&channelid=1&siteLocale=tr&locale=tr",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "PSSCNBGER2CQAYTHSQGPB7AQLXXVPDPR"
+        },
+        "offset_seconds": 260361,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/a0693ac026618e93/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130200111",
+        "original": "https://shellshock.io/?timestamp=1675106464&countryCode=de&siteid=88&channelid=1&siteLocale=de&locale=de",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4FJKPTURX7ZQYAFCCLW2E6RYJEWSYF5N",
+        "sha256": "a0693ac026618e93d3f060c565172003b21b18179e0ecdfec6fa9fbb5fd82bb5",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=de&locale=de&siteid=88&sitelocale=de&timestamp=1675106464",
+        "timestamp": "20230130200111",
+        "original": "https://shellshock.io/?timestamp=1675106464&countryCode=de&siteid=88&channelid=1&siteLocale=de&locale=de",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4FJKPTURX7ZQYAFCCLW2E6RYJEWSYF5N",
+        "replay_url": "https://web.archive.org/web/20230130200111id_/https://shellshock.io/?timestamp=1675106464&countryCode=de&siteid=88&channelid=1&siteLocale=de&locale=de",
+        "final_url": "https://web.archive.org/web/20230130200111id_/https://shellshock.io/?timestamp=1675106464&countryCode=de&siteid=88&channelid=1&siteLocale=de&locale=de",
+        "sha256": "a0693ac026618e93d3f060c565172003b21b18179e0ecdfec6fa9fbb5fd82bb5",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130200111"
+      },
+      "requested_capture": {
+        "timestamp": "20230130200111",
+        "original": "https://shellshock.io/?timestamp=1675106464&countryCode=de&siteid=88&channelid=1&siteLocale=de&locale=de",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4FJKPTURX7ZQYAFCCLW2E6RYJEWSYF5N"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130200111",
+          "original": "https://shellshock.io/?timestamp=1675106464&countryCode=de&siteid=88&channelid=1&siteLocale=de&locale=de",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "4FJKPTURX7ZQYAFCCLW2E6RYJEWSYF5N"
+        },
+        "offset_seconds": 260362,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/2edffd0df31312db/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130200116",
+        "original": "https://shellshock.io/?timestamp=1675106464&countryCode=en&siteid=88&channelid=1&siteLocale=en&locale=en",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4GYNAV2BVHOLYHEFRULUFX4WRXKTWRFN",
+        "sha256": "2edffd0df31312dbc7b2b3a7b6e1cd68d336ee8f2beb0bc62ee708336548bcaf",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=en&locale=en&siteid=88&sitelocale=en&timestamp=1675106464",
+        "timestamp": "20230130200116",
+        "original": "https://shellshock.io/?timestamp=1675106464&countryCode=en&siteid=88&channelid=1&siteLocale=en&locale=en",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4GYNAV2BVHOLYHEFRULUFX4WRXKTWRFN",
+        "replay_url": "https://web.archive.org/web/20230130200116id_/https://shellshock.io/?timestamp=1675106464&countryCode=en&siteid=88&channelid=1&siteLocale=en&locale=en",
+        "final_url": "https://web.archive.org/web/20230130200116id_/https://shellshock.io/?timestamp=1675106464&countryCode=en&siteid=88&channelid=1&siteLocale=en&locale=en",
+        "sha256": "2edffd0df31312dbc7b2b3a7b6e1cd68d336ee8f2beb0bc62ee708336548bcaf",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130200116"
+      },
+      "requested_capture": {
+        "timestamp": "20230130200116",
+        "original": "https://shellshock.io/?timestamp=1675106464&countryCode=en&siteid=88&channelid=1&siteLocale=en&locale=en",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4GYNAV2BVHOLYHEFRULUFX4WRXKTWRFN"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130200116",
+          "original": "https://shellshock.io/?timestamp=1675106464&countryCode=en&siteid=88&channelid=1&siteLocale=en&locale=en",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "4GYNAV2BVHOLYHEFRULUFX4WRXKTWRFN"
+        },
+        "offset_seconds": 260367,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/f0d93893ffeb7ec6/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130200118",
+        "original": "https://shellshock.io/?timestamp=1675106465&countryCode=fr&siteid=88&channelid=1&siteLocale=fr&locale=fr",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "TSGJEUOEHDBYXMFO2HOZEILZGHYKNQD6",
+        "sha256": "f0d93893ffeb7ec62e41e73a1c3d02ea62c28765d950ab1dc407e35d80368783",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=fr&locale=fr&siteid=88&sitelocale=fr&timestamp=1675106465",
+        "timestamp": "20230130200118",
+        "original": "https://shellshock.io/?timestamp=1675106465&countryCode=fr&siteid=88&channelid=1&siteLocale=fr&locale=fr",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "TSGJEUOEHDBYXMFO2HOZEILZGHYKNQD6",
+        "replay_url": "https://web.archive.org/web/20230130200118id_/https://shellshock.io/?timestamp=1675106465&countryCode=fr&siteid=88&channelid=1&siteLocale=fr&locale=fr",
+        "final_url": "https://web.archive.org/web/20230130200118id_/https://shellshock.io/?timestamp=1675106465&countryCode=fr&siteid=88&channelid=1&siteLocale=fr&locale=fr",
+        "sha256": "f0d93893ffeb7ec62e41e73a1c3d02ea62c28765d950ab1dc407e35d80368783",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130200118"
+      },
+      "requested_capture": {
+        "timestamp": "20230130200118",
+        "original": "https://shellshock.io/?timestamp=1675106465&countryCode=fr&siteid=88&channelid=1&siteLocale=fr&locale=fr",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "TSGJEUOEHDBYXMFO2HOZEILZGHYKNQD6"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130200118",
+          "original": "https://shellshock.io/?timestamp=1675106465&countryCode=fr&siteid=88&channelid=1&siteLocale=fr&locale=fr",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "TSGJEUOEHDBYXMFO2HOZEILZGHYKNQD6"
+        },
+        "offset_seconds": 260369,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/41c0d4000484cd97/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130200120",
+        "original": "https://shellshock.io/?timestamp=1675106465&countryCode=sv&siteid=88&channelid=1&siteLocale=sv&locale=sv",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "6BD3N4OLU36BOKVMC3OKJXL75SDARWNU",
+        "sha256": "41c0d4000484cd978ba7473bbfeac7209a562d43a15fb413d69b666af8611bd4",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=sv&locale=sv&siteid=88&sitelocale=sv&timestamp=1675106465",
+        "timestamp": "20230130200120",
+        "original": "https://shellshock.io/?timestamp=1675106465&countryCode=sv&siteid=88&channelid=1&siteLocale=sv&locale=sv",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "6BD3N4OLU36BOKVMC3OKJXL75SDARWNU",
+        "replay_url": "https://web.archive.org/web/20230130200120id_/https://shellshock.io/?timestamp=1675106465&countryCode=sv&siteid=88&channelid=1&siteLocale=sv&locale=sv",
+        "final_url": "https://web.archive.org/web/20230130200120id_/https://shellshock.io/?timestamp=1675106465&countryCode=sv&siteid=88&channelid=1&siteLocale=sv&locale=sv",
+        "sha256": "41c0d4000484cd978ba7473bbfeac7209a562d43a15fb413d69b666af8611bd4",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130200120"
+      },
+      "requested_capture": {
+        "timestamp": "20230130200120",
+        "original": "https://shellshock.io/?timestamp=1675106465&countryCode=sv&siteid=88&channelid=1&siteLocale=sv&locale=sv",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "6BD3N4OLU36BOKVMC3OKJXL75SDARWNU"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130200120",
+          "original": "https://shellshock.io/?timestamp=1675106465&countryCode=sv&siteid=88&channelid=1&siteLocale=sv&locale=sv",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "6BD3N4OLU36BOKVMC3OKJXL75SDARWNU"
+        },
+        "offset_seconds": 260371,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/a0658595eae36ee5/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130200123",
+        "original": "https://shellshock.io/?timestamp=1675106465&countryCode=id&siteid=88&channelid=1&siteLocale=id&locale=id",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4GPDTNXREFX3AYPQCZRNETDBW7BYVSUN",
+        "sha256": "a0658595eae36ee543ac0315b63e6a13eaaade6c1a4e1eeced00c1a7a787920e",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=id&locale=id&siteid=88&sitelocale=id&timestamp=1675106465",
+        "timestamp": "20230130200123",
+        "original": "https://shellshock.io/?timestamp=1675106465&countryCode=id&siteid=88&channelid=1&siteLocale=id&locale=id",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4GPDTNXREFX3AYPQCZRNETDBW7BYVSUN",
+        "replay_url": "https://web.archive.org/web/20230130200123id_/https://shellshock.io/?timestamp=1675106465&countryCode=id&siteid=88&channelid=1&siteLocale=id&locale=id",
+        "final_url": "https://web.archive.org/web/20230130200123id_/https://shellshock.io/?timestamp=1675106465&countryCode=id&siteid=88&channelid=1&siteLocale=id&locale=id",
+        "sha256": "a0658595eae36ee543ac0315b63e6a13eaaade6c1a4e1eeced00c1a7a787920e",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130200123"
+      },
+      "requested_capture": {
+        "timestamp": "20230130200123",
+        "original": "https://shellshock.io/?timestamp=1675106465&countryCode=id&siteid=88&channelid=1&siteLocale=id&locale=id",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4GPDTNXREFX3AYPQCZRNETDBW7BYVSUN"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130200123",
+          "original": "https://shellshock.io/?timestamp=1675106465&countryCode=id&siteid=88&channelid=1&siteLocale=id&locale=id",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "4GPDTNXREFX3AYPQCZRNETDBW7BYVSUN"
+        },
+        "offset_seconds": 260374,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/5c6643dcd3770a2f/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130200125",
+        "original": "https://shellshock.io/?timestamp=1675106465&countryCode=en-GB&siteid=88&channelid=1&siteLocale=en-GB&locale=en-GB",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "SDNMQYHP25HMBGKJPLR7E57LOMMD75NS",
+        "sha256": "5c6643dcd3770a2fa98b1b3d7c0abbd912cedd3ee74333c2ddebb5506c7fc945",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=en-gb&locale=en-gb&siteid=88&sitelocale=en-gb&timestamp=1675106465",
+        "timestamp": "20230130200125",
+        "original": "https://shellshock.io/?timestamp=1675106465&countryCode=en-GB&siteid=88&channelid=1&siteLocale=en-GB&locale=en-GB",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "SDNMQYHP25HMBGKJPLR7E57LOMMD75NS",
+        "replay_url": "https://web.archive.org/web/20230130200125id_/https://shellshock.io/?timestamp=1675106465&countryCode=en-GB&siteid=88&channelid=1&siteLocale=en-GB&locale=en-GB",
+        "final_url": "https://web.archive.org/web/20230130200125id_/https://shellshock.io/?timestamp=1675106465&countryCode=en-GB&siteid=88&channelid=1&siteLocale=en-GB&locale=en-GB",
+        "sha256": "5c6643dcd3770a2fa98b1b3d7c0abbd912cedd3ee74333c2ddebb5506c7fc945",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130200125"
+      },
+      "requested_capture": {
+        "timestamp": "20230130200125",
+        "original": "https://shellshock.io/?timestamp=1675106465&countryCode=en-GB&siteid=88&channelid=1&siteLocale=en-GB&locale=en-GB",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "SDNMQYHP25HMBGKJPLR7E57LOMMD75NS"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130200125",
+          "original": "https://shellshock.io/?timestamp=1675106465&countryCode=en-GB&siteid=88&channelid=1&siteLocale=en-GB&locale=en-GB",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "SDNMQYHP25HMBGKJPLR7E57LOMMD75NS"
+        },
+        "offset_seconds": 260376,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/83d7807d0cc455cc/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130200127",
+        "original": "https://shellshock.io/?timestamp=1675106466&countryCode=pt-BR&siteid=88&channelid=1&siteLocale=pt-BR&locale=pt-BR",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VEO6DVRBBAVLTIWUZF4ZIHZ7YXOHYLSB",
+        "sha256": "83d7807d0cc455cc09bf232d3d8336853fcb8272aa05d5581c04da32a4e07c02",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=pt-br&locale=pt-br&siteid=88&sitelocale=pt-br&timestamp=1675106466",
+        "timestamp": "20230130200127",
+        "original": "https://shellshock.io/?timestamp=1675106466&countryCode=pt-BR&siteid=88&channelid=1&siteLocale=pt-BR&locale=pt-BR",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VEO6DVRBBAVLTIWUZF4ZIHZ7YXOHYLSB",
+        "replay_url": "https://web.archive.org/web/20230130200127id_/https://shellshock.io/?timestamp=1675106466&countryCode=pt-BR&siteid=88&channelid=1&siteLocale=pt-BR&locale=pt-BR",
+        "final_url": "https://web.archive.org/web/20230130200127id_/https://shellshock.io/?timestamp=1675106466&countryCode=pt-BR&siteid=88&channelid=1&siteLocale=pt-BR&locale=pt-BR",
+        "sha256": "83d7807d0cc455cc09bf232d3d8336853fcb8272aa05d5581c04da32a4e07c02",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130200127"
+      },
+      "requested_capture": {
+        "timestamp": "20230130200127",
+        "original": "https://shellshock.io/?timestamp=1675106466&countryCode=pt-BR&siteid=88&channelid=1&siteLocale=pt-BR&locale=pt-BR",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VEO6DVRBBAVLTIWUZF4ZIHZ7YXOHYLSB"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130200127",
+          "original": "https://shellshock.io/?timestamp=1675106466&countryCode=pt-BR&siteid=88&channelid=1&siteLocale=pt-BR&locale=pt-BR",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "VEO6DVRBBAVLTIWUZF4ZIHZ7YXOHYLSB"
+        },
+        "offset_seconds": 260378,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/7c9848b6a6db61bc/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130200134",
+        "original": "https://shellshock.io/?timestamp=1675106466&countryCode=ru&siteid=88&channelid=1&siteLocale=ru&locale=ru",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "J3RZZS6ZAQMIYFOYYSLEAU6LDGEUXE3V",
+        "sha256": "7c9848b6a6db61bcfe576c954f453b61f009307b93173abab38760595fd6b2d0",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=ru&locale=ru&siteid=88&sitelocale=ru&timestamp=1675106466",
+        "timestamp": "20230130200134",
+        "original": "https://shellshock.io/?timestamp=1675106466&countryCode=ru&siteid=88&channelid=1&siteLocale=ru&locale=ru",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "J3RZZS6ZAQMIYFOYYSLEAU6LDGEUXE3V",
+        "replay_url": "https://web.archive.org/web/20230130200134id_/https://shellshock.io/?timestamp=1675106466&countryCode=ru&siteid=88&channelid=1&siteLocale=ru&locale=ru",
+        "final_url": "https://web.archive.org/web/20230130200134id_/https://shellshock.io/?timestamp=1675106466&countryCode=ru&siteid=88&channelid=1&siteLocale=ru&locale=ru",
+        "sha256": "7c9848b6a6db61bcfe576c954f453b61f009307b93173abab38760595fd6b2d0",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130200134"
+      },
+      "requested_capture": {
+        "timestamp": "20230130200134",
+        "original": "https://shellshock.io/?timestamp=1675106466&countryCode=ru&siteid=88&channelid=1&siteLocale=ru&locale=ru",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "J3RZZS6ZAQMIYFOYYSLEAU6LDGEUXE3V"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130200134",
+          "original": "https://shellshock.io/?timestamp=1675106466&countryCode=ru&siteid=88&channelid=1&siteLocale=ru&locale=ru",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "J3RZZS6ZAQMIYFOYYSLEAU6LDGEUXE3V"
+        },
+        "offset_seconds": 260385,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/164a80b63749a2c6/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130200137",
+        "original": "https://shellshock.io/?timestamp=1675106467&countryCode=nl&siteid=88&channelid=1&siteLocale=nl&locale=nl",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "3WJ6L3WPTHFGICQWX7CKI34FTJQDGKS2",
+        "sha256": "164a80b63749a2c62e919aec307be2ff28f981c65ed8c63a1f3f68748bc5e52e",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=nl&locale=nl&siteid=88&sitelocale=nl&timestamp=1675106467",
+        "timestamp": "20230130200137",
+        "original": "https://shellshock.io/?timestamp=1675106467&countryCode=nl&siteid=88&channelid=1&siteLocale=nl&locale=nl",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "3WJ6L3WPTHFGICQWX7CKI34FTJQDGKS2",
+        "replay_url": "https://web.archive.org/web/20230130200137id_/https://shellshock.io/?timestamp=1675106467&countryCode=nl&siteid=88&channelid=1&siteLocale=nl&locale=nl",
+        "final_url": "https://web.archive.org/web/20230130200137id_/https://shellshock.io/?timestamp=1675106467&countryCode=nl&siteid=88&channelid=1&siteLocale=nl&locale=nl",
+        "sha256": "164a80b63749a2c62e919aec307be2ff28f981c65ed8c63a1f3f68748bc5e52e",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130200137"
+      },
+      "requested_capture": {
+        "timestamp": "20230130200137",
+        "original": "https://shellshock.io/?timestamp=1675106467&countryCode=nl&siteid=88&channelid=1&siteLocale=nl&locale=nl",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "3WJ6L3WPTHFGICQWX7CKI34FTJQDGKS2"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130200137",
+          "original": "https://shellshock.io/?timestamp=1675106467&countryCode=nl&siteid=88&channelid=1&siteLocale=nl&locale=nl",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "3WJ6L3WPTHFGICQWX7CKI34FTJQDGKS2"
+        },
+        "offset_seconds": 260388,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/6488e8d7d23d8735/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130203052",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VQCK645CNXUX6OR4NNV6Q5WFGVBR3SJV",
+        "sha256": "6488e8d7d23d8735efc8002e745b0d3f566bf1510efd57849100520e27151b4e",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20230130203052",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VQCK645CNXUX6OR4NNV6Q5WFGVBR3SJV",
+        "replay_url": "https://web.archive.org/web/20230130203052id_/https://shellshock.io/",
+        "final_url": "https://web.archive.org/web/20230130203052id_/https://shellshock.io/",
+        "sha256": "6488e8d7d23d8735efc8002e745b0d3f566bf1510efd57849100520e27151b4e",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130203052"
+      },
+      "requested_capture": {
+        "timestamp": "20230130203052",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VQCK645CNXUX6OR4NNV6Q5WFGVBR3SJV"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130203052",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "VQCK645CNXUX6OR4NNV6Q5WFGVBR3SJV"
+        },
+        "offset_seconds": 262143,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/ea7bdf27a5fe5803/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130210240",
+        "original": "https://shellshock.io/?timestamp=1675106291&countryCode=pl&siteid=88&channelid=1&siteLocale=pl&locale=pl",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4TYZPXVLHCG46GYR2SLBIY6HR3NCKSNP",
+        "sha256": "ea7bdf27a5fe5803540620f1076a1bd1751e9474d2a0150ff2177301204bfeaa",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=pl&locale=pl&siteid=88&sitelocale=pl&timestamp=1675106291",
+        "timestamp": "20230130210240",
+        "original": "https://shellshock.io/?timestamp=1675106291&countryCode=pl&siteid=88&channelid=1&siteLocale=pl&locale=pl",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4TYZPXVLHCG46GYR2SLBIY6HR3NCKSNP",
+        "replay_url": "https://web.archive.org/web/20230130210240id_/https://shellshock.io/?timestamp=1675106291&countryCode=pl&siteid=88&channelid=1&siteLocale=pl&locale=pl",
+        "final_url": "https://web.archive.org/web/20230130210240id_/https://shellshock.io/?timestamp=1675106291&countryCode=pl&siteid=88&channelid=1&siteLocale=pl&locale=pl",
+        "sha256": "ea7bdf27a5fe5803540620f1076a1bd1751e9474d2a0150ff2177301204bfeaa",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130210240"
+      },
+      "requested_capture": {
+        "timestamp": "20230130210240",
+        "original": "https://shellshock.io/?timestamp=1675106291&countryCode=pl&siteid=88&channelid=1&siteLocale=pl&locale=pl",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4TYZPXVLHCG46GYR2SLBIY6HR3NCKSNP"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130210240",
+          "original": "https://shellshock.io/?timestamp=1675106291&countryCode=pl&siteid=88&channelid=1&siteLocale=pl&locale=pl",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "4TYZPXVLHCG46GYR2SLBIY6HR3NCKSNP"
+        },
+        "offset_seconds": 264051,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/62604b15adf5e8d9/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130210242",
+        "original": "https://shellshock.io/?timestamp=1675106293&countryCode=pt-BR&siteid=88&channelid=1&siteLocale=pt-BR&locale=pt-BR",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ELVAI57F42LUTJCNWRHOBM3FU5ARSTSU",
+        "sha256": "62604b15adf5e8d97eb23059af5999fb5db3539a80ca9590508c31490f6f99b2",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=pt-br&locale=pt-br&siteid=88&sitelocale=pt-br&timestamp=1675106293",
+        "timestamp": "20230130210242",
+        "original": "https://shellshock.io/?timestamp=1675106293&countryCode=pt-BR&siteid=88&channelid=1&siteLocale=pt-BR&locale=pt-BR",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ELVAI57F42LUTJCNWRHOBM3FU5ARSTSU",
+        "replay_url": "https://web.archive.org/web/20230130210242id_/https://shellshock.io/?timestamp=1675106293&countryCode=pt-BR&siteid=88&channelid=1&siteLocale=pt-BR&locale=pt-BR",
+        "final_url": "https://web.archive.org/web/20230130210242id_/https://shellshock.io/?timestamp=1675106293&countryCode=pt-BR&siteid=88&channelid=1&siteLocale=pt-BR&locale=pt-BR",
+        "sha256": "62604b15adf5e8d97eb23059af5999fb5db3539a80ca9590508c31490f6f99b2",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130210242"
+      },
+      "requested_capture": {
+        "timestamp": "20230130210242",
+        "original": "https://shellshock.io/?timestamp=1675106293&countryCode=pt-BR&siteid=88&channelid=1&siteLocale=pt-BR&locale=pt-BR",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ELVAI57F42LUTJCNWRHOBM3FU5ARSTSU"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130210242",
+          "original": "https://shellshock.io/?timestamp=1675106293&countryCode=pt-BR&siteid=88&channelid=1&siteLocale=pt-BR&locale=pt-BR",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "ELVAI57F42LUTJCNWRHOBM3FU5ARSTSU"
+        },
+        "offset_seconds": 264053,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/7ea60a1047cf77b6/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130210244",
+        "original": "https://shellshock.io/?timestamp=1675106293&countryCode=ru&siteid=88&channelid=1&siteLocale=ru&locale=ru",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "BCWX56ZAJ2MMLJTDPKXONKY62MDZ2KIN",
+        "sha256": "7ea60a1047cf77b6ac80ef2b41dda77a90ff8f35bfeff852a0a9d2170104c21c",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=ru&locale=ru&siteid=88&sitelocale=ru&timestamp=1675106293",
+        "timestamp": "20230130210244",
+        "original": "https://shellshock.io/?timestamp=1675106293&countryCode=ru&siteid=88&channelid=1&siteLocale=ru&locale=ru",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "BCWX56ZAJ2MMLJTDPKXONKY62MDZ2KIN",
+        "replay_url": "https://web.archive.org/web/20230130210244id_/https://shellshock.io/?timestamp=1675106293&countryCode=ru&siteid=88&channelid=1&siteLocale=ru&locale=ru",
+        "final_url": "https://web.archive.org/web/20230130210244id_/https://shellshock.io/?timestamp=1675106293&countryCode=ru&siteid=88&channelid=1&siteLocale=ru&locale=ru",
+        "sha256": "7ea60a1047cf77b6ac80ef2b41dda77a90ff8f35bfeff852a0a9d2170104c21c",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130210244"
+      },
+      "requested_capture": {
+        "timestamp": "20230130210244",
+        "original": "https://shellshock.io/?timestamp=1675106293&countryCode=ru&siteid=88&channelid=1&siteLocale=ru&locale=ru",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "BCWX56ZAJ2MMLJTDPKXONKY62MDZ2KIN"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130210244",
+          "original": "https://shellshock.io/?timestamp=1675106293&countryCode=ru&siteid=88&channelid=1&siteLocale=ru&locale=ru",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "BCWX56ZAJ2MMLJTDPKXONKY62MDZ2KIN"
+        },
+        "offset_seconds": 264055,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/663d2c27aacb9be9/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130210246",
+        "original": "https://shellshock.io/?timestamp=1675106294&countryCode=id&siteid=88&channelid=1&siteLocale=id&locale=id",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "YNUDSGNRVXCPH6MXHOKJEN63PDDKSC5B",
+        "sha256": "663d2c27aacb9be9d7375e3839fc5f3837e515cab6bb9ab6a762624b52f0b780",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=id&locale=id&siteid=88&sitelocale=id&timestamp=1675106294",
+        "timestamp": "20230130210246",
+        "original": "https://shellshock.io/?timestamp=1675106294&countryCode=id&siteid=88&channelid=1&siteLocale=id&locale=id",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "YNUDSGNRVXCPH6MXHOKJEN63PDDKSC5B",
+        "replay_url": "https://web.archive.org/web/20230130210246id_/https://shellshock.io/?timestamp=1675106294&countryCode=id&siteid=88&channelid=1&siteLocale=id&locale=id",
+        "final_url": "https://web.archive.org/web/20230130210246id_/https://shellshock.io/?timestamp=1675106294&countryCode=id&siteid=88&channelid=1&siteLocale=id&locale=id",
+        "sha256": "663d2c27aacb9be9d7375e3839fc5f3837e515cab6bb9ab6a762624b52f0b780",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130210246"
+      },
+      "requested_capture": {
+        "timestamp": "20230130210246",
+        "original": "https://shellshock.io/?timestamp=1675106294&countryCode=id&siteid=88&channelid=1&siteLocale=id&locale=id",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "YNUDSGNRVXCPH6MXHOKJEN63PDDKSC5B"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130210246",
+          "original": "https://shellshock.io/?timestamp=1675106294&countryCode=id&siteid=88&channelid=1&siteLocale=id&locale=id",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "YNUDSGNRVXCPH6MXHOKJEN63PDDKSC5B"
+        },
+        "offset_seconds": 264057,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/17ae762c33014979/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130210248",
+        "original": "https://shellshock.io/?timestamp=1675106294&countryCode=es&siteid=88&channelid=1&siteLocale=es&locale=es",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ZXFQ2LHKSQES5FFVRXEP6EIHHZOC2BT5",
+        "sha256": "17ae762c330149796a1609ad49ed35da1b727a3a551acc85c2484c1269aadb35",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=es&locale=es&siteid=88&sitelocale=es&timestamp=1675106294",
+        "timestamp": "20230130210248",
+        "original": "https://shellshock.io/?timestamp=1675106294&countryCode=es&siteid=88&channelid=1&siteLocale=es&locale=es",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ZXFQ2LHKSQES5FFVRXEP6EIHHZOC2BT5",
+        "replay_url": "https://web.archive.org/web/20230130210248id_/https://shellshock.io/?timestamp=1675106294&countryCode=es&siteid=88&channelid=1&siteLocale=es&locale=es",
+        "final_url": "https://web.archive.org/web/20230130210248id_/https://shellshock.io/?timestamp=1675106294&countryCode=es&siteid=88&channelid=1&siteLocale=es&locale=es",
+        "sha256": "17ae762c330149796a1609ad49ed35da1b727a3a551acc85c2484c1269aadb35",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130210248"
+      },
+      "requested_capture": {
+        "timestamp": "20230130210248",
+        "original": "https://shellshock.io/?timestamp=1675106294&countryCode=es&siteid=88&channelid=1&siteLocale=es&locale=es",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ZXFQ2LHKSQES5FFVRXEP6EIHHZOC2BT5"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130210248",
+          "original": "https://shellshock.io/?timestamp=1675106294&countryCode=es&siteid=88&channelid=1&siteLocale=es&locale=es",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "ZXFQ2LHKSQES5FFVRXEP6EIHHZOC2BT5"
+        },
+        "offset_seconds": 264059,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/20f8af6494fc73d9/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130210250",
+        "original": "https://shellshock.io/?timestamp=1675106294&countryCode=sv&siteid=88&channelid=1&siteLocale=sv&locale=sv",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XZ4EGFVYT5D4XE7JAJSFGYYLFSNFMZKA",
+        "sha256": "20f8af6494fc73d92914556217193b7e329a774c0bc0e07d99310eeca57c6385",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=sv&locale=sv&siteid=88&sitelocale=sv&timestamp=1675106294",
+        "timestamp": "20230130210250",
+        "original": "https://shellshock.io/?timestamp=1675106294&countryCode=sv&siteid=88&channelid=1&siteLocale=sv&locale=sv",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XZ4EGFVYT5D4XE7JAJSFGYYLFSNFMZKA",
+        "replay_url": "https://web.archive.org/web/20230130210250id_/https://shellshock.io/?timestamp=1675106294&countryCode=sv&siteid=88&channelid=1&siteLocale=sv&locale=sv",
+        "final_url": "https://web.archive.org/web/20230130210250id_/https://shellshock.io/?timestamp=1675106294&countryCode=sv&siteid=88&channelid=1&siteLocale=sv&locale=sv",
+        "sha256": "20f8af6494fc73d92914556217193b7e329a774c0bc0e07d99310eeca57c6385",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130210250"
+      },
+      "requested_capture": {
+        "timestamp": "20230130210250",
+        "original": "https://shellshock.io/?timestamp=1675106294&countryCode=sv&siteid=88&channelid=1&siteLocale=sv&locale=sv",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XZ4EGFVYT5D4XE7JAJSFGYYLFSNFMZKA"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130210250",
+          "original": "https://shellshock.io/?timestamp=1675106294&countryCode=sv&siteid=88&channelid=1&siteLocale=sv&locale=sv",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "XZ4EGFVYT5D4XE7JAJSFGYYLFSNFMZKA"
+        },
+        "offset_seconds": 264061,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/c94aa78a873bf0f4/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130210252",
+        "original": "https://shellshock.io/?timestamp=1675106294&countryCode=fr&siteid=88&channelid=1&siteLocale=fr&locale=fr",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DKDGQQGSR7B5TVNKD5IZWBI62QRLGDEP",
+        "sha256": "c94aa78a873bf0f4bad57e67e805eea3b3c3ad5e42ab35313b8c9c2264e46f9e",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=fr&locale=fr&siteid=88&sitelocale=fr&timestamp=1675106294",
+        "timestamp": "20230130210252",
+        "original": "https://shellshock.io/?timestamp=1675106294&countryCode=fr&siteid=88&channelid=1&siteLocale=fr&locale=fr",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DKDGQQGSR7B5TVNKD5IZWBI62QRLGDEP",
+        "replay_url": "https://web.archive.org/web/20230130210252id_/https://shellshock.io/?timestamp=1675106294&countryCode=fr&siteid=88&channelid=1&siteLocale=fr&locale=fr",
+        "final_url": "https://web.archive.org/web/20230130210252id_/https://shellshock.io/?timestamp=1675106294&countryCode=fr&siteid=88&channelid=1&siteLocale=fr&locale=fr",
+        "sha256": "c94aa78a873bf0f4bad57e67e805eea3b3c3ad5e42ab35313b8c9c2264e46f9e",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130210252"
+      },
+      "requested_capture": {
+        "timestamp": "20230130210252",
+        "original": "https://shellshock.io/?timestamp=1675106294&countryCode=fr&siteid=88&channelid=1&siteLocale=fr&locale=fr",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DKDGQQGSR7B5TVNKD5IZWBI62QRLGDEP"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130210252",
+          "original": "https://shellshock.io/?timestamp=1675106294&countryCode=fr&siteid=88&channelid=1&siteLocale=fr&locale=fr",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "DKDGQQGSR7B5TVNKD5IZWBI62QRLGDEP"
+        },
+        "offset_seconds": 264063,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/892aea38f9d10fc4/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130210254",
+        "original": "https://shellshock.io/?timestamp=1675106294&countryCode=tr&siteid=88&channelid=1&siteLocale=tr&locale=tr",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "2A6UGE4FCNVZHXWSZODMMMOJRFWHTFOA",
+        "sha256": "892aea38f9d10fc4df3654f7a1ef7624d15364b6fdf1b55e0ad7c475a0c19367",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=tr&locale=tr&siteid=88&sitelocale=tr&timestamp=1675106294",
+        "timestamp": "20230130210254",
+        "original": "https://shellshock.io/?timestamp=1675106294&countryCode=tr&siteid=88&channelid=1&siteLocale=tr&locale=tr",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "2A6UGE4FCNVZHXWSZODMMMOJRFWHTFOA",
+        "replay_url": "https://web.archive.org/web/20230130210254id_/https://shellshock.io/?timestamp=1675106294&countryCode=tr&siteid=88&channelid=1&siteLocale=tr&locale=tr",
+        "final_url": "https://web.archive.org/web/20230130210254id_/https://shellshock.io/?timestamp=1675106294&countryCode=tr&siteid=88&channelid=1&siteLocale=tr&locale=tr",
+        "sha256": "892aea38f9d10fc4df3654f7a1ef7624d15364b6fdf1b55e0ad7c475a0c19367",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130210254"
+      },
+      "requested_capture": {
+        "timestamp": "20230130210254",
+        "original": "https://shellshock.io/?timestamp=1675106294&countryCode=tr&siteid=88&channelid=1&siteLocale=tr&locale=tr",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "2A6UGE4FCNVZHXWSZODMMMOJRFWHTFOA"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130210254",
+          "original": "https://shellshock.io/?timestamp=1675106294&countryCode=tr&siteid=88&channelid=1&siteLocale=tr&locale=tr",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "2A6UGE4FCNVZHXWSZODMMMOJRFWHTFOA"
+        },
+        "offset_seconds": 264065,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/947665986dc398bb/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130210256",
+        "original": "https://shellshock.io/?timestamp=1675106295&countryCode=nl&siteid=88&channelid=1&siteLocale=nl&locale=nl",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VCTRWBTIZ4CR6KVH5CNG6IJHEE6KLTIE",
+        "sha256": "947665986dc398bb14db529068d1d6b0a981653fff397e76245fe16b72c5a6f7",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=nl&locale=nl&siteid=88&sitelocale=nl&timestamp=1675106295",
+        "timestamp": "20230130210256",
+        "original": "https://shellshock.io/?timestamp=1675106295&countryCode=nl&siteid=88&channelid=1&siteLocale=nl&locale=nl",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VCTRWBTIZ4CR6KVH5CNG6IJHEE6KLTIE",
+        "replay_url": "https://web.archive.org/web/20230130210256id_/https://shellshock.io/?timestamp=1675106295&countryCode=nl&siteid=88&channelid=1&siteLocale=nl&locale=nl",
+        "final_url": "https://web.archive.org/web/20230130210256id_/https://shellshock.io/?timestamp=1675106295&countryCode=nl&siteid=88&channelid=1&siteLocale=nl&locale=nl",
+        "sha256": "947665986dc398bb14db529068d1d6b0a981653fff397e76245fe16b72c5a6f7",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130210256"
+      },
+      "requested_capture": {
+        "timestamp": "20230130210256",
+        "original": "https://shellshock.io/?timestamp=1675106295&countryCode=nl&siteid=88&channelid=1&siteLocale=nl&locale=nl",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VCTRWBTIZ4CR6KVH5CNG6IJHEE6KLTIE"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130210256",
+          "original": "https://shellshock.io/?timestamp=1675106295&countryCode=nl&siteid=88&channelid=1&siteLocale=nl&locale=nl",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "VCTRWBTIZ4CR6KVH5CNG6IJHEE6KLTIE"
+        },
+        "offset_seconds": 264067,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/b31eaefbdcbde0fd/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130210258",
+        "original": "https://shellshock.io/?timestamp=1675106296&countryCode=en-GB&siteid=88&channelid=1&siteLocale=en-GB&locale=en-GB",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RSNS7HRUHUGWSFOMJWYTM3GVA3FBI5CG",
+        "sha256": "b31eaefbdcbde0fd33e037f32d131fffa76655e8ab4b3a9e6ed9521e81ab558b",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=en-gb&locale=en-gb&siteid=88&sitelocale=en-gb&timestamp=1675106296",
+        "timestamp": "20230130210258",
+        "original": "https://shellshock.io/?timestamp=1675106296&countryCode=en-GB&siteid=88&channelid=1&siteLocale=en-GB&locale=en-GB",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RSNS7HRUHUGWSFOMJWYTM3GVA3FBI5CG",
+        "replay_url": "https://web.archive.org/web/20230130210258id_/https://shellshock.io/?timestamp=1675106296&countryCode=en-GB&siteid=88&channelid=1&siteLocale=en-GB&locale=en-GB",
+        "final_url": "https://web.archive.org/web/20230130210258id_/https://shellshock.io/?timestamp=1675106296&countryCode=en-GB&siteid=88&channelid=1&siteLocale=en-GB&locale=en-GB",
+        "sha256": "b31eaefbdcbde0fd33e037f32d131fffa76655e8ab4b3a9e6ed9521e81ab558b",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130210258"
+      },
+      "requested_capture": {
+        "timestamp": "20230130210258",
+        "original": "https://shellshock.io/?timestamp=1675106296&countryCode=en-GB&siteid=88&channelid=1&siteLocale=en-GB&locale=en-GB",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RSNS7HRUHUGWSFOMJWYTM3GVA3FBI5CG"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130210258",
+          "original": "https://shellshock.io/?timestamp=1675106296&countryCode=en-GB&siteid=88&channelid=1&siteLocale=en-GB&locale=en-GB",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "RSNS7HRUHUGWSFOMJWYTM3GVA3FBI5CG"
+        },
+        "offset_seconds": 264069,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/b53ba56995252697/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130210300",
+        "original": "https://shellshock.io/?timestamp=1675106296&countryCode=it&siteid=88&channelid=1&siteLocale=it&locale=it",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "B2NDAL4EWQ52TRIKTXZK74IFQQRLTPT5",
+        "sha256": "b53ba5699525269712d6a1ab2a4e9178c0d557dcfbc0be728152c8b6c1e52355",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=it&locale=it&siteid=88&sitelocale=it&timestamp=1675106296",
+        "timestamp": "20230130210300",
+        "original": "https://shellshock.io/?timestamp=1675106296&countryCode=it&siteid=88&channelid=1&siteLocale=it&locale=it",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "B2NDAL4EWQ52TRIKTXZK74IFQQRLTPT5",
+        "replay_url": "https://web.archive.org/web/20230130210300id_/https://shellshock.io/?timestamp=1675106296&countryCode=it&siteid=88&channelid=1&siteLocale=it&locale=it",
+        "final_url": "https://web.archive.org/web/20230130210300id_/https://shellshock.io/?timestamp=1675106296&countryCode=it&siteid=88&channelid=1&siteLocale=it&locale=it",
+        "sha256": "b53ba5699525269712d6a1ab2a4e9178c0d557dcfbc0be728152c8b6c1e52355",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130210300"
+      },
+      "requested_capture": {
+        "timestamp": "20230130210300",
+        "original": "https://shellshock.io/?timestamp=1675106296&countryCode=it&siteid=88&channelid=1&siteLocale=it&locale=it",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "B2NDAL4EWQ52TRIKTXZK74IFQQRLTPT5"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130210300",
+          "original": "https://shellshock.io/?timestamp=1675106296&countryCode=it&siteid=88&channelid=1&siteLocale=it&locale=it",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "B2NDAL4EWQ52TRIKTXZK74IFQQRLTPT5"
+        },
+        "offset_seconds": 264071,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/37312089beac6b45/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130210305",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XP2T43QQ4A4EZWETOJYPOW6QJ7JCO54K",
+        "sha256": "37312089beac6b4554be0d39449c63bcdd7d0ab7ac33b36f61dfd2d609afbf6e",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20230130210305",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XP2T43QQ4A4EZWETOJYPOW6QJ7JCO54K",
+        "replay_url": "https://web.archive.org/web/20230130210305id_/https://shellshock.io/",
+        "final_url": "https://web.archive.org/web/20230130210305id_/https://shellshock.io/",
+        "sha256": "37312089beac6b4554be0d39449c63bcdd7d0ab7ac33b36f61dfd2d609afbf6e",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130210305"
+      },
+      "requested_capture": {
+        "timestamp": "20230130210305",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XP2T43QQ4A4EZWETOJYPOW6QJ7JCO54K"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130210305",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "XP2T43QQ4A4EZWETOJYPOW6QJ7JCO54K"
+        },
+        "offset_seconds": 264076,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/faf004e7bf68bcd8/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130210307",
+        "original": "https://shellshock.io/?timestamp=1675106296&countryCode=en&siteid=88&channelid=1&siteLocale=en&locale=en",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "AZ7FPDUCKVFRTVRGPIU7YHM45EHPMRWF",
+        "sha256": "faf004e7bf68bcd8d5f503d7eeac4f26a365371a1edaab3ee1e74dded8b0d1fc",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=en&locale=en&siteid=88&sitelocale=en&timestamp=1675106296",
+        "timestamp": "20230130210307",
+        "original": "https://shellshock.io/?timestamp=1675106296&countryCode=en&siteid=88&channelid=1&siteLocale=en&locale=en",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "AZ7FPDUCKVFRTVRGPIU7YHM45EHPMRWF",
+        "replay_url": "https://web.archive.org/web/20230130210307id_/https://shellshock.io/?timestamp=1675106296&countryCode=en&siteid=88&channelid=1&siteLocale=en&locale=en",
+        "final_url": "https://web.archive.org/web/20230130210307id_/https://shellshock.io/?timestamp=1675106296&countryCode=en&siteid=88&channelid=1&siteLocale=en&locale=en",
+        "sha256": "faf004e7bf68bcd8d5f503d7eeac4f26a365371a1edaab3ee1e74dded8b0d1fc",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130210307"
+      },
+      "requested_capture": {
+        "timestamp": "20230130210307",
+        "original": "https://shellshock.io/?timestamp=1675106296&countryCode=en&siteid=88&channelid=1&siteLocale=en&locale=en",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "AZ7FPDUCKVFRTVRGPIU7YHM45EHPMRWF"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130210307",
+          "original": "https://shellshock.io/?timestamp=1675106296&countryCode=en&siteid=88&channelid=1&siteLocale=en&locale=en",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "AZ7FPDUCKVFRTVRGPIU7YHM45EHPMRWF"
+        },
+        "offset_seconds": 264078,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/eef6b324becb95a8/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130210309",
+        "original": "https://shellshock.io/?timestamp=1675106296&countryCode=de&siteid=88&channelid=1&siteLocale=de&locale=de",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "666CB6ICNJOGMIC4AIJUNCIIKHRCXTDJ",
+        "sha256": "eef6b324becb95a823f5dfda5a068292806aa26f386d90b656660d7b18f81339",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=1&countrycode=de&locale=de&siteid=88&sitelocale=de&timestamp=1675106296",
+        "timestamp": "20230130210309",
+        "original": "https://shellshock.io/?timestamp=1675106296&countryCode=de&siteid=88&channelid=1&siteLocale=de&locale=de",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "666CB6ICNJOGMIC4AIJUNCIIKHRCXTDJ",
+        "replay_url": "https://web.archive.org/web/20230130210309id_/https://shellshock.io/?timestamp=1675106296&countryCode=de&siteid=88&channelid=1&siteLocale=de&locale=de",
+        "final_url": "https://web.archive.org/web/20230130210309id_/https://shellshock.io/?timestamp=1675106296&countryCode=de&siteid=88&channelid=1&siteLocale=de&locale=de",
+        "sha256": "eef6b324becb95a823f5dfda5a068292806aa26f386d90b656660d7b18f81339",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130210309"
+      },
+      "requested_capture": {
+        "timestamp": "20230130210309",
+        "original": "https://shellshock.io/?timestamp=1675106296&countryCode=de&siteid=88&channelid=1&siteLocale=de&locale=de",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "666CB6ICNJOGMIC4AIJUNCIIKHRCXTDJ"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130210309",
+          "original": "https://shellshock.io/?timestamp=1675106296&countryCode=de&siteid=88&channelid=1&siteLocale=de&locale=de",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "666CB6ICNJOGMIC4AIJUNCIIKHRCXTDJ"
+        },
+        "offset_seconds": 264080,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/bc3ef706279fb818/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230130215712",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RITFMIRQETM3LCPSPDZRTSNSZPFIZSOB",
+        "sha256": "bc3ef706279fb8183bccad88a18cc72aa3d374870628c999d646d21f567136f9",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20230130215712",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RITFMIRQETM3LCPSPDZRTSNSZPFIZSOB",
+        "replay_url": "https://web.archive.org/web/20230130215712id_/https://shellshock.io/",
+        "final_url": "https://web.archive.org/web/20230130215712id_/https://shellshock.io/",
+        "sha256": "bc3ef706279fb8183bccad88a18cc72aa3d374870628c999d646d21f567136f9",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230130215712"
+      },
+      "requested_capture": {
+        "timestamp": "20230130215712",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RITFMIRQETM3LCPSPDZRTSNSZPFIZSOB"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230130215712",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "RITFMIRQETM3LCPSPDZRTSNSZPFIZSOB"
+        },
+        "offset_seconds": 267323,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/de36ebe633f8d3de/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230131003150",
+        "original": "https://shellshock.io/?timestamp=1675106348&countryCode=en&siteid=79&channelid=2&siteLocale=en&locale=en",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "TJIHFBYURK2C4NSBX2VAFJYVIHGBXLIJ",
+        "sha256": "de36ebe633f8d3de35614bc56d1f4016ed485ce682891bd3099d31c22551160d",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=2&countrycode=en&locale=en&siteid=79&sitelocale=en&timestamp=1675106348",
+        "timestamp": "20230131003150",
+        "original": "https://shellshock.io/?timestamp=1675106348&countryCode=en&siteid=79&channelid=2&siteLocale=en&locale=en",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "TJIHFBYURK2C4NSBX2VAFJYVIHGBXLIJ",
+        "replay_url": "https://web.archive.org/web/20230131003150id_/https://shellshock.io/?timestamp=1675106348&countryCode=en&siteid=79&channelid=2&siteLocale=en&locale=en",
+        "final_url": "https://web.archive.org/web/20230131003150id_/https://shellshock.io/?timestamp=1675106348&countryCode=en&siteid=79&channelid=2&siteLocale=en&locale=en",
+        "sha256": "de36ebe633f8d3de35614bc56d1f4016ed485ce682891bd3099d31c22551160d",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230131003150"
+      },
+      "requested_capture": {
+        "timestamp": "20230131003150",
+        "original": "https://shellshock.io/?timestamp=1675106348&countryCode=en&siteid=79&channelid=2&siteLocale=en&locale=en",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "TJIHFBYURK2C4NSBX2VAFJYVIHGBXLIJ"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230131003150",
+          "original": "https://shellshock.io/?timestamp=1675106348&countryCode=en&siteid=79&channelid=2&siteLocale=en&locale=en",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "TJIHFBYURK2C4NSBX2VAFJYVIHGBXLIJ"
+        },
+        "offset_seconds": 276601,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/cf634e938832c458/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230131003151",
+        "original": "https://shellshock.io/?timestamp=1675106349&countryCode=id&siteid=79&channelid=2&siteLocale=id&locale=id",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RQST4VPJNISNSKR66Q7O3K3SZKCXRUU3",
+        "sha256": "cf634e938832c45840ddf8c53691dbad993fceb645012b8a62f862bb09b3729c",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=2&countrycode=id&locale=id&siteid=79&sitelocale=id&timestamp=1675106349",
+        "timestamp": "20230131003151",
+        "original": "https://shellshock.io/?timestamp=1675106349&countryCode=id&siteid=79&channelid=2&siteLocale=id&locale=id",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RQST4VPJNISNSKR66Q7O3K3SZKCXRUU3",
+        "replay_url": "https://web.archive.org/web/20230131003151id_/https://shellshock.io/?timestamp=1675106349&countryCode=id&siteid=79&channelid=2&siteLocale=id&locale=id",
+        "final_url": "https://web.archive.org/web/20230131003151id_/https://shellshock.io/?timestamp=1675106349&countryCode=id&siteid=79&channelid=2&siteLocale=id&locale=id",
+        "sha256": "cf634e938832c45840ddf8c53691dbad993fceb645012b8a62f862bb09b3729c",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230131003151"
+      },
+      "requested_capture": {
+        "timestamp": "20230131003151",
+        "original": "https://shellshock.io/?timestamp=1675106349&countryCode=id&siteid=79&channelid=2&siteLocale=id&locale=id",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RQST4VPJNISNSKR66Q7O3K3SZKCXRUU3"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230131003151",
+          "original": "https://shellshock.io/?timestamp=1675106349&countryCode=id&siteid=79&channelid=2&siteLocale=id&locale=id",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "RQST4VPJNISNSKR66Q7O3K3SZKCXRUU3"
+        },
+        "offset_seconds": 276602,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/b177ed0e766049a3/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230131003153",
+        "original": "https://shellshock.io/?timestamp=1675106353&countryCode=it&siteid=79&channelid=2&siteLocale=it&locale=it",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "FERHQDAS6XYA2J7DKNSRRZYP47YKFHGN",
+        "sha256": "b177ed0e766049a32b4cd41d9c99d036837c32efd9a7d20d52b855f25b88980e",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=2&countrycode=it&locale=it&siteid=79&sitelocale=it&timestamp=1675106353",
+        "timestamp": "20230131003153",
+        "original": "https://shellshock.io/?timestamp=1675106353&countryCode=it&siteid=79&channelid=2&siteLocale=it&locale=it",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "FERHQDAS6XYA2J7DKNSRRZYP47YKFHGN",
+        "replay_url": "https://web.archive.org/web/20230131003153id_/https://shellshock.io/?timestamp=1675106353&countryCode=it&siteid=79&channelid=2&siteLocale=it&locale=it",
+        "final_url": "https://web.archive.org/web/20230131003153id_/https://shellshock.io/?timestamp=1675106353&countryCode=it&siteid=79&channelid=2&siteLocale=it&locale=it",
+        "sha256": "b177ed0e766049a32b4cd41d9c99d036837c32efd9a7d20d52b855f25b88980e",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230131003153"
+      },
+      "requested_capture": {
+        "timestamp": "20230131003153",
+        "original": "https://shellshock.io/?timestamp=1675106353&countryCode=it&siteid=79&channelid=2&siteLocale=it&locale=it",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "FERHQDAS6XYA2J7DKNSRRZYP47YKFHGN"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230131003153",
+          "original": "https://shellshock.io/?timestamp=1675106353&countryCode=it&siteid=79&channelid=2&siteLocale=it&locale=it",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "FERHQDAS6XYA2J7DKNSRRZYP47YKFHGN"
+        },
+        "offset_seconds": 276604,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/14ff1bd05288c30a/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230131003156",
+        "original": "https://shellshock.io/?timestamp=1675106353&countryCode=fr&siteid=79&channelid=2&siteLocale=fr&locale=fr",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "OTJ4BTKLVXSV6XTM2AEI5FHBRKJ2VZTO",
+        "sha256": "14ff1bd05288c30a4de1948db0f4047f5b2bc8ae899cc0fccd0164a73c16c303",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=2&countrycode=fr&locale=fr&siteid=79&sitelocale=fr&timestamp=1675106353",
+        "timestamp": "20230131003156",
+        "original": "https://shellshock.io/?timestamp=1675106353&countryCode=fr&siteid=79&channelid=2&siteLocale=fr&locale=fr",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "OTJ4BTKLVXSV6XTM2AEI5FHBRKJ2VZTO",
+        "replay_url": "https://web.archive.org/web/20230131003156id_/https://shellshock.io/?timestamp=1675106353&countryCode=fr&siteid=79&channelid=2&siteLocale=fr&locale=fr",
+        "final_url": "https://web.archive.org/web/20230131003156id_/https://shellshock.io/?timestamp=1675106353&countryCode=fr&siteid=79&channelid=2&siteLocale=fr&locale=fr",
+        "sha256": "14ff1bd05288c30a4de1948db0f4047f5b2bc8ae899cc0fccd0164a73c16c303",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230131003156"
+      },
+      "requested_capture": {
+        "timestamp": "20230131003156",
+        "original": "https://shellshock.io/?timestamp=1675106353&countryCode=fr&siteid=79&channelid=2&siteLocale=fr&locale=fr",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "OTJ4BTKLVXSV6XTM2AEI5FHBRKJ2VZTO"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230131003156",
+          "original": "https://shellshock.io/?timestamp=1675106353&countryCode=fr&siteid=79&channelid=2&siteLocale=fr&locale=fr",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "OTJ4BTKLVXSV6XTM2AEI5FHBRKJ2VZTO"
+        },
+        "offset_seconds": 276607,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/3710c93bcd805f66/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230131003157",
+        "original": "https://shellshock.io/?timestamp=1675106359&countryCode=de&siteid=79&channelid=2&siteLocale=de&locale=de",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "6OJDFWFQBK4IQQGBZB2DNFDCWH6NJWCR",
+        "sha256": "3710c93bcd805f66bd03958cca01d1cd589431f81c46c5d05dc5b3d9f1e76172",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=2&countrycode=de&locale=de&siteid=79&sitelocale=de&timestamp=1675106359",
+        "timestamp": "20230131003157",
+        "original": "https://shellshock.io/?timestamp=1675106359&countryCode=de&siteid=79&channelid=2&siteLocale=de&locale=de",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "6OJDFWFQBK4IQQGBZB2DNFDCWH6NJWCR",
+        "replay_url": "https://web.archive.org/web/20230131003157id_/https://shellshock.io/?timestamp=1675106359&countryCode=de&siteid=79&channelid=2&siteLocale=de&locale=de",
+        "final_url": "https://web.archive.org/web/20230131003157id_/https://shellshock.io/?timestamp=1675106359&countryCode=de&siteid=79&channelid=2&siteLocale=de&locale=de",
+        "sha256": "3710c93bcd805f66bd03958cca01d1cd589431f81c46c5d05dc5b3d9f1e76172",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230131003157"
+      },
+      "requested_capture": {
+        "timestamp": "20230131003157",
+        "original": "https://shellshock.io/?timestamp=1675106359&countryCode=de&siteid=79&channelid=2&siteLocale=de&locale=de",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "6OJDFWFQBK4IQQGBZB2DNFDCWH6NJWCR"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230131003157",
+          "original": "https://shellshock.io/?timestamp=1675106359&countryCode=de&siteid=79&channelid=2&siteLocale=de&locale=de",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "6OJDFWFQBK4IQQGBZB2DNFDCWH6NJWCR"
+        },
+        "offset_seconds": 276608,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/75dcf7d845a079e6/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230131003159",
+        "original": "https://shellshock.io/?timestamp=1675106369&countryCode=nl&siteid=79&channelid=2&siteLocale=nl&locale=nl",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "UIJLOZNRPBKKPLRRRFLLNFB4FDOPRBBS",
+        "sha256": "75dcf7d845a079e6f89fdeddc62dc2ee12f8acd6566398423bebeba9020c712b",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=2&countrycode=nl&locale=nl&siteid=79&sitelocale=nl&timestamp=1675106369",
+        "timestamp": "20230131003159",
+        "original": "https://shellshock.io/?timestamp=1675106369&countryCode=nl&siteid=79&channelid=2&siteLocale=nl&locale=nl",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "UIJLOZNRPBKKPLRRRFLLNFB4FDOPRBBS",
+        "replay_url": "https://web.archive.org/web/20230131003159id_/https://shellshock.io/?timestamp=1675106369&countryCode=nl&siteid=79&channelid=2&siteLocale=nl&locale=nl",
+        "final_url": "https://web.archive.org/web/20230131003159id_/https://shellshock.io/?timestamp=1675106369&countryCode=nl&siteid=79&channelid=2&siteLocale=nl&locale=nl",
+        "sha256": "75dcf7d845a079e6f89fdeddc62dc2ee12f8acd6566398423bebeba9020c712b",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230131003159"
+      },
+      "requested_capture": {
+        "timestamp": "20230131003159",
+        "original": "https://shellshock.io/?timestamp=1675106369&countryCode=nl&siteid=79&channelid=2&siteLocale=nl&locale=nl",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "UIJLOZNRPBKKPLRRRFLLNFB4FDOPRBBS"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230131003159",
+          "original": "https://shellshock.io/?timestamp=1675106369&countryCode=nl&siteid=79&channelid=2&siteLocale=nl&locale=nl",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "UIJLOZNRPBKKPLRRRFLLNFB4FDOPRBBS"
+        },
+        "offset_seconds": 276610,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/e23d6e4def8f736f/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230131003202",
+        "original": "https://shellshock.io/?timestamp=1675106401&countryCode=ru&siteid=79&channelid=2&siteLocale=ru&locale=ru",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "QYKHLDOT44SO7AOKNZ5KG4YEZWJHTYUF",
+        "sha256": "e23d6e4def8f736f03556b762b90e223d585a882c0fb330ee2a50988638996ab",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?channelid=2&countrycode=ru&locale=ru&siteid=79&sitelocale=ru&timestamp=1675106401",
+        "timestamp": "20230131003202",
+        "original": "https://shellshock.io/?timestamp=1675106401&countryCode=ru&siteid=79&channelid=2&siteLocale=ru&locale=ru",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "QYKHLDOT44SO7AOKNZ5KG4YEZWJHTYUF",
+        "replay_url": "https://web.archive.org/web/20230131003202id_/https://shellshock.io/?timestamp=1675106401&countryCode=ru&siteid=79&channelid=2&siteLocale=ru&locale=ru",
+        "final_url": "https://web.archive.org/web/20230131003202id_/https://shellshock.io/?timestamp=1675106401&countryCode=ru&siteid=79&channelid=2&siteLocale=ru&locale=ru",
+        "sha256": "e23d6e4def8f736f03556b762b90e223d585a882c0fb330ee2a50988638996ab",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230131003202"
+      },
+      "requested_capture": {
+        "timestamp": "20230131003202",
+        "original": "https://shellshock.io/?timestamp=1675106401&countryCode=ru&siteid=79&channelid=2&siteLocale=ru&locale=ru",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "QYKHLDOT44SO7AOKNZ5KG4YEZWJHTYUF"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230131003202",
+          "original": "https://shellshock.io/?timestamp=1675106401&countryCode=ru&siteid=79&channelid=2&siteLocale=ru&locale=ru",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "QYKHLDOT44SO7AOKNZ5KG4YEZWJHTYUF"
+        },
+        "offset_seconds": 276613,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    },
+    {
+      "path": "_capture_variants/0408b3fbc947ba67/index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20230131070908",
+        "original": "https://shellshock.io?gd_sdk_referrer_url=https://www.calfgames.com/games/starjack-io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "JJ46EB6LGO2RWTEZINR6CBO6QQ4TTN6Q",
+        "sha256": "0408b3fbc947ba67a2de7b469392623515709fed788336b3f9cc66de44860c38",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?gd_sdk_referrer_url=https://www.calfgames.com/games/starjack-io/",
+        "timestamp": "20230131070908",
+        "original": "https://shellshock.io?gd_sdk_referrer_url=https://www.calfgames.com/games/starjack-io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "JJ46EB6LGO2RWTEZINR6CBO6QQ4TTN6Q",
+        "replay_url": "https://web.archive.org/web/20230131070908id_/https://shellshock.io?gd_sdk_referrer_url=https://www.calfgames.com/games/starjack-io/",
+        "final_url": "https://web.archive.org/web/20230131070908id_/https://shellshock.io?gd_sdk_referrer_url=https://www.calfgames.com/games/starjack-io/",
+        "sha256": "0408b3fbc947ba67a2de7b469392623515709fed788336b3f9cc66de44860c38",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20230131070908"
+      },
+      "requested_capture": {
+        "timestamp": "20230131070908",
+        "original": "https://shellshock.io?gd_sdk_referrer_url=https://www.calfgames.com/games/starjack-io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "JJ46EB6LGO2RWTEZINR6CBO6QQ4TTN6Q"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20230131070908",
+          "original": "https://shellshock.io?gd_sdk_referrer_url=https://www.calfgames.com/games/starjack-io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "JJ46EB6LGO2RWTEZINR6CBO6QQ4TTN6Q"
+        },
+        "offset_seconds": 300439,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "0.44.0_2023-01-27_19-41-49_UTC",
+        "anchor_timestamp": "20230127194149"
+      }
+    }
+  ],
+  "references": [
+    {
+      "requested_url": "https://shellshock.io/language/en.json",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_asset_template",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/language/en.json?0.44.0",
+        "timestamp": "20230122020729",
+        "original": "https://shellshock.io/language/en.json?0.44.0",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "KZBS3L62IYD36TT24YYNJFYZ2RSHZGYD"
+      },
+      "digest": "KZBS3L62IYD36TT24YYNJFYZ2RSHZGYD",
+      "capture_offset_seconds": 1,
+      "exact_query": true,
+      "status": "unsupported_parent_association",
+      "path": "language/en.json",
+      "sha256": "d7b78cf693c442d981f11e582b08bf3dda4e354b293e5c2714ca9bed353cf41e",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/language/es.json",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_asset_template",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/language/es.json?0.44.1",
+        "timestamp": "20230221223253",
+        "original": "https://shellshock.io/language/es.json?0.44.1",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "WM2WM27CEBNLEI3F2NKQ27MNE3FMHBKW"
+      },
+      "digest": "WM2WM27CEBNLEI3F2NKQ27MNE3FMHBKW",
+      "capture_offset_seconds": 2665525,
+      "exact_query": true,
+      "status": "inferred_asset_only_captured_later"
+    },
+    {
+      "requested_url": "https://shellshock.io/language/zh.json",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_asset_template",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/language/zh.json?0.45.6",
+        "timestamp": "20230606110746",
+        "original": "https://shellshock.io/language/zh.json?0.45.6",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "B7UNLDF5BEJNA2KIHBBPULBYZ47APWKT"
+      },
+      "digest": "B7UNLDF5BEJNA2KIHBBPULBYZ47APWKT",
+      "capture_offset_seconds": 11696418,
+      "exact_query": true,
+      "status": "inferred_asset_only_captured_later"
+    },
+    {
+      "requested_url": "https://shellshock.io/language/de.json",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_asset_template",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/language/de.json?0.43.3",
+        "timestamp": "20230120150525",
+        "original": "https://shellshock.io/language/de.json?0.43.3",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "SWXJO56RASRWZNATJCIQZZN3U2ECQJSF"
+      },
+      "digest": "SWXJO56RASRWZNATJCIQZZN3U2ECQJSF",
+      "capture_offset_seconds": -126123,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "language/de.json",
+      "sha256": "596c32f38a0cfbd340f7a3e92c18caf7b6bc22a5d326d562c333bdd37de13d4d",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/language/nl.json",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_asset_template",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/language/nl.json?0.45.0",
+        "timestamp": "20230220090512",
+        "original": "https://shellshock.io/language/nl.json?0.45.0",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "3KAW2GOP5HE6VBE3XZD7JZ73IOPPCALI"
+      },
+      "digest": "3KAW2GOP5HE6VBE3XZD7JZ73IOPPCALI",
+      "capture_offset_seconds": 2530664,
+      "exact_query": true,
+      "status": "inferred_asset_only_captured_later"
+    },
+    {
+      "requested_url": "https://shellshock.io/language/fr.json",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_asset_template",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/language/fr.json?0.43.00",
+        "timestamp": "20221021131724",
+        "original": "https://shellshock.io/language/fr.json?0.43.00",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "HOEFLQBLDQ43DM6BJ3EB4PWYHJGJ6ZWB"
+      },
+      "digest": "HOEFLQBLDQ43DM6BJ3EB4PWYHJGJ6ZWB",
+      "capture_offset_seconds": -7995004,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "language/fr.json",
+      "sha256": "e991f46e82bfc5252385040349a6fb53acfde84a7f28b9bd732360b625a8984a",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/language/ru.json",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_asset_template",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/language/ru.json?0.37",
+        "timestamp": "20231228231941",
+        "original": "https://shellshock.io/language/ru.json?0.37",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "FNP6LUPDSUIT7WGPGASNRPEY227P7VTK"
+      },
+      "digest": "FNP6LUPDSUIT7WGPGASNRPEY227P7VTK",
+      "capture_offset_seconds": 29452333,
+      "exact_query": true,
+      "status": "inferred_asset_only_captured_later"
+    },
+    {
+      "requested_url": "https://shellshock.io/language/pt.json",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_asset_template",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/language/pt.json?0.47.7",
+        "timestamp": "20240520200912",
+        "original": "https://shellshock.io/language/pt.json?0.47.7",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "XGCZU3J2GJXC3FE3534TLJTYLGDQUMCL"
+      },
+      "digest": "XGCZU3J2GJXC3FE3534TLJTYLGDQUMCL",
+      "capture_offset_seconds": 41882504,
+      "exact_query": true,
+      "status": "inferred_asset_only_captured_later"
+    },
+    {
+      "requested_url": "https://shellshock.io/language/ko.json",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_asset_template",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/language/ko.json?0.40.6",
+        "timestamp": "20210910061708",
+        "original": "https://shellshock.io/language/ko.json?0.40.6",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "H7YC6UIBBOT3NW7MYR6XDBB4DTRCFEP3"
+      },
+      "digest": "H7YC6UIBBOT3NW7MYR6XDBB4DTRCFEP3",
+      "capture_offset_seconds": -43098620,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "language/ko.json",
+      "sha256": "c12d4a697e6181a732669bac18da7476adcfe4c251b8165b1844cb11c20bcd45",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/config.json",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "literal_resource_reference",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "status": "not_in_recovered_asset_inventory"
+    },
+    {
+      "requested_url": "https://shellshock.io/babylon.js",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "literal_resource_reference",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "status": "not_in_recovered_asset_inventory"
+    },
+    {
+      "requested_url": "https://shellshock.io/img/ico_goldenEgg.png",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "literal_resource_reference",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/ico_goldenegg.png",
+        "timestamp": "20230122020730",
+        "original": "https://shellshock.io/img/ico_goldenEgg.png",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "E53UQ4O5SM6TWYJ73GHZDI7Q2RPWOB67"
+      },
+      "digest": "E53UQ4O5SM6TWYJ73GHZDI7Q2RPWOB67",
+      "capture_offset_seconds": 2,
+      "exact_query": true,
+      "status": "unsupported_parent_association",
+      "path": "img/ico_goldenEgg.png",
+      "sha256": "9bc493724fbc4c37c524b9bb01e40df75b7250e7e61e2424823305e301ed9d6b",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/img/ico_grenade.png?v=1",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "literal_resource_reference",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "status": "not_in_recovered_asset_inventory"
+    },
+    {
+      "requested_url": "https://shellshock.io/img/ico_grenadeEmpty.png?v=1",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "literal_resource_reference",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/ico_grenadeempty.png?v=1",
+        "timestamp": "20230122020732",
+        "original": "https://shellshock.io/img/ico_grenadeEmpty.png?v=1",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "2YI3NIZAURINNUXTHWL2XKIPJK2NPZAS"
+      },
+      "digest": "2YI3NIZAURINNUXTHWL2XKIPJK2NPZAS",
+      "capture_offset_seconds": 4,
+      "exact_query": true,
+      "status": "unsupported_parent_association",
+      "path": "img/ico_grenadeEmpty.png",
+      "sha256": "833512d7323dfa598388f61ca00aa0a907c744c80490337f17407313d49fd001",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/img/particles.png",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "literal_resource_reference",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "status": "not_in_recovered_asset_inventory"
+    },
+    {
+      "requested_url": "https://shellshock.io/img/stamps.png?v=",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "literal_resource_reference",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/stamps.png?v=0.44.0",
+        "timestamp": "20230122020732",
+        "original": "https://shellshock.io/img/stamps.png?v=0.44.0",
+        "mimetype": "image/png",
+        "statuscode": "200",
+        "digest": "WPIQQ6XSW62KKWH36BG6NM6XIS6C5OYQ"
+      },
+      "digest": "WPIQQ6XSW62KKWH36BG6NM6XIS6C5OYQ",
+      "capture_offset_seconds": 4,
+      "exact_query": false,
+      "status": "unsupported_parent_association",
+      "path": "img/stamps.png",
+      "sha256": "a0197779b33f7b3cacb57cee1afb69fd10845b3582b819499b68ee110bcd7efb",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/sound/sounds.json",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "literal_resource_reference",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/sound/sounds.json?0.44.0",
+        "timestamp": "20230122020732",
+        "original": "https://shellshock.io/sound/sounds.json?0.44.0",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "3BNIDUOKIP22GX74E44IGDGYRIIRGNZY"
+      },
+      "digest": "3BNIDUOKIP22GX74E44IGDGYRIIRGNZY",
+      "capture_offset_seconds": 4,
+      "exact_query": true,
+      "status": "unsupported_parent_association",
+      "path": "sound/sounds.json",
+      "sha256": "eee86bc0491e0bafb3518b774562a5460bf91ac72d8704309ebd8d3dd7defc22",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/img/skyboxes/moonbase/skybox_nz.jpg",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_resource_prefix",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/skyboxes/moonbase/skybox_nz.jpg",
+        "timestamp": "20181029205231",
+        "original": "https://shellshock.io/img/skyboxes/moonbase/skybox_nz.jpg",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "4KVIEW7YPGJ7MSCP74TA4BQTQGV52V6Z"
+      },
+      "digest": "4KVIEW7YPGJ7MSCP74TA4BQTQGV52V6Z",
+      "capture_offset_seconds": -133506897,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "img/skyboxes/moonbase/skybox_nz.jpg",
+      "sha256": "f00b7b4818e22429e8a32a5b2e132e5b53dba7950875ffffc7aa01480544fe39",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/img/skyboxes/skybox_ny.jpg",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_resource_prefix",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/skyboxes/skybox_ny.jpg",
+        "timestamp": "20180914125838",
+        "original": "https://shellshock.io/img/skyboxes/skybox_ny.jpg",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "6DHJS35GSW7IP3RISQKCJ3WXOJTEJZ3V"
+      },
+      "digest": "6DHJS35GSW7IP3RISQKCJ3WXOJTEJZ3V",
+      "capture_offset_seconds": -137423330,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "img/skyboxes/skybox_ny.jpg",
+      "sha256": "54bb2f391a8ce2ea961e43f98eec692b5ecaccc1e31d61b3710b79c904b1b54d",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/img/skyboxes/default/skybox_ny.jpg",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_resource_prefix",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/skyboxes/default/skybox_ny.jpg",
+        "timestamp": "20181031202535",
+        "original": "https://shellshock.io/img/skyboxes/default/skybox_ny.jpg",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "6DHJS35GSW7IP3RISQKCJ3WXOJTEJZ3V"
+      },
+      "digest": "6DHJS35GSW7IP3RISQKCJ3WXOJTEJZ3V",
+      "capture_offset_seconds": -133335713,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "img/skyboxes/default/skybox_ny.jpg",
+      "sha256": "54bb2f391a8ce2ea961e43f98eec692b5ecaccc1e31d61b3710b79c904b1b54d",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/img/skyboxes/skybox_nx.jpg",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_resource_prefix",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/skyboxes/skybox_nx.jpg",
+        "timestamp": "20180914125838",
+        "original": "https://shellshock.io/img/skyboxes/skybox_nx.jpg",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "EZKQF4HTXN7TSSRNOCPAEL3XTLSLLHDN"
+      },
+      "digest": "EZKQF4HTXN7TSSRNOCPAEL3XTLSLLHDN",
+      "capture_offset_seconds": -137423330,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "img/skyboxes/skybox_nx.jpg",
+      "sha256": "2a022457f439a969ca1d249f0441157321ed70dd12f706da5857ddb402c9ca8d",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/img/skyboxes/default/skybox_nx.jpg",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_resource_prefix",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/skyboxes/default/skybox_nx.jpg",
+        "timestamp": "20181031202535",
+        "original": "https://shellshock.io/img/skyboxes/default/skybox_nx.jpg",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "EZKQF4HTXN7TSSRNOCPAEL3XTLSLLHDN"
+      },
+      "digest": "EZKQF4HTXN7TSSRNOCPAEL3XTLSLLHDN",
+      "capture_offset_seconds": -133335713,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "img/skyboxes/default/skybox_nx.jpg",
+      "sha256": "2a022457f439a969ca1d249f0441157321ed70dd12f706da5857ddb402c9ca8d",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/img/skyboxes/moonbase/skybox_pz.jpg",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_resource_prefix",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/skyboxes/moonbase/skybox_pz.jpg",
+        "timestamp": "20181029205230",
+        "original": "https://shellshock.io/img/skyboxes/moonbase/skybox_pz.jpg",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "MIGUFAJURPGNPFR356VPL222JUB5RHL2"
+      },
+      "digest": "MIGUFAJURPGNPFR356VPL222JUB5RHL2",
+      "capture_offset_seconds": -133506898,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "img/skyboxes/moonbase/skybox_pz.jpg",
+      "sha256": "ab4de80ea482451ba5a3f22c9f6a8e895bd7af9069e45b812dec5f5500f03014",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/img/skyboxes/moonbase/skybox_px.jpg",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_resource_prefix",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/skyboxes/moonbase/skybox_px.jpg",
+        "timestamp": "20181029205230",
+        "original": "https://shellshock.io/img/skyboxes/moonbase/skybox_px.jpg",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "NVJBWOYBZ5SIN33I7DM5D6Z35MGILFWX"
+      },
+      "digest": "NVJBWOYBZ5SIN33I7DM5D6Z35MGILFWX",
+      "capture_offset_seconds": -133506898,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "img/skyboxes/moonbase/skybox_px.jpg",
+      "sha256": "d50301cd784b4e5f2aa758364ab314bb4f1a8a4a3ac0a269e6fbf8d36cfd2f7e",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/img/skyboxes/skybox_nz.jpg",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_resource_prefix",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/skyboxes/skybox_nz.jpg",
+        "timestamp": "20180914125838",
+        "original": "https://shellshock.io/img/skyboxes/skybox_nz.jpg",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "ON6FLAEO3OT2ULLOOHROCRUDO7WUK4WY"
+      },
+      "digest": "ON6FLAEO3OT2ULLOOHROCRUDO7WUK4WY",
+      "capture_offset_seconds": -137423330,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "img/skyboxes/skybox_nz.jpg",
+      "sha256": "edc4c761afb54d1d4688651c91d91f7391127fcf262ae605cfd2f6fc8ace3652",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/img/skyboxes/default/skybox_nz.jpg",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_resource_prefix",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/skyboxes/default/skybox_nz.jpg",
+        "timestamp": "20181031202535",
+        "original": "https://shellshock.io/img/skyboxes/default/skybox_nz.jpg",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "ON6FLAEO3OT2ULLOOHROCRUDO7WUK4WY"
+      },
+      "digest": "ON6FLAEO3OT2ULLOOHROCRUDO7WUK4WY",
+      "capture_offset_seconds": -133335713,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "img/skyboxes/default/skybox_nz.jpg",
+      "sha256": "edc4c761afb54d1d4688651c91d91f7391127fcf262ae605cfd2f6fc8ace3652",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/img/skyboxes/moonbase/skybox_py.jpg",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_resource_prefix",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/skyboxes/moonbase/skybox_py.jpg",
+        "timestamp": "20181029205230",
+        "original": "https://shellshock.io/img/skyboxes/moonbase/skybox_py.jpg",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "PA3VCHVFJF3DJVM5KYJ5K7G5RG5J5GDM"
+      },
+      "digest": "PA3VCHVFJF3DJVM5KYJ5K7G5RG5J5GDM",
+      "capture_offset_seconds": -133506898,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "img/skyboxes/moonbase/skybox_py.jpg",
+      "sha256": "9826a165e8b90fed11e9b2a8b055ef067bed335cd9d8194657e88ca59a1c09e8",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/img/skyboxes/moonbase/skybox_ny.jpg",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_resource_prefix",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/skyboxes/moonbase/skybox_ny.jpg",
+        "timestamp": "20181029205230",
+        "original": "https://shellshock.io/img/skyboxes/moonbase/skybox_ny.jpg",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "PPECAHXI2LLXUHFFJCY3YRILW2LWQTI3"
+      },
+      "digest": "PPECAHXI2LLXUHFFJCY3YRILW2LWQTI3",
+      "capture_offset_seconds": -133506898,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "img/skyboxes/moonbase/skybox_ny.jpg",
+      "sha256": "3eb7a3e199e0ccf1064a222bd1cedadddb2c8a8be9235fd200dbd9acbdcd9968",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/img/skyboxes/moonbase/skybox_nx.jpg",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_resource_prefix",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/skyboxes/moonbase/skybox_nx.jpg",
+        "timestamp": "20181029205230",
+        "original": "https://shellshock.io/img/skyboxes/moonbase/skybox_nx.jpg",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "PRNSJGNBK7DEEF27BAFSIOGB2TWBRWD2"
+      },
+      "digest": "PRNSJGNBK7DEEF27BAFSIOGB2TWBRWD2",
+      "capture_offset_seconds": -133506898,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "img/skyboxes/moonbase/skybox_nx.jpg",
+      "sha256": "e208b4012622070410a9c33233af9cc807d706310ad9fbbecb7a0fbb235ad7f1",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/img/skyboxes/skybox_px.jpg",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_resource_prefix",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/skyboxes/skybox_px.jpg",
+        "timestamp": "20180914125838",
+        "original": "https://shellshock.io/img/skyboxes/skybox_px.jpg",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "SOBI5OHWC3K4YJ3MM23IHZA53LMIQMAD"
+      },
+      "digest": "SOBI5OHWC3K4YJ3MM23IHZA53LMIQMAD",
+      "capture_offset_seconds": -137423330,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "img/skyboxes/skybox_px.jpg",
+      "sha256": "b898bfca368ce441290f0a008c6a14b1deaeafc4ba55e6b09ba58d1a1cfdd317",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/img/skyboxes/default/skybox_px.jpg",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_resource_prefix",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/skyboxes/default/skybox_px.jpg",
+        "timestamp": "20181031202535",
+        "original": "https://shellshock.io/img/skyboxes/default/skybox_px.jpg",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "SOBI5OHWC3K4YJ3MM23IHZA53LMIQMAD"
+      },
+      "digest": "SOBI5OHWC3K4YJ3MM23IHZA53LMIQMAD",
+      "capture_offset_seconds": -133335713,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "img/skyboxes/default/skybox_px.jpg",
+      "sha256": "b898bfca368ce441290f0a008c6a14b1deaeafc4ba55e6b09ba58d1a1cfdd317",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/img/skyboxes/skybox_pz.jpg",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_resource_prefix",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/skyboxes/skybox_pz.jpg",
+        "timestamp": "20180914125838",
+        "original": "https://shellshock.io/img/skyboxes/skybox_pz.jpg",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "YZUJFD366XIFJ3HCSEB2H26GF673XNSJ"
+      },
+      "digest": "YZUJFD366XIFJ3HCSEB2H26GF673XNSJ",
+      "capture_offset_seconds": -137423330,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "img/skyboxes/skybox_pz.jpg",
+      "sha256": "30921476a6d6da9ec8bb70c5b47c2865f951e0906ffeebf5fac44682ed724ed5",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/img/skyboxes/default/skybox_pz.jpg",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_resource_prefix",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/skyboxes/default/skybox_pz.jpg",
+        "timestamp": "20181031202535",
+        "original": "https://shellshock.io/img/skyboxes/default/skybox_pz.jpg",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "YZUJFD366XIFJ3HCSEB2H26GF673XNSJ"
+      },
+      "digest": "YZUJFD366XIFJ3HCSEB2H26GF673XNSJ",
+      "capture_offset_seconds": -133335713,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "img/skyboxes/default/skybox_pz.jpg",
+      "sha256": "30921476a6d6da9ec8bb70c5b47c2865f951e0906ffeebf5fac44682ed724ed5",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/img/skyboxes/skybox_py.jpg",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_resource_prefix",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/skyboxes/skybox_py.jpg",
+        "timestamp": "20180914125838",
+        "original": "https://shellshock.io/img/skyboxes/skybox_py.jpg",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "ZJAW646JSLRGCXQ4AHKEFUB3BZ5YEUYH"
+      },
+      "digest": "ZJAW646JSLRGCXQ4AHKEFUB3BZ5YEUYH",
+      "capture_offset_seconds": -137423330,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "img/skyboxes/skybox_py.jpg",
+      "sha256": "3a2cb3bc492a85970e3e00946747eda1a501ac6a4153436448cc147ec66051ee",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/img/skyboxes/default/skybox_py.jpg",
+      "parent": "js/shellshock.js",
+      "parent_capture_timestamp": "20230122020728",
+      "selection_method": "inferred_resource_prefix",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/img/skyboxes/default/skybox_py.jpg",
+        "timestamp": "20181031202535",
+        "original": "https://shellshock.io/img/skyboxes/default/skybox_py.jpg",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "ZJAW646JSLRGCXQ4AHKEFUB3BZ5YEUYH"
+      },
+      "digest": "ZJAW646JSLRGCXQ4AHKEFUB3BZ5YEUYH",
+      "capture_offset_seconds": -133335713,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "img/skyboxes/default/skybox_py.jpg",
+      "sha256": "3a2cb3bc492a85970e3e00946747eda1a501ac6a4153436448cc147ec66051ee",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/favicon.png",
+      "parent": "service-worker.js",
+      "parent_capture_timestamp": "20200717224432",
+      "selection_method": "literal_resource_reference",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/favicon.png",
+        "timestamp": "20200717224730",
+        "original": "https://shellshock.io/favicon.png",
+        "mimetype": "image/png",
+        "statuscode": "200",
+        "digest": "HK6WRHOB6QUAYYHPIMIVFGW6ZTMEW3L5"
+      },
+      "digest": "HK6WRHOB6QUAYYHPIMIVFGW6ZTMEW3L5",
+      "capture_offset_seconds": 178,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "favicon.png",
+      "sha256": "dbc8ec457be7117cd6130aeb954bf6a206d588e058515ab2610955c3fb2ba3c8",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/sound/sounds.webm",
+      "parent": "sound/sounds.json",
+      "parent_capture_timestamp": "20230122020732",
+      "selection_method": "json_resource_reference",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/sound/sounds.webm?0.44.0",
+        "timestamp": "20230122020734",
+        "original": "https://shellshock.io/sound/sounds.webm?0.44.0",
+        "mimetype": "video/webm",
+        "statuscode": "200",
+        "digest": "HCLIMUIV2SM7LAWADCO6PD527ZE62KDQ"
+      },
+      "digest": "HCLIMUIV2SM7LAWADCO6PD527ZE62KDQ",
+      "capture_offset_seconds": 2,
+      "exact_query": true,
+      "status": "unsupported_parent_association",
+      "path": "sound/sounds.webm",
+      "sha256": "a335c343600f87c21af39ccc86a95a9f48ffe5624d6cd1e3d0972e6d66ed6771",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/sound/sounds.ogg",
+      "parent": "sound/sounds.json",
+      "parent_capture_timestamp": "20230122020732",
+      "selection_method": "json_resource_reference",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/sound/sounds.ogg?0.50.9",
+        "timestamp": "20251111235402",
+        "original": "https://shellshock.io/sound/sounds.ogg?0.50.9",
+        "mimetype": "audio/ogg",
+        "statuscode": "200",
+        "digest": "PSHHTVRWK2PD326BYIPE6FYIV7RZXWS2"
+      },
+      "digest": "PSHHTVRWK2PD326BYIPE6FYIV7RZXWS2",
+      "capture_offset_seconds": 88551990,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "sound/sounds.ogg",
+      "sha256": "06e28ffd54ebee1bf43cfc1255c55ee5810ab94db706f60daaa8f4ac7b003719",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    },
+    {
+      "requested_url": "https://shellshock.io/sound/sounds.mp3",
+      "parent": "sound/sounds.json",
+      "parent_capture_timestamp": "20230122020732",
+      "selection_method": "json_resource_reference",
+      "pairing_verified": false,
+      "integration": "remaining_references_v1",
+      "selected_capture": {
+        "urlkey": "io,shellshock)/sound/sounds.mp3?0.44.0",
+        "timestamp": "20230123110628",
+        "original": "https://shellshock.io/sound/sounds.mp3?0.44.0",
+        "mimetype": "audio/mpeg",
+        "statuscode": "200",
+        "digest": "GFBGPEPOXALHX3SEBOS7MOV6JBL2RGXZ"
+      },
+      "digest": "GFBGPEPOXALHX3SEBOS7MOV6JBL2RGXZ",
+      "capture_offset_seconds": 118736,
+      "exact_query": true,
+      "status": "unsupported_snapshot_association",
+      "path": "sound/sounds.mp3",
+      "sha256": "10d89e1f38d2f7c7c74d5c33aa92fcbda7448148b8bed3409b95973a1b4c3df7",
+      "association_audit": "Historical selection retained as evidence only; it does not establish this file in this snapshot."
+    }
+  ],
+  "status_counts": {
+    "unsupported_parent_association": 6,
+    "inferred_asset_only_captured_later": 5,
+    "unsupported_snapshot_association": 24,
+    "not_in_recovered_asset_inventory": 4
+  },
+  "remaining_integration": "remaining_references_v1",
+  "assembly_scope": "Referenced first-party dependencies plus explicitly marked indexed captures; external resources and Twitch avatars excluded",
+  "consolidation": {
+    "capture_count": 1,
+    "original_metadata": "_recovery/consolidation_2021-2026/before/",
+    "variants": "_capture_variants/<sha256-prefix>/<original-path>"
+  },
+  "origins_catalog": "origins.json (archive root; included in exports)",
+  "original_payload_bytes_unchanged": true,
+  "script_pairing_inventory_corrected": true,
+  "policy": "Supporting resources are part of the game capture; each file retains its own digest-proven observation date and URL. Release membership is unverified."
+}
