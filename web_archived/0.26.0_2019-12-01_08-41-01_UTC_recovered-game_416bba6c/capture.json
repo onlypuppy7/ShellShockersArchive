@@ -1,0 +1,79 @@
+{
+  "folder": "0.26.0_2019-12-01_08-41-01_UTC_recovered-game_416bba6c",
+  "version": "0.26.0",
+  "version_source": "html",
+  "origin_id": "archive_org",
+  "capture_kind": "game_capture",
+  "event": {
+    "timestamp": "20191201084101",
+    "timezone": "UTC"
+  },
+  "files": [
+    {
+      "path": "index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20191201084101",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "EUKIZWVNHGTBEA7OKRRDKKHK5NIUBYDF",
+        "sha256": "4782fdded62bf98e45beadcc4128a44757e1eb80beb65b2dedfac1f71ef92366",
+        "verification": "cdx_sha1_encoded",
+        "encoded_payload": "_recovery/encoded/EUKIZWVNHGTBEA7OKRRDKKHK5NIUBYDF",
+        "encoded_sha256": "fe04bc0b17368929586bf9895eaa1cfd726cfc7cf7b110d56eb08cb210b02912",
+        "content_encoding": "gzip",
+        "decoded_sha1": "LANXBTVBAJOZEY5XYDYL7DTFWMOBSTLG"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20191201084101",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "EUKIZWVNHGTBEA7OKRRDKKHK5NIUBYDF",
+        "replay_url": "https://web.archive.org/web/20191201084101id_/https://shellshock.io/",
+        "final_url": "https://web.archive.org/web/20191201084101id_/https://shellshock.io/",
+        "sha256": "4782fdded62bf98e45beadcc4128a44757e1eb80beb65b2dedfac1f71ef92366",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/EUKIZWVNHGTBEA7OKRRDKKHK5NIUBYDF",
+        "encoded_sha256": "fe04bc0b17368929586bf9895eaa1cfd726cfc7cf7b110d56eb08cb210b02912",
+        "decoded_sha1": "LANXBTVBAJOZEY5XYDYL7DTFWMOBSTLG"
+      },
+      "requested_capture": {
+        "timestamp": "20191201084101",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "EUKIZWVNHGTBEA7OKRRDKKHK5NIUBYDF"
+      },
+      "exact_event_timestamp": true,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20191201084101",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "EUKIZWVNHGTBEA7OKRRDKKHK5NIUBYDF"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "missing_scripts": [],
+  "pairing_verified": false,
+  "html_available": true,
+  "channel": null,
+  "version_evidence": {
+    "version": "0.26.0",
+    "kind": "declared_game_version",
+    "expression": "var version = '0.26.0'",
+    "offset": 9605,
+    "path": "index.html",
+    "sha256": "4782fdded62bf98e45beadcc4128a44757e1eb80beb65b2dedfac1f71ef92366"
+  }
+}

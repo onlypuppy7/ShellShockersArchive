@@ -1,0 +1,728 @@
+/* ------------------------------------------------------------------------------------------------- Universal Stuff -- */
+* {
+    --egg-brown: #532a19;
+    --egg-tan: #fff2e3;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.2vh;
+    font-weight: bold;
+    line-height: 1.2em;
+    outline: none;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+#mainMenu, #customizationMenu, #itemSelectorMenu {
+    color: var(--egg-brown);
+}
+
+.textShadow {
+    text-shadow:
+        0em 0em .1em #000,
+        0em .1em .2em #000;
+}
+
+a { 
+	color: var(--egg-brown);
+	text-decoration: none; 
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.fill {
+	width: 100%;
+    height: 100%;
+}
+
+ul {
+    padding-left: 1em;
+    list-style-position: outside;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+.centered {
+	top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centerText { text-align: center; }
+
+.topLeft { transform-origin: top left; }
+
+.hideme { display: none; }
+
+.absolute { position: absolute; }
+
+.fixed { position: fixed; }
+
+.flex { display: flex; }
+
+.nowrap { white-space: nowrap; }
+
+.spaceUnder_small {
+	margin-bottom: 0.2em;
+}
+
+.paddingUnder_med {
+	padding-bottom: 1em;
+}
+
+
+/* ------------------------------------------------------------------------------------------------- UI Elements -- */
+
+.ui_blackOverlay {
+    position: fixed;
+    margin: 0;
+	position: absolute;
+	top: 0; 
+	width: 100%; 
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.ui_closeButton {
+	position: absolute; 
+	width: 1.5em; 
+	height: 1.5em; 
+	top: 0; 
+	right: 0;
+}
+
+button.red { background: linear-gradient(#e33, #d22); }
+button.orange { background: linear-gradient(#f84, #e73); }
+button.yellow { background: linear-gradient(#db5, #ca4); }
+button.green { background: linear-gradient(#4c9, #3b8); }
+button.blue { background: linear-gradient(#49d, #38c); }
+button.purple { background: linear-gradient(#e4b, #c39); }
+button.clear { background: linear-gradient(rgba(255, 64, 192, 0.25), rgba(128, 32, 96, 0.75)) }
+button.white { background: linear-gradient(#fff, #eee); }
+button.grey { background: linear-gradient(#ccc, #bbb); }
+
+.roundedBorder {
+    border-style: solid;
+    border-width: 0.4em;
+    border-color: #e82;
+    border-radius: 0.6em;
+    box-shadow: 0 0.25em 2em rgba(0, 0, 0, 1);
+}
+
+/* -------------------------------------------------------------------------------------------- Loading Spinner -- */
+
+#spinnerHeader {
+	margin-bottom: 0.5em;
+}
+
+.centerSpinner {
+	position: relative; 
+	left: 50%; 
+	transform: translateX(-3em)
+}
+
+.spinner {
+    border: 1.1em solid orange;
+    border-top: 0.5em solid orange;
+    padding-top: 1em;
+    border-radius: 50%;
+    width: 6em;
+    height: 6em;
+    background: white;
+    animation: spin 0.75s linear infinite;
+}
+
+#spinnerHeader, #spinnerFooter {
+	color: orange;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* ------------------------------------------------------------------------------- Footer / Social / Notification -- */
+
+.fb-like {
+	margin-right: 2em; 
+	vertical-align: middle;
+}
+
+#copyright {
+	font-size: 0.8em;
+	margin-top: 0.6em;
+}
+
+#copyright a {
+	font-size: 1em;
+}
+
+#versionlink {
+	position: absolute;
+	margin: 1em;
+	left: 0;
+	bottom: 0;
+}
+
+#footerlinks {
+	 position: absolute;
+	 text-align: center;
+	 bottom: 1em;
+	 left: 50%;
+	 transform: translateX(-50%);
+}
+
+#sociallinks {
+	position: absolute;
+	display: block;
+	right: 5em;
+	bottom: 1em;
+}
+
+#sociallinks>img {
+	width: 2.5em;
+	vertical-align: middle;
+}
+
+#notification {
+	position: absolute;
+    color: var(--egg-brown);
+    background: white;
+    left: 50%; top: 1em;
+    transform: translateX(-50%);
+    padding: 0.75em;
+    box-shadow: 0.1em 0.1em 0.4em rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+
+#notification img {
+	width: 2em; 
+	height: 2em;
+	margin-right: 0.75em;
+}
+
+/* -------------------------------------------------------------------------------------------------------- Server List -- */
+
+#serverItem {
+	width: 22em; margin-top: 0.25em;
+}
+
+.serverTable {
+	width: 100%; 
+	margin-top: 0.25em;
+	text-align: left;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------- Ads -- */
+	
+#preroll {
+	position: fixed;
+}
+
+.bigAdContainer {
+	position: absolute;
+	max-width: calc(800px + 1.5em);
+	max-height: calc(600px + 1.5em);
+	width: calc(120vh + 1.5em);
+	height: calc(90vh + 1.5em);
+}
+
+#bigAdImg {
+	position: absolute;
+    width: calc(100% - 1.5em);
+    height: calc(100% - 1.5em);
+}
+
+#houseAd_300x250 {
+	pointer-events: all;								/*I dont think this actually does anything... */
+}
+
+/* ------------------------------------------------------------------------------------------------- Content Panes -- */
+#canvas {
+    background: black;
+    position: absolute;
+    pointer-events: none;
+}
+
+#mainMenu {
+	position: absolute;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#game {
+    color: #fff;
+    text-shadow:
+        0em 0em .1em #000,
+        0em .1em .2em #000;
+}
+
+.shadedPane {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 0.2em;
+    display: inline-block;
+}
+
+.lightPane {
+    background: rgba(224, 240, 255, 0.75);
+    border-radius: 0.4em;
+    margin: 0.5em;
+    padding: 0.75em;
+}
+
+.pane_faq {
+	position: absolute; 
+	top: 100%; 
+	width: 60%; 
+	min-width: 50em; 
+	left: 50%; 
+	transform: translateX(-50%);
+}
+
+#feedback {
+	text-align: left;
+	width: 30em;
+	white-space: normal;
+}
+
+#feedbackEmail {
+    width: 100%;
+}
+
+#changelog {
+	text-align: left; 
+	white-space: nowrap;
+}
+
+
+/* ------------------------------------------------------------------------------------------------- Login Bar -- */
+
+#logout {
+	text-align: left;	
+}
+
+#profilePic {
+	float: left; margin-right: 0.25em; display: none; height: 1.75em;
+}
+
+#serverName {
+	margin-left: 1em;
+	margin-top: 0.25em;
+	text-decoration: underline !important;
+}
+
+/* ------------------------------------------------------------------------------------------------- Team Elements -- */
+
+.redTeam {
+    font-size: 2em;
+    color: #f00;
+}
+
+.blueTeam {
+    font-size: 2em;
+    color: #0af;
+}
+
+.team {
+    display: none;
+    position: absolute;
+    left: 50%;
+    bottom: 0.25em;
+    transform: translateX(-50%);
+    font-size: 2em;
+}
+
+/* ------------------------------------------------------------------------------------------------- Form Elements -- */
+
+div, input, textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-clip: padding-box;
+}
+
+select {
+    font-size: 1em;
+    background: #fff;
+    height: 2em;
+}
+
+.textInput {
+    padding: 0.5em;
+    height: 2em;
+}
+
+.textInput, textarea, select {
+	color: var(--egg-brown); 
+	box-shadow: inset 0 0.1em 0.2em rgba(0, 0, 0, 0.33);
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: var(--egg-brown);
+    border-radius: 0.2em;
+}
+
+textarea {
+	resize: none;
+	width: 100%;
+	margin-top: 0.5em;
+	padding: 0.5em;
+}
+
+.ss_slider {
+	width: 90%;
+	height: 1em;
+}
+
+.ss_checkbox {
+	height: 1em;
+	margin-left: 1em;
+}
+
+.ss_link {
+	text-decoration: underline;
+	text-align: center;
+	width: 100%;
+	cursor: pointer;
+	padding-top: 0.5em;
+}
+
+
+/* ------------------------------------------------------------------------------------------------- Text Formatting -- */
+
+h1 { font-family: 'Sigmar One', Sans-Serif; font-size: 1.6em; margin: 0; }
+h2 { font-family: 'Nunito', Sans-Serif; font-size: 1.5em; }
+h3 { font-family: 'Nunito', Sans-Serif; font-size: 1.2em; }
+small { font-size: 0.9em; }
+
+h2, h3 {
+    margin: 0.2em;
+    font-weight: bolder;
+}
+
+/* --------------------------------------------------------------------------------------------------- Button Styles -- */
+
+button > h1 {
+    color: #fff;
+}
+
+.sizeMed {
+	width: 10em;
+}
+
+.ssbutton {
+    background: linear-gradient(#ace, #def);
+    height: 1.75em;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 0.3em;
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.33);
+    border-width: 0.1em;
+    text-shadow: 0em 0em 0.2em #000;
+    box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.33);
+    pointer-events: all;
+}
+
+.itemContainer {
+    position: relative;
+    width: 8em; 
+    height: 8em; 
+    padding: 0em; 
+    margin: 0em;
+}
+
+.itemLock, .itemLockPhysical {
+    display: inline-block; 
+    position: absolute; 
+    width: 5em;
+    left: 2.9em; 
+    bottom: 0.5em; 
+    background-color: rgb(250, 203, 205, 0.85); 
+    border-radius: 0.5em;
+}
+
+.itemLockPhysicalImg {
+    width: 2em; 
+    height: 2em; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+}
+
+.itemButton {
+    box-sizing: border-box;
+    background: linear-gradient(#ace, #def);
+    width: 8em;
+    height: 8em;
+    cursor: pointer;
+    border-radius: 0.4em;
+    border: solid;
+    border-color: rgba(0, 32, 64, 0.33);
+    border-width: 0.1em;
+    text-shadow: 0em 0em 0.2em #000;
+    box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.33);
+}
+
+.itemButtonSelected {
+    box-sizing: border-box;
+    background: linear-gradient(#f93, #fed);
+    width: 8em;
+    height: 8em;
+    cursor: pointer;
+    border-radius: 0.4em;
+    border: solid;
+    border-color: #fff;
+    border-width: 0.2em;
+    text-shadow: 0em 0em 0.2em #000;
+    box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.33);
+}
+
+.chat {
+    position: absolute;
+    width: 40%;
+    border: none;
+    pointer-events: none;
+    color: #ccc;
+    text-align: left;
+    text-shadow:
+        0em 0em .1em #000,
+        0em .1em .2em #000;
+}
+
+.friendCode {
+	position: absolute; 
+	top: -10em;
+    resize: none;
+    border-width: 0;
+    font-size: 1.2em;
+    font-weight: 900;
+    color: var(--egg-brown);
+}
+
+.bgap { margin-bottom: 1em; }
+.lgap { margin-left: 0.5em; }
+.rgap { margin-right: 0.5em; }
+
+.flexCol, .flexRow {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flexCol {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.flexRow {
+    /*width: 100%;*/
+    flex-direction: row;
+}
+
+.icon {
+    cursor: pointer;
+    pointer-events: all;
+    height: 2.25em;
+}
+
+.buttonIcon {
+    float: left;
+    width: 1.25em;
+    height: 1.25em;
+}
+
+.grenade {
+    width: 2em;
+}
+
+.settings {
+    position: absolute;
+    right: 1em;
+    top: 4em;
+    background: var(--egg-tan);
+    color: var(--egg-brown);
+}
+
+.arrow {
+    height: 3em;
+    cursor: pointer;
+    padding: 0.7em;
+}
+
+.statLabel {
+    text-align: right;
+    font-size: 1.1em;
+    white-space: nowrap;
+}
+
+.statBar {
+    background: #def;
+    width: 6em;
+    height: 1.1em;
+    border: solid;
+    border-color: var(--egg-brown);
+    border-width: 0.1em;
+    border-radius: 0.2em;
+    border-right-width: 1em;
+}
+
+div.otherPlayer {
+    border-radius: 0.2em;
+    padding-top: 0.05em; padding-bottom: 0.05em;
+    padding-left: 0.5em; padding-right: 0.5em;
+    margin: 0.1em;
+}
+
+.otherPlayer > span {
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+div.thisPlayer {
+    border-radius: 0.2em;
+    padding-top: 0.05em; padding-bottom: 0.05em;
+    padding-left: 0.5em; padding-right: 0.5em;
+    margin: 0.1em;
+}
+
+.thisPlayer > span {
+    color: #ff0;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.alert {
+    position: absolute;
+    display: block;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    background: var(--egg-tan);
+    color: var(--egg-brown);
+    /*text-align: center;*/
+}
+
+.redeemCodeDialog {
+    position: absolute;
+    display: block;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    background: var(--egg-tan);
+    text-align: center;
+}
+
+.colorSelector {
+    position: relative;
+    padding: 0.7em;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0.2em;
+    border: solid 0.1em;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+
+.whiteHeader {
+    color: #fff;
+    text-shadow: 0 0 0.2em black;
+}
+
+.unselectable {
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+/* -------------------------------------------------------------------------------------------------------- FIREBASE -- */
+
+.firebaseui-container {
+    background: transparent;
+    box-shadow: none;
+}
+
+.firebaseui-input-floating-button {
+    color: #f00;
+}
+
+/* ------------------------------------------------------------------------------------------------- SETTINGS POPUP -- */
+
+	#settings>table td { 
+		text-align: right;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+	}
+    
+    #settings>table div {
+		width: 12em;
+		background: var(--egg-brown);
+		text-align: center;
+		padding: 0.1em;
+		cursor: pointer;
+		color: #aaa;
+	}
+	
+	#settings input {
+		
+	}
+
+/* ------------------------------------------------------------------------------------------------- FRONT END -- */
+
+#specialmessage {
+	position: absolute; 
+	left: 50%; 
+	transform: translateX(-50%); 
+	top: 1.5em;	
+}
+
+#logo {
+	width: 22em; 
+	margin: 0 auto;
+}
+
+#logo img{
+	width: 100%;
+}
+
+.merch-container {
+    display: inline-block;
+    position: relative;
+    background: #f84;
+    margin: 0.25em;
+    width: 2.15em;
+    height: 2.15em;
+    border-radius: 0.2em;
+}
+
+@keyframes merch-anim {
+    0% { transform: translate(-50%, -50%) scale(0.8) }
+    60% { transform: translate(-50%, -50%) scale(0.8) }
+    80% { transform: translate(-50%, -50%) scale(1.2) rotate(-15deg) }
+    100% { transform: translate(-50%, -50%) scale(1.2) rotate(15deg) }
+}
+
+.merch-icon {
+    position: absolute;
+    animation: merch-anim 1s infinite alternate;
+    width: 2.15em;
+    height: 2.15em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ------------------------------------------------------------------------------------------------- GAME UI -- */
+

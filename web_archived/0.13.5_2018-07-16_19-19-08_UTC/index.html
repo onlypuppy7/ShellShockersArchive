@@ -1,0 +1,1312 @@
+<!doctype html>
+<html>
+<head>
+<title>Shell Shockers</title>
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,900" rel="stylesheet">
+<link rel="icon" type="image/png" href="https://shellshock.io/favicon.png">
+<meta charset="UTF-8" />
+<meta name="description" content="Welcome to Shell Shockers, the world's most advanced egg-based multiplayer shooter! It's like your favorite battlefield game but... with eggs." />
+
+<!-- AdInPlay-->
+<meta name="viewport" content="minimal-ui, user-scalable=no, initial-scale=1, maximum-scale=1, width=device-width" />
+
+</head>
+
+<style>
+    * {
+        --egg-brown: #532a19;
+        font-family: Nunito, sans-serif;
+        font-size: 2.2vh;
+        font-weight: bold;
+        line-height: 1.2em;
+        outline: none;
+    }
+
+    #mainMenu, #customizationMenu, #itemSelectorMenu {
+        color: var(--egg-brown);
+    }
+
+    #game {
+        color: #fff;
+        text-shadow:
+            0em 0em .1em #000,
+            0em .1em .2em #000;
+    }
+
+    .textShadow {
+        text-shadow:
+            0em 0em .1em #000,
+            0em .1em .2em #000;
+    }
+
+    html, body {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+
+    a, textarea, .textInput, select { color: var(--egg-brown); }
+
+    .textInput {
+        margin: 0;
+        padding: 0.5em;
+        height: 2em;
+    }
+
+    .team {
+        display: none;
+        position: absolute;
+        left: 50%;
+        bottom: 0.25em;
+        transform: translateX(-50%);
+        font-size: 2em;
+    }
+
+    .redTeam {
+        font-size: 2em;
+        color: #f00;
+    }
+
+    .blueTeam {
+        font-size: 2em;
+        color: #0af;
+    }
+
+    .pane {
+        background: rgba(224, 240, 255, 0.75);
+        border-radius: 0.4em;
+        margin: 0.5em;
+        padding: 0.75em;
+    }
+
+    div, input, textarea {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background-clip: padding-box;
+    }
+
+    select {
+        font-size: 1em;
+        background: #fff;
+        height: 2em;
+    }
+
+    h1 { font-size: 1.5em; }
+    h2 { font-size: 1.2em; }
+    h3 { font-size: 1.1em; }
+    small { font-size: 0.9em; }
+
+    h1, h2, h3 {
+        margin: 0.2em;
+        font-weight: bolder;
+    }
+
+    button > h1 {
+        color: #fff;
+    }
+
+    .ssbutton {
+        background: linear-gradient(#ace, #def);
+        height: 1.75em;
+        color: #fff;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 0.3em;
+        border: solid;
+        border-color: rgba(0, 0, 0, 0.33);
+        border-width: 0.1em;
+        text-shadow: 0em 0em 0.2em #000;
+        box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.33);
+        pointer-events: all;
+    }
+
+    .itemButton {
+        box-sizing: border-box;
+        background: linear-gradient(#ace, #def);
+        width: 8em;
+        height: 8em;
+        cursor: pointer;
+        border-radius: 0.4em;
+        border: solid;
+        border-color: rgba(0, 32, 64, 0.33);
+        border-width: 0.1em;
+        text-shadow: 0em 0em 0.2em #000;
+        box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.33);
+    }
+
+    .itemButtonSelected {
+        box-sizing: border-box;
+        background: linear-gradient(#f93, #fed);
+        width: 8em;
+        height: 8em;
+        cursor: pointer;
+        border-radius: 0.4em;
+        border: solid;
+        border-color: #fff;
+        border-width: 0.2em;
+        text-shadow: 0em 0em 0.2em #000;
+        box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.33);
+    }
+
+    button.red { background: linear-gradient(#e33, #d22); }
+    button.orange { background: linear-gradient(#f84, #e73); }
+    button.yellow { background: linear-gradient(#db5, #ca4); }
+    button.green { background: linear-gradient(#4c9, #3b8); }
+    button.blue { background: linear-gradient(#49d, #38c); }
+    button.purple { background: linear-gradient(#e4b, #c39); }
+    button.clear { background: linear-gradient(rgba(255, 64, 192, 0.25), rgba(128, 32, 96, 0.75)) }
+    button.white { background: linear-gradient(#fff, #eee); }
+    button.grey { background: linear-gradient(#ccc, #bbb); }
+
+    .textInput, textarea, select {
+        border-style: solid;
+        border-width: 0.1em;
+        border-color: var(--egg-brown);
+        border-radius: 0.2em;
+    }
+
+    .roundedBorder {
+        border-style: solid;
+        border-width: 0.2em;
+        border-color: var(--egg-brown);
+        border-radius: 0.4em;
+    }
+
+    textarea, select, .textInput {
+        box-shadow: inset 0 0.1em 0.2em rgba(0, 0, 0, 0.33);
+    }
+
+    canvas {
+        /*background: var(--egg-brown);*/
+        background: black;
+    }
+
+    .chat {
+        position: absolute;
+        background: transparent;
+        border: none;
+        pointer-events: none;
+        overflow: hidden;
+        color: #fff;
+        text-align: left;
+        text-shadow:
+            0em 0em .1em #000,
+            0em .1em .2em #000;
+    }
+
+    .friendCode {
+        resize: none;
+        border-width: 0;
+        font-size: 1.2em;
+        font-weight: 900;
+        color: var(--egg-brown);
+    }
+
+    .bgap { margin-bottom: 1em; }
+    .lgap { margin-left: 0.5em; }
+    .rgap { margin-right: 0.5em; }
+
+    .flexCol, .flexRow {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .flexCol {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .flexRow {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .icon {
+        -webkit-filter: drop-shadow(.1em .1em .1em #000);
+        filter: drop-shadow(.1em .1em .1em #000);
+        cursor: pointer;
+        pointer-events: all;
+        width: 2em;
+    }
+
+    .buttonIcon {
+        float: left;
+        width: 1.25em;
+        height: 1.25em;
+    }
+
+    .grenade {
+        -webkit-filter: drop-shadow(.1em .1em .1em #000);
+        filter: drop-shadow(.1em .1em .1em #000);
+        width: 2em;
+    }
+
+    .settings {
+        position: absolute;
+        right: 1em;
+        top: 4em;
+        background: rgba(220, 210, 200, 1);
+        color: var(--egg-brown);
+    }
+
+    .arrowRight {
+        border-top: solid;
+        border-left: solid;
+        border-width: 0.7em;
+        border-color: white;
+        -webkit-filter: drop-shadow(0 0 0.1em #000);
+        filter: drop-shadow(0 0 0.2em #000);
+        padding: 0.7em;
+        width: 1em;
+        height: 1em;
+        transform: rotate(135deg);
+        cursor: pointer;
+    }
+
+    .arrowLeft {
+        border-top: solid;
+        border-left: solid;
+        border-width: 0.7em;
+        border-color: white;
+        -webkit-filter: drop-shadow(0 0 0.1em #000);
+        filter: drop-shadow(0 0 0.2em #000);
+        padding: 0.7em;
+        width: 1em;
+        height: 1em;
+        transform: rotate(-45deg);
+        cursor: pointer;
+    }
+
+    .statLabel {
+        text-align: right;
+        font-size: 1.1em;
+        white-space: nowrap;
+    }
+
+    .statBar {
+        background: #def;
+        width: 6em;
+        height: 1.1em;
+        border: solid;
+        border-color: var(--egg-brown);
+        border-width: 0.1em;
+        border-radius: 0.2em;
+        border-right-width: 1em;
+    }
+
+    div.otherPlayer {
+        border-radius: 0.2em;
+        padding-top: 0.05em; padding-bottom: 0.05em;
+        padding-left: 0.5em; padding-right: 0.5em;
+        margin: 0.1em;
+    }
+
+    .otherPlayer > span {
+        font-weight: 600;
+        font-size: 0.9em;
+    }
+
+    div.thisPlayer {
+        border-radius: 0.2em;
+        padding-top: 0.05em; padding-bottom: 0.05em;
+        padding-left: 0.5em; padding-right: 0.5em;
+        margin: 0.1em;
+    }
+
+    .thisPlayer > span {
+        color: #ff0;
+        font-weight: 700;
+        font-size: 1em;
+    }
+
+    .alert {
+        position: absolute;
+        display: block;
+        padding-top: 0.5em;
+        padding-bottom: 1em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        background: rgba(220, 210, 200, 1);
+        text-align: center;
+    }
+
+    .colorSelector {
+        position: relative;
+        padding: 0.7em;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-left: 0.2em;
+        border: solid 0.1em;
+        border-radius: 0.2em;
+        cursor: pointer;
+    }
+
+    .whiteHeader {
+        color: #fff;
+        text-shadow: 0 0 0.2em black;
+    }
+
+    .unselectable {
+        -ms-user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    }
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "name": "Shell Shockers | Play in your browser for Free!",
+  "url": "https://shellshock.io",
+  "sameAs": ["https://www.facebook.com/ShellShockersGame", "https://twitter.com/eggcombat"],
+  "description": "Welcome to Shell Shockers, the world's most advanced egg-based multiplayer shooter! It's like your favorite battlefield game but... with eggs.",
+  "@type": "VideoGame",
+  "applicationCategory": "Game",
+  "applicationSubCategory": "Action",
+  "genre": "First-Person Shooter",
+  "gamePlatform": ["PC", "Mac", "Chromebook"],
+  "operatingSystem": ["Windows", "OSX", "Linux", "ChromeOS"],
+  "playMode": "Multi-Player",
+  "aggregateRating":{
+    "@type":"AggregateRating",
+    "ratingValue":"4.1",
+    "ratingCount":"49"
+  },
+  "image": "/img/largeIcon.jpg",
+  "logo": "/img/largeIcon.jpg"
+}
+</script>
+
+<!-- European Union detection -->
+<script>isFromEU = 1 ? true : false</script>
+<!-- AdInPlay -->
+<script async src="//api.adinplay.com/libs/aiptag/pub/SSK/shellshock.io/tag.min.js"></script>
+
+<script>
+var aiptag = aiptag || {};
+aiptag.cmd = aiptag.cmd || [];
+aiptag.cmd.display = aiptag.cmd.display || [];
+aiptag.cmd.player = aiptag.cmd.player || [];
+</script>
+
+<!-- Firebase -->
+<script>var firebase</script>
+<script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+<script src="https://cdn.firebase.com/libs/firebaseui/2.7.0/firebaseui.js"></script>
+<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.7.0/firebaseui.css" />
+
+<style>
+    .firebaseui-container {
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .firebaseui-input-floating-button {
+        color: #f00;
+    }
+</style>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '771186996377132');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=771186996377132&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+<!-- Ironsource -->
+<!--
+<script src="https://static.ultra-rv.com/rv-min.js"></script>
+<script type="text/javascript">
+var ironRV = IronRV.getInstance({
+    applicationKey      : '6ed1a5f5',
+    applicationUserId   : 'testID'
+ });
+</script>
+-->
+<!-- End Ironsource -->
+
+<script>var version = '0.13.5';</script>
+
+<script src="src/servers.js?1529445787"></script>
+<script src="src/ads.js?1529901499"></script>
+<script src="src/shellshock.min.js?1529455174"></script>
+
+</head>
+<body>
+
+<img id="noItemImg" src="img/noItem.png" style="display: none" />
+<img id="noHatImg" src="img/noHat.png" style="display: none" />
+<img id="noStampImg" src="img/noStamp.png" style="display: none" />
+
+<!-- Changelog -->
+<div id="changelog" style="display: none;">
+    <div style="text-align: left; white-space: nowrap;">
+        <h2>What's New</h2>
+        <li>New server architecture
+        <li>Attempt to keep spawn points a LITTLE more favorable
+        <br><br><h2>Bug Fixes</h2>
+        <li>Couldn't change appearance during game without changing class
+        <li>Numerous other problems associated with changes mid-game
+        <li>Some random crashes
+        <li>Numerous server data consumption issues
+        <br><br><h2>Known Issues</h2>
+        <li>Sound cutting out on some systems
+    </div>
+</div>
+
+<!-- Bug Report -->
+<form id="bugReport" method="post" action="https://shellshock.io/feedback.php" style="display: none">
+    <div style="text-align: left; width: 30em; white-space: normal">
+        <p>This tool works best when used the moment you encounter a bug! Please be as detailed as possible in your description.</p>
+        <p>Please check the <a href="https://shellshock.io/faq.html?v=1" target="_window">FAQ</a> before submitting. Your issue may have already been addressed!</p>
+        <p>Your email address will never be distributed!</p>
+        <input class="textInput" type="hidden" name="name" value="Bug Report"/>
+        <input class="textInput" type="textbox" name="email" placeholder="Email" id="bugEmail" maxlength="384" style="width: 100%; margin-bottom: 0.5em" oninput="extern.bugReportChanged()"/>
+        <textarea type="text" name="comments" id="bugDescription" maxlength="4096" rows="10" style="width: 100%; resize: none;" placeholder="Please describe the problem(s) you're experiencing." oninput="extern.bugReportChanged()"></textarea>
+    </div>
+</form>
+
+<canvas id="canvas" style="position: absolute; width: 100%; height: 100%; pointer-events: none"></canvas>
+
+<!-- Main Menu -->
+<div id="mainMenu" class="unselectable" style="position: absolute; display: none; width: 100%; height: 100%; overflow-y: scroll; overflow-x: hidden">
+    <!-- Special message -->
+    <div style="position: absolute; left: 50%; transform: translateX(-50%); top: 1.5em;">
+        Testing timed rounds and other things at <a href="http://dev.shellshock.io">dev.shellshock.io</a>!
+    </div>
+
+    <!-- Login bar -->
+    <div style="display: flex; margin-left: 1em; margin-top: 1em">
+        <div id="logout" style="display: none; text-align: left;">
+            <img id="profilePic" style="float: left; margin-right: 0.25em; display: none; height: 1.75em;" />
+            <button class="ssbutton red" onclick="extern.logout()">
+                Logout
+            </button>
+        </div>
+
+        <div style="margin-left: 1em; margin-top: 0.25em; text-decoration: underline; cursor: pointer;" id="serverName" onclick="extern.openServerList()"></div>
+    </div>
+
+    <div style="position: absolute; top: 4em; width: 100%">
+        <!-- Logo -->
+        <div style="width: 22em; margin: 0 auto;">
+            <a href="https://www.shellshock.io" target="_blank" rel="noopener">
+                <img src="img/logo.png" style="
+                    width: 100%;
+                " />
+            </a>
+        </div>
+
+        <!-- Main menu container -->
+        <div class="flexRow" style="text-align: center">
+            <!-- AdInPlay -->
+            <div style="flex: 1">
+                <div id="aipMenuContainer" style="
+                    margin-top: 2em;
+                    float: right;
+                    pointer-events: all;
+                    padding: 0.2em;
+                    background: rgba(0, 0, 0, 0.5);
+                    border-radius: 0.2em;
+                ">
+                    <div id="aipBanner">
+                        <div id="shellshock-io_300x250" style="transform-origin: top left"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Egg -->
+            <div style="display: inline-block; vertical-align: top; width: 16em; margin: 4em"
+                onmouseenter="document.getElementById('playerStatsContainer').style.display = 'none'; document.getElementById('weaponStatsContainer').style.display = 'block'"
+                onmouseleave="document.getElementById('playerStatsContainer').style.display = 'block'; document.getElementById('weaponStatsContainer').style.display = 'none'"
+            >
+                <div id="mainMenuClassSelectorContainer" style="width: 16em; margin-top: 15em">
+                    <!-- Class selection -->
+                    <div id="classSelector" class="flexRow">
+                        <div class="arrowLeft" onclick="extern.customizer.selectClass(-1)"></div>
+                        <div style="width: 12em">
+                            <h1 class="whiteHeader" id="className"></h1>
+
+                            <button id="customizeButton" class="ssbutton orange" style="width: 9em; height: 2.25em; margin-top: 1em" onclick="extern.openCustomizerFromMainMenu()">
+                                <h3>Customize</h3>
+                            </button>
+
+                            <button id="customizerBackButton" class="ssbutton red" style="display: none; width: 9em; height: 2.25em; margin-top: 1em" onclick="extern.customizer.close()">
+                                <h3>Back</h3>
+                            </button>
+                        </div>
+                        <div class="arrowRight" onclick="extern.customizer.selectClass(1)"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Player stats and game launch UI -->
+            <div style="flex: 1; width: 14em; margin-top: 1em">
+                <div id="playerStatsContainer" style="width: 14em">
+                    <p id="statsMessage" style="display: none"></p>
+                    <div id="login" style="display: none">
+                        <p>Log in to save your progress and customize your character!</p>
+                        <button class="ssbutton purple" style="width: 8em" onclick="extern.openLoginDialog()">
+                            Log in
+                        </button>
+                    </div>
+
+                    <!-- Player stats -->
+                    <div id="playerStats" class="flexRow" style="display: none; padding-top: 1em;">
+                        <div style="
+                            flex: 1;
+                            padding-right: 0.5em;
+                            text-align: right;
+                            font-size: 1.25em;
+                            font-weight: 900;
+                            border-right: solid;
+                            border-width: 0.1em;
+                        ">
+                            Kills<br>Deaths<br>KDR<br>Streak
+                        </div>
+                        <div id="playerStatValues" style="flex: 1; text-align: left; font-size: 1.25em; padding-left: 0.5em"></div>
+                    </div>
+                </div>
+
+                <!-- Weapon stats -->
+                <div id="weaponStatsContainer" style="display: none; width: 14em">
+                    <h3 id="classWeapon"></h3>
+                    <table style="width: 100%">
+                        <tr>
+                            <td class="statLabel">Damage</td>
+                            <td>
+                                <div id="damage" class="statBar"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="statLabel">Accuracy</td>
+                            <td>
+                                <div id="accuracy" class="statBar"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="statLabel">Fire Rate</td>
+                            <td>
+                                <div id="fireRate" class="statBar"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="statLabel">Range</td>
+                            <td>
+                                <div id="range" class="statBar"></div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <!-- Play Game stuff -->
+                <div style="position: absolute; top: 21.5em; width: 14em;">
+                    <!-- Name and game mode -->
+                    <input class="textInput" placeholder="Name" id="username" style="width: 100%; font-size: 1.2em" maxlength="32" type="textbox"/>
+
+                    <select style="width: 100%; margin-top: 0.25em" id="gameTypeSelect" onchange="extern.selectGameType(this.selectedIndex)"></select>
+
+                    <!-- Enter, Create, or Join game -->
+                    <button class="ssbutton green" style="width: 100%; height: 3em; margin-top: 0.25em" onclick="extern.play()">
+                        <h1>▶ PLAY&nbsp;</h1>
+                    </button>
+                    <div class="flexRow" style="margin-top: 1em">
+                        <div id="customGame" style="width: 100%">
+                            <h3>Private Games</h3>
+                            <button class="ssbutton blue" style="width: 45%" onclick="extern.play(true)">Create</button>
+                            <button class="ssbutton blue" style="width: 45%" onclick="extern.openJoinBox()">Join</button>
+                        </div>
+                        <div id="joinGame" style="display: none; width: 100%">
+                            <h3>Enter Game Code</h3>
+                            <input  class="textInput" id="joinCode" type="textbox" size="8" maxlength="8" />
+                            <button class="ssbutton red" style="width: 5em" onclick="extern.closeJoinBox()">Back</button>
+                        </div>
+                    </div>
+
+                    <div style="display: none; width: 100%; text-align: left">
+                        <button name="gameType" class="ssbutton brown" onclick="extern.selectGameType(0)">FFA</button>&nbsp;
+                        <button name="gameType" class="ssbutton brown" onclick="extern.selectGameType(1)">Teams</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="position: absolute; display: block; right: 1em; bottom: 1em">
+        <div class="fb-like" style="margin-right: 2em; vertical-align: middle" data-href="https://www.facebook.com/ShellShockersGame" data-layout="ssbutton" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+
+        <!-- Social links -->
+        <a target="_blank" rel="noopener" href="https://www.facebook.com/ShellShockersGame"><img style="width: 2.5em; vertical-align: middle" src="img/fbLogo.png"></a>
+        <a target="_blank" rel="noopener" href="https://twitter.com/eggcombat"><img style="width: 2.5em; vertical-align: middle" src="img/twitterLogo.png"></a>
+        <a target="_blank" rel="noopener" href="https://discord.gg/uAXe4qe"><img style="width: 2.5em; vertical-align: middle" src="img/discordLogo.png"></a>
+    </div>
+
+    <div style="position: absolute; margin: 1em; left: 0; bottom: 0">
+        Version <script>document.write(version);</script><br>
+        [<u style="cursor: pointer" onclick="extern.showChangelog()">changelog</u>]
+    </div>
+
+    <div style="position: absolute; text-align: center; bottom: 1em; left: 50%; transform: translateX(-50%)">
+        <a href="http://www.bluewizard.com/privacypolicy" target="_window">Privacy Policy</a>
+        &nbsp;|&nbsp;
+        <a href="http://www.bluewizard.com/terms" target="_window">Terms of Service</a>
+        <br><div style="font-size: 0.8em; margin-top: 0.6em">Copyright 2018 Blue Wizard Digital</div>
+    </div>
+
+<div class="pane" style="position: absolute; top: 100%; width: 60%; min-width: 50em; left: 50%; transform: translateX(-50%)">
+        <!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Shell Shockers FAQ</title>
+</head>
+<body style="font-family: sans-serif">
+
+<h1>Frequently Asked Questions</h1>
+
+<hr><a name="issues"></a>
+<h2>Are you aware of this bug?</h2>
+<p>Probably. Here are some known issues we're currently battling:</p>
+<ul>
+	<li>Sound is choppy or non-existant on some systems.
+	<li>Database doesn't always respond. It's a bandwidth issue we're working on!
+	<li>Some players have invisible shells. It's a bug, NOT hackers, k?
+</ul>
+
+<hr><a name="lag"></a>
+<h2>Lag! What should I do?</h2>
+<p>If your shots are getting off really late, or you're bouncing around all over the place, here are a few things you can try:
+<ul>
+	<li>Close any other open tabs.
+    <li>Pause or cancel any active downloads or streams. Turn off that cat video!
+    <li>Close any file-sharing applications
+    <li>Close apps that download in the background (Steam, etc.)
+    <li>Try a different server
+    <li>Restart your router
+    <li>If you're on WiFi, try a wired connection if you can
+</ul>
+<p>Generally speaking, we like to see a ping of 100ms or less. You can see your ping in the upper-left corner of the game window as you play. You can get away with higher pings if they're consistent. Lag spikes (when your ping momentarily shoots upward) will absolutely ruin your day, though, and there is unfortunately no way for the game to compensate for them.</p>
+
+<hr><a name="slow"></a>
+<h2>My frame rate is low. Now what?</h2>
+<p>(Frame rate is indicated by the FPS readout in the upper-left corner of the game window. 60 is best!)</p>
+<ul>
+    <li>Try closing other apps, browsers, and tabs
+    <li>Open Settings and turn off Auto Detail, then un-check High Resolution and Shadows (if enabled)
+    <li>If you're running multiple displays, try moving your browser window to another one
+    <li>Install the latest video drivers for your card. Here are some links for common brands:<br>
+        <a target="_window" href="http://www.nvidia.com/Download/index.aspx">NVIDIA</a>&nbsp;
+        <a target="_window" href="http://support.amd.com/en-us/download">ATI</a>&nbsp;
+        <a target="_window" href="https://www.intel.com/content/www/us/en/support/graphics-drivers.html">Intel</a>
+
+    <li>If your GPU is on Chrome's blacklist, it might be using a software renderer known as "SwiftShader", which is terribly slow. Enter chrome://flags in your address bar, search for "Override software rendering list", and enable it. CAUTION: The blacklist exists for a reason. This may make your system unstable. Make sure you save anything you're working on before trying this!
+</ul>
+<p>If you're running Chrome, try enabling Experimental Canvas Features:</p>
+<ul>
+    <li>Enter chrome://flags in the address bar.
+    <li>Type "canvas" in the search box.
+    <li>Find "Experimental Canvas Features" and enable it
+    <li>Restart Chrome
+</ul>
+<p>This may make it better, or worse. Good luck with that.</p>
+
+<hr><a name="pointerlock"></a>
+<h2>Why can't I fire?</h2>
+<p>Some systems have a problem with registering trackpad taps while in Pointer Lock. A full click of the pad, while annoying, I know, should do the trick. It's an issue that's currently being looked in to.</p>
+
+<hr><a name="palm"></a>
+<h2>Why can't I move and shoot at the same time?</h2>
+<p>Some systems have palm-cancelling software enabled by default, which prevents simultaneous keyboard and trackpad/mouse input. Check your system settings for palm cancelling/rejection and turn down the sensitivity or disable it altogether.</p>
+
+<hr><a name="future"></a>
+<h2>Are you going to add more (guns/maps/modes/etc)??</h2>
+<h1 style="font-size: 3em;">YES!</h1>
+<p>Eventually. Shell Shockers is currently being developed by a single individual, so it's going to take a little time. Rest assured, however, the game is in active development, and when new features are ready, you'll be the first to know!</p>
+
+<hr><a name="webgl"></a>
+<h2>How do I enable WebGL?</h2>
+<p>That depends on your browser! Shell Shockers requires WebGL, so if you can play the game already, it's enabled, and you don't have to worry about this! Otherwise, follow the directions for your browser below. If your browser version is older than the one listed, download the latest! You'll thank me later.</p>
+<h3>Chrome 49+</h3>
+<b>Step 1 - Enable hardware acceleration</b>
+<ul>
+    <li>Enter <code>chrome://settings</code> in the address bar
+    <li>Open the Advanced settings (probably at the bottom)
+    <li>In the System section, make sure that "Use hardware acceleration when available" is checked. If not, you'll have to restart Chrome after you change it.
+</ul>
+
+<b>Step 2 - Enable WebGL</b>
+<ul>
+    <li>Enter <code>chrome://flags</code> in the address bar
+    <li>In older versions, ensure that Disable WebGL is <b><i>not</i></b> activated. In newer versions,  search for WebGL 2.0 and set it to "Enabled". Again, you'll have to restart Chrome once you've done so.
+</ul>
+
+<h3>Firefox 54+</h3>
+<ul>
+    <li>Enter <code>about:config</code> in the address bar
+    <li>Search for webgl.disabled and make sure it's set to <code>false</code>
+</ul>
+<p>Changes take effect immediately.</p>
+<h3>Safari 10.1+</h3>
+<ul>
+    <li>Select Safari->Preferences from the menu bar
+    <li>Select the Advanced tab
+    <li>Make sure that the Show Develop menu in menu bar checkbox is checked
+    <li>In the Develop menu, select Experimental Features and make sure that WebGL 2.0 is checked
+</ul>
+<h3>Edge 14+</h3>
+<p>Should be enabled by default. If not, you probably need to update your graphics driver!</p>
+
+<h3>Internet Explorer</h3>
+<p>Sorry, Shell Shockers doesn't support IE, as it's missing some key features.</p>
+
+<hr><a name="websockets"></a>
+<h2>WebSockets? Say what?</h2>
+<p>WebSockets allow for efficient communication that is vital for games of this type. Here's a list of browsers that support it. If yours isn't on the list, or is older than the version shown, you should download a new one!</p>
+<h3>Supported browsers</h3>
+<ul>
+    <li>Chrome
+    <li>Firefox
+    <li>Edge
+    <li>Safari
+    <li>Opera
+</ul>
+
+<hr><a name="system"></a>
+<h2>System requirements</h2>
+<p>We're still in the process of working this out, but here's a rough idea:</p>
+<ul>
+    <li>A mouse (or trackpad; ew!) and keyboard. No official mobile support (yet!)
+    <li>2.0Ghz processor
+    <li>4GB RAM
+    <li>A graphics accelerator that supports WebGL
+    <li>A broadband connection
+    <li>A <a href="#webgl">WebGL</a> and <a href="#websockets">WebSocket</a>-compatible browser, such as Chrome, Firefox, Safari, Edge, or Opera
+        <br>Internet Explorer is not supported!
+</ul>
+
+</body>
+</html>    </div>
+</div>
+
+</div>
+
+<!-- Customization Menu -->
+<div id="customizationMenu" class="unselectable" style="position: absolute; display: none; width: 100%; height: 100%;">
+
+    <div class="flexCol" style="position: absolute;width: 100%; height: 100%; text-align: center">
+        <div style="flex: 1"></div>
+        <div class="flexRow" style="">
+            <div style="flex: 1"></div>
+
+            <!-- Left pane -->
+            <div class="flexCol" style="margin-right: 4em">
+                <h2>Weapons</h2>
+                <div class="flexRow bgap">
+                    <canvas id="primarySelectorButton" class="itemButton rgap" width=256 height=256 onclick="extern.customizer.openWeaponSelector(0)"></canvas>
+                    <canvas id="secondarySelectorButton" class="itemButton rgap" width=256 height=256 onclick="extern.customizer.openWeaponSelector(1)"></canvas>
+                </div>
+
+                <h2>Appearance</h2>
+                <div class="flexRow bgap">
+                    <canvas id="hatSelectorButton" class="itemButton rgap" width=256 height=256 onclick="extern.customizer.openHatSelector()"></canvas>
+                    <canvas id="stampSelectorButton" class="itemButton" width=256 height=256 onclick="extern.customizer.openStampSelector()"></canvas>
+                </div>
+
+                <h2>Shell Color</h2>
+                <div style="margin-bottom: 0.5em">
+                    <span id="color0" class="colorSelector" onclick="extern.customizer.selectColor(0)"></span>
+                    <span id="color1" class="colorSelector" onclick="extern.customizer.selectColor(1)"></span>
+                    <span id="color2" class="colorSelector" onclick="extern.customizer.selectColor(2)"></span>
+                    <span id="color3" class="colorSelector" onclick="extern.customizer.selectColor(3)"></span>
+                    <span id="color4" class="colorSelector" onclick="extern.customizer.selectColor(4)"></span>
+                    <span id="color5" class="colorSelector" onclick="extern.customizer.selectColor(5)"></span>
+                    <span id="color6" class="colorSelector" onclick="extern.customizer.selectColor(6)"></span>
+                </div>
+            </div>
+
+            <div class="flexCol" style="">
+                <div id="customizerClassSelectorContainer" style="margin-top: 24em"></div>
+            </div>
+
+            <div style="flex: 1"></div>
+        </div>
+        <div style="flex: 1"></div>
+    </div>
+</div>
+
+<!-- Item Selector Menu -->
+<div id="itemSelectorMenu" class="unselectable" style="position: absolute; display: none; width: 100%; height: 100%;">
+
+    <div class="flexCol" style="position: absolute; width: 100%; height: 100%; text-align: center">
+        <div style="flex: 1"></div>
+        <div class="flexRow">
+            <div style="flex: 1"></div>
+            <!-- Left column -->
+            <div id="itemPageLeft" class="arrowLeft" onclick="extern.customizer.flipPage(-1)" style="margin-top: 14em"></div>
+            <table>
+                <tr><td colspan="3" style="text-align: center">
+                    <h1 id="itemSelectorHeader"></h1></td>
+                </tr>
+                <tr>
+                    <td><canvas id="item0" class="itemButton" width=256 height=256 onclick="extern.customizer.selectItem(0)"></canvas></td>
+                    <td><canvas id="item1" class="itemButton" width=256 height=256 onclick="extern.customizer.selectItem(1)"></canvas></td>
+                    <td><canvas id="item2" class="itemButton" width=256 height=256 onclick="extern.customizer.selectItem(2)"></canvas></td>
+                </tr>
+                <tr>
+                    <td><canvas id="item3" class="itemButton" width=256 height=256 onclick="extern.customizer.selectItem(3)"></canvas></td>
+                    <td><canvas id="item4" class="itemButton" width=256 height=256 onclick="extern.customizer.selectItem(4)"></canvas></td>
+                    <td><canvas id="item5" class="itemButton" width=256 height=256 onclick="extern.customizer.selectItem(5)"></canvas></td>
+                </tr>
+                <tr>
+                    <td><canvas id="item6" class="itemButton" width=256 height=256 onclick="extern.customizer.selectItem(6)"></canvas></td>
+                    <td><canvas id="item7" class="itemButton" width=256 height=256 onclick="extern.customizer.selectItem(7)"></canvas></td>
+                    <td><canvas id="item8" class="itemButton" width=256 height=256 onclick="extern.customizer.selectItem(8)"></canvas></td>
+                </tr>
+                <tr><td id="itemPageCount" colspan="3" style="text-align: left"></td></tr>
+            </table>
+            <div id="itemPageRight" class="arrowRight" onclick="extern.customizer.flipPage(1)" style="margin-top: 14em"></div>
+
+            <!-- Right column -->
+            <div style="width: 22em">
+                <!--<div id="hatRotationContainer">
+                    <h3 style="margin-top: 22em">|</h3>
+                    <input style="width: 90%" type="range" min="-1" max="1" value="0" step="0.05" id="hatRotation" oninput="extern.customizer.rotateHat(this)" onchange="extern.localStorage.setItem('personal', JSON.stringify(personal));">
+                    <h2>Hat Rotation</h2>
+                </div>-->
+            </div>
+            <div style="flex: 1"></div>
+        </div>
+            <button class="ssbutton red" style="width: 9em; height: 2.25em;" onclick="extern.customizer.closeItemSelector()">
+                <h3>Back</h3>
+            </button>
+
+        <div style="flex: 1"></div>
+    </div>
+</div>
+
+<!-- GAME -->
+<div id="game" class="unselectable" style="display: none; width: 100%; height: 100%; pointer-events: none;">
+    <!-- Scope -->
+    <div id="scopeBorder" style="
+        display: none;
+        position: absolute;
+        width: 102vh;
+        height: 102vh;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+    ">
+        <img src="img/scope.png" style="width: 100%; height: 100%;" />
+    </div>
+
+    <!-- FPS -->
+    <div id="FPS" style="
+        position: absolute;
+        top: 4em;
+        left: 1em;
+        font-size: 0.9em;
+    "></div>
+
+    <!-- Ping -->
+    <div style="position: absolute; top: 4em; left: 6em; font-size: 0.9em;">
+        PING:
+        <b><span id="PING"></span></b>
+    </div>
+
+    <!-- Weapon -->
+    <div id="WEAPON" style="position: absolute; right: 0.75em; bottom: 1.25em; text-align: right;">
+        <div id="grenades" style="padding: 0.5em; padding-bottom: 0; margin-bottom: 0">
+            <img id="grenade3" class="grenade" src="img/grenadeIconDark.png"/>
+            <img id="grenade2" class="grenade" src="img/grenadeIconDark.png"/>
+            <img id="grenade1" class="grenade" src="img/grenadeIconDark.png"/>
+        </div>
+        <h2 id="WEAPON_NAME" style="
+            text-align: right;
+            padding: 0.5em;
+        "></h2>
+        <h1 id="AMMO" style="
+            text-align: right;
+            font-size: 3em;
+            line-height: 0.25em;
+        "></h1>
+    </div>
+
+    <!-- Health -->
+    <div style="
+        position: absolute;
+        top: 1em;
+        left: 1em;
+        width: 15em;
+        height: 2em;
+        background: rgba(0, 0, 0, 0.25);
+        border-radius: 0.5em;
+        padding: 0.25em;
+    ">
+        <div id="healthBar" style="
+            width: 100%;
+            height: 100%;
+            background: #fe1;
+            border-radius: 0.3em;
+        "></div>
+    </div>
+
+    <!-- Grenade throw power -->
+    <div id="grenadeThrowContainer" style="
+        position: absolute;
+        display: flex;
+        visibility: hidden;
+        align-items: flex-end;
+        top: 50%;
+        left: 50%;
+        transform: translate(-6em, -3em);
+        width: 1em;
+        height: 6em;
+        background: rgba(0, 0, 0, 0.25);
+        border-radius: 0.3em;
+        padding: 0.25em;
+    ">
+        <div id="grenadeThrow" style="
+            width: 100%;
+            height: 50%;
+            border-radius: 0.05em;
+            background: white;
+        "></div>
+    </div>
+
+    <!-- Streak -->
+    <h2 id="BEST_STREAK" style="
+        position: absolute;
+        text-align: center;
+        font-weight: 700;
+        width: 100%;
+        top: 0.5em;
+    ">BEST KILL STREAK: 0</h2>
+
+    <!-- Spawn -->
+    <div id="spawnBox" style="
+        position: absolute;
+        display: block;
+        width: 100%;
+        transform-origin: center top;
+        top: 20%;
+        color: #fff;
+        text-align: center;
+    ">
+        <h1 style="font-weight: 900; font-size: 4em;">READY?</h1>
+        <button class="ssbutton green" style="width: 16em; height: 3em;" onclick="extern.respawn()"><h2>CLICK TO SPAWN</h2></button>
+    </div>
+
+    <!-- Kill -->
+    <div id="KILL_BOX" style="
+        position: absolute;
+        display: none;
+        width: 100%;
+        transform-origin: center bottom;
+        bottom: 10%;
+        color: #fff;
+        text-align: center;
+    ">
+        <h2 style="font-weight: 900">YOU KILLED</h2>
+        <h1 style="font-size: 3.5em; margin: 0" id="KILLED_NAME"></h1>
+        <i><h2 id="KILL_STREAK" style="text-align: center; padding-top: 0.5em;"></h2></i>
+    </div>
+
+    <!-- Death -->
+    <div id="deathBox" style="
+        position: absolute;
+        display: none;
+        width: 100%;
+        transform-origin: center top;
+        top: 10%;
+        color: #fff;
+        text-align: center;
+    ">
+        <h1 style="font-weight: 900">YOU WERE KILLED BY</h1>
+        <h1 style="font-size: 3em; margin: 0" id="KILLED_BY_NAME"></h1>
+        <h2 id="respawnMessage"></h2>
+        <div id="respawnButton" style="display: none">
+            <button class="ssbutton green" style="width: 14em; height: 2.5em" onclick="extern.respawn()">CLICK TO RESPAWN</button>
+        </div>
+    </div>
+
+    <div id="gameCustomizeButton" style="position: absolute; display: none; width: 100%; top: 60%; text-align: center">
+        <button class="ssbutton orange" style="width: 14em; height: 2.5em" onclick="extern.openCustomizerInGame()">CLASS / EQUIP</button>
+    </div>
+
+    <!-- Team indicator -->
+    <h1 id="blueTeam" class="team blueTeam">BLUE TEAM</h1>
+    <h1 id="redTeam" class="team redTeam">RED TEAM</h1>
+
+    <!-- Chat -->
+    <div id="chatOut" class="chat" style="
+        display: none;
+        bottom: 2.5em;
+        left: 1em;
+        width: 100vh;
+    "></div>
+
+    <input id="chatIn" class="chat" maxlength=64 tabindex=-1 placeholder="Press TAB to exit" onkeydown="extern.onChatKeyDown(event)" style="
+        display: none;
+        color: #ff0;
+        bottom: 1em;
+        left: 1em;
+        width: 100vh;
+    "></input>
+
+    <!-- Kill ticker -->
+    <div id="killTicker" class="chat" style="
+        position: absolute;
+        margin: 1em;
+        width: 100vh;
+        height: 7em;
+        left: 0;
+        top: 5em;
+        transform-origin: top left;
+        transform: scale(0.8);
+    "></div>
+
+    <!-- Player List -->
+    <div id="playerSlot" style="display: none">
+        <span></span>
+        <span style="display: inline-block; width: 2em"></span>
+    </div>
+    <div id="playerList" style="position: absolute; right: 1em; top: 5em; text-align: right;"></div>
+
+    <!-- Help -->
+    <div id="help" style="
+        position: absolute;
+        left: 1em;
+        bottom: 1em;
+        color: #fff;
+    ">
+        <div style="float: left">
+            <h3>WASD: Move</h3>
+            <h3>SPACE: Jump</h3>
+            <h3>SHIFT: Aim</h3>
+        </div>
+        <div style="float: right; margin-left: 1em">
+            <h3>R: Reload</h3>
+            <h3>E: Swap Weapon</h3>
+            <h3>Q: Grenade</h3>
+        </div>
+    </div>
+
+    <div id="myPlayer"></div>
+
+    <!-- AdInPlay -->
+    <div id="aipGameContainer" style="
+        pointer-events: all;
+        display: none;
+        position: absolute;
+        top: 14em;
+        right: 50%;
+        transform: translateX(-9em);
+        padding: 0.2em;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 0.2em;
+    "></div>
+</div>
+
+<!-- Friend invite dialog -->
+<div id="inviteFriends" class="alert roundedBorder"
+    style="right: 1em; top: 4em; color: var(--egg-brown); display: none"
+>
+    <h1 style="position: absolute; right: 0.1em; top: 0; cursor: pointer;"
+        onclick="document.getElementById('inviteFriends').style.display = 'none';"
+    >X</h1>
+    <p style="margin-bottom: 0.5em">Share this link with your</br>friends to play with them!</p>
+    <textarea readonly cols="30" rows="1" id="friendCode" class="friendCode" style="background: transparent"></textarea>
+    <p style="text-decoration: underline; cursor: pointer" onclick="extern.copyFriendCode()">Copy to Clipboard</p>
+</div>
+
+<!-- Settings dialog -->
+<div id="settings" class="settings roundedBorder" style="display: none;">
+    <style>
+        table td { text-align: right; padding-left: 0.5em; padding-right: 0.5em; }
+        table div {
+            width: 12em;
+            background: var(--egg-brown);
+            text-align: center;
+            padding: 0.1em;
+            cursor: pointer;
+        }
+    </style>
+    <h1 style="text-align: center; margin: 0.5em">Settings</h1>
+    <h1 style="display: block; position: absolute; right: 0.1em; top: 0; cursor: pointer;"
+    onclick="extern.closeSettingsMenu()">X</h1>
+    <table style="padding-bottom: 0.5em">
+        <tr><td>Forward</td><td><div tabindex="1" style="color: #fff" name="config" id="up" onmousedown="extern.configKey(event)">undefined</div></td></tr>
+        <tr><td>Backward</td><td><div tabindex="2" style="color: #aaa" name="config" id="down" onmousedown="extern.configKey(event)">undefined</div></td></tr>
+        <tr><td>Left</td><td><div tabindex="3" style="color: #aaa" name="config" id="left" onmousedown="extern.configKey(event)">undefined</div></td></tr>
+        <tr><td>Right</td><td><div tabindex="4" style="color: #aaa" name="config" id="right" onmousedown="extern.configKey(event)">undefined</div></td></tr>
+        <tr><td>Jump</td><td><div tabindex="5" style="color: #aaa" name="config" id="jump" onmousedown="extern.configKey(event)">undefined</div></td></tr>
+        <tr><td>Fire</td><td><div tabindex="6" style="color: #aaa" name="config" id="fire" onmousedown="extern.configKey(event)">undefined</div></td></tr>
+        <tr><td>Aim</td><td><div tabindex="7" style="color: #aaa" name="config" id="scope" onmousedown="extern.configKey(event)">undefined</div></td></tr>
+        <tr><td>Reload</td><td><div tabindex="8" style="color: #aaa" name="config" id="reload" onmousedown="extern.configKey(event)">undefined</div></td></tr>
+        <tr><td>Swap Weapon </td><td><div tabindex="9" style="color: #aaa" name="config" id="weapon" onmousedown="extern.configKey(event)">undefined</div></td></tr>
+        <tr><td>Grenade</td><td><div tabindex="10" style="color: #aaa" name="config" id="grenade" onmousedown="extern.configKey(event)">undefined</div></td></tr>
+        <tr><td>Master Volume</td><td style="text-align: center"><input style="width: 90%; height: 1em;" type="range" min="0" max="1" value="1" step="0.01" id="volume" oninput="extern.setVolume(this)" onchange="extern.setVolume(this)"></td></tr>
+        <!--<tr><td>Music Volume</td><td style="text-align: center"><input style="width: 90%; height: 1em;" type="range" min="0" max="1" value="1" step="0.01" id="musicVolume" oninput="extern.setMusicVolume(this)"></td></tr>-->
+        <tr><td>Mouse Speed</td><td style="text-align: center"><input style="width: 90%; height: 1em" type="range" min="1" max="11" value="5" step="0.5" id="mouseSensitivity" onchange="extern.setMouseSensitivity(this)"></td></tr>
+        <tr>
+            <td>Invert Mouse<input style="height: 1em; margin-left: 1em" id="mouseInvert" type="checkbox" onclick="extern.setCheckOption(this)"></td>
+            <td>Auto Detail<input style="height: 1em; margin-left: 1em" id="autoDetail" type="checkbox" onclick="extern.setCheckOption(this)"></td>
+        </tr>
+        <tr>
+            <td>Hold To Aim<input style="height: 1em; margin-left: 1em" id="holdToAim" type="checkbox" onclick="extern.setCheckOption(this)"></td>
+            <td name="detail">Shadows<input style="height: 1em; margin-left: 1em" id="shadowsEnabled" type="checkbox" onclick="extern.setCheckOption(this)"></td>
+        </tr>
+        <tr>
+            <td>Enable chat<input style="height: 1em; margin-left: 1em" id="enableChat" type="checkbox" onclick="extern.setCheckOption(this)"></td>
+            <td name="detail">High Resolution<input style="height: 1em; margin-left: 1em" id="highRes" type="checkbox" onclick="extern.setCheckOption(this)"></td>
+        </tr>
+    </table>
+    <div id="privacyOptionsLink" style="text-decoration: underline; text-align: center; width: 100%; cursor: pointer" onclick="extern.openPrivacyOptions()">Privacy Options</div><br>
+</div>
+
+<!-- Corner icon buttons -->
+<div style="position: absolute; right: 1em; top: 1em;">
+    <img id="switchTeamButton" title="Switch team" style="visibility: hidden; margin-right: 1em;" class="icon" src="img/switchTeam.png" onclick="extern.switchTeamDialog()" />
+    <img id="homeButton" title="Main menu" style="visibility: hidden; margin-right: 1em;" class="icon" src="img/home.png" onclick="extern.showMainMenuConfirm()" />
+    <img id="friendsButton" title="Invite friends" style="visibility: hidden; margin-right: 1em;" class="icon" src="img/friends.png" onclick="extern.inviteFriends()" />
+    <img style="margin-right: 1em;" title="Bug report" class="icon" src="img/bug.png" onclick="extern.showBugReport()" />
+    <img style="margin-right: 1em;" title="Settings" class="icon" src="img/settings.png" onclick="extern.openSettingsMenu()" />
+    <img class="icon" title="Toggle fullscreen" src="img/fullScreen.png" onclick="extern.toggleFullscreen()" />
+</div>
+
+<!-- Big ad -->
+<div id="bigAd" style="
+    display: none;
+    position: absolute;
+    top: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+">
+    <div style="
+        position: absolute;
+        max-width: calc(800px + 1.5em);
+        max-height: calc(600px + 1.5em);
+        width: calc(120vh + 1.5em);
+        height: calc(90vh + 1.5em);
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+    ">
+        <a id="bigAdLink" onclick="extern.clickedBigAd()" target="_window">
+            <img id="bigAdImg" style="
+                position: absolute;
+                width: calc(100% - 1.5em);
+                height: calc(100% - 1.5em);
+                top: 50%; left: 50%;
+                transform: translate(-50%, -50%);
+            "/>
+        </a>
+
+        <img src="img/ads/closeAd.png" style="
+            position: absolute; width: 1.5em; height: 1.5em; top: 0; right: 0; cursor: pointer"
+            onclick="extern.hideBigAd()"
+        />
+    </div>
+</div>
+
+<!-- Alert dialog overlay -->
+<div id="overlay" style="
+    display: none;
+    position: absolute;
+    top: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: var(--egg-brown);
+">
+    <div id="alert" class="alert roundedBorder" style="
+        left: 50%; top: 45%;
+        transform: translate(-50%, -50%);
+    ">
+        <h1 id="alertHeader"></h1>
+        <div id="alertMessage" style="padding-bottom: 1em"></div>
+        <h1 id="alertFooter" style="display: none">-</h1>
+
+        <button id="alertButton1" class="ssbutton green" style="width: 10em; display: none">OK</button>
+        <button id="alertButton2" class="ssbutton red" style="width: 10em; display: none">Cancel</button>
+    </div>
+</div>
+
+<!-- Server list item -->
+<div id="serverItem" style="display: none; width: 20em">
+    <div style="display: flex; white-space: nowrap; width: 100%; margin-top: 0.25em; text-align: left">
+        <input type="radio" name="server"></input>
+        <span style="position: absolute; left: 3em; width: 6em; margin: auto; margin-left: 0.5em"></span>
+        <span style="position: absolute; left: 7em;"></span>
+        <div class="statBar" style="position: absolute; left: 10em"></div>
+        <span style="position: absolute; left: 10em; display: none">No response</span>
+        <span style="position: absolute; left: 17em;"></span>
+    </div>
+</div>
+
+<!-- Notification -->
+<div id="notification" class="roundedBorder" style="
+    position: absolute;
+    display: none;
+    color: var(--egg-brown);
+    background: white;
+    left: 50%; top: 1em;
+    transform: translateX(-50%);
+    padding: 0.75em;
+    box-shadow: 0.1em 0.1em 0.4em rgba(0, 0, 0, 0.5);
+    text-align: left;
+">
+    <img style="width: 2em; height: 2em; margin-right: 0.75em" src="img/notificationIcon.png">
+    <div id="notificationMessage"></div>
+</div>
+
+<!-- AdInPlay video preroll -->
+<div id="preroll" style="position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%)"></div>
+
+<!-- Playwire -->
+<div id="playwireModal" style="display: none; position: fixed; width: 100%; height: 100%; top: 0; background: rgba(0, 0, 0, 0.6)">
+    <div id="playwireContainer" style="position: absolute; width:640px; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
+</div>
+<div id="dummyContent" style="display: none"></div>
+
+<div id="consent" style="display: none">
+    <div style="width: 90vw">Shell Shockers and our partners may collect and process personal data for the purposes of account creation and delivering ads tailored to your interests. By clicking "Yes, I Agree!", you confirm that you are at least 16 years of age, and consent to the processing of personal data for these purposes. <a href="http://www.bluewizard.com/privacypolicy" target="_window">Learn more</a></div><br>
+    <div style="float: right">
+        <button class="ssbutton green" style="width: 10em;" onclick="extern.doConsent()">Yes, I Agree!</button>
+        <button class="ssbutton grey" style="width: 8em;" onclick="extern.dontConsent()">Disagree</button>
+    </div>
+</div>
+
+<div id="doConsent" style="display: none">
+    <div style="width: 90vw">Thank you! You may now create an account, and your ad experience will be personalized. If you ever change your mind, you may adjust your privacy options in the Settings Menu.</div><br>
+    <div style="float: right">
+        <button class="ssbutton green" style="width: 10em;" onclick="extern.dismissNotification()">OK</button>
+    </div>
+</div>
+
+<div id="dontConsent" style="display: none">
+    <div style="width: 90vw">No problem! Your personal data will not be collected or processed. If you change your mind, and decide that you want to create an account, or personalize your ad experience, you may adjust your privacy options in the Settings Menu.</div><br>
+    <div style="float: right">
+        <button class="ssbutton green" style="width: 10em;" onclick="extern.dismissNotification()">OK</button>
+    </div>
+</div>
+
+<div id="privacyOptions">
+    <div style="text-align: left">
+        <input style="height: 1em;" id="ofAgeCheck" type="checkbox" onclick="extern.setOfAge(this)">&nbsp;I am at least 16 years of age<br>
+        <input style="height: 1em;" id="targetedAdsCheck" type="checkbox" onclick="extern.setTargetedAds(this)">&nbsp;<span id="targetedAdsText">I consent to the processing of personal data to tailor ads to my interests</span>
+    </div>
+</div>
+
+</body>
+</head>

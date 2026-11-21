@@ -1,0 +1,114 @@
+{
+  "folder": "0.26.0_2019-12-01_08-41-01_UTC",
+  "version": "0.26.0",
+  "html_version": "0.26.0",
+  "version_source": "html",
+  "javascript_release_version_verified": false,
+  "pairing_verified": false,
+  "warning": "HTML version labels this reconstruction; matching cache-busting URLs do not establish the JavaScript release version.",
+  "event": {
+    "urlkey": "io,shellshock)/",
+    "timestamp": "20191201084101",
+    "original": "https://shellshock.io/",
+    "mimetype": "text/html",
+    "statuscode": "200",
+    "digest": "EUKIZWVNHGTBEA7OKRRDKKHK5NIUBYDF"
+  },
+  "missing_scripts": [
+    "https://shellshock.io/src/shellshock.min.js?1575068490"
+  ],
+  "files": [
+    {
+      "path": "index.html",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20191201084101",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "EUKIZWVNHGTBEA7OKRRDKKHK5NIUBYDF"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20191201084101",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "EUKIZWVNHGTBEA7OKRRDKKHK5NIUBYDF",
+        "replay_url": "https://web.archive.org/web/20191201084101id_/https://shellshock.io/",
+        "final_url": "https://web.archive.org/web/20191201084101id_/https://shellshock.io/",
+        "sha256": "4782fdded62bf98e45beadcc4128a44757e1eb80beb65b2dedfac1f71ef92366",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/EUKIZWVNHGTBEA7OKRRDKKHK5NIUBYDF",
+        "encoded_sha256": "fe04bc0b17368929586bf9895eaa1cfd726cfc7cf7b110d56eb08cb210b02912",
+        "decoded_sha1": "LANXBTVBAJOZEY5XYDYL7DTFWMOBSTLG"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20191201084101",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "EUKIZWVNHGTBEA7OKRRDKKHK5NIUBYDF"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "origin_id": "archive_org",
+  "origins_catalog": "origins.json (archive root; included in exports)",
+  "version_scope": "Version declared by the observed HTML only; supporting-file release membership is unverified.",
+  "game_script_pairing": {
+    "max_gap_seconds": 86400,
+    "cachebuster_used_as_release_evidence": false,
+    "missing": [
+      {
+        "path": "src/shellshock.min.js",
+        "reason": "no_verified_capture_within_24_hours",
+        "referenced_url": "https://shellshock.io/src/shellshock.min.js?1575068490"
+      }
+    ],
+    "associations": []
+  },
+  "version_evidence": {
+    "version": "0.26.0",
+    "kind": "declared_game_version",
+    "expression": "var version = '0.26.0'",
+    "offset": 9605,
+    "path": "index.html",
+    "sha256": "4782fdded62bf98e45beadcc4128a44757e1eb80beb65b2dedfac1f71ef92366",
+    "observation": {
+      "timestamp": "20191201084101",
+      "original": "https://shellshock.io/",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "EUKIZWVNHGTBEA7OKRRDKKHK5NIUBYDF"
+    }
+  },
+  "version_audit": {
+    "declarations": [
+      {
+        "version": "0.26.0",
+        "kind": "declared_game_version",
+        "expression": "var version = '0.26.0'",
+        "offset": 9605,
+        "path": "index.html",
+        "sha256": "4782fdded62bf98e45beadcc4128a44757e1eb80beb65b2dedfac1f71ef92366",
+        "observation": {
+          "timestamp": "20191201084101",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "EUKIZWVNHGTBEA7OKRRDKKHK5NIUBYDF"
+        }
+      }
+    ],
+    "release_membership_verified": false
+  }
+}

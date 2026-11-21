@@ -1,0 +1,277 @@
+{
+  "format_version": 1,
+  "folder": "0.15.4d_2018-12-06_03-07-10_UTC",
+  "parent": "0.15.4a_2018-11-28_15-58-28_UTC_capture_76c3defa",
+  "timestamp": "20181206030710",
+  "added": [
+    "img/anim_chicken.gif",
+    "img/egg_icon2.png",
+    "img/ico_chicken.png",
+    "img/ico_chickenBadge.png"
+  ],
+  "changed": [
+    "includes/stylesheet.css",
+    "index.html",
+    "models/egg.babylon",
+    "models/egg.babylon.manifest",
+    "src/adDefines.js",
+    "src/shellshock.min.js"
+  ],
+  "removed": [
+    "img/ads/closeAd.png",
+    "img/ads/large/Offer_Xmas_600x800 holy crap.jpg",
+    "img/ads/small/Offer_Xmas_250x300 tis the season.jpg",
+    "img/arrowRight.png",
+    "img/deadEgg.png",
+    "img/discordLogo.png",
+    "img/egg_icon.png",
+    "img/fbLogo.png",
+    "img/feedback.png",
+    "img/friends.png",
+    "img/fullScreen.png",
+    "img/grenadeIconDark.png",
+    "img/home.png",
+    "img/logo.png",
+    "img/noHat.png",
+    "img/noItem.png",
+    "img/noStamp.png",
+    "img/notificationIcon.png",
+    "img/physical_unlock_lg.png",
+    "img/settings.png",
+    "img/twitchIcon.png",
+    "img/twitterLogo.png",
+    "includes/game.css",
+    "models/eggExplode.babylon",
+    "models/eggExplode.babylon.manifest",
+    "sound/ammo.mp3",
+    "sound/cluck9mm/fire.mp3",
+    "sound/cluck9mm/insert mag.mp3",
+    "sound/cluck9mm/remove mag.mp3",
+    "sound/csg1/fire.mp3",
+    "sound/csg1/pull action.mp3",
+    "sound/csg1/release action.mp3",
+    "sound/death/scream1.mp3",
+    "sound/death/scream2.mp3",
+    "sound/death/scream3.mp3",
+    "sound/death/scream4.mp3",
+    "sound/death/scream5.mp3",
+    "sound/death/scream6.mp3",
+    "sound/death/scream7.mp3",
+    "sound/dozenGauge/close.mp3",
+    "sound/dozenGauge/fire.mp3",
+    "sound/dozenGauge/load.mp3",
+    "sound/dozenGauge/open.mp3",
+    "sound/eggk47/dry fire.mp3",
+    "sound/eggk47/fire.mp3",
+    "sound/eggk47/full cycle.mp3",
+    "sound/eggk47/insert mag.mp3",
+    "sound/eggk47/remove mag.mp3",
+    "sound/grenade.mp3",
+    "sound/grenadeBeep.mp3",
+    "sound/grenadePin.mp3",
+    "sound/hammerClick.mp3",
+    "sound/hit.mp3",
+    "sound/rooster.mp3",
+    "sound/rpegg/rocketdeny.mp3",
+    "sound/rpegg/rocketfire.mp3",
+    "sound/rpegg/rocketfly.mp3",
+    "sound/rpegg/rockethit.mp3",
+    "sound/rpegg/rocketload.mp3",
+    "sound/rpegg/rocketpoof.mp3",
+    "sound/shellBurst.mp3",
+    "src/gameplayTips.js",
+    "twitchStreams.json"
+  ],
+  "files": [
+    {
+      "path": "img/anim_chicken.gif",
+      "sha256": "e91d3fa09afb008143a6ae8b6a486e336e892a53ad9ef7737ca24815e3244835",
+      "source": "0.15.4d_2018-12-06_03-07-10_UTC/img/anim_chicken.gif"
+    },
+    {
+      "path": "img/arrowLeft.png",
+      "sha256": "3cb9ec010c68b328a89243d61080cc1b626dd6ae30d379529816b049a9b8850a",
+      "source": "0.14.0_2018-07-16_23-49-03_UTC/img/arrowLeft.png"
+    },
+    {
+      "path": "img/egg_icon2.png",
+      "sha256": "fd4394b079665ae385e479f9e788734244ed402a077ee4eb5a48558690a259a3",
+      "source": "0.15.4d_2018-12-06_03-07-10_UTC/img/egg_icon2.png"
+    },
+    {
+      "path": "img/equipment.png",
+      "sha256": "1fe82c0d83a7d4d19f723579cdab002b171773f69c6e9ad4983f19ba791a8fac",
+      "source": "0.14.5_2018-10-03_01-23-42_UTC/img/equipment.png"
+    },
+    {
+      "path": "img/ico_chicken.png",
+      "sha256": "271f9d08a4c49288cc52117fdef8ddbddbeffb37f6f832bee92b3f996f98ff07",
+      "source": "0.15.4d_2018-12-06_03-07-10_UTC/img/ico_chicken.png"
+    },
+    {
+      "path": "img/ico_chickenBadge.png",
+      "sha256": "98042d1f4c35ff6f1a67759b5e6e86c9b3fd23cb23d232f1f53a8e9c9e64439e",
+      "source": "0.15.4d_2018-12-06_03-07-10_UTC/img/ico_chickenBadge.png"
+    },
+    {
+      "path": "img/ico_merch.png",
+      "sha256": "b845935e7b00c962c717795dc2e10096f4e5a0a44b6dd534db242bcfec47af03",
+      "source": "0.15.1_2018-11-01_21-05-37_UTC/img/ico_merch.png"
+    },
+    {
+      "path": "img/physical_unlock.png",
+      "sha256": "84021d6216251a1ec4c937b6b7457ffd968754934fc48f2ccbecd08b567090a9",
+      "source": "0.14.6_2018-10-16_21-07-13_UTC/img/physical_unlock.png"
+    },
+    {
+      "path": "img/scope.png",
+      "sha256": "813b4e88fea07f011caf5c3bee19e1bb152fb51249d96bcaa4497ea98cf691d9",
+      "source": "0.12.3_2018-03-25_22-27-38_UTC/img/scope.png"
+    },
+    {
+      "path": "img/stamps.png",
+      "sha256": "1f586c2da1fcd49f0510d1e01b8942c61516fff329b0b57947b41ce7a5c748e8",
+      "source": "0.14.31_2018-11-11_18-59-48_UTC/img/stamps.png"
+    },
+    {
+      "path": "img/tip.png",
+      "sha256": "2a50b341c95073d3a981f4007170627661138e1a1a115186f0a88d19fd123859",
+      "source": "0.14.5_2018-10-03_01-23-42_UTC/img/tip.png"
+    },
+    {
+      "path": "includes/stylesheet.css",
+      "sha256": "1e58bbeb57a63b9d9b96631e81b462cd57f7900b891b3219c3f30c5213b312ba",
+      "source": "0.15.4d_2018-12-06_03-07-10_UTC/includes/stylesheet.css"
+    },
+    {
+      "path": "index.html",
+      "sha256": "13adebee23066fa67a6b57bcd00826ad7b0ab2e1d0d15dcd22524bf45f1b4eeb",
+      "source": "0.15.4d_2018-12-06_03-07-10_UTC/index.html"
+    },
+    {
+      "path": "models/egg.babylon",
+      "sha256": "287e2c2056bb33cbe6db4a4608462fbb3357fd8bc79ba5c64f756169519c216e",
+      "source": "0.15.4d_2018-12-06_03-07-10_UTC/models/egg.babylon"
+    },
+    {
+      "path": "models/egg.babylon.manifest",
+      "sha256": "a0556326621b4cec2dca48550b76f34c356e15f4aa9bc08480407dde491720ba",
+      "source": "0.15.4d_2018-12-06_03-07-10_UTC/models/egg.babylon.manifest"
+    },
+    {
+      "path": "models/gun_cluck9mm.babylon",
+      "sha256": "9262de5a0a93b6f4b48fde4e0915ab7828b1833e8a6cb06a8eece9471653731c",
+      "source": "0.15.1_2018-11-01_21-05-37_UTC/models/gun_cluck9mm.babylon"
+    },
+    {
+      "path": "models/gun_cluck9mm.babylon.manifest",
+      "sha256": "4a99e8533a5098c40e7a9926c2a45afaff64ae549ed9da9ee0811314ecc38b84",
+      "source": "0.15.1_2018-11-01_21-05-37_UTC/models/gun_cluck9mm.babylon.manifest"
+    },
+    {
+      "path": "models/gun_csg1.babylon",
+      "sha256": "fa1f3730bacd217be33e29d94b2daf4565f076b0ce952fa729acfa758f9d4db4",
+      "source": "0.15.1_2018-11-01_21-05-37_UTC/models/gun_csg1.babylon"
+    },
+    {
+      "path": "models/gun_csg1.babylon.manifest",
+      "sha256": "7060007d2371e6ce2dfc032afe8562b8cd2cbe594f6a99f50503c36030152932",
+      "source": "0.15.1_2018-11-01_21-05-37_UTC/models/gun_csg1.babylon.manifest"
+    },
+    {
+      "path": "models/gun_dozenGauge.babylon",
+      "sha256": "72e3bead8b045530caa3e5a694e5b9e476ecb4f60886a565aaca83fe6ad5133a",
+      "source": "0.15.1_2018-11-01_21-05-37_UTC/models/gun_dozenGauge.babylon"
+    },
+    {
+      "path": "models/gun_dozenGauge.babylon.manifest",
+      "sha256": "3c9cabea70e4958dfd1da457a4c1abf61393a42a18b21eb541c31ccc42de5060",
+      "source": "0.15.1_2018-11-01_21-05-37_UTC/models/gun_dozenGauge.babylon.manifest"
+    },
+    {
+      "path": "models/gun_eggk47.babylon",
+      "sha256": "4265a9e8219010e49acfd976c6ed87e364379740ccb1166ae7dad19f1e5406aa",
+      "source": "0.15.1_2018-11-01_21-05-37_UTC/models/gun_eggk47.babylon"
+    },
+    {
+      "path": "models/gun_eggk47.babylon.manifest",
+      "sha256": "2e5180ed086c155edd8a5225206b58d987d30f97a73ac894ecd154aa0165395d",
+      "source": "0.15.1_2018-11-01_21-05-37_UTC/models/gun_eggk47.babylon.manifest"
+    },
+    {
+      "path": "models/gun_rpegg.babylon",
+      "sha256": "ca5d363733f1850ebb3906ac8ded6c16c9349eec84d42b0934991549791d1527",
+      "source": "0.14.31_2018-11-11_18-59-48_UTC/models/gun_rpegg.babylon"
+    },
+    {
+      "path": "models/gun_rpegg.babylon.manifest",
+      "sha256": "c442fe5b91ef68e3315e95461c65b6ebd38d9ccab7e7c615a9381194f424d9e5",
+      "source": "0.14.31_2018-11-11_18-59-48_UTC/models/gun_rpegg.babylon.manifest"
+    },
+    {
+      "path": "models/items.babylon",
+      "sha256": "5f24047476d45c6ebb8e5fd3efad267296cc4feb1095f787419328ac585b6406",
+      "source": "0.13.4_2018-05-14_03-28-30_UTC/models/items.babylon"
+    },
+    {
+      "path": "models/items.babylon.manifest",
+      "sha256": "b8aa29b453c1327298db982d8f14554c46121b6017dae2958ae2d2f9691e4cd9",
+      "source": "0.13.5_2018-08-22_00-58-29_UTC_recovered-game_d3414261/models/items.babylon.manifest"
+    },
+    {
+      "path": "models/map.babylon",
+      "sha256": "ff1e6455bc957637a0ffc927da11081ee82b97723f15ceefbbc399e3e275d17f",
+      "source": "0.14.6_2018-10-16_21-07-13_UTC/models/map.babylon"
+    },
+    {
+      "path": "models/map.babylon.manifest",
+      "sha256": "a9a21104b0b9361477c9408ca0bc585694d4c953feb33a8bdebd2a1b9e52be46",
+      "source": "0.14.6_2018-10-16_21-07-13_UTC/models/map.babylon.manifest"
+    },
+    {
+      "path": "models/munitions.babylon",
+      "sha256": "4f1f6b18fbd046dfd36cce208daff7f891f79f2fa634d87b8b49e82c1bc31e72",
+      "source": "0.15.1_2018-11-01_21-05-37_UTC/models/munitions.babylon"
+    },
+    {
+      "path": "models/munitions.babylon.manifest",
+      "sha256": "3cce6b520edc796d1661bfcf492554a58da4f9631d4c7e8c2ed740b37651e70c",
+      "source": "0.15.1_2018-11-01_21-05-37_UTC/models/munitions.babylon.manifest"
+    },
+    {
+      "path": "models/muzzleFlash.babylon",
+      "sha256": "c6982f7c46f20c0ffc1974c08d6804c4425f93002f4aae3f5efc069dbbcbc688",
+      "source": "0.13.4_2018-05-14_03-28-30_UTC/models/muzzleFlash.babylon"
+    },
+    {
+      "path": "models/muzzleFlash.babylon.manifest",
+      "sha256": "90792953bb57a85dfaaa6f6f736b3a111d03288d5928f77a546264258d02a0f7",
+      "source": "0.13.5_2018-08-22_00-58-29_UTC_recovered-game_d3414261/models/muzzleFlash.babylon.manifest"
+    },
+    {
+      "path": "models/reticle.babylon",
+      "sha256": "657433b9a2988a392e27e63616b2ef926c89b3ebd9e876da41a61cfe66e0cf21",
+      "source": "0.13.4_2018-05-14_03-28-30_UTC/models/reticle.babylon"
+    },
+    {
+      "path": "models/reticle.babylon.manifest",
+      "sha256": "90792953bb57a85dfaaa6f6f736b3a111d03288d5928f77a546264258d02a0f7",
+      "source": "0.13.5_2018-08-22_00-58-29_UTC_recovered-game_d3414261/models/reticle.babylon.manifest"
+    },
+    {
+      "path": "src/adDefines.js",
+      "sha256": "c910637dfe96c7dc2dfa7e72397c846f20dbcb1e9819f64ba47fd60c2ceaea15",
+      "source": "0.15.4d_2018-12-06_03-07-10_UTC/src/adDefines.js"
+    },
+    {
+      "path": "src/servers.js",
+      "sha256": "9e45506951f1c647fbf7592dbdaa632cf6c7c4a5ebffdbe3aebeae3de8e7f9e2",
+      "source": "0.14.6_2018-10-16_21-07-13_UTC/src/servers.js"
+    },
+    {
+      "path": "src/shellshock.min.js",
+      "sha256": "56c70278833ac660ddb9ee71adf2ea60d0b17ee21ef0e88cd564236c1acf4462",
+      "source": "0.15.4d_2018-12-06_03-07-10_UTC/src/shellshock.min.js"
+    }
+  ]
+}

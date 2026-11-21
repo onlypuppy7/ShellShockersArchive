@@ -1,0 +1,16 @@
+__pycache__/
+*.tmp
+*.log
+_recovery/assets_2017-2020/excluded_exports/
+_recovery/incremental_layout/
+_recovery/incremental_audio/
+_recovery/incremental_remaining/
+_recovery/assembly_2021-2026/plan.json
+_recovery/assembly_2021-2026/completed.json
+_recovery/assembly_2021-2026/progress.json
+_recovery/assembly_2021-2026/first_pass_subdomain_collision/
+_recovery/assembly_2021-2026/extensionless_page_collision/
+_recovery/consolidation_2021-2026/
+
+# Retained archived payload referenced by the published inventory.
+!1.0.15_2025-10-27_19-38-12_UTC_VariousDumps_3ea30488/language/missing_keys.log

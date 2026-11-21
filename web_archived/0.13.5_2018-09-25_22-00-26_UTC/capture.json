@@ -1,0 +1,74 @@
+{
+  "folder": "0.13.5_2018-09-25_22-00-26_UTC",
+  "version": "unversioned",
+  "event": {
+    "timestamp": "20180925220026",
+    "original": "https://shellshock.io/src/shellshock.min.js?1532071679",
+    "mimetype": "application/javascript",
+    "statuscode": "200",
+    "digest": "ZMWAYOQYM43PMZWSHK24FBQIX5RIXDJY"
+  },
+  "missing_scripts": [],
+  "files": [
+    {
+      "path": "src/shellshock.min.js",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20180925220026",
+        "original": "https://shellshock.io/src/shellshock.min.js?1532071679",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "ZMWAYOQYM43PMZWSHK24FBQIX5RIXDJY",
+        "sha256": "23613cd72191239192416a9481a4b58efd30631cc99296c0aeac9b1d27a362a8",
+        "verification": "indexed_capture_digest_matches_verified_payload",
+        "replay_url": "https://web.archive.org/web/20180925220026id_/https://shellshock.io/src/shellshock.min.js?1532071679",
+        "replay_capture_timestamp": "20180925220026"
+      },
+      "requested_capture": {
+        "timestamp": "20180925220026",
+        "original": "https://shellshock.io/src/shellshock.min.js?1532071679",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "ZMWAYOQYM43PMZWSHK24FBQIX5RIXDJY"
+      },
+      "exact_event_timestamp": true,
+      "association": "Nearest verified same-path capture within 24 hours, ignoring cachebuster; release pairing unverified",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20180925220026",
+          "original": "https://shellshock.io/src/shellshock.min.js?1532071679",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "ZMWAYOQYM43PMZWSHK24FBQIX5RIXDJY"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "pairing": "exact_script_reference",
+  "version_source": null,
+  "origin_id": "archive_org",
+  "origins_catalog": "origins.json (archive root; included in exports)",
+  "javascript_release_version_verified": false,
+  "pairing_verified": false,
+  "version_scope": "HTML label only; not an authenticated JavaScript release",
+  "game_script_pairing": {
+    "max_gap_seconds": 86400,
+    "cachebuster_used_as_release_evidence": false,
+    "missing": [],
+    "associations": [
+      {
+        "path": "src/shellshock.min.js",
+        "script_timestamp": "20180925220026",
+        "pairing_verified": false
+      }
+    ]
+  },
+  "version_audit": {
+    "declarations": [],
+    "release_membership_verified": false
+  }
+}

@@ -1,0 +1,588 @@
+{
+  "format_version": 1,
+  "folder": "0.26.0_2019-12-13_08-06-18_UTC",
+  "parent": "unversioned_2019-12-10_19-54-41_UTC_script-capture_7b29ff7f",
+  "timestamp": "20191213080618",
+  "added": [
+    "favicon.ico",
+    "housePromo.json",
+    "img/anim_chicken.gif",
+    "img/attention_indicator.png",
+    "img/chicken_shadow.png",
+    "img/egg-shop-banner-left.png",
+    "img/eggPose01.png",
+    "img/eggPose05.png",
+    "img/eggshop_egg1.png",
+    "img/eggshop_egg2.png",
+    "img/eggshop_egg3.png",
+    "img/eggshop_egg4.png",
+    "img/ico_arrowLeft.png",
+    "img/ico_arrowRight.png",
+    "img/ico_chicken.png",
+    "img/ico_chickenBadge.png",
+    "img/ico_eggColour_normal.png",
+    "img/ico_goldenEgg.png",
+    "img/ico_hat.png",
+    "img/ico_nav_fullscreen.png",
+    "img/ico_nav_help.png",
+    "img/ico_nav_leaderboards.png",
+    "img/ico_nav_settings.png",
+    "img/ico_nav_share.png",
+    "img/ico_nav_shop.png",
+    "img/ico_news.png",
+    "img/ico_social_discord.png",
+    "img/ico_social_facebook.png",
+    "img/ico_social_newsletter.png",
+    "img/ico_social_twitter.png",
+    "img/ico_specialItem.png",
+    "img/ico_stamp.png",
+    "img/ico_weaponPrimary.png",
+    "img/ico_weaponSecondary.png",
+    "img/ico_weapon_SMG.png",
+    "img/ico_weapon_assaultRifle.png",
+    "img/ico_weapon_boltAction.png",
+    "img/ico_weapon_rocketLauncher.png",
+    "img/ico_weapon_shotgun.png",
+    "img/ico_weapon_sniper.png",
+    "img/logo.png",
+    "img/nugget_shadow.png",
+    "img/pricetag_left.png",
+    "img/pricetag_right.png",
+    "img/spatulaIcon.png",
+    "img/speechtail.png",
+    "index.html",
+    "js/asc-ad-video/adblockDetector.js",
+    "js/asc-ad-video/asc.video.outsteam.min.js",
+    "js/vue/vue.min.2.6.10.js",
+    "language/en.json",
+    "models/egg.babylon",
+    "models/egg.babylon.manifest",
+    "models/items.babylon",
+    "models/items.babylon.manifest",
+    "models/map.babylon",
+    "models/map.babylon.manifest",
+    "models/munitions.babylon",
+    "models/munitions.babylon.manifest",
+    "models/muzzleFlash.babylon",
+    "models/muzzleFlash.babylon.manifest",
+    "models/reticle.babylon",
+    "models/reticle.babylon.manifest",
+    "sound/theme.mp3",
+    "sound/ui/ui_chicken.mp3",
+    "sound/ui/ui_click.mp3",
+    "sound/ui/ui_equip.mp3",
+    "sound/ui/ui_onchange.mp3",
+    "sound/ui/ui_playconfirm.mp3",
+    "sound/ui/ui_popupclose.mp3",
+    "sound/ui/ui_popupopen.mp3",
+    "sound/ui/ui_reset.mp3",
+    "sound/ui/ui_toggletab.mp3",
+    "styles/asc.video.outstream.min.css",
+    "styles/forms.css",
+    "styles/transitions.css",
+    "video/tiny.mp4"
+  ],
+  "changed": [],
+  "removed": [
+    "img/promo/big_k3yqm8s9h.jpg",
+    "img/promo/small_k3yqm8s9f.jpg",
+    "sound/cluck9mm/insert mag.mp3",
+    "sound/cluck9mm/remove mag.mp3",
+    "sound/csg1/pull action.mp3",
+    "sound/csg1/release action.mp3",
+    "sound/dozenGauge/close.mp3",
+    "sound/dozenGauge/load.mp3",
+    "sound/dozenGauge/open.mp3",
+    "sound/eggk47/full cycle.mp3",
+    "sound/eggk47/insert mag.mp3",
+    "sound/eggk47/remove mag.mp3",
+    "sound/m24/boltClose.mp3",
+    "sound/m24/boltOpen.mp3",
+    "sound/smg/cycle.mp3",
+    "sound/smg/fire.mp3",
+    "ssNews.json",
+    "twitchStreams.json"
+  ],
+  "files": [
+    {
+      "path": "favicon.ico",
+      "sha256": "f9194a3315d64d9fe5fcf3cefe511e05ec01248ffffb5082f91d38dca995ae73",
+      "source": "0.23.3a_2019-09-13_17-56-55_UTC/favicon.ico"
+    },
+    {
+      "path": "housePromo.json",
+      "sha256": "461bffbdb9d1862bf1d912f254801995a05acbd9556dabbb014f9ee0d0b48f01",
+      "source": "0.26.0_2019-12-09_16-36-58_UTC/housePromo.json"
+    },
+    {
+      "path": "img/anim_chicken.gif",
+      "sha256": "c2c9888a3454e44c48f4bea8f9fad75c361c6f67f9e736593b0fcff1d7be6141",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/anim_chicken.gif"
+    },
+    {
+      "path": "img/attention_indicator.png",
+      "sha256": "7f409e3a8d090f9de07232b0023044062a5250fbcd54ec510e10c294c40c49cc",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/attention_indicator.png"
+    },
+    {
+      "path": "img/chicken_shadow.png",
+      "sha256": "e0da88879f97ebfeff7e3a34b7cfebb2d8b76b5178f7b6dd12f3645784d163aa",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/chicken_shadow.png"
+    },
+    {
+      "path": "img/egg-shop-banner-left.png",
+      "sha256": "2d0a3de693a7df4c5caf88010e0f97b1b25fa984176ed3401959d011b408fe19",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/egg-shop-banner-left.png"
+    },
+    {
+      "path": "img/eggPose01.png",
+      "sha256": "51cba45ddd3f0fd36ffac9228945b397967fc9f39bffd93ed71e13459dcc4158",
+      "source": "0.25.7_2019-11-26_14-36-08_UTC/img/eggPose01.png"
+    },
+    {
+      "path": "img/eggPose05.png",
+      "sha256": "6383353070129c103b1a78f595ea41b2bbdb5b0c130e04d0076e29bb30ac8c92",
+      "source": "0.25.7_2019-11-26_14-36-08_UTC/img/eggPose05.png"
+    },
+    {
+      "path": "img/eggshop_egg1.png",
+      "sha256": "c07d109d2618b2a12c1d5e2bace1a9d974b32bbd852a5f09fdf5f146a713ded4",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/eggshop_egg1.png"
+    },
+    {
+      "path": "img/eggshop_egg2.png",
+      "sha256": "c9c0b88c4eb7fd8f50425c4a8ede8c7df6000f9ed09a5050c42751d575a76afe",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/eggshop_egg2.png"
+    },
+    {
+      "path": "img/eggshop_egg3.png",
+      "sha256": "309a1e08cfc9b208c66fa6a7ad060e1c1556117f77d6a3b8e091adc61b3f7371",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/eggshop_egg3.png"
+    },
+    {
+      "path": "img/eggshop_egg4.png",
+      "sha256": "c8a16fb6ef08579df0e099add0a3c9e96ac6649c470c76e58de93a7890849637",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/eggshop_egg4.png"
+    },
+    {
+      "path": "img/ico_arrowLeft.png",
+      "sha256": "8cbec811415a7e18fadf026916f4673e436704bd948cd0286b1e95c2027e0a0d",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/ico_arrowLeft.png"
+    },
+    {
+      "path": "img/ico_arrowRight.png",
+      "sha256": "2f7f9c802d068428f8d194808b9bfb3a6465745d0bb2d9049c3a20bbc3c71272",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/ico_arrowRight.png"
+    },
+    {
+      "path": "img/ico_chicken.png",
+      "sha256": "518bcaf0d7c7e295fb68301ac3e5e7f0586548b3243c53ee668070a24a4dbb93",
+      "source": "0.21.1_2019-07-07_21-40-19_UTC/img/ico_chicken.png"
+    },
+    {
+      "path": "img/ico_chickenBadge.png",
+      "sha256": "b87b04c9eb97bb2d5fe49b24c9584f7e22c24422a11f00668a37a166efc91d2f",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/ico_chickenBadge.png"
+    },
+    {
+      "path": "img/ico_eggColour_normal.png",
+      "sha256": "bbc8de3484f9a597c771d71f9520b3d4b88b3d7d7f31b6714b00d408bc1c6bbb",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_eggColour_normal.png"
+    },
+    {
+      "path": "img/ico_goldenEgg.png",
+      "sha256": "9bc493724fbc4c37c524b9bb01e40df75b7250e7e61e2424823305e301ed9d6b",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_goldenEgg.png"
+    },
+    {
+      "path": "img/ico_hat.png",
+      "sha256": "8af2d2924d89df190c223158795217f7aeeafcf3dcf60c8b502d8092099bf01b",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/ico_hat.png"
+    },
+    {
+      "path": "img/ico_nav_fullscreen.png",
+      "sha256": "b0d6472a76c94c4fdcbc5d92ed303749e48123f4873b4a6cee51c60204716803",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/ico_nav_fullscreen.png"
+    },
+    {
+      "path": "img/ico_nav_help.png",
+      "sha256": "f60c91f35bd78263c6b2a8105aaedaf7d3628be83270796281177014abebab36",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/ico_nav_help.png"
+    },
+    {
+      "path": "img/ico_nav_leaderboards.png",
+      "sha256": "9da7cd202f02d3a4f00ba869358ccd6db120482eed3e6eb70dd31b06ea29b18b",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/ico_nav_leaderboards.png"
+    },
+    {
+      "path": "img/ico_nav_settings.png",
+      "sha256": "8f552c5f6fcd910d7280d3a6e7261e2ff52092fbc416f7ca33610e2f9664b653",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/ico_nav_settings.png"
+    },
+    {
+      "path": "img/ico_nav_share.png",
+      "sha256": "5519a5e20116a7e7b63fc3fd9432f2a96dbb51ce7c4d9432cdf1ef5eb02eb67a",
+      "source": "0.24.1_2019-09-21_08-43-19_UTC/img/ico_nav_share.png"
+    },
+    {
+      "path": "img/ico_nav_shop.png",
+      "sha256": "2afdcb7f2c62411bbe83d5dbafecf12ab1d9d0898f9b09080fbb2b1afcde4996",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/ico_nav_shop.png"
+    },
+    {
+      "path": "img/ico_news.png",
+      "sha256": "430adeb0a6265509fcda6699a83c0b6962931d07803077d8396b3f21f82036d1",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/ico_news.png"
+    },
+    {
+      "path": "img/ico_social_discord.png",
+      "sha256": "dadce32affec287414d8613294d24d72ce9b19510f0c20d957fe4fcac290fd23",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_social_discord.png"
+    },
+    {
+      "path": "img/ico_social_facebook.png",
+      "sha256": "2c03aefd3ec4637209ff4c97a2ff698382f741bfbce6f428b6f7fcbc6f743eb4",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_social_facebook.png"
+    },
+    {
+      "path": "img/ico_social_newsletter.png",
+      "sha256": "aedc5a6fcd98bae20920aad35bd5f991eddaac61d4788469cec62486fcd75ef4",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_social_newsletter.png"
+    },
+    {
+      "path": "img/ico_social_twitter.png",
+      "sha256": "591a6cb2fe4c6b0085b287670dbfac9f62b553f128846c3372722fd453bb4c7e",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_social_twitter.png"
+    },
+    {
+      "path": "img/ico_specialItem.png",
+      "sha256": "c8aaa4b64dcadb3bed5a1af0d16600eadf3043c0e91a77fd1e436685d461248f",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/ico_specialItem.png"
+    },
+    {
+      "path": "img/ico_stamp.png",
+      "sha256": "d26acf8b0694eb2e9748167b35a14c5f302366d09f874233e5a168c7174a1a0a",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/ico_stamp.png"
+    },
+    {
+      "path": "img/ico_weaponPrimary.png",
+      "sha256": "6917800ecdcfb4db10e371fe93176113ed7f8e5cfe3d4182ae869e5e04102575",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/ico_weaponPrimary.png"
+    },
+    {
+      "path": "img/ico_weaponSecondary.png",
+      "sha256": "a627041b4b275fe8a1ad11a93fc2001ffe34a4168f252697402c7260e678de25",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/ico_weaponSecondary.png"
+    },
+    {
+      "path": "img/ico_weapon_SMG.png",
+      "sha256": "50f5970f5f4db4cb4a2e3903b72612123703231f49c5633c130376c3cffc10fe",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_weapon_SMG.png"
+    },
+    {
+      "path": "img/ico_weapon_assaultRifle.png",
+      "sha256": "a03439fb0ff3e9ca0d04951d4cbf787387f51b05ab8c4add591204abb623bf8e",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_weapon_assaultRifle.png"
+    },
+    {
+      "path": "img/ico_weapon_boltAction.png",
+      "sha256": "0c917bf4eea71fb8d4e2b188924b29b9f407ffbf5c748cc8f09a8bdb3bb5ccaa",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_weapon_boltAction.png"
+    },
+    {
+      "path": "img/ico_weapon_rocketLauncher.png",
+      "sha256": "317b8ca0cd656e7f7736133b64329fd649d71c186f225e4ca15fe781144c32a9",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_weapon_rocketLauncher.png"
+    },
+    {
+      "path": "img/ico_weapon_shotgun.png",
+      "sha256": "545fe03fa459fa5f0a61ebbd03297ba5777bc54522bff61f6e3107383dbdab20",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_weapon_shotgun.png"
+    },
+    {
+      "path": "img/ico_weapon_sniper.png",
+      "sha256": "11f9c875a8f16e4f7ee6f71a88a7827f38b32006c08eaf8ec56483d56099c5bd",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_weapon_sniper.png"
+    },
+    {
+      "path": "img/logo.png",
+      "sha256": "ee808200bdba6c5ac259739c96aeac657ce3ca979ad1b4d8368782bf9186c28e",
+      "source": "0.21.1_2019-07-07_21-40-19_UTC/img/logo.png"
+    },
+    {
+      "path": "img/nugget_shadow.png",
+      "sha256": "8662e583951ca7d5fc7706864144cccbb9824cba56a9bf1daada3069bf12df48",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/nugget_shadow.png"
+    },
+    {
+      "path": "img/pricetag_left.png",
+      "sha256": "7ad9c5ee402e304d171e3e9180f171a4bf5b5908a613ab41636353500747ee0a",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/pricetag_left.png"
+    },
+    {
+      "path": "img/pricetag_right.png",
+      "sha256": "b299af9c83fe2ba8f76917612fdfbc3fb7bab9ecd363a2059781ead807b8f630",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/pricetag_right.png"
+    },
+    {
+      "path": "img/spatulaIcon.png",
+      "sha256": "4f47ecaa3aa4df505f824ac81a03f970675d8e39b38134187c5d1b5402af9cd4",
+      "source": "0.18.2_2019-02-19_22-36-18_UTC/img/spatulaIcon.png"
+    },
+    {
+      "path": "img/speechtail.png",
+      "sha256": "982961a9c5e9ffb5ba693336ac783018685768a0ccfc011a608b9802f1088e42",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/speechtail.png"
+    },
+    {
+      "path": "img/stamps.png",
+      "sha256": "7f07fd226176f1de5b895deca1262a522ed040aa11dac6e39f073d2e6a25b947",
+      "source": "unversioned_2019-12-10_19-54-41_UTC_script-capture_7b29ff7f/img/stamps.png"
+    },
+    {
+      "path": "index.html",
+      "sha256": "29d5b4edc8457952d45f54317cfb0b584bc02f5a90bb66d71da2d76bd344877a",
+      "source": "0.26.0_2019-12-13_08-06-18_UTC/index.html"
+    },
+    {
+      "path": "js/asc-ad-video/adblockDetector.js",
+      "sha256": "a27f1da8f43b5558c7304d6f3ac40c76ac4dd9eebb02c6a57e2f1b9d07bce6bc",
+      "source": "0.25.1_2019-10-02_18-53-15_UTC/js/asc-ad-video/adblockDetector.js"
+    },
+    {
+      "path": "js/asc-ad-video/asc.video.outsteam.min.js",
+      "sha256": "978b1be8e07398811961ea45c7ff3d4cb173fbc27cb21ba460e2bba47971f5d6",
+      "source": "0.25.1_2019-10-02_18-53-15_UTC/js/asc-ad-video/asc.video.outsteam.min.js"
+    },
+    {
+      "path": "js/prebid/prebidcon.js",
+      "sha256": "b696b4aeeb2af9b654d59633f7a5661293bcf15c4745515c078ff0a5e02f60c2",
+      "source": "unversioned_2019-12-10_19-54-41_UTC_script-capture_7b29ff7f/js/prebid/prebidcon.js"
+    },
+    {
+      "path": "js/vue/vue.min.2.6.10.js",
+      "sha256": "72194d152571dd375c4365e5c3b4af9db2c06af0102ced18fcb062597d38be26",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/js/vue/vue.min.2.6.10.js"
+    },
+    {
+      "path": "language/en.json",
+      "sha256": "49291b8811e9a655346edf6222a21d363953e5e628f92e8aa092ee61a01b8a66",
+      "source": "unversioned_2019-12-02_23-04-03_UTC_script-capture_dddc2846/language/en.json"
+    },
+    {
+      "path": "models/egg.babylon",
+      "sha256": "2746f86b1c93ae76f32e8c9302152a694fa091dde2a2ef56b09f40562074b9b4",
+      "source": "0.26.0_2019-12-09_16-36-58_UTC/models/egg.babylon"
+    },
+    {
+      "path": "models/egg.babylon.manifest",
+      "sha256": "df933dcd8486dbc0c57be5957bb2617fd37dafd1dcfd990b0987135ec2aa7112",
+      "source": "0.26.0_2019-12-09_16-36-58_UTC/models/egg.babylon.manifest"
+    },
+    {
+      "path": "models/gun_cluck9mm.babylon",
+      "sha256": "6f7190ea0bc0433834455d1a81a8ae4773b5640a8d085003af45d63e1cf8b05b",
+      "source": "unversioned_2019-12-10_19-54-41_UTC_script-capture_7b29ff7f/models/gun_cluck9mm.babylon"
+    },
+    {
+      "path": "models/gun_cluck9mm.babylon.manifest",
+      "sha256": "d98b5ffdd92692c405ed9161cab25d18c3fa115efc4e4f0c85f7fbb293e1e133",
+      "source": "unversioned_2019-12-10_19-54-41_UTC_script-capture_7b29ff7f/models/gun_cluck9mm.babylon.manifest"
+    },
+    {
+      "path": "models/gun_csg1.babylon",
+      "sha256": "12f7d7d184e6705d75335003fc9580fc7edc389a80f16626ae4136545370a7cf",
+      "source": "unversioned_2019-12-10_19-54-41_UTC_script-capture_7b29ff7f/models/gun_csg1.babylon"
+    },
+    {
+      "path": "models/gun_csg1.babylon.manifest",
+      "sha256": "1ece2ab894d935441a7184c9769de390e5bd5115f0dbdf733bca8f82778cbf25",
+      "source": "unversioned_2019-12-10_19-54-41_UTC_script-capture_7b29ff7f/models/gun_csg1.babylon.manifest"
+    },
+    {
+      "path": "models/gun_dozenGauge.babylon",
+      "sha256": "9f5074bc0cc1cc000a40f44faa835b52bbee66b3d79794a3305aa09692ed1c76",
+      "source": "unversioned_2019-12-10_19-54-41_UTC_script-capture_7b29ff7f/models/gun_dozenGauge.babylon"
+    },
+    {
+      "path": "models/gun_dozenGauge.babylon.manifest",
+      "sha256": "3ea7376090540bb3bbf16a48b043288fb234be6c94b78a440625cbedaf1810c7",
+      "source": "unversioned_2019-12-10_19-54-41_UTC_script-capture_7b29ff7f/models/gun_dozenGauge.babylon.manifest"
+    },
+    {
+      "path": "models/gun_eggk47.babylon",
+      "sha256": "03e415f50fcc83f12bfbaadf66ff060c1bb1237cc7cb8ceacfe86c58bf16aafb",
+      "source": "unversioned_2019-12-10_19-54-41_UTC_script-capture_7b29ff7f/models/gun_eggk47.babylon"
+    },
+    {
+      "path": "models/gun_eggk47.babylon.manifest",
+      "sha256": "2222a3f1ce1cad1ee91d568e4d0820ac330888a92f811258a97df445be699ec0",
+      "source": "unversioned_2019-12-10_19-54-41_UTC_script-capture_7b29ff7f/models/gun_eggk47.babylon.manifest"
+    },
+    {
+      "path": "models/gun_m24.babylon",
+      "sha256": "78b364f16b9bef37c9f436036804b3c9978489292203b46524e2c17eb84a6763",
+      "source": "unversioned_2019-12-10_19-54-41_UTC_script-capture_7b29ff7f/models/gun_m24.babylon"
+    },
+    {
+      "path": "models/gun_m24.babylon.manifest",
+      "sha256": "a28d792f9d91ea76489e1f55b0553749bb3b1d02dd5e6622d7e582eb16e915a7",
+      "source": "unversioned_2019-12-10_19-54-41_UTC_script-capture_7b29ff7f/models/gun_m24.babylon.manifest"
+    },
+    {
+      "path": "models/gun_rpegg.babylon",
+      "sha256": "51b2ff2650313618520a5d9c2fb46abd3fdf335446fd25fe061621e55f172508",
+      "source": "unversioned_2019-12-10_19-54-41_UTC_script-capture_7b29ff7f/models/gun_rpegg.babylon"
+    },
+    {
+      "path": "models/gun_rpegg.babylon.manifest",
+      "sha256": "067994efda48237c9ff922428a39a65703f36d76af2fba0d32feb89ae796d0f6",
+      "source": "unversioned_2019-12-10_19-54-41_UTC_script-capture_7b29ff7f/models/gun_rpegg.babylon.manifest"
+    },
+    {
+      "path": "models/gun_smg.babylon",
+      "sha256": "a2adba2f3242d95b85821ba1d96fb1e6449d7c0a40cc260f475500d788add7cd",
+      "source": "unversioned_2019-12-10_19-54-41_UTC_script-capture_7b29ff7f/models/gun_smg.babylon"
+    },
+    {
+      "path": "models/gun_smg.babylon.manifest",
+      "sha256": "c27bbcf96ee921203de1e68042fbf6dd12e1d1028b5c6d2d981c85adb3a0b409",
+      "source": "unversioned_2019-12-10_19-54-41_UTC_script-capture_7b29ff7f/models/gun_smg.babylon.manifest"
+    },
+    {
+      "path": "models/items.babylon",
+      "sha256": "e2f495d17d49dc491536a33fbb667060e573da39954a52eab110e43348e254e4",
+      "source": "0.17.0_2019-02-06_14-44-55_UTC_capture_a4a49c76/models/items.babylon"
+    },
+    {
+      "path": "models/items.babylon.manifest",
+      "sha256": "cd174f1c6dd7184fbd801146d2b8d082905bcd936b48a6b82a3089e341092179",
+      "source": "0.17.0_2019-02-06_14-44-55_UTC_capture_a4a49c76/models/items.babylon.manifest"
+    },
+    {
+      "path": "models/map.babylon",
+      "sha256": "ab7f027b03f13c48af4ba1897e6d4ce1764114da8f1faab9f16ebe6f8cb4a644",
+      "source": "0.18.2_2019-02-28_13-31-01_UTC/models/map.babylon"
+    },
+    {
+      "path": "models/map.babylon.manifest",
+      "sha256": "571001c4c06ed8d53859de45f6979dbe819c94439d105e83e01d8d36c450b94c",
+      "source": "0.18.2_2019-02-28_13-31-01_UTC/models/map.babylon.manifest"
+    },
+    {
+      "path": "models/munitions.babylon",
+      "sha256": "4f1f6b18fbd046dfd36cce208daff7f891f79f2fa634d87b8b49e82c1bc31e72",
+      "source": "0.15.1_2018-11-01_21-05-37_UTC/models/munitions.babylon"
+    },
+    {
+      "path": "models/munitions.babylon.manifest",
+      "sha256": "3cce6b520edc796d1661bfcf492554a58da4f9631d4c7e8c2ed740b37651e70c",
+      "source": "0.15.1_2018-11-01_21-05-37_UTC/models/munitions.babylon.manifest"
+    },
+    {
+      "path": "models/muzzleFlash.babylon",
+      "sha256": "c6982f7c46f20c0ffc1974c08d6804c4425f93002f4aae3f5efc069dbbcbc688",
+      "source": "0.13.4_2018-05-14_03-28-30_UTC/models/muzzleFlash.babylon"
+    },
+    {
+      "path": "models/muzzleFlash.babylon.manifest",
+      "sha256": "90792953bb57a85dfaaa6f6f736b3a111d03288d5928f77a546264258d02a0f7",
+      "source": "0.13.5_2018-08-22_00-58-29_UTC_recovered-game_d3414261/models/muzzleFlash.babylon.manifest"
+    },
+    {
+      "path": "models/reticle.babylon",
+      "sha256": "657433b9a2988a392e27e63616b2ef926c89b3ebd9e876da41a61cfe66e0cf21",
+      "source": "0.13.4_2018-05-14_03-28-30_UTC/models/reticle.babylon"
+    },
+    {
+      "path": "models/reticle.babylon.manifest",
+      "sha256": "90792953bb57a85dfaaa6f6f736b3a111d03288d5928f77a546264258d02a0f7",
+      "source": "0.13.5_2018-08-22_00-58-29_UTC_recovered-game_d3414261/models/reticle.babylon.manifest"
+    },
+    {
+      "path": "sound/theme.mp3",
+      "sha256": "e73b349fa39cfc13f707ccad431ab473e0b7d8de49b80e316334ec7a5473d564",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/sound/theme.mp3"
+    },
+    {
+      "path": "sound/ui/ui_chicken.mp3",
+      "sha256": "3ee353509653713441aaf3bc88a18275728dc012ceb6c6bad81f0ec1fffbde5b",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/sound/ui/ui_chicken.mp3"
+    },
+    {
+      "path": "sound/ui/ui_click.mp3",
+      "sha256": "f9a36ee8b692c26bc72c114e7d62fd5dc1a4048493542325150273094e03797d",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/sound/ui/ui_click.mp3"
+    },
+    {
+      "path": "sound/ui/ui_equip.mp3",
+      "sha256": "4c06789552db29e7b6d335a8c2674474452058909e192d5d6ebe59a67693d1a3",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/sound/ui/ui_equip.mp3"
+    },
+    {
+      "path": "sound/ui/ui_onchange.mp3",
+      "sha256": "dd17e31abda7aa287c094493446c116b8143b1aefba59195439852bfe407420e",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/sound/ui/ui_onchange.mp3"
+    },
+    {
+      "path": "sound/ui/ui_playconfirm.mp3",
+      "sha256": "debaac3efc4f54dd0c08798a76dde0c9bbf07c1f4a12cbaade754f371b3e7e7d",
+      "source": "0.23.3a_2019-09-04_16-58-51_UTC/sound/ui/ui_playconfirm.mp3"
+    },
+    {
+      "path": "sound/ui/ui_popupclose.mp3",
+      "sha256": "e84190134ccb55a149af95163277bc398b192ab4e99b3f8122103775ea0bf471",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/sound/ui/ui_popupclose.mp3"
+    },
+    {
+      "path": "sound/ui/ui_popupopen.mp3",
+      "sha256": "302fda46436af13f61b5ed49fd98ac4f54f779d571b5cf921ba32e863de6871a",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/sound/ui/ui_popupopen.mp3"
+    },
+    {
+      "path": "sound/ui/ui_reset.mp3",
+      "sha256": "9de3cf5876dea5c8a81f9c605384cd4d0aa7e99dcba48f0ef20a908c468d595b",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/sound/ui/ui_reset.mp3"
+    },
+    {
+      "path": "sound/ui/ui_toggletab.mp3",
+      "sha256": "e90bcb12b8ae8843bad52b1ae0d1a5d59f5306039217b24d2e3d36df7e0a5e3d",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/sound/ui/ui_toggletab.mp3"
+    },
+    {
+      "path": "src/shellshock.min.js",
+      "sha256": "7b29ff7f7f03de66fb0984c00a5236758faefdef53cd204bc31d774e7b8ab3cc",
+      "source": "0.26.0_2019-12-13_22-58-34_UTC/src/shellshock.min.js"
+    },
+    {
+      "path": "styles/asc.video.outstream.min.css",
+      "sha256": "c7c7865fd412c4cf04e7edaff9670cf4d089be167d6630446855cdb6615ad7dc",
+      "source": "0.25.1_2019-10-02_18-53-15_UTC/styles/asc.video.outstream.min.css"
+    },
+    {
+      "path": "styles/forms.css",
+      "sha256": "3e9501fb2d3c53ecefdef407588717c459df01072c16ee782318588d88ec0e0b",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/styles/forms.css"
+    },
+    {
+      "path": "styles/game.css",
+      "sha256": "a4b49b82ec8302114526b47e171384cec2a2b2a1ae5b1ecc02aa7479870ecb46",
+      "source": "unversioned_2019-12-10_19-54-41_UTC_script-capture_7b29ff7f/styles/game.css"
+    },
+    {
+      "path": "styles/style.css",
+      "sha256": "c594c91dfc269b8d2d5af3896646ebb37e2c59388a64b35abad7b79e2cc21292",
+      "source": "unversioned_2019-12-10_19-54-41_UTC_script-capture_7b29ff7f/styles/style.css"
+    },
+    {
+      "path": "styles/transitions.css",
+      "sha256": "70a80466e765a7d4cc89889f1536bdec793dfee037930dd9da63becce2d6711a",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/styles/transitions.css"
+    },
+    {
+      "path": "video/tiny.mp4",
+      "sha256": "a901150457a87eb8ff4f7c43137f8c6c8c8ab1396274dc76db49b98fc12f3692",
+      "source": "0.25.1_2019-10-02_18-53-15_UTC/video/tiny.mp4"
+    }
+  ]
+}

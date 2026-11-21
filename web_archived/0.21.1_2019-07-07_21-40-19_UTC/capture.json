@@ -1,0 +1,63 @@
+{
+  "folder": "0.21.1_2019-07-07_21-40-19_UTC",
+  "version": "unversioned",
+  "html_version": "0.21.1",
+  "version_source": null,
+  "javascript_release_version_verified": false,
+  "pairing_verified": false,
+  "warning": "HTML version labels this reconstruction; matching cache-busting URLs do not establish the JavaScript release version.",
+  "event": {
+    "urlkey": "io,shellshock)/src/shellshock.min.js?1559471576",
+    "timestamp": "20190707214019",
+    "original": "https://www.shellshock.io/src/shellshock.min.js?1559471576",
+    "mimetype": "application/javascript",
+    "statuscode": "200",
+    "digest": "5OOYBMWVZNKHPSN5ZIV6DMOTWDBKIFK2"
+  },
+  "missing_scripts": [],
+  "files": [
+    {
+      "path": "src/shellshock.min.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/src/shellshock.min.js?1559471576",
+        "timestamp": "20190707214019",
+        "original": "https://www.shellshock.io/src/shellshock.min.js?1559471576",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "5OOYBMWVZNKHPSN5ZIV6DMOTWDBKIFK2"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/src/shellshock.min.js?1559471576",
+        "timestamp": "20190707214019",
+        "original": "https://www.shellshock.io/src/shellshock.min.js?1559471576",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "5OOYBMWVZNKHPSN5ZIV6DMOTWDBKIFK2",
+        "replay_url": "https://web.archive.org/web/20190707214019id_/https://www.shellshock.io/src/shellshock.min.js?1559471576",
+        "final_url": "https://web.archive.org/web/20190707214019id_/https://www.shellshock.io/src/shellshock.min.js?1559471576",
+        "sha256": "ca521e4ed51b3a0e3801933d0b6f9ce4347e77aba61db4447bf57fd5f8ad6404"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20190707214019",
+          "original": "https://www.shellshock.io/src/shellshock.min.js?1559471576",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "5OOYBMWVZNKHPSN5ZIV6DMOTWDBKIFK2"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "origin_id": "archive_org",
+  "origins_catalog": "origins.json (archive root; included in exports)",
+  "version_audit": {
+    "declarations": [],
+    "release_membership_verified": false
+  }
+}

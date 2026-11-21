@@ -1,0 +1,68 @@
+{
+  "folder": "0.15.3_2018-11-20_04-07-46_UTC_recovered-game_829c5792",
+  "version": "0.15.3",
+  "version_source": "html",
+  "origin_id": "archive_org",
+  "capture_kind": "game_capture",
+  "event": {
+    "timestamp": "20181120040746",
+    "timezone": "UTC"
+  },
+  "files": [
+    {
+      "path": "index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20181120040746",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "Q7JDUSCTF4BS4FGVXLSCZH5IKT5QB6RX",
+        "sha256": "64f415d90e5d16db654fd6d63c63cc59ae95586309e72da79a55202775f3399c"
+      },
+      "actual_replay_source": {
+        "timestamp": "20181120040746",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "Q7JDUSCTF4BS4FGVXLSCZH5IKT5QB6RX",
+        "replay_url": "https://web.archive.org/web/20181120040746id_/https://shellshock.io/",
+        "final_url": "https://web.archive.org/web/20181120040746id_/https://shellshock.io/",
+        "sha256": "64f415d90e5d16db654fd6d63c63cc59ae95586309e72da79a55202775f3399c"
+      },
+      "requested_capture": {
+        "timestamp": "20181120040746",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "Q7JDUSCTF4BS4FGVXLSCZH5IKT5QB6RX"
+      },
+      "exact_event_timestamp": true,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20181120040746",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "Q7JDUSCTF4BS4FGVXLSCZH5IKT5QB6RX"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "missing_scripts": [],
+  "pairing_verified": false,
+  "html_available": true,
+  "channel": null,
+  "version_evidence": {
+    "version": "0.15.3",
+    "kind": "declared_game_version",
+    "expression": "var version = '0.15.3'",
+    "offset": 4496,
+    "path": "index.html",
+    "sha256": "64f415d90e5d16db654fd6d63c63cc59ae95586309e72da79a55202775f3399c"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "folder": "0.23.3a_2019-08-21_12-39-17_UTC",
+  "version": "0.23.3a",
+  "html_version": "0.23.3a",
+  "version_source": "html",
+  "javascript_release_version_verified": false,
+  "pairing_verified": false,
+  "warning": "HTML version labels this reconstruction; matching cache-busting URLs do not establish the JavaScript release version.",
+  "event": {
+    "urlkey": "io,shellshock)/",
+    "timestamp": "20190821123917",
+    "original": "https://shellshock.io/",
+    "mimetype": "text/html",
+    "statuscode": "200",
+    "digest": "G6CPVH5C3FCTCEU7Y64AT4LVG4ZZOLUC"
+  },
+  "missing_scripts": [
+    "https://shellshock.io/src/shellshock.min.js?1566137860"
+  ],
+  "files": [
+    {
+      "path": "index.html",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20190821123917",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "G6CPVH5C3FCTCEU7Y64AT4LVG4ZZOLUC"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20190821123917",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "G6CPVH5C3FCTCEU7Y64AT4LVG4ZZOLUC",
+        "replay_url": "https://web.archive.org/web/20190821123917id_/https://shellshock.io/",
+        "final_url": "https://web.archive.org/web/20190821123917id_/https://shellshock.io/",
+        "sha256": "ce2052699c66b65b0b268bd20d92ab04be6b811a7b41cd01cd0cd228740982a8",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/G6CPVH5C3FCTCEU7Y64AT4LVG4ZZOLUC",
+        "encoded_sha256": "c57d57322bfb97a342e119eba22455ece6f61e0da6e4c80d3b626b026cfa82a2",
+        "decoded_sha1": "N7XKYJPXG4DVUH4W4WCCWRPOG5OA67YJ"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20190821123917",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "G6CPVH5C3FCTCEU7Y64AT4LVG4ZZOLUC"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "origin_id": "archive_org",
+  "origins_catalog": "origins.json (archive root; included in exports)",
+  "version_scope": "Version declared by the observed HTML only; supporting-file release membership is unverified.",
+  "game_script_pairing": {
+    "max_gap_seconds": 86400,
+    "cachebuster_used_as_release_evidence": false,
+    "missing": [
+      {
+        "path": "src/shellshock.min.js",
+        "reason": "no_verified_capture_within_24_hours",
+        "referenced_url": "https://shellshock.io/src/shellshock.min.js?1566137860"
+      }
+    ],
+    "associations": []
+  },
+  "version_evidence": {
+    "version": "0.23.3a",
+    "kind": "declared_game_version",
+    "expression": "var version = '0.23.3a'",
+    "offset": 8179,
+    "path": "index.html",
+    "sha256": "ce2052699c66b65b0b268bd20d92ab04be6b811a7b41cd01cd0cd228740982a8",
+    "observation": {
+      "timestamp": "20190821123917",
+      "original": "https://shellshock.io/",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "G6CPVH5C3FCTCEU7Y64AT4LVG4ZZOLUC"
+    }
+  },
+  "version_audit": {
+    "declarations": [
+      {
+        "version": "0.23.3a",
+        "kind": "declared_game_version",
+        "expression": "var version = '0.23.3a'",
+        "offset": 8179,
+        "path": "index.html",
+        "sha256": "ce2052699c66b65b0b268bd20d92ab04be6b811a7b41cd01cd0cd228740982a8",
+        "observation": {
+          "timestamp": "20190821123917",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "G6CPVH5C3FCTCEU7Y64AT4LVG4ZZOLUC"
+        }
+      }
+    ],
+    "release_membership_verified": false
+  }
+}
