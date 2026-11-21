@@ -1,0 +1,143 @@
+{
+  "folder": "0.41.1_2021-11-19_04-35-49_UTC",
+  "version": "0.41.1",
+  "version_source": "html",
+  "version_evidence": {
+    "version": "0.41.1",
+    "kind": "declared_game_version",
+    "expression": "var version = '0.41.1'",
+    "offset": 19218,
+    "path": "index.html",
+    "sha256": "81b3b22e558733c07239db49ccffe5d554ce89ec5233b30c1bc57ecec7e11e54",
+    "observation": {
+      "timestamp": "20211119043549",
+      "original": "https://shellshock.io/",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "ZLTRPBL7Z3VTA47DEGYRHZMIF4AK42OU"
+    }
+  },
+  "html_version": "0.41.1",
+  "event": {
+    "urlkey": "io,shellshock)/",
+    "timestamp": "20211119043549",
+    "original": "https://shellshock.io/",
+    "mimetype": "text/html",
+    "statuscode": "200",
+    "digest": "ZLTRPBL7Z3VTA47DEGYRHZMIF4AK42OU"
+  },
+  "missing_scripts": [
+    "https://shellshock.io/gtm.js",
+    "https://shellshock.io/src/shellshock.js?1637106161"
+  ],
+  "pairing_verified": false,
+  "warning": "Reconstruction from independently captured files. Each selection retains its own date; nearest captures and inferred release labels are unverified.",
+  "files": [
+    {
+      "path": "index.html",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20211119043549",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ZLTRPBL7Z3VTA47DEGYRHZMIF4AK42OU"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20211119043549",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ZLTRPBL7Z3VTA47DEGYRHZMIF4AK42OU",
+        "replay_url": "https://web.archive.org/web/20211119043549id_/https://shellshock.io/",
+        "final_url": "https://web.archive.org/web/20211119043549id_/https://shellshock.io/",
+        "sha256": "81b3b22e558733c07239db49ccffe5d554ce89ec5233b30c1bc57ecec7e11e54",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20211119043549"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20211119043549",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "ZLTRPBL7Z3VTA47DEGYRHZMIF4AK42OU"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "consolidation": {
+    "comparison": "Ignore only Cloudflare rayId in HTML; all other primary bytes compared exactly",
+    "equivalent_captures": [
+      {
+        "folder": "0.41.1_2021-11-19_04-35-49_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20211119043549",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "ZLTRPBL7Z3VTA47DEGYRHZMIF4AK42OU"
+        }
+      },
+      {
+        "folder": "0.41.1_2021-11-21_01-08-09_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20211121010809",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "ZLTRPBL7Z3VTA47DEGYRHZMIF4AK42OU"
+        }
+      }
+    ],
+    "warning": "Union preserves distinct assets and original HTML variants; it does not assert simultaneous historical availability"
+  },
+  "origin_id": "archive_org",
+  "origins_catalog": "origins.json (archive root; included in exports)",
+  "javascript_release_version_verified": false,
+  "version_scope": "Version declared by the observed HTML only; supporting-file release membership is unverified.",
+  "game_script_pairing": {
+    "max_gap_seconds": 86400,
+    "cachebuster_used_as_release_evidence": false,
+    "missing": [
+      {
+        "path": "src/shellshock.js",
+        "reason": "no_verified_capture_within_24_hours",
+        "referenced_url": "https://shellshock.io/src/shellshock.js?1637106161"
+      }
+    ],
+    "associations": []
+  },
+  "version_audit": {
+    "declarations": [
+      {
+        "version": "0.41.1",
+        "kind": "declared_game_version",
+        "expression": "var version = '0.41.1'",
+        "offset": 19218,
+        "path": "index.html",
+        "sha256": "81b3b22e558733c07239db49ccffe5d554ce89ec5233b30c1bc57ecec7e11e54",
+        "observation": {
+          "timestamp": "20211119043549",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "ZLTRPBL7Z3VTA47DEGYRHZMIF4AK42OU"
+        }
+      }
+    ],
+    "release_membership_verified": false
+  }
+}

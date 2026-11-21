@@ -1,0 +1,335 @@
+{
+  "format_version": 1,
+  "folder": "0.41.0_2021-11-01_23-39-19_UTC",
+  "parent": "0.40.9_2021-10-29_23-41-17_UTC",
+  "timestamp": "20211101233919",
+  "added": [
+    "data/twitchStreams.json",
+    "img/ico_ammo.png",
+    "img/ico_arrowLeftSheet.png",
+    "img/ico_arrowRightSheet.png",
+    "img/ico_cart.png",
+    "img/ico_closeButton_states.png",
+    "img/ico_hat_faded.png",
+    "img/ico_stamp_faded.png",
+    "img/ico_streak.png",
+    "img/ico_twitch.png",
+    "img/ico_weaponPrimary_faded.png",
+    "img/ico_weaponSecondary_faded.png",
+    "img/ico_youtube.png",
+    "img/pricetag_loop.png",
+    "img/scope.png",
+    "img/vip-club/vip-banner.png",
+    "img/vip-club/vip-club-popup-bullet-point-star.png"
+  ],
+  "changed": [
+    "index.html",
+    "language/en.json",
+    "src/shellshock.js",
+    "styles/forms.css",
+    "styles/game.css",
+    "styles/style.css"
+  ],
+  "removed": [
+    "_asset_alternatives/20b47404a77e08e4/data/twitchStreams.json",
+    "_capture_variants/4722cb05058111f5/data/shellYouTube.json",
+    "_capture_variants/566c9e628909dd0a/data/twitchStreams.json",
+    "_capture_variants/5d29dedfad621fd0/data/twitchStreams.json",
+    "_capture_variants/866154942a480761/data/shellYouTube.json",
+    "_capture_variants/d7c562249bcf23d1/data/twitchStreams.json",
+    "_hosts/staging.shellshock.io/data/housePromo.json",
+    "_hosts/staging.shellshock.io/data/shellNews.json",
+    "_hosts/staging.shellshock.io/data/shellYouTube.json",
+    "_hosts/staging.shellshock.io/data/twitchStreams.json",
+    "_hosts/staging.shellshock.io/img/ico_goldenEgg.png",
+    "_hosts/staging.shellshock.io/img/ico_grenadeEmpty.png",
+    "_hosts/staging.shellshock.io/img/inventory-icons/ico_grenade.svg",
+    "_hosts/staging.shellshock.io/img/inventory-icons/ico_hat.svg",
+    "_hosts/staging.shellshock.io/img/inventory-icons/ico_specialItem.svg",
+    "_hosts/staging.shellshock.io/img/inventory-icons/ico_stamp.svg",
+    "_hosts/staging.shellshock.io/img/inventory-icons/ico_weaponPrimary.svg",
+    "_hosts/staging.shellshock.io/img/inventory-icons/ico_weaponSecondary.svg",
+    "_hosts/staging.shellshock.io/img/stamps.png",
+    "_hosts/staging.shellshock.io/img/store/items/item_gre_thermal.gif",
+    "_hosts/staging.shellshock.io/index.html",
+    "_hosts/staging.shellshock.io/js/vue/vue.min.2.6.10.js",
+    "_hosts/staging.shellshock.io/language/en.json",
+    "_hosts/staging.shellshock.io/maps/road.png",
+    "_hosts/staging.shellshock.io/models/egg.babylon",
+    "_hosts/staging.shellshock.io/models/egg.babylon.manifest",
+    "_hosts/staging.shellshock.io/models/gun_rpegg.babylon",
+    "_hosts/staging.shellshock.io/models/gun_rpegg.babylon.manifest",
+    "_hosts/staging.shellshock.io/sound/sounds.json",
+    "_hosts/staging.shellshock.io/sound/sounds.webm",
+    "_hosts/staging.shellshock.io/src/shellshock.js",
+    "_hosts/staging.shellshock.io/styles/forms.css",
+    "_hosts/staging.shellshock.io/styles/game.css",
+    "_hosts/staging.shellshock.io/styles/style.css",
+    "_hosts/staging.shellshock.io/styles/transitions.css",
+    "img/BlueWizard-Logo-min.png",
+    "img/blue-wizard-logo-tiny-min.png",
+    "img/eggPose01.png",
+    "img/eggPose05.png",
+    "img/egg_pack_large.png",
+    "img/egg_pack_medium.png",
+    "img/egg_pack_small.png",
+    "img/events/shellshockers_doubleEgg02.png",
+    "img/hardBoiledEmpty.png",
+    "img/hardBoiledFilled.png",
+    "img/ico_chickenBadge.png",
+    "img/ico_eggBreaker.png",
+    "img/ico_eggColour_normal.png",
+    "img/ico_gamepad.svg",
+    "img/ico_grenade.svg",
+    "img/ico_grenadeEmpty.png",
+    "img/ico_hat.png",
+    "img/ico_keyboard.svg",
+    "img/ico_monitor.svg",
+    "img/ico_mouse.svg",
+    "img/ico_nav_fullscreen.png",
+    "img/ico_nav_help.png",
+    "img/ico_nav_settings.png",
+    "img/ico_nav_shop.png",
+    "img/ico_privacy.svg",
+    "img/ico_speaker.svg",
+    "img/ico_specialItem.png",
+    "img/ico_stamp.png",
+    "img/ico_weaponPrimary.png",
+    "img/ico_weaponSecondary.png",
+    "img/logo.svg",
+    "img/promotions/ticTok-hat-single-min.png",
+    "img/spatulaIcon.png",
+    "img/stamps.png",
+    "img/store/items/item_hat_moth_wings.gif",
+    "img/vip-club/very-important-poultry.png",
+    "img/vip-club/vip-club-popup-item-1-month-membership-bg.png",
+    "img/vip-club/vip-club-popup-item-12-month-membership-bg.png",
+    "img/vip-club/vip-club-popup-item-3-month-membership-bg.png",
+    "maps/deathpit.png",
+    "maps/rameses.png",
+    "sound/sounds.json",
+    "sound/sounds.webm"
+  ],
+  "files": [
+    {
+      "path": "data/twitchStreams.json",
+      "sha256": "a7d9242e570a0a4b1e645ec2264bc0488693cd3a332c465d2e7c6420a5f80387",
+      "source": "0.41.0_2021-11-01_23-39-19_UTC/data/twitchStreams.json"
+    },
+    {
+      "path": "favicon.ico",
+      "sha256": "f9194a3315d64d9fe5fcf3cefe511e05ec01248ffffb5082f91d38dca995ae73",
+      "source": "0.23.3a_2019-09-13_17-56-55_UTC/favicon.ico"
+    },
+    {
+      "path": "favicon192.png",
+      "sha256": "c6be857b91742850113f3609e1c7b445f52b2eefad82f51a45eee5f29e159381",
+      "source": "0.27.7_2020-06-26_04-52-07_UTC/favicon192.png"
+    },
+    {
+      "path": "img/egg-shop-banner-left.png",
+      "sha256": "2d0a3de693a7df4c5caf88010e0f97b1b25fa984176ed3401959d011b408fe19",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/egg-shop-banner-left.png"
+    },
+    {
+      "path": "img/ico_ammo.png",
+      "sha256": "217312f337a70cf81babfe24bc2a9c2b6c3f24274509bb9af903d2263929a460",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/ico_ammo.png"
+    },
+    {
+      "path": "img/ico_arrowLeftSheet.png",
+      "sha256": "979ae9b37ac730287dc53e5ec3ff7d3738ff30a308b799aad06822ee2e775bc5",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/ico_arrowLeftSheet.png"
+    },
+    {
+      "path": "img/ico_arrowRightSheet.png",
+      "sha256": "048861983829e77c1aa0289b8b8c20fafa136cb093f12de22ec762ea5b29ff65",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/ico_arrowRightSheet.png"
+    },
+    {
+      "path": "img/ico_cart.png",
+      "sha256": "fc099a135fd2f94912b9307862581003c06a47dcb12f8d365273cd40b02c97bb",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/ico_cart.png"
+    },
+    {
+      "path": "img/ico_closeButton_states.png",
+      "sha256": "eecaa67f157562806375dfa62251d7562c3f87a620c5b402e1094a326b7b9c4d",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/ico_closeButton_states.png"
+    },
+    {
+      "path": "img/ico_goldenEgg.png",
+      "sha256": "9bc493724fbc4c37c524b9bb01e40df75b7250e7e61e2424823305e301ed9d6b",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_goldenEgg.png"
+    },
+    {
+      "path": "img/ico_hat_faded.png",
+      "sha256": "f7b89bd0cc52bcce9c6e5ba2c36ddf3329ed9e382ab2c1fabc2f6f701b09cf57",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/ico_hat_faded.png"
+    },
+    {
+      "path": "img/ico_stamp_faded.png",
+      "sha256": "768011f28d7b0fdf6596de42735d25f4a3f2e9235fe1afb35b9f580e31dfeaf3",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/ico_stamp_faded.png"
+    },
+    {
+      "path": "img/ico_streak.png",
+      "sha256": "75e458cf7fa7341e80432ed095959cf88241d62c35114cedde80ee65b138271b",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/ico_streak.png"
+    },
+    {
+      "path": "img/ico_twitch.png",
+      "sha256": "634e4fbea7224b00e31e7fe9daa205e6c6e553e27a5ef96305d8997325a9b960",
+      "source": "0.23.3a_2019-08-21_12-39-17_UTC/img/ico_twitch.png"
+    },
+    {
+      "path": "img/ico_weaponPrimary_faded.png",
+      "sha256": "dfb020fe670de7dd4379d183c026382fe7fef8d689a3a4b9b20064799b1d4935",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/ico_weaponPrimary_faded.png"
+    },
+    {
+      "path": "img/ico_weaponSecondary_faded.png",
+      "sha256": "0aee44ade350443a33a44d9597e7476c7868a7c4b7427578c67c34676f72c54f",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/ico_weaponSecondary_faded.png"
+    },
+    {
+      "path": "img/ico_weapon_SMG.png",
+      "sha256": "50f5970f5f4db4cb4a2e3903b72612123703231f49c5633c130376c3cffc10fe",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_weapon_SMG.png"
+    },
+    {
+      "path": "img/ico_weapon_assaultRifle.png",
+      "sha256": "a03439fb0ff3e9ca0d04951d4cbf787387f51b05ab8c4add591204abb623bf8e",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_weapon_assaultRifle.png"
+    },
+    {
+      "path": "img/ico_weapon_aug.png",
+      "sha256": "7ccae24195972f4e32030b8b5a0257d3ca729fe5f5c818e72119c6684aabbe30",
+      "source": "0.39.2_2021-02-17_09-48-01_UTC/img/ico_weapon_aug.png"
+    },
+    {
+      "path": "img/ico_weapon_boltAction.png",
+      "sha256": "0c917bf4eea71fb8d4e2b188924b29b9f407ffbf5c748cc8f09a8bdb3bb5ccaa",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_weapon_boltAction.png"
+    },
+    {
+      "path": "img/ico_weapon_rocketLauncher.png",
+      "sha256": "317b8ca0cd656e7f7736133b64329fd649d71c186f225e4ca15fe781144c32a9",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_weapon_rocketLauncher.png"
+    },
+    {
+      "path": "img/ico_weapon_shotgun.png",
+      "sha256": "545fe03fa459fa5f0a61ebbd03297ba5777bc54522bff61f6e3107383dbdab20",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_weapon_shotgun.png"
+    },
+    {
+      "path": "img/ico_weapon_sniper.png",
+      "sha256": "11f9c875a8f16e4f7ee6f71a88a7827f38b32006c08eaf8ec56483d56099c5bd",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_weapon_sniper.png"
+    },
+    {
+      "path": "img/ico_youtube.png",
+      "sha256": "f6066eaa3f6ac0d3892d0adc4cdaa740b14ad1da8a34c11664655b0edeef0a9c",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/ico_youtube.png"
+    },
+    {
+      "path": "img/mobile/shell-mobile-cta-min.png",
+      "sha256": "ecf9b6e0006d7282179f13b0a54bc89e94f8868e0fa53d1d6fe46df1f038025e",
+      "source": "0.40.0_2021-06-02_03-06-11_UTC/img/mobile/shell-mobile-cta-min.png"
+    },
+    {
+      "path": "img/mobile/shell-mobile-popup-bg-qr.png",
+      "sha256": "2da8f037b239fcfe6532afc5b1715fd2bbd8258133c16913e7534e95033a75ff",
+      "source": "0.40.0_2021-06-02_03-06-11_UTC/img/mobile/shell-mobile-popup-bg-qr.png"
+    },
+    {
+      "path": "img/pricetag_loop.png",
+      "sha256": "30cf918697458b2a4a7b1ed1fe62ec11da118a924191f524beda1206f9265306",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/pricetag_loop.png"
+    },
+    {
+      "path": "img/rickroll.gif",
+      "sha256": "f1ab144efb12def335355d06e7da59e797903ff70478f61102b4f7c41ca49f9b",
+      "source": "0.39.4_2021-03-17_03-18-47_UTC/img/rickroll.gif"
+    },
+    {
+      "path": "img/scope.png",
+      "sha256": "9c56591207c800a7c1abb64893ddd149e42390b75a92f68e25cb2d51ecd7f18d",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/scope.png"
+    },
+    {
+      "path": "img/vip-club/vip-banner.png",
+      "sha256": "e8f1b1f0372fa8757478e52a0e5bf8d34901b01a2db4c41d790db64a42ea6ac4",
+      "source": "unversioned_2021-10-20_14-11-15_UTC_script-capture_add2ef4e/img/vip-club/vip-banner.png"
+    },
+    {
+      "path": "img/vip-club/vip-club-call-to-action.png",
+      "sha256": "50561d54beac9f4fe1b9a2ac94d7cca5d6ee4418cfb5243c078e042f2d2f4ac7",
+      "source": "0.40.9_2021-10-16_19-20-18_UTC/img/vip-club/vip-club-call-to-action.png"
+    },
+    {
+      "path": "img/vip-club/vip-club-emblem-sm.png",
+      "sha256": "4f3290f38fc4f2f9a4a8611c767ca2b2f2a83eac6fdd92c59c6af8217438e8f2",
+      "source": "0.37_2021-01-19_08-28-01_UTC/img/vip-club/vip-club-emblem-sm.png"
+    },
+    {
+      "path": "img/vip-club/vip-club-give-stuff-popup-background.jpg",
+      "sha256": "4ff2f16b4b5d0a7d8dc536209e04d61870f4216ab2c67fe26e31421911b79e22",
+      "source": "0.34_2020-12-02_23-40-33_UTC/img/vip-club/vip-club-give-stuff-popup-background.jpg"
+    },
+    {
+      "path": "img/vip-club/vip-club-popup-background.png",
+      "sha256": "dd60a19c003cfd7697cf549e7defd622a78765daf0e10f5aec2c6e3f61a364d9",
+      "source": "unversioned_2021-10-20_14-11-15_UTC_script-capture_add2ef4e/img/vip-club/vip-club-popup-background.png"
+    },
+    {
+      "path": "img/vip-club/vip-club-popup-bullet-point-star.png",
+      "sha256": "1b7ac63e525406f3d8e05ae957d270b4ad2772d45458239cf756b9f74efbcc34",
+      "source": "unversioned_2021-10-20_14-11-15_UTC_script-capture_add2ef4e/img/vip-club/vip-club-popup-bullet-point-star.png"
+    },
+    {
+      "path": "img/vip-club/vip-club-popup-emblem.png",
+      "sha256": "2b2e2c077d8eed77b8721414493cf1d515d2ab6167f29021fb7daf88f78471e4",
+      "source": "0.40.9_2021-10-16_19-20-18_UTC/img/vip-club/vip-club-popup-emblem.png"
+    },
+    {
+      "path": "index.html",
+      "sha256": "94aa14205a99b0c58b10e255c03bf8d4cb62ea4f56f7330950f9e1e9434efc5a",
+      "source": "0.41.0_2021-11-01_23-39-19_UTC/index.html"
+    },
+    {
+      "path": "js/vue/vue.min.2.6.10.js",
+      "sha256": "72194d152571dd375c4365e5c3b4af9db2c06af0102ced18fcb062597d38be26",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/js/vue/vue.min.2.6.10.js"
+    },
+    {
+      "path": "language/en.json",
+      "sha256": "507cac759c21e538e70a9378b053ff98fa059246aea1c745dc76b8f56a2504ff",
+      "source": "0.41.0_2021-11-01_23-39-19_UTC/language/en.json"
+    },
+    {
+      "path": "src/shellshock.js",
+      "sha256": "7018811d49fa743bbf1617278e8153aa13a7d33bf837126bbb8f0fe3363be769",
+      "source": "0.41.0_2021-11-01_23-39-19_UTC/src/shellshock.js"
+    },
+    {
+      "path": "styles/forms.css",
+      "sha256": "aa80b648e075d498d37b41a8528a8671d3576ffd7580a5de06d97eb6ebcf4ecf",
+      "source": "0.41.0_2021-11-01_23-39-19_UTC/styles/forms.css"
+    },
+    {
+      "path": "styles/game.css",
+      "sha256": "20d840aa3a54cc85c105ab925439c4856cc4409b3566b8f7bef550f2b3673d30",
+      "source": "0.41.0_2021-11-01_23-39-19_UTC/styles/game.css"
+    },
+    {
+      "path": "styles/style.css",
+      "sha256": "b4601b1682786f68d371bdd3e325ad244d835bc072a7aad03325499705261d2a",
+      "source": "0.41.0_2021-11-01_23-39-19_UTC/styles/style.css"
+    },
+    {
+      "path": "styles/transitions.css",
+      "sha256": "9b8ad27f1376c0ca1de3808d2569b6cb82eb407180e2dfe00af025437cfb83c1",
+      "source": "0.27.5_2020-06-10_03-23-28_UTC_capture_e7077ff4/styles/transitions.css"
+    }
+  ]
+}
