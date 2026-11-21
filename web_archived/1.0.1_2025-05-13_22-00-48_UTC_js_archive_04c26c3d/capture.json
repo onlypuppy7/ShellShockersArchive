@@ -1,0 +1,240 @@
+{
+  "folder": "1.0.1_2025-05-13_22-00-48_UTC_js_archive_04c26c3d",
+  "version": "1.0.1",
+  "version_source": "embedded_changelog",
+  "origin_id": "onlypuppy7_statefarm_bot",
+  "capture_kind": "supplemental_collection_reconstruction",
+  "channel": "production",
+  "runtime_root": ".",
+  "event": {
+    "timestamp": "20250513220048",
+    "timezone": "UTC",
+    "source_timestamp": "2025-05-13_23-00-48",
+    "source_timezone": "Europe/London",
+    "source_utc_offset_seconds": 3600,
+    "timezone_basis": "Curator reported UK local time, tentatively; DST inferred using Europe/London",
+    "timezone_independently_verified": false
+  },
+  "missing_scripts": [],
+  "pairing_verified": false,
+  "warning": "Source filename interpreted as Europe/London using the curator's tentative UK-time report; not an independently verified timezone or deployment time. Supporting files are inherited from the preceding reconstructed snapshot; historical pairing and offline playability are unverified.",
+  "inherited_inventory_from": "1.0.1_2025-05-13_18-56-19_UTC",
+  "files": [
+    {
+      "path": "index.html",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/?utm_campaign=free-browser-based-games-activities-for-virtual-teams&utm_medium=referral&utm_source=ajaysquest.beehiiv.com",
+        "timestamp": "20250513185619",
+        "original": "https://shellshock.io/?utm_source=ajaysquest.beehiiv.com&utm_medium=referral&utm_campaign=free-browser-based-games-activities-for-virtual-teams",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "WLDPHQM7VCOWJCNTSDQUHRHKKFN62BDQ"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/?utm_campaign=free-browser-based-games-activities-for-virtual-teams&utm_medium=referral&utm_source=ajaysquest.beehiiv.com",
+        "timestamp": "20250513185619",
+        "original": "https://shellshock.io/?utm_source=ajaysquest.beehiiv.com&utm_medium=referral&utm_campaign=free-browser-based-games-activities-for-virtual-teams",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "WLDPHQM7VCOWJCNTSDQUHRHKKFN62BDQ",
+        "replay_url": "https://web.archive.org/web/20250513185619id_/https://shellshock.io/?utm_source=ajaysquest.beehiiv.com&utm_medium=referral&utm_campaign=free-browser-based-games-activities-for-virtual-teams",
+        "final_url": "https://web.archive.org/web/20250513185619id_/https://shellshock.io/?utm_source=ajaysquest.beehiiv.com&utm_medium=referral&utm_campaign=free-browser-based-games-activities-for-virtual-teams",
+        "sha256": "ccb457ae55512f493645d6bcd8e5c7577b361c9c674abdb5b1ac753d72cd7537",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20250513185619"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org"
+    },
+    {
+      "path": "js/screenShot.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/screenshot.js?1736816866",
+        "timestamp": "20250515031157",
+        "original": "https://shellshock.io/js/screenShot.js?1736816866",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/js/screenshot.js?1685645622",
+        "timestamp": "20230602024210",
+        "original": "https://shellshock.io/js/screenShot.js?1685645622",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS",
+        "replay_url": "https://web.archive.org/web/20230602024210id_/https://shellshock.io/js/screenShot.js?1685645622",
+        "final_url": "https://web.archive.org/web/20230602024210id_/https://shellshock.io/js/screenShot.js?1685645622",
+        "sha256": "e87e550794322e574a1fda0c1549a3c70dae5a93d9113417a429016838eab8cb",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS",
+        "encoded_sha256": "38b06febfa9f1f5a3b41c8cf4b7f100f15cc8a63456612088c32ba1dcc687497",
+        "decoded_sha1": "XGD5YDGGZ7G4FY2ETE3V6UCUODC23OER",
+        "replay_capture_timestamp": "20230602024210"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org"
+    },
+    {
+      "path": "js/shellshock.js",
+      "origin_id": "onlypuppy7_statefarm_bot",
+      "source": {
+        "origin_id": "onlypuppy7_statefarm_bot",
+        "collection": "js_archive",
+        "recorded_date": "2025-05-13_23-00-48",
+        "source_timestamp": "2025-05-13_23-00-48",
+        "source_timezone": "Europe/London",
+        "source_utc_offset_seconds": 3600,
+        "source_timezone_abbreviation": "BST",
+        "timestamp": "20250513220048",
+        "timezone": "UTC",
+        "timezone_basis": "Curator reported UK local time, tentatively; DST inferred using Europe/London",
+        "timezone_independently_verified": false,
+        "sha256": "04c26c3d13fc45872586041852b398b7f1cf2f65b5d99416af361dfb309f02f5",
+        "bytes": 3410975,
+        "path": "js/shellshock.js",
+        "path_basis": "Reconstructed game path from supplied collection filename",
+        "version": "1.0.1",
+        "version_evidence": {
+          "version": "1.0.1",
+          "kind": "game_javascript_changelog",
+          "offset": 2551820,
+          "expression": "version:\"1.0.1\",date:",
+          "original_sha256": "04c26c3d13fc45872586041852b398b7f1cf2f65b5d99416af361dfb309f02f5",
+          "analyzed_sha256": "04c26c3d13fc45872586041852b398b7f1cf2f65b5d99416af361dfb309f02f5",
+          "analysis_method": "original plaintext"
+        },
+        "version_basis": "embedded_changelog",
+        "filename_sha256": "5f2c9c1a7d6aadb65085c4bc9e6e9ec7bcbca49b2bcd9ab317989753e6313fe1",
+        "filename_hash_matches_bytes": false,
+        "integration": "js_archive_supplement_20261120",
+        "credit": "onlypuppy7 via statefarm_bot"
+      },
+      "requested_capture": null,
+      "exact_event_timestamp": false,
+      "association": "Imported JS; inherited support pairing is unverified"
+    },
+    {
+      "path": "js/vue/vue.min.2.6.10.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20250512181339",
+        "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "SE2B2HI7ST56RPFSB7VH5ETHC3UAANSF"
+      },
+      "source": {
+        "urlkey": "io,shellshock,new)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20221216093150",
+        "original": "https://new.shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "SE2B2HI7ST56RPFSB7VH5ETHC3UAANSF",
+        "replay_url": "https://web.archive.org/web/20221216093150id_/https://new.shellshock.io/js/vue/vue.min.2.6.10.js",
+        "final_url": "https://web.archive.org/web/20221216093150id_/https://new.shellshock.io/js/vue/vue.min.2.6.10.js",
+        "sha256": "72194d152571dd375c4365e5c3b4af9db2c06af0102ced18fcb062597d38be26",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/SE2B2HI7ST56RPFSB7VH5ETHC3UAANSF",
+        "encoded_sha256": "9c2ab05d68d27ca6851eb1c6bb4f96020a6e73938954bc157c0e79d615f84823",
+        "decoded_sha1": "INGN5QLGT4WGY5AGFF5HEEQJG26FN3KS",
+        "replay_capture_timestamp": "20221216093150"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org"
+    },
+    {
+      "path": "js/wasm_loader.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/wasm_loader.js",
+        "timestamp": "20250512181340",
+        "original": "https://shellshock.io/js/wasm_loader.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "CCCOSO6ZYGP5LAUNY5AA3JSPM64NSPPS"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/js/wasm_loader.js",
+        "timestamp": "20250405135630",
+        "original": "https://shellshock.io/js/wasm_loader.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "CCCOSO6ZYGP5LAUNY5AA3JSPM64NSPPS",
+        "replay_url": "https://web.archive.org/web/20250405135630id_/https://shellshock.io/js/wasm_loader.js",
+        "final_url": "https://web.archive.org/web/20250405135630id_/https://shellshock.io/js/wasm_loader.js",
+        "sha256": "e2db4f3711f967bc5a43c43c7012a2f94e1f31a946e638e6e3c06e3799915a9f",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/CCCOSO6ZYGP5LAUNY5AA3JSPM64NSPPS",
+        "encoded_sha256": "2595e42d9e18fdbb53ec6b028105c4485bedbaa64c1b2870fed86269badd13af",
+        "decoded_sha1": "I2ELMJGL2GLXNGFI7A7C5OBZIT3ZNUSU",
+        "replay_capture_timestamp": "20250405135630"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org"
+    },
+    {
+      "path": "service-worker.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/service-worker.js",
+        "timestamp": "20250509195645",
+        "original": "https://shellshock.io/service-worker.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "ENBDFDQDKDYGQERNQRGQJULS4F733PIS"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/service-worker.js",
+        "timestamp": "20200717224432",
+        "original": "https://shellshock.io/service-worker.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "ENBDFDQDKDYGQERNQRGQJULS4F733PIS",
+        "replay_url": "https://web.archive.org/web/20200717224432id_/https://shellshock.io/service-worker.js",
+        "final_url": "https://web.archive.org/web/20200717224432id_/https://shellshock.io/service-worker.js",
+        "sha256": "d4892cd5810cef1bc7aeee86e4ece1165165f0f1723afabb51e0a9fbd3017913"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org"
+    }
+  ],
+  "imported_files": [
+    {
+      "origin_id": "onlypuppy7_statefarm_bot",
+      "collection": "js_archive",
+      "recorded_date": "2025-05-13_23-00-48",
+      "source_timestamp": "2025-05-13_23-00-48",
+      "source_timezone": "Europe/London",
+      "source_utc_offset_seconds": 3600,
+      "source_timezone_abbreviation": "BST",
+      "timestamp": "20250513220048",
+      "timezone": "UTC",
+      "timezone_basis": "Curator reported UK local time, tentatively; DST inferred using Europe/London",
+      "timezone_independently_verified": false,
+      "sha256": "04c26c3d13fc45872586041852b398b7f1cf2f65b5d99416af361dfb309f02f5",
+      "bytes": 3410975,
+      "path": "js/shellshock.js",
+      "path_basis": "Reconstructed game path from supplied collection filename",
+      "version": "1.0.1",
+      "version_evidence": {
+        "version": "1.0.1",
+        "kind": "game_javascript_changelog",
+        "offset": 2551820,
+        "expression": "version:\"1.0.1\",date:",
+        "original_sha256": "04c26c3d13fc45872586041852b398b7f1cf2f65b5d99416af361dfb309f02f5",
+        "analyzed_sha256": "04c26c3d13fc45872586041852b398b7f1cf2f65b5d99416af361dfb309f02f5",
+        "analysis_method": "original plaintext"
+      },
+      "version_basis": "embedded_changelog",
+      "filename_sha256": "5f2c9c1a7d6aadb65085c4bc9e6e9ec7bcbca49b2bcd9ab317989753e6313fe1",
+      "filename_hash_matches_bytes": false,
+      "integration": "js_archive_supplement_20261120"
+    }
+  ],
+  "origins_catalog": "origins.json (archive root; included in exports)"
+}
