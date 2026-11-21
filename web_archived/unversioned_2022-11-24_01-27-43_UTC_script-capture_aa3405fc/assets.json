@@ -1,0 +1,114 @@
+{
+  "folder": "unversioned_2022-11-24_01-27-43_UTC_script-capture_aa3405fc",
+  "event_timestamp": "20221124012743",
+  "files": [
+    {
+      "path": "language/es.json",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20221124012755",
+        "original": "https://shellshock.io/language/es.json?0.43.2",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "6R4KVS5EAMZ7SFFUSDAE6DN5765Y2RZR",
+        "sha256": "b13e979cff859e4f7a55f50b3323cd72c2eb275bcc923edfa60802a1a82bb22c",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/language/es.json?0.43.2",
+        "timestamp": "20221124012755",
+        "original": "https://shellshock.io/language/es.json?0.43.2",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "6R4KVS5EAMZ7SFFUSDAE6DN5765Y2RZR",
+        "replay_url": "https://web.archive.org/web/20221124012755id_/https://shellshock.io/language/es.json?0.43.2",
+        "final_url": "https://web.archive.org/web/20221124012755id_/https://shellshock.io/language/es.json?0.43.2",
+        "sha256": "b13e979cff859e4f7a55f50b3323cd72c2eb275bcc923edfa60802a1a82bb22c",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20221124012755"
+      },
+      "requested_capture": {
+        "timestamp": "20221124012755",
+        "original": "https://shellshock.io/language/es.json?0.43.2",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "6R4KVS5EAMZ7SFFUSDAE6DN5765Y2RZR"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20221124012755",
+          "original": "https://shellshock.io/language/es.json?0.43.2",
+          "mimetype": "application/json",
+          "statuscode": "200",
+          "digest": "6R4KVS5EAMZ7SFFUSDAE6DN5765Y2RZR"
+        },
+        "offset_seconds": 12,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "unversioned_2022-11-24_01-27-43_UTC_script-capture_aa3405fc",
+        "anchor_timestamp": "20221124012743"
+      }
+    },
+    {
+      "path": "sound/sounds.mp3",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20221124042004",
+        "original": "https://shellshock.io/sound/sounds.mp3?0.43.2",
+        "mimetype": "audio/mpeg",
+        "statuscode": "200",
+        "digest": "OFQUIN4OG6RT6EBRHIDKTS3IRYLXV645",
+        "sha256": "c995cf4b0c39242eac9cf6398b485fd603a44697e609bd55c69e00e24147d967",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/sound/sounds.mp3?0.43.2",
+        "timestamp": "20221124042004",
+        "original": "https://shellshock.io/sound/sounds.mp3?0.43.2",
+        "mimetype": "audio/mpeg",
+        "statuscode": "200",
+        "digest": "OFQUIN4OG6RT6EBRHIDKTS3IRYLXV645",
+        "replay_url": "https://web.archive.org/web/20221124042004id_/https://shellshock.io/sound/sounds.mp3?0.43.2",
+        "final_url": "https://web.archive.org/web/20221124042004id_/https://shellshock.io/sound/sounds.mp3?0.43.2",
+        "sha256": "c995cf4b0c39242eac9cf6398b485fd603a44697e609bd55c69e00e24147d967",
+        "verification": "cdx_sha1_plain",
+        "replay_capture_timestamp": "20221124042004"
+      },
+      "requested_capture": {
+        "timestamp": "20221124042004",
+        "original": "https://shellshock.io/sound/sounds.mp3?0.43.2",
+        "mimetype": "audio/mpeg",
+        "statuscode": "200",
+        "digest": "OFQUIN4OG6RT6EBRHIDKTS3IRYLXV645"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20221124042004",
+          "original": "https://shellshock.io/sound/sounds.mp3?0.43.2",
+          "mimetype": "audio/mpeg",
+          "statuscode": "200",
+          "digest": "OFQUIN4OG6RT6EBRHIDKTS3IRYLXV645"
+        },
+        "offset_seconds": 10341,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "unversioned_2022-11-24_01-27-43_UTC_script-capture_aa3405fc",
+        "anchor_timestamp": "20221124012743"
+      }
+    }
+  ],
+  "references": [],
+  "status_counts": {
+    "placed": 0
+  },
+  "policy": "Supporting resources are part of the game capture; each file retains its own digest-proven observation date and URL. Release membership is unverified."
+}

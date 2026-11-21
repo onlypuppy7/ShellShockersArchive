@@ -1,0 +1,61 @@
+{
+  "folder": "unversioned_2022-04-08_13-35-41_UTC_script-capture_ec893c8c",
+  "event_timestamp": "20220408133541",
+  "files": [
+    {
+      "path": "img/store/items/item_gre_diablo.gif",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20220408133607",
+        "original": "https://shellshock.io/img/store/items/item_gre_diablo.gif",
+        "mimetype": "image/gif",
+        "statuscode": "200",
+        "digest": "RU7XYVCJBVYK6ZQRGSRSOD4QCMBGDPTC",
+        "sha256": "e5d00efb54688cad58b1a760d1d59d2b931aeee425483b4b183f16abc317aedb",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/img/store/items/item_gre_diablo.gif",
+        "timestamp": "20220408133607",
+        "original": "https://shellshock.io/img/store/items/item_gre_diablo.gif",
+        "mimetype": "image/gif",
+        "statuscode": "200",
+        "digest": "RU7XYVCJBVYK6ZQRGSRSOD4QCMBGDPTC",
+        "replay_url": "https://web.archive.org/web/20220408133607id_/https://shellshock.io/img/store/items/item_gre_diablo.gif",
+        "final_url": "https://web.archive.org/web/20220408133607id_/https://shellshock.io/img/store/items/item_gre_diablo.gif",
+        "sha256": "e5d00efb54688cad58b1a760d1d59d2b931aeee425483b4b183f16abc317aedb",
+        "verification": "cdx_sha1_plain",
+        "replay_capture_timestamp": "20220408133607"
+      },
+      "requested_capture": {
+        "timestamp": "20220408133607",
+        "original": "https://shellshock.io/img/store/items/item_gre_diablo.gif",
+        "mimetype": "image/gif",
+        "statuscode": "200",
+        "digest": "RU7XYVCJBVYK6ZQRGSRSOD4QCMBGDPTC"
+      },
+      "exact_event_timestamp": false,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20220408133607",
+          "original": "https://shellshock.io/img/store/items/item_gre_diablo.gif",
+          "mimetype": "image/gif",
+          "statuscode": "200",
+          "digest": "RU7XYVCJBVYK6ZQRGSRSOD4QCMBGDPTC"
+        },
+        "offset_seconds": 26,
+        "max_gap_seconds": 1814400,
+        "release_pairing_verified": false,
+        "basis": "Grouped with the nearest observed game capture. File observation time remains independent of the containing release label.",
+        "method": "nearest_game_capture",
+        "anchor_folder": "unversioned_2022-04-08_13-35-41_UTC_script-capture_ec893c8c",
+        "anchor_timestamp": "20220408133541"
+      }
+    }
+  ],
+  "references": [],
+  "status_counts": {
+    "placed": 0
+  },
+  "policy": "Supporting resources are part of the game capture; each file retains its own digest-proven observation date and URL. Release membership is unverified."
+}
