@@ -1,0 +1,739 @@
+{
+  "resources": [
+    "sounds.webm",
+    "sounds.ogg",
+    "sounds.mp3"
+  ],
+  "spritemap": {
+    "ammo": {
+      "start": 0,
+      "end": 0.3657142857142857,
+      "loop": false
+    },
+    "aug_cycle": {
+      "start": 2,
+      "end": 2.6481179138321993,
+      "loop": false
+    },
+    "aug_fire": {
+      "start": 4,
+      "end": 4.668662131519274,
+      "loop": false
+    },
+    "aug_fire_8bit": {
+      "start": 6,
+      "end": 6.6,
+      "loop": false
+    },
+    "aug_fire_fusion": {
+      "start": 8,
+      "end": 9.24095238095238,
+      "loop": false
+    },
+    "aug_fire_valkyrie": {
+      "start": 11,
+      "end": 12.478367346938775,
+      "loop": false
+    },
+    "aug_insert_mag": {
+      "start": 14,
+      "end": 14.218503401360545,
+      "loop": false
+    },
+    "aug_remove_mag": {
+      "start": 16,
+      "end": 16.251972789115648,
+      "loop": false
+    },
+    "capture_spatula": {
+      "start": 18,
+      "end": 19.69795918367347,
+      "loop": false
+    },
+    "cluck9mm_fire": {
+      "start": 21,
+      "end": 21.809795918367346,
+      "loop": false
+    },
+    "cluck9mm_fire_8bit": {
+      "start": 23,
+      "end": 23.381496598639455,
+      "loop": false
+    },
+    "cluck9mm_fire_clouds": {
+      "start": 25,
+      "end": 26.244285714285713,
+      "loop": false
+    },
+    "cluck9mm_fire_fusion": {
+      "start": 28,
+      "end": 28.54301587301587,
+      "loop": false
+    },
+    "cluck9mm_fire_pop": {
+      "start": 30,
+      "end": 30.490022675736963,
+      "loop": false
+    },
+    "cluck9mm_fire_valkyrie": {
+      "start": 32,
+      "end": 33.60786848072562,
+      "loop": false
+    },
+    "cluck9mm_fire_wand": {
+      "start": 35,
+      "end": 35.9271201814059,
+      "loop": false
+    },
+    "cluck9mm_insert_mag": {
+      "start": 37,
+      "end": 37.757551020408165,
+      "loop": false
+    },
+    "cluck9mm_remove_mag": {
+      "start": 39,
+      "end": 39.47020408163265,
+      "loop": false
+    },
+    "csg1_fire": {
+      "start": 41,
+      "end": 42.671836734693876,
+      "loop": false
+    },
+    "csg1_fire_8bit": {
+      "start": 44,
+      "end": 44.58,
+      "loop": false
+    },
+    "csg1_fire_catz": {
+      "start": 46,
+      "end": 46.48988662131519,
+      "loop": false
+    },
+    "csg1_fire_chicken": {
+      "start": 48,
+      "end": 49.11501133786848,
+      "loop": false
+    },
+    "csg1_fire_csg1_valkyrie": {
+      "start": 51,
+      "end": 53.07439909297052,
+      "loop": false
+    },
+    "csg1_fire_fusion": {
+      "start": 55,
+      "end": 56.00997732426304,
+      "loop": false
+    },
+    "csg1_fire_shellpreme": {
+      "start": 58,
+      "end": 58.85365079365079,
+      "loop": false
+    },
+    "csg1_pull_action": {
+      "start": 60,
+      "end": 60.391836734693875,
+      "loop": false
+    },
+    "csg1_release_action": {
+      "start": 62,
+      "end": 62.287346938775514,
+      "loop": false
+    },
+    "death_scream1": {
+      "start": 64,
+      "end": 65.20163265306122,
+      "loop": false
+    },
+    "death_scream10": {
+      "start": 67,
+      "end": 68.22775510204082,
+      "loop": false
+    },
+    "death_scream2": {
+      "start": 70,
+      "end": 71.3061224489796,
+      "loop": false
+    },
+    "death_scream3": {
+      "start": 73,
+      "end": 73.65306122448979,
+      "loop": false
+    },
+    "death_scream4": {
+      "start": 75,
+      "end": 75.52244897959184,
+      "loop": false
+    },
+    "death_scream5": {
+      "start": 77,
+      "end": 77.9404081632653,
+      "loop": false
+    },
+    "death_scream6": {
+      "start": 79,
+      "end": 80.07102040816326,
+      "loop": false
+    },
+    "death_scream7": {
+      "start": 82,
+      "end": 83.85469387755101,
+      "loop": false
+    },
+    "death_scream8": {
+      "start": 85,
+      "end": 86.12326530612245,
+      "loop": false
+    },
+    "death_scream9": {
+      "start": 88,
+      "end": 89.07102040816326,
+      "loop": false
+    },
+    "dozenGauge_close": {
+      "start": 91,
+      "end": 91.3134693877551,
+      "loop": false
+    },
+    "dozenGauge_fire": {
+      "start": 93,
+      "end": 94.35836734693878,
+      "loop": false
+    },
+    "dozenGauge_fire_8bit": {
+      "start": 96,
+      "end": 96.56802721088435,
+      "loop": false
+    },
+    "dozenGauge_fire_badoosh": {
+      "start": 98,
+      "end": 98.55149659863946,
+      "loop": false
+    },
+    "dozenGauge_fire_basketbros": {
+      "start": 100,
+      "end": 101.7,
+      "loop": false
+    },
+    "dozenGauge_fire_beholder": {
+      "start": 103,
+      "end": 104.53349206349206,
+      "loop": false
+    },
+    "dozenGauge_fire_fusion": {
+      "start": 106,
+      "end": 106.82981859410431,
+      "loop": false
+    },
+    "dozenGauge_fire_octo": {
+      "start": 108,
+      "end": 108.94004535147393,
+      "loop": false
+    },
+    "dozenGauge_fire_rainbow": {
+      "start": 110,
+      "end": 111.19111111111111,
+      "loop": false
+    },
+    "dozenGauge_fire_valkyrie": {
+      "start": 113,
+      "end": 114.18907029478459,
+      "loop": false
+    },
+    "dozenGauge_load": {
+      "start": 116,
+      "end": 116.47020408163266,
+      "loop": false
+    },
+    "dozenGauge_open": {
+      "start": 118,
+      "end": 118.47020408163266,
+      "loop": false
+    },
+    "drop_spatula": {
+      "start": 120,
+      "end": 121.51510204081633,
+      "loop": false
+    },
+    "eggk47_dry_fire": {
+      "start": 123,
+      "end": 123.6269387755102,
+      "loop": false
+    },
+    "eggk47_eggk-technoskin": {
+      "start": 125,
+      "end": 125.39548752834467,
+      "loop": false
+    },
+    "eggk47_fire": {
+      "start": 127,
+      "end": 127.6008163265306,
+      "loop": false
+    },
+    "eggk47_fire_8bit": {
+      "start": 129,
+      "end": 129.37600907029477,
+      "loop": false
+    },
+    "eggk47_fire_fusion": {
+      "start": 131,
+      "end": 132.03242630385486,
+      "loop": false
+    },
+    "eggk47_fire_valkyrie": {
+      "start": 134,
+      "end": 134.64496598639457,
+      "loop": false
+    },
+    "eggk47_full_cycle": {
+      "start": 136,
+      "end": 136.39183673469387,
+      "loop": false
+    },
+    "eggk47_insert_mag": {
+      "start": 138,
+      "end": 138.20897959183674,
+      "loop": false
+    },
+    "eggk47_remove_mag": {
+      "start": 140,
+      "end": 140.33959183673468,
+      "loop": false
+    },
+    "grenade": {
+      "start": 142,
+      "end": 144.2726530612245,
+      "loop": false
+    },
+    "grenade_bbros": {
+      "start": 146,
+      "end": 148.84979591836733,
+      "loop": false
+    },
+    "grenade_beep": {
+      "start": 150,
+      "end": 150.15673469387755,
+      "loop": false
+    },
+    "grenade_bees": {
+      "start": 152,
+      "end": 153.84537414965988,
+      "loop": false
+    },
+    "grenade_bloodonade": {
+      "start": 155,
+      "end": 156.8664172335601,
+      "loop": false
+    },
+    "grenade_blueshell": {
+      "start": 158,
+      "end": 159.0832879818594,
+      "loop": false
+    },
+    "grenade_bumble": {
+      "start": 161,
+      "end": 162.88476190476192,
+      "loop": false
+    },
+    "grenade_cellphone": {
+      "start": 164,
+      "end": 165.3675283446712,
+      "loop": false
+    },
+    "grenade_corrupt": {
+      "start": 167,
+      "end": 169.12687074829932,
+      "loop": false
+    },
+    "grenade_diablocannon": {
+      "start": 171,
+      "end": 172.91106575963718,
+      "loop": false
+    },
+    "grenade_football": {
+      "start": 174,
+      "end": 175.3168253968254,
+      "loop": false
+    },
+    "grenade_glitterbomb": {
+      "start": 177,
+      "end": 178.74687074829933,
+      "loop": false
+    },
+    "grenade_holy": {
+      "start": 180,
+      "end": 182.40072562358276,
+      "loop": false
+    },
+    "grenade_milk": {
+      "start": 184,
+      "end": 185.98390022675736,
+      "loop": false
+    },
+    "grenade_milkbucket": {
+      "start": 187,
+      "end": 188.71639455782312,
+      "loop": false
+    },
+    "grenade_octopus": {
+      "start": 190,
+      "end": 192.99827664399092,
+      "loop": false
+    },
+    "grenade_pin": {
+      "start": 194,
+      "end": 194.47020408163266,
+      "loop": false
+    },
+    "grenade_skullnado": {
+      "start": 196,
+      "end": 198.65691609977324,
+      "loop": false
+    },
+    "grenade_supernova": {
+      "start": 200,
+      "end": 202.06961451247165,
+      "loop": false
+    },
+    "grenade_thermal": {
+      "start": 204,
+      "end": 206.49600907029478,
+      "loop": false
+    },
+    "grenade_tp": {
+      "start": 208,
+      "end": 210.10795918367347,
+      "loop": false
+    },
+    "grenade_unicorn": {
+      "start": 212,
+      "end": 214.3324036281179,
+      "loop": false
+    },
+    "grenade_valkyrie": {
+      "start": 216,
+      "end": 218.68344671201814,
+      "loop": false
+    },
+    "gun": {
+      "start": 220,
+      "end": 220.49632653061224,
+      "loop": false
+    },
+    "hammer_click": {
+      "start": 222,
+      "end": 222.06637188208617,
+      "loop": false
+    },
+    "hit": {
+      "start": 224,
+      "end": 224.23510204081632,
+      "loop": false
+    },
+    "kotc_capture": {
+      "start": 226,
+      "end": 227.07,
+      "loop": false
+    },
+    "kotc_capturing_opponents": {
+      "start": 229,
+      "end": 230.73691609977325,
+      "loop": false
+    },
+    "kotc_capturing_player": {
+      "start": 232,
+      "end": 233.7,
+      "loop": false
+    },
+    "kotc_contested": {
+      "start": 235,
+      "end": 235.3333560090703,
+      "loop": false
+    },
+    "kotc_pointscore": {
+      "start": 237,
+      "end": 239.25,
+      "loop": false
+    },
+    "kotc_roundend": {
+      "start": 241,
+      "end": 246.8,
+      "loop": false
+    },
+    "kotc_zonespawn": {
+      "start": 248,
+      "end": 248.81349206349208,
+      "loop": false
+    },
+    "m24_bolt_close": {
+      "start": 250,
+      "end": 250.44408163265305,
+      "loop": false
+    },
+    "m24_bolt_open": {
+      "start": 252,
+      "end": 252.39183673469387,
+      "loop": false
+    },
+    "m24_fire": {
+      "start": 254,
+      "end": 254.9926530612245,
+      "loop": false
+    },
+    "m24_fire_8bit": {
+      "start": 256,
+      "end": 256.8133560090703,
+      "loop": false
+    },
+    "m24_fire_fusion": {
+      "start": 258,
+      "end": 259.1400907029479,
+      "loop": false
+    },
+    "m24_fire_m24_8bit": {
+      "start": 261,
+      "end": 261.8133560090703,
+      "loop": false
+    },
+    "m24_fire_scavenger": {
+      "start": 263,
+      "end": 264.60045351473923,
+      "loop": false
+    },
+    "m24_fire_untz": {
+      "start": 266,
+      "end": 266.74891156462587,
+      "loop": false
+    },
+    "m24_fire_valkyrie": {
+      "start": 268,
+      "end": 269.392947845805,
+      "loop": false
+    },
+    "melee_keytar": {
+      "start": 271,
+      "end": 271.55818594104306,
+      "loop": false
+    },
+    "melee_stoneage": {
+      "start": 273,
+      "end": 283.6666439909297,
+      "loop": false
+    },
+    "melee_valkyrie": {
+      "start": 285,
+      "end": 285.7442857142857,
+      "loop": false
+    },
+    "melee_whisk_a": {
+      "start": 287,
+      "end": 287.1593650793651,
+      "loop": false
+    },
+    "melee_whisk_b": {
+      "start": 289,
+      "end": 289.13705215419503,
+      "loop": false
+    },
+    "mini-egg-game_chick": {
+      "start": 293,
+      "end": 293.35369614512473,
+      "loop": false
+    },
+    "mini-egg-game_chirponce": {
+      "start": 297,
+      "end": 297.10038548752834,
+      "loop": false
+    },
+    "mini-egg-game_shellburst": {
+      "start": 301,
+      "end": 301.38,
+      "loop": false
+    },
+    "mini-egg-game_shellhit": {
+      "start": 305,
+      "end": 305.21022675736964,
+      "loop": false
+    },
+    "mini-egg-game_shial": {
+      "start": 313,
+      "end": 314.56734693877553,
+      "loop": false
+    },
+    "mini-egg-game_victory": {
+      "start": 321,
+      "end": 324.45126984126983,
+      "loop": false
+    },
+    "pickup": {
+      "start": 326,
+      "end": 326.3998639455782,
+      "loop": false
+    },
+    "rooster": {
+      "start": 328,
+      "end": 330.37714285714287,
+      "loop": false
+    },
+    "rpegg_deny": {
+      "start": 332,
+      "end": 332.2873469387755,
+      "loop": false
+    },
+    "rpegg_fire": {
+      "start": 334,
+      "end": 335.12326530612245,
+      "loop": false
+    },
+    "rpegg_fire_8bit_rpegg": {
+      "start": 337,
+      "end": 337.7431519274376,
+      "loop": false
+    },
+    "rpegg_fire_fusion": {
+      "start": 339,
+      "end": 341.311156462585,
+      "loop": false
+    },
+    "rpegg_fire_rpegg_toe": {
+      "start": 343,
+      "end": 345,
+      "loop": false
+    },
+    "rpegg_fire_rpegg_valkyrie": {
+      "start": 346,
+      "end": 348.64773242630383,
+      "loop": false
+    },
+    "rpegg_load": {
+      "start": 350,
+      "end": 350.6530612244898,
+      "loop": false
+    },
+    "rpegg_rocket_fly": {
+      "start": 352,
+      "end": 354.8212244897959,
+      "loop": false
+    },
+    "rpegg_rocket_hit": {
+      "start": 356,
+      "end": 358.19428571428574,
+      "loop": false
+    },
+    "rpegg_rocket_poof": {
+      "start": 360,
+      "end": 360.6530612244898,
+      "loop": false
+    },
+    "rpegg_rpegg-techno": {
+      "start": 362,
+      "end": 362.43467120181407,
+      "loop": false
+    },
+    "shell_burst": {
+      "start": 364,
+      "end": 364.574693877551,
+      "loop": false
+    },
+    "shellstreak_end": {
+      "start": 366,
+      "end": 368,
+      "loop": false
+    },
+    "shellstreak_start": {
+      "start": 369,
+      "end": 370.9,
+      "loop": false
+    },
+    "shield_hit": {
+      "start": 372,
+      "end": 372.2202721088435,
+      "loop": false
+    },
+    "smg_cycle": {
+      "start": 374,
+      "end": 374.9142857142857,
+      "loop": false
+    },
+    "smg_fire": {
+      "start": 376,
+      "end": 376.4179591836735,
+      "loop": false
+    },
+    "smg_fire_8bit": {
+      "start": 378,
+      "end": 378.34,
+      "loop": false
+    },
+    "smg_fire_eh": {
+      "start": 380,
+      "end": 380.06,
+      "loop": false
+    },
+    "smg_fire_fusion": {
+      "start": 382,
+      "end": 382.5985034013605,
+      "loop": false
+    },
+    "smg_fire_smg_turkey": {
+      "start": 384,
+      "end": 384.2846485260771,
+      "loop": false
+    },
+    "smg_fire_smg_valkyrie": {
+      "start": 386,
+      "end": 387.17619047619047,
+      "loop": false
+    },
+    "ui_chicken": {
+      "start": 389,
+      "end": 389.6269387755102,
+      "loop": false
+    },
+    "ui_click": {
+      "start": 391,
+      "end": 391.18285714285713,
+      "loop": false
+    },
+    "ui_equip": {
+      "start": 393,
+      "end": 393.23510204081634,
+      "loop": false
+    },
+    "ui_onchange": {
+      "start": 395,
+      "end": 395.2612244897959,
+      "loop": false
+    },
+    "ui_playconfirm": {
+      "start": 397,
+      "end": 397.2873469387755,
+      "loop": false
+    },
+    "ui_popupclose": {
+      "start": 399,
+      "end": 399.3134693877551,
+      "loop": false
+    },
+    "ui_popupopen": {
+      "start": 401,
+      "end": 401.3134693877551,
+      "loop": false
+    },
+    "ui_reset": {
+      "start": 403,
+      "end": 403.39183673469387,
+      "loop": false
+    },
+    "ui_toggletab": {
+      "start": 405,
+      "end": 405.2873469387755,
+      "loop": false
+    },
+    "weapon_swap": {
+      "start": 407,
+      "end": 408.06732426303853,
+      "loop": false
+    }
+  }
+}
