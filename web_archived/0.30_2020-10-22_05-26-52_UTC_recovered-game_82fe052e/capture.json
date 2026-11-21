@@ -1,0 +1,69 @@
+{
+  "folder": "0.30_2020-10-22_05-26-52_UTC_recovered-game_82fe052e",
+  "version": "0.30",
+  "version_source": "html",
+  "origin_id": "archive_org",
+  "capture_kind": "game_capture",
+  "event": {
+    "timestamp": "20201022052652",
+    "timezone": "UTC"
+  },
+  "files": [
+    {
+      "path": "index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20201022052652",
+        "original": "https://shellshock.io/?gp=1",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "63T2XPEAUY5TXVVLPJ4NHKC537VMKJBB",
+        "sha256": "4243b1c2a5eaa9edc033904e1c83165c54fdc9d354051c9c8d453d9e05fccb1c"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?gp=1",
+        "timestamp": "20201022052652",
+        "original": "https://shellshock.io/?gp=1",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "63T2XPEAUY5TXVVLPJ4NHKC537VMKJBB",
+        "replay_url": "https://web.archive.org/web/20201022052652id_/https://shellshock.io/?gp=1",
+        "final_url": "https://web.archive.org/web/20201022052652id_/https://shellshock.io/?gp=1",
+        "sha256": "4243b1c2a5eaa9edc033904e1c83165c54fdc9d354051c9c8d453d9e05fccb1c"
+      },
+      "requested_capture": {
+        "timestamp": "20201022052652",
+        "original": "https://shellshock.io/?gp=1",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "63T2XPEAUY5TXVVLPJ4NHKC537VMKJBB"
+      },
+      "exact_event_timestamp": true,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20201022052652",
+          "original": "https://shellshock.io/?gp=1",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "63T2XPEAUY5TXVVLPJ4NHKC537VMKJBB"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "missing_scripts": [],
+  "pairing_verified": false,
+  "html_available": true,
+  "channel": null,
+  "version_evidence": {
+    "version": "0.30",
+    "kind": "declared_game_version",
+    "expression": "var version = '0.30'",
+    "offset": 12986,
+    "path": "index.html",
+    "sha256": "4243b1c2a5eaa9edc033904e1c83165c54fdc9d354051c9c8d453d9e05fccb1c"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "folder": "0.28.6_2020-09-24_14-11-54_UTC_recovered-game_95833f0e",
+  "version": "0.28.6",
+  "version_source": "html",
+  "origin_id": "archive_org",
+  "capture_kind": "game_capture",
+  "event": {
+    "timestamp": "20200924141154",
+    "timezone": "UTC"
+  },
+  "files": [
+    {
+      "path": "index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20200924141154",
+        "original": "https://www.shellshock.io/?utm=bluewizard",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "AZYDDONZ7J27SUIJVTEJUC44463NWGK5",
+        "sha256": "5524468cb961f5ddf7df12905d1f77750170d35982583249669d5a3f1350f946"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?utm=bluewizard",
+        "timestamp": "20200924141154",
+        "original": "https://www.shellshock.io/?utm=bluewizard",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "AZYDDONZ7J27SUIJVTEJUC44463NWGK5",
+        "replay_url": "https://web.archive.org/web/20200924141154id_/https://www.shellshock.io/?utm=bluewizard",
+        "final_url": "https://web.archive.org/web/20200924141154id_/https://www.shellshock.io/?utm=bluewizard",
+        "sha256": "5524468cb961f5ddf7df12905d1f77750170d35982583249669d5a3f1350f946"
+      },
+      "requested_capture": {
+        "timestamp": "20200924141154",
+        "original": "https://www.shellshock.io/?utm=bluewizard",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "AZYDDONZ7J27SUIJVTEJUC44463NWGK5"
+      },
+      "exact_event_timestamp": true,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20200924141154",
+          "original": "https://www.shellshock.io/?utm=bluewizard",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "AZYDDONZ7J27SUIJVTEJUC44463NWGK5"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "missing_scripts": [],
+  "pairing_verified": false,
+  "html_available": true,
+  "channel": null,
+  "version_evidence": {
+    "version": "0.28.6",
+    "kind": "declared_game_version",
+    "expression": "var version = '0.28.6'",
+    "offset": 12978,
+    "path": "index.html",
+    "sha256": "5524468cb961f5ddf7df12905d1f77750170d35982583249669d5a3f1350f946"
+  }
+}

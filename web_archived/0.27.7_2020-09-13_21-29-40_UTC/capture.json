@@ -1,0 +1,63 @@
+{
+  "folder": "0.27.7_2020-09-13_21-29-40_UTC",
+  "version": "unversioned",
+  "html_version": "0.27.7",
+  "version_source": null,
+  "javascript_release_version_verified": false,
+  "pairing_verified": false,
+  "warning": "HTML version labels this reconstruction; matching cache-busting URLs do not establish the JavaScript release version.",
+  "event": {
+    "urlkey": "io,shellshock)/src/shellshock.min.js?1591825161",
+    "timestamp": "20200913212940",
+    "original": "https://shellshock.io/src/shellshock.min.js?1591825161",
+    "mimetype": "application/javascript",
+    "statuscode": "200",
+    "digest": "B65MNFAK3TLJOZCJO7LRIE23JV6FGU7K"
+  },
+  "missing_scripts": [],
+  "files": [
+    {
+      "path": "src/shellshock.min.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/src/shellshock.min.js?1591825161",
+        "timestamp": "20200913212940",
+        "original": "https://shellshock.io/src/shellshock.min.js?1591825161",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "B65MNFAK3TLJOZCJO7LRIE23JV6FGU7K"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/src/shellshock.min.js?1591825161",
+        "timestamp": "20200913212940",
+        "original": "https://shellshock.io/src/shellshock.min.js?1591825161",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "B65MNFAK3TLJOZCJO7LRIE23JV6FGU7K",
+        "replay_url": "https://web.archive.org/web/20200913212940id_/https://shellshock.io/src/shellshock.min.js?1591825161",
+        "final_url": "https://web.archive.org/web/20200913212940id_/https://shellshock.io/src/shellshock.min.js?1591825161",
+        "sha256": "3840eacfa5f9ba2e36e23b99ac5a6a473df02a53b3090ac1ebc1383cfe47fa7c"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20200913212940",
+          "original": "https://shellshock.io/src/shellshock.min.js?1591825161",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "B65MNFAK3TLJOZCJO7LRIE23JV6FGU7K"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "origin_id": "archive_org",
+  "origins_catalog": "origins.json (archive root; included in exports)",
+  "version_audit": {
+    "declarations": [],
+    "release_membership_verified": false
+  }
+}

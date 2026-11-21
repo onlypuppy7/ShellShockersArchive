@@ -1,0 +1,75 @@
+{
+  "folder": "0.38_2021-02-02_10-19-52_UTC_recovered-game_374c58a2",
+  "version": "0.38",
+  "version_source": "html",
+  "origin_id": "archive_org",
+  "capture_kind": "game_capture",
+  "event": {
+    "timestamp": "20210202101952",
+    "timezone": "UTC"
+  },
+  "files": [
+    {
+      "path": "index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20210202101952",
+        "original": "https://shellshock.io/?gp=1",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VVBQWXTSAZE3Z23AP43GNYPTG4K4D6CC",
+        "sha256": "ed6bde2977c606c104e094e0ca325f96256aefca5468963cbe6cc43d26f1c162",
+        "verification": "cdx_sha1_plain"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/?gp=1",
+        "timestamp": "20210202101952",
+        "original": "https://shellshock.io/?gp=1",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VVBQWXTSAZE3Z23AP43GNYPTG4K4D6CC",
+        "replay_url": "https://web.archive.org/web/20210202101952id_/https://shellshock.io/?gp=1",
+        "final_url": "https://web.archive.org/web/20210202101952id_/https://shellshock.io/?gp=1",
+        "sha256": "ed6bde2977c606c104e094e0ca325f96256aefca5468963cbe6cc43d26f1c162",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20210202101952"
+      },
+      "requested_capture": {
+        "timestamp": "20210202101952",
+        "original": "https://shellshock.io/?gp=1",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VVBQWXTSAZE3Z23AP43GNYPTG4K4D6CC"
+      },
+      "exact_event_timestamp": true,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20210202101952",
+          "original": "https://shellshock.io/?gp=1",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "VVBQWXTSAZE3Z23AP43GNYPTG4K4D6CC"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "missing_scripts": [],
+  "pairing_verified": false,
+  "html_available": true,
+  "channel": null,
+  "version_evidence": {
+    "version": "0.38",
+    "kind": "declared_game_version",
+    "expression": "var version = '0.38'",
+    "offset": 12986,
+    "path": "index.html",
+    "sha256": "ed6bde2977c606c104e094e0ca325f96256aefca5468963cbe6cc43d26f1c162"
+  }
+}

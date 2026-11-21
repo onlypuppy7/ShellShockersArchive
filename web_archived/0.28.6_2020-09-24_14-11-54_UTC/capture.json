@@ -1,0 +1,109 @@
+{
+  "folder": "0.28.6_2020-09-24_14-11-54_UTC",
+  "version": "0.28.6",
+  "html_version": "0.28.6",
+  "version_source": "html",
+  "javascript_release_version_verified": false,
+  "pairing_verified": false,
+  "warning": "HTML version labels this reconstruction; matching cache-busting URLs do not establish the JavaScript release version.",
+  "event": {
+    "urlkey": "io,shellshock)/?utm=bluewizard",
+    "timestamp": "20200924141154",
+    "original": "https://www.shellshock.io/?utm=bluewizard",
+    "mimetype": "text/html",
+    "statuscode": "200",
+    "digest": "AZYDDONZ7J27SUIJVTEJUC44463NWGK5"
+  },
+  "missing_scripts": [
+    "https://shellshock.io/src/shellshock.js?1600732010"
+  ],
+  "files": [
+    {
+      "path": "index.html",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/?utm=bluewizard",
+        "timestamp": "20200924141154",
+        "original": "https://www.shellshock.io/?utm=bluewizard",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "AZYDDONZ7J27SUIJVTEJUC44463NWGK5"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/?utm=bluewizard",
+        "timestamp": "20200924141154",
+        "original": "https://www.shellshock.io/?utm=bluewizard",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "AZYDDONZ7J27SUIJVTEJUC44463NWGK5",
+        "replay_url": "https://web.archive.org/web/20200924141154id_/https://www.shellshock.io/?utm=bluewizard",
+        "final_url": "https://web.archive.org/web/20200924141154id_/https://www.shellshock.io/?utm=bluewizard",
+        "sha256": "5524468cb961f5ddf7df12905d1f77750170d35982583249669d5a3f1350f946"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20200924141154",
+          "original": "https://www.shellshock.io/?utm=bluewizard",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "AZYDDONZ7J27SUIJVTEJUC44463NWGK5"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "origin_id": "archive_org",
+  "origins_catalog": "origins.json (archive root; included in exports)",
+  "version_scope": "Version declared by the observed HTML only; supporting-file release membership is unverified.",
+  "game_script_pairing": {
+    "max_gap_seconds": 86400,
+    "cachebuster_used_as_release_evidence": false,
+    "missing": [
+      {
+        "path": "src/shellshock.js",
+        "reason": "no_verified_capture_within_24_hours",
+        "referenced_url": "https://shellshock.io/src/shellshock.js?1600732010"
+      }
+    ],
+    "associations": []
+  },
+  "version_evidence": {
+    "version": "0.28.6",
+    "kind": "declared_game_version",
+    "expression": "var version = '0.28.6'",
+    "offset": 12978,
+    "path": "index.html",
+    "sha256": "5524468cb961f5ddf7df12905d1f77750170d35982583249669d5a3f1350f946",
+    "observation": {
+      "timestamp": "20200924141154",
+      "original": "https://www.shellshock.io/?utm=bluewizard",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "AZYDDONZ7J27SUIJVTEJUC44463NWGK5"
+    }
+  },
+  "version_audit": {
+    "declarations": [
+      {
+        "version": "0.28.6",
+        "kind": "declared_game_version",
+        "expression": "var version = '0.28.6'",
+        "offset": 12978,
+        "path": "index.html",
+        "sha256": "5524468cb961f5ddf7df12905d1f77750170d35982583249669d5a3f1350f946",
+        "observation": {
+          "timestamp": "20200924141154",
+          "original": "https://www.shellshock.io/?utm=bluewizard",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "AZYDDONZ7J27SUIJVTEJUC44463NWGK5"
+        }
+      }
+    ],
+    "release_membership_verified": false
+  }
+}

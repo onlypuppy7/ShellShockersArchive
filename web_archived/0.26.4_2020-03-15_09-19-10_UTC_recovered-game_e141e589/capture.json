@@ -1,0 +1,69 @@
+{
+  "folder": "0.26.4_2020-03-15_09-19-10_UTC_recovered-game_e141e589",
+  "version": "0.26.4",
+  "version_source": "html",
+  "origin_id": "archive_org",
+  "capture_kind": "game_capture",
+  "event": {
+    "timestamp": "20200315091910",
+    "timezone": "UTC"
+  },
+  "files": [
+    {
+      "path": "index.html",
+      "origin_id": "archive_org",
+      "source": {
+        "timestamp": "20200315091910",
+        "original": "https://shellshock.io/",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "QAOUHAHSDBGLUIOY2OLR3KRB7JA7JXAQ",
+        "sha256": "bca34f512c931fd9a2068a213c77fa7af07a8863197ddaf43a47bd108a259629"
+      },
+      "actual_replay_source": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20200316003512",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "QAOUHAHSDBGLUIOY2OLR3KRB7JA7JXAQ",
+        "replay_url": "https://web.archive.org/web/20200316003512id_/https://shellshock.io/",
+        "final_url": "https://web.archive.org/web/20200316003512id_/https://shellshock.io/",
+        "sha256": "bca34f512c931fd9a2068a213c77fa7af07a8863197ddaf43a47bd108a259629"
+      },
+      "requested_capture": {
+        "timestamp": "20200315091910",
+        "original": "https://shellshock.io/",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "QAOUHAHSDBGLUIOY2OLR3KRB7JA7JXAQ"
+      },
+      "exact_event_timestamp": true,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20200315091910",
+          "original": "https://shellshock.io/",
+          "mimetype": "warc/revisit",
+          "statuscode": "-",
+          "digest": "QAOUHAHSDBGLUIOY2OLR3KRB7JA7JXAQ"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "missing_scripts": [],
+  "pairing_verified": false,
+  "html_available": true,
+  "channel": null,
+  "version_evidence": {
+    "version": "0.26.4",
+    "kind": "declared_game_version",
+    "expression": "var version = '0.26.4'",
+    "offset": 11605,
+    "path": "index.html",
+    "sha256": "bca34f512c931fd9a2068a213c77fa7af07a8863197ddaf43a47bd108a259629"
+  }
+}
