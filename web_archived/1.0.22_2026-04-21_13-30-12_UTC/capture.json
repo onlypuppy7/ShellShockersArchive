@@ -1,0 +1,338 @@
+{
+  "folder": "1.0.22_2026-04-21_13-30-12_UTC",
+  "version": "1.0.22",
+  "version_source": "javascript",
+  "version_evidence": {
+    "version": "1.0.22",
+    "kind": "game_javascript_changelog",
+    "offset": 2555209,
+    "expression": "version:\"1.0.22\",date:",
+    "original_sha256": "cd971610fb56a39214e7609290f668feb8cbe86f7cca34d9f7e3ed108154bcd6",
+    "analyzed_sha256": "cd971610fb56a39214e7609290f668feb8cbe86f7cca34d9f7e3ed108154bcd6",
+    "analysis_method": "original plaintext",
+    "path": "js/shellshock.decoded.js",
+    "sha256": "cd971610fb56a39214e7609290f668feb8cbe86f7cca34d9f7e3ed108154bcd6",
+    "observation": {
+      "timestamp": "20260422043953",
+      "original": "https://shellshock.io/js/shellshock.js?1776522791",
+      "mimetype": "application/javascript",
+      "statuscode": "200",
+      "digest": "ALSKPNLS7Z36YDQCP4JE76ZE2TC2BTF3"
+    }
+  },
+  "html_version": null,
+  "event": {
+    "urlkey": "io,shellshock)/?utm_source=gamhub",
+    "timestamp": "20260421133012",
+    "original": "https://shellshock.io/?utm_source=GamHub",
+    "mimetype": "text/html",
+    "statuscode": "200",
+    "digest": "VRLVBWXW6CHBURL45WOPYO4A4SSYW3VN"
+  },
+  "missing_scripts": [
+    "https://shellshock.io/gtm.js"
+  ],
+  "pairing_verified": false,
+  "warning": "Reconstruction from independently captured files. Each selection retains its own date; nearest captures and inferred release labels are unverified.",
+  "files": [
+    {
+      "path": "index.html",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/?utm_source=gamhub",
+        "timestamp": "20260421133012",
+        "original": "https://shellshock.io/?utm_source=GamHub",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VRLVBWXW6CHBURL45WOPYO4A4SSYW3VN"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/?utm_source=gamhub",
+        "timestamp": "20260421133012",
+        "original": "https://shellshock.io/?utm_source=GamHub",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VRLVBWXW6CHBURL45WOPYO4A4SSYW3VN",
+        "replay_url": "https://web.archive.org/web/20260421133012id_/https://shellshock.io/?utm_source=GamHub",
+        "final_url": "https://web.archive.org/web/20260421133012id_/https://shellshock.io/?utm_source=GamHub",
+        "sha256": "42777ac3f02160846df77ad6b92af35eacbe919e6d5dbfe0c01265f27aaf696e",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20260421133012"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20260421133012",
+          "original": "https://shellshock.io/?utm_source=GamHub",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "VRLVBWXW6CHBURL45WOPYO4A4SSYW3VN"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "js/screenShot.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/screenshot.js?1756841882",
+        "timestamp": "20260422043953",
+        "original": "https://shellshock.io/js/screenShot.js?1756841882",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/js/screenshot.js?1685645622",
+        "timestamp": "20230602024210",
+        "original": "https://shellshock.io/js/screenShot.js?1685645622",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS",
+        "replay_url": "https://web.archive.org/web/20230602024210id_/https://shellshock.io/js/screenShot.js?1685645622",
+        "final_url": "https://web.archive.org/web/20230602024210id_/https://shellshock.io/js/screenShot.js?1685645622",
+        "sha256": "e87e550794322e574a1fda0c1549a3c70dae5a93d9113417a429016838eab8cb",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS",
+        "encoded_sha256": "38b06febfa9f1f5a3b41c8cf4b7f100f15cc8a63456612088c32ba1dcc687497",
+        "decoded_sha1": "XGD5YDGGZ7G4FY2ETE3V6UCUODC23OER",
+        "replay_capture_timestamp": "20230602024210"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20260422043953",
+          "original": "https://shellshock.io/js/screenShot.js?1756841882",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS"
+        },
+        "offset_seconds": 54581,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "js/shellshock.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/shellshock.js?1776522791",
+        "timestamp": "20260422043953",
+        "original": "https://shellshock.io/js/shellshock.js?1776522791",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "ALSKPNLS7Z36YDQCP4JE76ZE2TC2BTF3"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/js/shellshock.js?1776522791",
+        "timestamp": "20260422043953",
+        "original": "https://shellshock.io/js/shellshock.js?1776522791",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "ALSKPNLS7Z36YDQCP4JE76ZE2TC2BTF3",
+        "replay_url": "https://web.archive.org/web/20260422043953id_/https://shellshock.io/js/shellshock.js?1776522791",
+        "final_url": "https://web.archive.org/web/20260422043953id_/https://shellshock.io/js/shellshock.js?1776522791",
+        "sha256": "47ce0c266e52dde0995ca6c32a2cb2033bd3ec4eccabe1578a94a655fc961c85",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/ALSKPNLS7Z36YDQCP4JE76ZE2TC2BTF3",
+        "encoded_sha256": "8e1030fe61e9161e46b50541756526d223f053df4292718cead5a3016792f11d",
+        "decoded_sha1": "JWGHKY4JXBZGXBOKX3JCVM3SWFI4EAJV",
+        "replay_capture_timestamp": "20260422043953"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20260422043953",
+          "original": "https://shellshock.io/js/shellshock.js?1776522791",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "ALSKPNLS7Z36YDQCP4JE76ZE2TC2BTF3"
+        },
+        "offset_seconds": 54581,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "js/vue/vue.min.2.6.10.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20260422043953",
+        "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "SE2B2HI7ST56RPFSB7VH5ETHC3UAANSF"
+      },
+      "source": {
+        "urlkey": "io,shellshock,new)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20221216093150",
+        "original": "https://new.shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "SE2B2HI7ST56RPFSB7VH5ETHC3UAANSF",
+        "replay_url": "https://web.archive.org/web/20221216093150id_/https://new.shellshock.io/js/vue/vue.min.2.6.10.js",
+        "final_url": "https://web.archive.org/web/20221216093150id_/https://new.shellshock.io/js/vue/vue.min.2.6.10.js",
+        "sha256": "72194d152571dd375c4365e5c3b4af9db2c06af0102ced18fcb062597d38be26",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/SE2B2HI7ST56RPFSB7VH5ETHC3UAANSF",
+        "encoded_sha256": "9c2ab05d68d27ca6851eb1c6bb4f96020a6e73938954bc157c0e79d615f84823",
+        "decoded_sha1": "INGN5QLGT4WGY5AGFF5HEEQJG26FN3KS",
+        "replay_capture_timestamp": "20221216093150"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20260422043953",
+          "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "SE2B2HI7ST56RPFSB7VH5ETHC3UAANSF"
+        },
+        "offset_seconds": 54581,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "js/wasm_loader.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/wasm_loader.js?6",
+        "timestamp": "20260422043953",
+        "original": "https://shellshock.io/js/wasm_loader.js?6",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "EFOM4S7HRNMGRHE46R3QZP52GZ7XXR4T"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/js/wasm_loader.js?6",
+        "timestamp": "20251105015237",
+        "original": "https://shellshock.io/js/wasm_loader.js?6",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "EFOM4S7HRNMGRHE46R3QZP52GZ7XXR4T",
+        "replay_url": "https://web.archive.org/web/20251105015237id_/https://shellshock.io/js/wasm_loader.js?6",
+        "final_url": "https://web.archive.org/web/20251105015237id_/https://shellshock.io/js/wasm_loader.js?6",
+        "sha256": "e4bbb7028cda3a6a589540831b91166c09bfeb17c4711d9702d44caf8a22c8c8",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/EFOM4S7HRNMGRHE46R3QZP52GZ7XXR4T",
+        "encoded_sha256": "7b34e654848960975a92ba7733a3a3c25d002a8b8e4acbc3c7f23cea4954b348",
+        "decoded_sha1": "IROPIN7QLVTKNG7HKPWYEL6TBX37N25N",
+        "replay_capture_timestamp": "20251105015237"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org",
+      "additional_origin_ids": [
+        "antiyolk_1ust",
+        "loft_1ust",
+        "statefarm_bot_workingstatus_onlypuppy7"
+      ],
+      "capture_association": {
+        "observation": {
+          "timestamp": "20260422043953",
+          "original": "https://shellshock.io/js/wasm_loader.js?6",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "EFOM4S7HRNMGRHE46R3QZP52GZ7XXR4T"
+        },
+        "offset_seconds": 54581,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "label_correction": {
+    "version": "0.42.13",
+    "version_source": "nearest_changelog_unverified",
+    "version_evidence": {
+      "version": "0.42.13",
+      "kind": "nearest_changelog_first_entry",
+      "pairing_verified": false,
+      "selected_capture": {
+        "urlkey": "io,shellshock)/changelog/changelog.json?1654819080",
+        "timestamp": "20220617043919",
+        "original": "https://shellshock.io/changelog/changelog.json?1654819080",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "XUTJU6P6HNQK4W227UVEXPH4OQGCORSS"
+      },
+      "capture_offset_seconds": -121337453
+    }
+  },
+  "consolidation": {
+    "comparison": "Ignore only Cloudflare rayId in HTML; all other primary bytes compared exactly",
+    "equivalent_captures": [
+      {
+        "folder": "1.0.22_2026-04-21_13-30-12_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?utm_source=gamhub",
+          "timestamp": "20260421133012",
+          "original": "https://shellshock.io/?utm_source=GamHub",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "VRLVBWXW6CHBURL45WOPYO4A4SSYW3VN"
+        }
+      }
+    ],
+    "warning": "Union preserves distinct assets and original HTML variants; it does not assert simultaneous historical availability"
+  },
+  "origin_id": "archive_org",
+  "origins_catalog": "origins.json (archive root; included in exports)",
+  "version_scope": "Version declared by the observed game script only; simultaneous HTML/resource membership is unverified.",
+  "javascript_release_version_verified": false,
+  "version_audit": {
+    "declarations": [
+      {
+        "version": "1.0.22",
+        "kind": "game_javascript_changelog",
+        "offset": 2555209,
+        "expression": "version:\"1.0.22\",date:",
+        "original_sha256": "cd971610fb56a39214e7609290f668feb8cbe86f7cca34d9f7e3ed108154bcd6",
+        "analyzed_sha256": "cd971610fb56a39214e7609290f668feb8cbe86f7cca34d9f7e3ed108154bcd6",
+        "analysis_method": "original plaintext",
+        "path": "js/shellshock.decoded.js",
+        "sha256": "cd971610fb56a39214e7609290f668feb8cbe86f7cca34d9f7e3ed108154bcd6",
+        "observation": {
+          "timestamp": "20260422043953",
+          "original": "https://shellshock.io/js/shellshock.js?1776522791",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "ALSKPNLS7Z36YDQCP4JE76ZE2TC2BTF3"
+        }
+      },
+      {
+        "version": "1.0.22",
+        "kind": "xor_decoded_game_javascript_changelog",
+        "offset": 2555209,
+        "expression": "version:\"1.0.22\",date:",
+        "original_sha256": "47ce0c266e52dde0995ca6c32a2cb2033bd3ec4eccabe1578a94a655fc961c85",
+        "analyzed_sha256": "7f23742109291146079bbecd54ac921f2e5646749232ed5a2cd305c09a17bff6",
+        "analysis_method": "XOR each byte with (byte_offset + 88) % 128; analysis only; original served file unchanged",
+        "path": "js/shellshock.js",
+        "sha256": "47ce0c266e52dde0995ca6c32a2cb2033bd3ec4eccabe1578a94a655fc961c85",
+        "observation": {
+          "timestamp": "20260422043953",
+          "original": "https://shellshock.io/js/shellshock.js?1776522791",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "ALSKPNLS7Z36YDQCP4JE76ZE2TC2BTF3"
+        }
+      }
+    ],
+    "release_membership_verified": false
+  }
+}

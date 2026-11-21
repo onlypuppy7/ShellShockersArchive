@@ -1,0 +1,201 @@
+{
+  "folder": "1.0.1_2025-05-18_01-34-02_UTC_js_archive_06121105",
+  "version": "1.0.1",
+  "version_source": "embedded_changelog",
+  "origin_id": "onlypuppy7_statefarm_bot",
+  "capture_kind": "supplemental_collection_reconstruction",
+  "channel": "production",
+  "runtime_root": ".",
+  "event": {
+    "timestamp": "20250518013402",
+    "timezone": "UTC",
+    "source_timestamp": "2025-05-18_02-34-02",
+    "source_timezone": "Europe/London",
+    "source_utc_offset_seconds": 3600,
+    "timezone_basis": "Curator reported UK local time, tentatively; DST inferred using Europe/London",
+    "timezone_independently_verified": false
+  },
+  "missing_scripts": [],
+  "pairing_verified": false,
+  "warning": "Source filename interpreted as Europe/London using the curator's tentative UK-time report; not an independently verified timezone or deployment time. Supporting files are inherited from the preceding reconstructed snapshot; historical pairing and offline playability are unverified.",
+  "inherited_inventory_from": "1.0.1_2025-05-18_01-32-29_UTC_WorkingStatus_PROD_b8f4cf36",
+  "files": [
+    {
+      "path": "js/screenShot.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/screenshot.js?1736816866",
+        "timestamp": "20250516211625",
+        "original": "https://shellshock.io/js/screenShot.js?1736816866",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/js/screenshot.js?1685645622",
+        "timestamp": "20230602024210",
+        "original": "https://shellshock.io/js/screenShot.js?1685645622",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS",
+        "replay_url": "https://web.archive.org/web/20230602024210id_/https://shellshock.io/js/screenShot.js?1685645622",
+        "final_url": "https://web.archive.org/web/20230602024210id_/https://shellshock.io/js/screenShot.js?1685645622",
+        "sha256": "e87e550794322e574a1fda0c1549a3c70dae5a93d9113417a429016838eab8cb",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS",
+        "encoded_sha256": "38b06febfa9f1f5a3b41c8cf4b7f100f15cc8a63456612088c32ba1dcc687497",
+        "decoded_sha1": "XGD5YDGGZ7G4FY2ETE3V6UCUODC23OER",
+        "replay_capture_timestamp": "20230602024210"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org"
+    },
+    {
+      "path": "js/vue/vue.min.2.6.10.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20250516211624",
+        "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "SE2B2HI7ST56RPFSB7VH5ETHC3UAANSF"
+      },
+      "source": {
+        "urlkey": "io,shellshock,new)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20221216093150",
+        "original": "https://new.shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "SE2B2HI7ST56RPFSB7VH5ETHC3UAANSF",
+        "replay_url": "https://web.archive.org/web/20221216093150id_/https://new.shellshock.io/js/vue/vue.min.2.6.10.js",
+        "final_url": "https://web.archive.org/web/20221216093150id_/https://new.shellshock.io/js/vue/vue.min.2.6.10.js",
+        "sha256": "72194d152571dd375c4365e5c3b4af9db2c06af0102ced18fcb062597d38be26",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/SE2B2HI7ST56RPFSB7VH5ETHC3UAANSF",
+        "encoded_sha256": "9c2ab05d68d27ca6851eb1c6bb4f96020a6e73938954bc157c0e79d615f84823",
+        "decoded_sha1": "INGN5QLGT4WGY5AGFF5HEEQJG26FN3KS",
+        "replay_capture_timestamp": "20221216093150"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org"
+    },
+    {
+      "path": "service-worker.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/service-worker.js",
+        "timestamp": "20250509195645",
+        "original": "https://shellshock.io/service-worker.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "ENBDFDQDKDYGQERNQRGQJULS4F733PIS"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/service-worker.js",
+        "timestamp": "20200717224432",
+        "original": "https://shellshock.io/service-worker.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "ENBDFDQDKDYGQERNQRGQJULS4F733PIS",
+        "replay_url": "https://web.archive.org/web/20200717224432id_/https://shellshock.io/service-worker.js",
+        "final_url": "https://web.archive.org/web/20200717224432id_/https://shellshock.io/service-worker.js",
+        "sha256": "d4892cd5810cef1bc7aeee86e4ece1165165f0f1723afabb51e0a9fbd3017913"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org"
+    },
+    {
+      "path": "index.html",
+      "origin_id": "statefarm_bot_workingstatus_onlypuppy7",
+      "source": {
+        "origin_id": "statefarm_bot_workingstatus_onlypuppy7",
+        "channel": "production",
+        "path": "index.html",
+        "timestamp": "20250518013229",
+        "timezone": "UTC",
+        "timestamp_basis": "Collection observation; not a verified deployment time.",
+        "path_basis": "Collection observation; not a verified deployment time.",
+        "sha256": "f3c9351f502eb7b223923a1e7182a0df54b8c33bfab7ca72c5426c5e89bed6ff",
+        "bytes": 600844,
+        "version_evidence": null,
+        "credit": "statefarm_bot (WorkingStatus) by onlypuppy7"
+      },
+      "requested_capture": null,
+      "exact_event_timestamp": false,
+      "association": "supplied in the same collection directory"
+    },
+    {
+      "path": "js/shellshock.js",
+      "origin_id": "onlypuppy7_statefarm_bot",
+      "source": {
+        "origin_id": "onlypuppy7_statefarm_bot",
+        "collection": "js_archive",
+        "recorded_date": "2025-05-18_02-34-02",
+        "source_timestamp": "2025-05-18_02-34-02",
+        "source_timezone": "Europe/London",
+        "source_utc_offset_seconds": 3600,
+        "source_timezone_abbreviation": "BST",
+        "timestamp": "20250518013402",
+        "timezone": "UTC",
+        "timezone_basis": "Curator reported UK local time, tentatively; DST inferred using Europe/London",
+        "timezone_independently_verified": false,
+        "sha256": "06121105e067374fe48311cf7b9dbd912cd0c6a4e928ec99366c8869493834c3",
+        "bytes": 3410767,
+        "path": "js/shellshock.js",
+        "path_basis": "Reconstructed game path from supplied collection filename",
+        "version": "1.0.1",
+        "version_evidence": {
+          "version": "1.0.1",
+          "kind": "game_javascript_changelog",
+          "offset": 2551820,
+          "expression": "version:\"1.0.1\",date:",
+          "original_sha256": "06121105e067374fe48311cf7b9dbd912cd0c6a4e928ec99366c8869493834c3",
+          "analyzed_sha256": "06121105e067374fe48311cf7b9dbd912cd0c6a4e928ec99366c8869493834c3",
+          "analysis_method": "original plaintext"
+        },
+        "version_basis": "embedded_changelog",
+        "filename_sha256": "02037fcb2ea98d0b5a1f535d9efff2e1412ce50fc88ae8ea9d067994e0280cba",
+        "filename_hash_matches_bytes": false,
+        "integration": "js_archive_supplement_20261120",
+        "credit": "onlypuppy7 via statefarm_bot"
+      },
+      "requested_capture": null,
+      "exact_event_timestamp": false,
+      "association": "Imported JS; inherited support pairing is unverified"
+    }
+  ],
+  "imported_files": [
+    {
+      "origin_id": "onlypuppy7_statefarm_bot",
+      "collection": "js_archive",
+      "recorded_date": "2025-05-18_02-34-02",
+      "source_timestamp": "2025-05-18_02-34-02",
+      "source_timezone": "Europe/London",
+      "source_utc_offset_seconds": 3600,
+      "source_timezone_abbreviation": "BST",
+      "timestamp": "20250518013402",
+      "timezone": "UTC",
+      "timezone_basis": "Curator reported UK local time, tentatively; DST inferred using Europe/London",
+      "timezone_independently_verified": false,
+      "sha256": "06121105e067374fe48311cf7b9dbd912cd0c6a4e928ec99366c8869493834c3",
+      "bytes": 3410767,
+      "path": "js/shellshock.js",
+      "path_basis": "Reconstructed game path from supplied collection filename",
+      "version": "1.0.1",
+      "version_evidence": {
+        "version": "1.0.1",
+        "kind": "game_javascript_changelog",
+        "offset": 2551820,
+        "expression": "version:\"1.0.1\",date:",
+        "original_sha256": "06121105e067374fe48311cf7b9dbd912cd0c6a4e928ec99366c8869493834c3",
+        "analyzed_sha256": "06121105e067374fe48311cf7b9dbd912cd0c6a4e928ec99366c8869493834c3",
+        "analysis_method": "original plaintext"
+      },
+      "version_basis": "embedded_changelog",
+      "filename_sha256": "02037fcb2ea98d0b5a1f535d9efff2e1412ce50fc88ae8ea9d067994e0280cba",
+      "filename_hash_matches_bytes": false,
+      "integration": "js_archive_supplement_20261120"
+    }
+  ],
+  "origins_catalog": "origins.json (archive root; included in exports)"
+}

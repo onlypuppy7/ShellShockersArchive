@@ -1,0 +1,257 @@
+{
+  "folder": "1.0.27_2026-09-01_20-56-20_TZ-unknown_loft",
+  "version": "1.0.27",
+  "version_source": "embedded_changelog",
+  "origin_id": "loft_1ust",
+  "capture_kind": "supplemental_collection_reconstruction",
+  "event": {
+    "timestamp": "20260901205620",
+    "timezone": "unspecified",
+    "timestamp_basis": "collection filename; sortable wall clock, not verified UTC"
+  },
+  "missing_scripts": [],
+  "pairing_verified": false,
+  "warning": "Imported collection dates are not independently verified and have no stated timezone. Other files are carried forward from the preceding reconstructed snapshot; this does not establish simultaneous use or a working historical build.",
+  "inherited_inventory_from": "1.0.26_2026-08-30_09-19-35_UTC",
+  "files": [
+    {
+      "path": "index.html",
+      "origin_id": "loft_1ust",
+      "source": {
+        "origin_id": "loft_1ust",
+        "archive": "1794484473513.zip",
+        "archive_sha256": "5c1937c45382546ef223b027c7bae5d692a1b7b7fa674673714793ccfea34972",
+        "recorded_date": "2026-09-01_20-56-20",
+        "timestamp": "20260901205620",
+        "timezone": "unspecified",
+        "date_interpretation": null,
+        "sha256": "e847bf7857f69b614897ded438b1355a82c78ac64fc58349d83f6ef0c3b3b548",
+        "bytes": 76151,
+        "path": "index.html",
+        "path_basis": "Collection packaging mapped to game paths; original internal path retained",
+        "version": null,
+        "version_evidence": null,
+        "version_basis": null,
+        "provided_processed_copy": false,
+        "credit": "loft by 1ust"
+      },
+      "requested_capture": null,
+      "exact_event_timestamp": false,
+      "association": "supplied in the same collection directory"
+    },
+    {
+      "path": "js/screenShot.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/screenshot.js?1692215954",
+        "timestamp": "20260905160743",
+        "original": "https://shellshock.io/js/screenShot.js?1692215954",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/js/screenshot.js?1685645622",
+        "timestamp": "20230602024210",
+        "original": "https://shellshock.io/js/screenShot.js?1685645622",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS",
+        "replay_url": "https://web.archive.org/web/20230602024210id_/https://shellshock.io/js/screenShot.js?1685645622",
+        "final_url": "https://web.archive.org/web/20230602024210id_/https://shellshock.io/js/screenShot.js?1685645622",
+        "sha256": "e87e550794322e574a1fda0c1549a3c70dae5a93d9113417a429016838eab8cb",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS",
+        "encoded_sha256": "38b06febfa9f1f5a3b41c8cf4b7f100f15cc8a63456612088c32ba1dcc687497",
+        "decoded_sha1": "XGD5YDGGZ7G4FY2ETE3V6UCUODC23OER",
+        "replay_capture_timestamp": "20230602024210"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org"
+    },
+    {
+      "path": "js/shellshock.js",
+      "origin_id": "loft_1ust",
+      "source": {
+        "origin_id": "loft_1ust",
+        "archive": "1794484473513.zip",
+        "archive_sha256": "5c1937c45382546ef223b027c7bae5d692a1b7b7fa674673714793ccfea34972",
+        "recorded_date": "2026-09-01_20-56-20",
+        "timestamp": "20260901205620",
+        "timezone": "unspecified",
+        "date_interpretation": null,
+        "sha256": "a1faa85eee98a99209e2c07b138f7d4468889255750d7665761d711a6c4fb05f",
+        "bytes": 3330736,
+        "path": "js/shellshock.js",
+        "path_basis": "Collection packaging mapped to game paths; original internal path retained",
+        "version": "1.0.27",
+        "version_evidence": {
+          "version": "1.0.27",
+          "kind": "game_javascript_changelog",
+          "offset": 2399046,
+          "expression": "version:\"1.0.27\",date:",
+          "original_sha256": "a1faa85eee98a99209e2c07b138f7d4468889255750d7665761d711a6c4fb05f",
+          "analyzed_sha256": "a1faa85eee98a99209e2c07b138f7d4468889255750d7665761d711a6c4fb05f",
+          "analysis_method": "original plaintext"
+        },
+        "version_basis": "embedded_changelog",
+        "provided_processed_copy": false,
+        "credit": "loft by 1ust"
+      },
+      "requested_capture": null,
+      "exact_event_timestamp": false,
+      "association": "supplied in the same collection directory"
+    },
+    {
+      "path": "js/vue/vue.min.2.6.10.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20260814060600",
+        "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "SE2B2HI7ST56RPFSB7VH5ETHC3UAANSF"
+      },
+      "source": {
+        "urlkey": "io,shellshock,new)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20221216093150",
+        "original": "https://new.shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "SE2B2HI7ST56RPFSB7VH5ETHC3UAANSF",
+        "replay_url": "https://web.archive.org/web/20221216093150id_/https://new.shellshock.io/js/vue/vue.min.2.6.10.js",
+        "final_url": "https://web.archive.org/web/20221216093150id_/https://new.shellshock.io/js/vue/vue.min.2.6.10.js",
+        "sha256": "72194d152571dd375c4365e5c3b4af9db2c06af0102ced18fcb062597d38be26",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/SE2B2HI7ST56RPFSB7VH5ETHC3UAANSF",
+        "encoded_sha256": "9c2ab05d68d27ca6851eb1c6bb4f96020a6e73938954bc157c0e79d615f84823",
+        "decoded_sha1": "INGN5QLGT4WGY5AGFF5HEEQJG26FN3KS",
+        "replay_capture_timestamp": "20221216093150"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org"
+    },
+    {
+      "path": "js/wasm_loader.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/wasm_loader.js?6",
+        "timestamp": "20260905160743",
+        "original": "https://shellshock.io/js/wasm_loader.js?6",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "EFOM4S7HRNMGRHE46R3QZP52GZ7XXR4T"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/js/wasm_loader.js?6",
+        "timestamp": "20251105015237",
+        "original": "https://shellshock.io/js/wasm_loader.js?6",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "EFOM4S7HRNMGRHE46R3QZP52GZ7XXR4T",
+        "replay_url": "https://web.archive.org/web/20251105015237id_/https://shellshock.io/js/wasm_loader.js?6",
+        "final_url": "https://web.archive.org/web/20251105015237id_/https://shellshock.io/js/wasm_loader.js?6",
+        "sha256": "e4bbb7028cda3a6a589540831b91166c09bfeb17c4711d9702d44caf8a22c8c8",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/EFOM4S7HRNMGRHE46R3QZP52GZ7XXR4T",
+        "encoded_sha256": "7b34e654848960975a92ba7733a3a3c25d002a8b8e4acbc3c7f23cea4954b348",
+        "decoded_sha1": "IROPIN7QLVTKNG7HKPWYEL6TBX37N25N",
+        "replay_capture_timestamp": "20251105015237"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org",
+      "additional_origin_ids": [
+        "antiyolk_1ust",
+        "loft_1ust",
+        "statefarm_bot_workingstatus_onlypuppy7"
+      ]
+    },
+    {
+      "path": "service-worker.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/service-worker.js",
+        "timestamp": "20260716074029",
+        "original": "https://shellshock.io/service-worker.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "ENBDFDQDKDYGQERNQRGQJULS4F733PIS"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/service-worker.js",
+        "timestamp": "20200717224432",
+        "original": "https://shellshock.io/service-worker.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "ENBDFDQDKDYGQERNQRGQJULS4F733PIS",
+        "replay_url": "https://web.archive.org/web/20200717224432id_/https://shellshock.io/service-worker.js",
+        "final_url": "https://web.archive.org/web/20200717224432id_/https://shellshock.io/service-worker.js",
+        "sha256": "d4892cd5810cef1bc7aeee86e4ece1165165f0f1723afabb51e0a9fbd3017913"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org"
+    }
+  ],
+  "imported_files": [
+    {
+      "origin_id": "loft_1ust",
+      "archive": "1794484473513.zip",
+      "archive_sha256": "5c1937c45382546ef223b027c7bae5d692a1b7b7fa674673714793ccfea34972",
+      "recorded_date": "2026-09-01_20-56-20",
+      "timestamp": "20260901205620",
+      "timezone": "unspecified",
+      "date_interpretation": null,
+      "sha256": "e847bf7857f69b614897ded438b1355a82c78ac64fc58349d83f6ef0c3b3b548",
+      "bytes": 76151,
+      "path": "index.html",
+      "path_basis": "Collection packaging mapped to game paths; original internal path retained",
+      "version": null,
+      "version_evidence": null,
+      "version_basis": null,
+      "provided_processed_copy": false
+    },
+    {
+      "origin_id": "loft_1ust",
+      "archive": "1794484473513.zip",
+      "archive_sha256": "5c1937c45382546ef223b027c7bae5d692a1b7b7fa674673714793ccfea34972",
+      "recorded_date": "2026-09-01_20-56-20",
+      "timestamp": "20260901205620",
+      "timezone": "unspecified",
+      "date_interpretation": null,
+      "sha256": "0869c49bb8d271f0e3746fd6a746bfdc2bc39980b4a910a74d3006b85087c562",
+      "bytes": 423596,
+      "path": "js/home.js",
+      "path_basis": "Collection packaging mapped to game paths; original internal path retained",
+      "version": null,
+      "version_evidence": null,
+      "version_basis": null,
+      "provided_processed_copy": false
+    },
+    {
+      "origin_id": "loft_1ust",
+      "archive": "1794484473513.zip",
+      "archive_sha256": "5c1937c45382546ef223b027c7bae5d692a1b7b7fa674673714793ccfea34972",
+      "recorded_date": "2026-09-01_20-56-20",
+      "timestamp": "20260901205620",
+      "timezone": "unspecified",
+      "date_interpretation": null,
+      "sha256": "a1faa85eee98a99209e2c07b138f7d4468889255750d7665761d711a6c4fb05f",
+      "bytes": 3330736,
+      "path": "js/shellshock.js",
+      "path_basis": "Collection packaging mapped to game paths; original internal path retained",
+      "version": "1.0.27",
+      "version_evidence": {
+        "version": "1.0.27",
+        "kind": "game_javascript_changelog",
+        "offset": 2399046,
+        "expression": "version:\"1.0.27\",date:",
+        "original_sha256": "a1faa85eee98a99209e2c07b138f7d4468889255750d7665761d711a6c4fb05f",
+        "analyzed_sha256": "a1faa85eee98a99209e2c07b138f7d4468889255750d7665761d711a6c4fb05f",
+        "analysis_method": "original plaintext"
+      },
+      "version_basis": "embedded_changelog",
+      "provided_processed_copy": false
+    }
+  ],
+  "origins_catalog": "origins.json (archive root; included in exports)"
+}

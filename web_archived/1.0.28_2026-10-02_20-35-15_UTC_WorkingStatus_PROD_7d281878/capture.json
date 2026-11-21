@@ -1,0 +1,244 @@
+{
+  "folder": "1.0.28_2026-10-02_20-35-15_UTC_WorkingStatus_PROD_7d281878",
+  "version": "1.0.28",
+  "version_source": "embedded_game_changelog",
+  "origin_id": "statefarm_bot_workingstatus_onlypuppy7",
+  "capture_kind": "supplemental_collection_reconstruction",
+  "event": {
+    "timestamp": "20261002203515",
+    "timezone": "UTC",
+    "timestamp_basis": "Collection observation; not a verified deployment time."
+  },
+  "missing_scripts": [],
+  "pairing_verified": false,
+  "warning": "Collection observation; not a verified deployment time.",
+  "inherited_inventory_from": "1.0.27_2026-09-05_16-07-42_UTC",
+  "files": [
+    {
+      "path": "js/home.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/home.js?1788294571",
+        "timestamp": "20260905160742",
+        "original": "https://shellshock.io/js/home.js?1788294571",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "EXFH6OGTFLALLZIA7WK3CEK2KBVFZLHS"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/js/home.js?1788294571",
+        "timestamp": "20260905160742",
+        "original": "https://shellshock.io/js/home.js?1788294571",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "EXFH6OGTFLALLZIA7WK3CEK2KBVFZLHS",
+        "replay_url": "https://web.archive.org/web/20260905160742id_/https://shellshock.io/js/home.js?1788294571",
+        "final_url": "https://web.archive.org/web/20260905160742id_/https://shellshock.io/js/home.js?1788294571",
+        "sha256": "0869c49bb8d271f0e3746fd6a746bfdc2bc39980b4a910a74d3006b85087c562",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/EXFH6OGTFLALLZIA7WK3CEK2KBVFZLHS",
+        "encoded_sha256": "091a3254f50bf181c373669c43dae551424b1250a57d9ab5fe50bb6d850dc602",
+        "decoded_sha1": "ACZWHKCV7B5B6CGJUHPGVSY2OD33MPFA",
+        "replay_capture_timestamp": "20260905160742"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org",
+      "additional_origin_ids": [
+        "loft_1ust"
+      ]
+    },
+    {
+      "path": "js/screenShot.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/screenshot.js?1692215954",
+        "timestamp": "20260905160743",
+        "original": "https://shellshock.io/js/screenShot.js?1692215954",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/js/screenshot.js?1685645622",
+        "timestamp": "20230602024210",
+        "original": "https://shellshock.io/js/screenShot.js?1685645622",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS",
+        "replay_url": "https://web.archive.org/web/20230602024210id_/https://shellshock.io/js/screenShot.js?1685645622",
+        "final_url": "https://web.archive.org/web/20230602024210id_/https://shellshock.io/js/screenShot.js?1685645622",
+        "sha256": "e87e550794322e574a1fda0c1549a3c70dae5a93d9113417a429016838eab8cb",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS",
+        "encoded_sha256": "38b06febfa9f1f5a3b41c8cf4b7f100f15cc8a63456612088c32ba1dcc687497",
+        "decoded_sha1": "XGD5YDGGZ7G4FY2ETE3V6UCUODC23OER",
+        "replay_capture_timestamp": "20230602024210"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org"
+    },
+    {
+      "path": "js/vue/vue3.5.41.runtime.global.prod.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/vue/vue3.5.41.runtime.global.prod.js",
+        "timestamp": "20260905160742",
+        "original": "https://shellshock.io/js/vue/vue3.5.41.runtime.global.prod.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "NRPME54VISMKPVI3KCP6BDYOGFTTWA6K"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/js/vue/vue3.5.41.runtime.global.prod.js",
+        "timestamp": "20260905160742",
+        "original": "https://shellshock.io/js/vue/vue3.5.41.runtime.global.prod.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "NRPME54VISMKPVI3KCP6BDYOGFTTWA6K",
+        "replay_url": "https://web.archive.org/web/20260905160742id_/https://shellshock.io/js/vue/vue3.5.41.runtime.global.prod.js",
+        "final_url": "https://web.archive.org/web/20260905160742id_/https://shellshock.io/js/vue/vue3.5.41.runtime.global.prod.js",
+        "sha256": "09c9eb6ab2ea0157865aa220e86d81de34bdc7924ac4c5ab77e60f0c8c125f90",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/NRPME54VISMKPVI3KCP6BDYOGFTTWA6K",
+        "encoded_sha256": "e450b5e8df451daf50ef73e67a90b701b963a4dfffd3a166703bbaae672e2374",
+        "decoded_sha1": "5XTFUYWZJP7V22UTFWZCEQ2KYSGZZFYS",
+        "replay_capture_timestamp": "20260905160742"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org"
+    },
+    {
+      "path": "service-worker.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/service-worker.js",
+        "timestamp": "20260716074029",
+        "original": "https://shellshock.io/service-worker.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "ENBDFDQDKDYGQERNQRGQJULS4F733PIS"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/service-worker.js",
+        "timestamp": "20200717224432",
+        "original": "https://shellshock.io/service-worker.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "ENBDFDQDKDYGQERNQRGQJULS4F733PIS",
+        "replay_url": "https://web.archive.org/web/20200717224432id_/https://shellshock.io/service-worker.js",
+        "final_url": "https://web.archive.org/web/20200717224432id_/https://shellshock.io/service-worker.js",
+        "sha256": "d4892cd5810cef1bc7aeee86e4ece1165165f0f1723afabb51e0a9fbd3017913"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org"
+    },
+    {
+      "path": "index.html",
+      "origin_id": "statefarm_bot_workingstatus_onlypuppy7",
+      "source": {
+        "origin_id": "statefarm_bot_workingstatus_onlypuppy7",
+        "channel": "production",
+        "path": "index.html",
+        "timestamp": "20261002203515",
+        "timezone": "UTC",
+        "timestamp_basis": "Collection observation; not a verified deployment time.",
+        "path_basis": "Collection observation; not a verified deployment time.",
+        "sha256": "b1a23d4572e60c8d9a5360204484ceade4ec472b40b1b87a8796a6435a517309",
+        "bytes": 75811,
+        "version_evidence": null,
+        "credit": "statefarm_bot (WorkingStatus) by onlypuppy7"
+      },
+      "requested_capture": null,
+      "exact_event_timestamp": false,
+      "association": "supplied in the same collection directory"
+    },
+    {
+      "path": "js/shellshock.js",
+      "origin_id": "statefarm_bot_workingstatus_onlypuppy7",
+      "source": {
+        "origin_id": "statefarm_bot_workingstatus_onlypuppy7",
+        "channel": "production",
+        "path": "js/shellshock.js",
+        "timestamp": "20261002203515",
+        "timezone": "UTC",
+        "timestamp_basis": "Collection observation; not a verified deployment time.",
+        "path_basis": "Collection observation; not a verified deployment time.",
+        "sha256": "c2b01844d4c52450a2af47ea19c4e54f4b33cddc280d3886b2f80388b5039514",
+        "bytes": 3335004,
+        "version_evidence": {
+          "version": "1.0.28",
+          "kind": "game_javascript_changelog",
+          "offset": 2399058,
+          "expression": "version:\"1.0.28\",date:",
+          "original_sha256": "c2b01844d4c52450a2af47ea19c4e54f4b33cddc280d3886b2f80388b5039514",
+          "analyzed_sha256": "c2b01844d4c52450a2af47ea19c4e54f4b33cddc280d3886b2f80388b5039514",
+          "analysis_method": "original plaintext"
+        },
+        "credit": "statefarm_bot (WorkingStatus) by onlypuppy7"
+      },
+      "requested_capture": null,
+      "exact_event_timestamp": false,
+      "association": "supplied in the same collection directory"
+    }
+  ],
+  "imported_files": [
+    {
+      "origin_id": "statefarm_bot_workingstatus_onlypuppy7",
+      "channel": "production",
+      "path": "index.html",
+      "timestamp": "20261002203515",
+      "timezone": "UTC",
+      "timestamp_basis": "Collection observation; not a verified deployment time.",
+      "path_basis": "Collection observation; not a verified deployment time.",
+      "sha256": "b1a23d4572e60c8d9a5360204484ceade4ec472b40b1b87a8796a6435a517309",
+      "bytes": 75811,
+      "version_evidence": null
+    },
+    {
+      "origin_id": "statefarm_bot_workingstatus_onlypuppy7",
+      "channel": "production",
+      "path": "js/shellshock.js",
+      "timestamp": "20261002203515",
+      "timezone": "UTC",
+      "timestamp_basis": "Collection observation; not a verified deployment time.",
+      "path_basis": "Collection observation; not a verified deployment time.",
+      "sha256": "c2b01844d4c52450a2af47ea19c4e54f4b33cddc280d3886b2f80388b5039514",
+      "bytes": 3335004,
+      "version_evidence": {
+        "version": "1.0.28",
+        "kind": "game_javascript_changelog",
+        "offset": 2399058,
+        "expression": "version:\"1.0.28\",date:",
+        "original_sha256": "c2b01844d4c52450a2af47ea19c4e54f4b33cddc280d3886b2f80388b5039514",
+        "analyzed_sha256": "c2b01844d4c52450a2af47ea19c4e54f4b33cddc280d3886b2f80388b5039514",
+        "analysis_method": "original plaintext"
+      }
+    },
+    {
+      "origin_id": "statefarm_bot_workingstatus_onlypuppy7",
+      "channel": "production",
+      "path": "js/wasm_loader.js",
+      "timestamp": "20261002203515",
+      "timezone": "UTC",
+      "timestamp_basis": "Collection observation; not a verified deployment time.",
+      "path_basis": "Collection observation; not a verified deployment time.",
+      "sha256": "e4bbb7028cda3a6a589540831b91166c09bfeb17c4711d9702d44caf8a22c8c8",
+      "bytes": 19352,
+      "version_evidence": null
+    },
+    {
+      "origin_id": "statefarm_bot_workingstatus_onlypuppy7",
+      "channel": "production",
+      "path": "js/wasm_loader.wasm",
+      "timestamp": "20261002203515",
+      "timezone": "UTC",
+      "timestamp_basis": "Collection observation; not a verified deployment time.",
+      "path_basis": "Collection observation; not a verified deployment time.",
+      "sha256": "22852d1cd2e2318984cda4f74a41cb7b924fa7a49e56a35d68f1ff62ddf2047a",
+      "bytes": 63119,
+      "version_evidence": null
+    }
+  ],
+  "channel": "production",
+  "runtime_root": ".",
+  "origins_catalog": "origins.json (archive root; included in exports)"
+}
