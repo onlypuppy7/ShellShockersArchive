@@ -1,0 +1,29 @@
+.game-preview { min-height:100dvh; }
+.preview-toolbar { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:12px 20px; border-bottom:1px solid var(--line); background:var(--rail); }
+.preview-identity { min-width:0; }
+.preview-identity h1 { font-size:18px; font-weight:650; letter-spacing:-.02em; }
+.preview-identity h1 span { color:var(--muted); font-weight:400; }
+.preview-identity p { overflow-wrap:anywhere; font-size:12px; }
+.preview-tools { display:flex; align-items:center; flex-wrap:wrap; gap:16px; font-size:13px; flex-shrink:0; }
+#status { font-size:13px; }
+#status.error { color:var(--error); }
+.game-stage { position:relative; height:calc(100dvh - 115px); min-height:420px; overflow:hidden; background:#101213; }
+.game-stage iframe { display:block; border:0; width:100%; height:100%; background:#101213; transform-origin:top left; }
+.pairing-disclaimer { margin:0; padding:7px 20px; font-size:12px; border-bottom:1px solid var(--line); }
+.game-preview:has(.pairing-disclaimer:not([hidden])) .game-stage { height:calc(100dvh - 150px); }
+#placeholder { padding:28px 20px; }
+.preview-diagnostics { padding:10px 20px 20px; border-top:1px solid var(--line); }
+.preview-diagnostics summary { width:fit-content; font-size:13px; }
+.preview-diagnostics.has-issues summary,.preview-diagnostics.has-issues #issue-count { color:var(--error); }
+.preview-diagnostics .helper { margin-top:10px; }
+#issue-count { color:var(--warning); }
+#messages { padding-left:20px; margin-bottom:0; max-height:260px; overflow:auto; font:12px/1.6 var(--mono); overflow-wrap:anywhere; }
+#messages .error { color:var(--error); }
+@media(max-width:760px) {
+  .preview-toolbar { align-items:flex-start; flex-direction:column; padding:12px 14px; gap:8px; }
+  .preview-tools { width:100%; justify-content:space-between; }
+  .preview-diagnostics { padding-left:14px; padding-right:14px; }
+  .game-stage { height:auto; aspect-ratio:16/10; min-height:0; }
+  .pairing-disclaimer { padding:7px 14px; }
+  .game-preview:has(.pairing-disclaimer:not([hidden])) .game-stage { height:auto; }
+}

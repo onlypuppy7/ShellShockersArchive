@@ -1,0 +1,18 @@
+<!-- Preview-only substitute for the unavailable classic particles.png atlas.
+     Cells: impact, smoke, yolk, four shell fragments. Not an archived asset. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="128" viewBox="0 0 1024 128">
+  <defs>
+    <radialGradient id="impact"><stop stop-color="#111" stop-opacity=".9"/><stop offset=".35" stop-color="#222" stop-opacity=".7"/><stop offset="1" stop-color="#222" stop-opacity="0"/></radialGradient>
+    <radialGradient id="smoke"><stop stop-color="white" stop-opacity=".85"/><stop offset=".5" stop-color="white" stop-opacity=".5"/><stop offset="1" stop-color="white" stop-opacity="0"/></radialGradient>
+    <radialGradient id="yolk"><stop stop-color="#ffd633"/><stop offset=".7" stop-color="#ffb51b" stop-opacity=".9"/><stop offset="1" stop-color="#ffb51b" stop-opacity="0"/></radialGradient>
+  </defs>
+  <circle cx="64" cy="64" r="56" fill="url(#impact)"/>
+  <circle cx="192" cy="64" r="62" fill="url(#smoke)"/>
+  <ellipse cx="320" cy="64" rx="57" ry="45" fill="url(#yolk)"/>
+  <g fill="#fff9ed" stroke="#d1ccbd" stroke-width="3" stroke-linejoin="round">
+    <path d="M408 30L484 43L458 100L419 75Z"/>
+    <path d="M542 22L611 70L565 103L533 57Z"/>
+    <path d="M665 29L738 40L713 102L670 81Z"/>
+    <path d="M795 31L866 51L829 104L787 72Z"/>
+  </g>
+</svg>

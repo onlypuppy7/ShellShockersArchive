@@ -1,0 +1,58 @@
+name: Publish archive homepage
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: archive-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out only the lightweight homepage
+        uses: actions/checkout@v7
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /index.html
+            /archive-site/
+          persist-credentials: false
+
+      - name: Prepare the static site and pin downloads to this commit
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, os, pathlib, shutil
+          site = pathlib.Path('_site')
+          site.mkdir()
+          shutil.copyfile('index.html', site / 'index.html')
+          shutil.copytree('archive-site', site / 'archive-site')
+          (site / '.nojekyll').touch()
+          repo = os.environ['GITHUB_REPOSITORY']
+          commit = os.environ['GITHUB_SHA']
+          config = {
+              'archiveBase': f'https://raw.githubusercontent.com/{repo}/{commit}/web_archived/',
+              'repositoryURL': f'https://github.com/{repo}',
+          }
+          (site / 'archive-site/config.json').write_text(json.dumps(config) + '\n')
+          PY
+
+      - name: Upload the homepage artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Publish to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

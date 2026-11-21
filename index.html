@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Find a Shell Shockers capture by version or date, inspect its files and sources, and export the recovered snapshot.">
+  <meta name="color-scheme" content="dark">
+  <meta name="referrer" content="no-referrer">
+  <title>Shell Shockers Archive</title>
+  <link rel="icon" type="image/svg+xml" href="archive-site/icon.svg">
+  <link rel="stylesheet" href="archive-site/style.css">
+  <script type="module" src="archive-site/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#browser">Skip to archive browser</a>
+  <div class="shell">
+    <header class="site-header">
+      <a class="brand" href="./"><img src="archive-site/icon.svg" width="34" height="34" alt=""><h1>Shell Shockers <span>Archive</span></h1></a>
+      <nav aria-label="Main navigation"><a href="#browser">Browse</a><a id="file-finder-link" href="#file-finder">Find a file</a><a href="#credits">Sources & credits</a><a id="repository-link" href="https://github.com/onlypuppy7/ShellShockersArchive" target="_blank" rel="noopener">GitHub<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a></nav>
+    </header>
+    <main>
+      <div id="initial-error" class="notice error" role="alert" hidden></div>
+      <div class="archive-summary" aria-label="Archive statistics"><p><strong id="stat-snapshots">…</strong> captures <span class="separator">/</span> <strong id="stat-versions">…</strong> version labels <span class="separator">/</span> <strong id="stat-files">…</strong> stored files <span class="separator">/</span> <strong id="stat-size">…</strong></p><span id="coverage">2017–2026</span></div>
+      <section id="browser" class="browser-grid" aria-label="Archive browser">
+        <aside class="picker" aria-label="Choose a capture">
+          <fieldset id="selection-controls"><legend class="sr-only">Find a capture</legend>
+            <div class="picker-heading"><h2>Find a capture</h2><button id="latest-capture" class="text-button">Latest</button></div>
+            <div class="tabs" role="tablist" aria-label="Find by"><button id="version-tab" role="tab" aria-selected="true" aria-controls="version-panel" class="active">By version</button><button id="date-tab" role="tab" aria-selected="false" aria-controls="date-panel" tabindex="-1">By date & time</button></div>
+            <div class="picker-controls">
+              <div id="version-panel" role="tabpanel" aria-labelledby="version-tab"><label for="version-filter">Version</label><select id="version-filter"><option value="">All versions</option></select></div>
+              <div id="date-panel" role="tabpanel" aria-labelledby="date-tab" hidden><label for="date-input">Date & time (UTC)</label><input id="date-input" type="datetime-local" step="1"><div class="date-row"><label class="sr-only" for="date-mode">Date matching</label><select id="date-mode"><option value="before">At or before</option><option value="nearest">Nearest capture</option><option value="after">At or after</option></select><button id="find-date" class="button primary">Find</button></div><label class="check-label"><input type="checkbox" id="include-unknown"> Include dates with an unknown timezone</label><p id="date-note" class="helper">Only UTC captures are compared by default.</p></div>
+              <div class="filter-pair"><div><label for="source-filter">Collection</label><select id="source-filter"><option value="">All collections</option></select></div><div><label for="year-filter">Year</label><select id="year-filter"><option value="">All years</option></select></div></div>
+              <div><label for="site-filter">Game site</label><select id="site-filter"><option value="">Production + dev</option><option value="production">Production · shellshock.io</option><option value="development">dev · dev.shellshock.io</option></select></div>
+              <label class="sr-only" for="snapshot-search">Search captures</label><input type="search" id="snapshot-search" placeholder="Search version, date or source" autocomplete="off">
+            </div>
+            <details id="capture-results" class="capture-results" open><summary><span id="result-count" aria-live="polite">Loading captures…</span><span class="mobile-hint">Browse results</span></summary><div id="snapshot-list" class="snapshot-list" role="list" aria-label="Available captures" aria-busy="true"></div></details>
+            <div class="picker-foot"><button id="reset-filters" class="text-button">Clear filters</button><span>Newest first</span></div>
+          </fieldset>
+        </aside>
+        <div class="detail-column">
+          <section class="snapshot-summary" aria-labelledby="selected-version">
+            <div class="snapshot-top"><div class="capture-identity"><h2 id="selected-version">Loading archive…</h2><p id="selected-date" class="snapshot-date">Reading the file index</p></div><span id="selected-source" class="source-badge"></span></div>
+            <div class="snapshot-numbers"><span><strong id="selected-file-count">…</strong> files</span><span id="selected-bytes">…</span><span id="selected-changes"></span></div>
+            <div id="selection-notice" class="notice" hidden><p id="selection-message"></p><button id="show-selected" class="text-button">Show selected capture</button></div>
+            <div id="snapshot-error" class="notice error" role="alert" hidden></div>
+            <div class="snapshot-actions"><button id="export-button" class="button primary" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg>Export recovered snapshot <span class="button-tail">ZIP</span></button><button id="game-preview-button" class="button secondary" disabled>Game preview</button><button id="manifest-button" class="button secondary" disabled>File manifest</button><button id="share-button" class="button secondary" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 13 4-4M8 16l-2 2a4 4 0 0 1-6-6l5-5a4 4 0 0 1 6 0m2 1 2-2a4 4 0 0 1 6 6l-5 5a4 4 0 0 1-6 0" transform="translate(1 0)"/></svg>Copy link</button></div>
+            <p id="package-scope" class="scope-line">Exports include inherited supporting files. Historical pairing and offline playability are unverified.</p>
+            <details class="recovery-details"><summary>Capture & reconstruction notes</summary><p id="snapshot-note"></p></details>
+            <div id="export-progress" class="export-progress" hidden><div><span id="progress-label" role="status">Preparing export…</span><button id="cancel-export" class="text-button">Cancel export</button></div><progress id="progress-meter" value="0" max="1" aria-label="Export progress"></progress><p id="progress-detail" class="helper"></p></div>
+            <p id="action-status" class="action-status" role="status" aria-live="polite"></p>
+          </section>
+          <section class="files-panel" aria-labelledby="files-heading">
+            <div class="files-title"><h3 id="files-heading">Files</h3><span id="files-count"></span><div class="file-views" role="group" aria-label="Archive view"><button id="folder-view" aria-pressed="true">Folders</button><button id="changes-view" aria-pressed="false">Changes</button><button id="changelog-view" aria-pressed="false">Changelog</button></div><button id="clear-file-filters" class="text-button" hidden>Clear file filters</button></div>
+            <div class="file-controls"><label class="sr-only" for="file-search">Search file paths</label><input type="search" id="file-search" placeholder="Find a file or folder" autocomplete="off"><label class="sr-only" for="file-type">File type</label><select id="file-type"><option value="">All types</option><option value="code">JavaScript</option><option value="html">HTML</option><option value="images">Images</option><option value="models">Models</option><option value="audio">Audio</option><option value="json">JSON</option><option value="css">CSS</option><option value="wasm">WebAssembly</option><option value="other">Other</option></select><label class="sr-only" for="file-state">Change status</label><select id="file-state"><option value="">All files</option><option value="changed">New or changed</option><option value="inherited">Inherited files</option></select></div>
+            <div class="table-scroll"><table class="file-table"><thead><tr><th scope="col" data-sort-column="path" aria-sort="ascending"><button class="column-sort" data-sort="path">File path<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 14 4-4 4 4"/></svg></button></th><th scope="col" data-sort-column="size" aria-sort="none"><button class="column-sort" data-sort="size">Size<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 9 4-4 4 4m-8 6 4 4 4-4"/></svg></button></th><th scope="col" data-sort-column="change" aria-sort="none"><button class="column-sort" data-sort="change">Change<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 9 4-4 4 4m-8 6 4 4 4-4"/></svg></button></th></tr></thead><tbody id="file-list"><tr><td colspan="3" class="empty">Choose a capture to inspect its files.</td></tr></tbody></table></div><button id="more-files" class="more-files" hidden>Show more files</button>
+
+            <section id="changelog-panel" class="discovery-panel" aria-label="Recovered changelog" hidden><p id="changelog-status" class="helper" role="status"></p><div id="changelog-content"></div></section>
+          </section>
+          <section id="file-dialog" class="inspector" aria-labelledby="preview-title" tabindex="-1" hidden>
+            <div class="inspector-heading"><h3 id="preview-title">File preview</h3><button id="close-preview" class="button secondary close-preview" aria-label="Close file preview"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button></div>
+            <div class="preview-actions"><button id="download-file" class="button primary" disabled>Download file</button><button id="file-history-button" class="button secondary">File history</button><button id="copy-file-link" class="button secondary">Copy file link</button></div><p id="preview-status" class="helper" role="status"></p>
+            <div id="preview-content" class="preview-content" aria-live="polite">Choose a file to preview it.</div>
+            <details class="file-information" open><summary>Source & integrity</summary><dl id="preview-details"></dl></details>
+          </section>
+        </div>
+      </section>
+      <section id="file-history" class="archive-file-search history-panel" aria-labelledby="history-heading" tabindex="-1" hidden>
+        <div class="history-heading"><h2 id="history-heading">File history</h2><button id="history-close" class="button secondary">Close history</button></div>
+        <p id="history-path" class="history-path"></p>
+        <p class="helper">Exact-path history in recovered inventories, including inherited copies. Missing means absent from an inventory, not confirmed removal from the live game. Dates are observations; unknown timezones are compared as written.</p>
+        <label for="history-site">Game site</label><select id="history-site"><option value="production">Production · shellshock.io</option><option value="development">dev · dev.shellshock.io</option><option value="">Production + dev</option></select>
+        <label class="check-label"><input id="history-changed-only" type="checkbox" checked> Show only changed revisions</label>        <p id="history-status" class="helper" role="status"></p><div id="history-timeline" class="history-timeline"></div><button id="history-more" class="text-button" hidden>Show more history</button>
+        <div id="history-comparison" hidden><h3>Compare versions</h3><div class="history-controls"><div><label for="history-from">From capture</label><select id="history-from"></select></div><div><label for="history-to">To capture</label><select id="history-to"></select></div><button id="history-compare" class="button primary">Compare</button></div><p id="history-diff-status" class="helper" role="status"></p><div id="history-metadata" class="history-metadata"></div><div id="history-diff" class="history-diff" tabindex="0" aria-label="File comparison"></div></div>
+      </section>
+      <section id="file-finder" class="archive-file-search" aria-labelledby="file-finder-heading" tabindex="-1"><h2 id="file-finder-heading">Find a file across versions</h2><p class="helper">Search all recovered inventories by filename or path, including inherited files.</p><form id="file-finder-form"><label for="file-finder-query">File path or name</label><div class="finder-controls"><input id="file-finder-query" type="search" placeholder="e.g. sound/shot.mp3" autocomplete="off" required><label for="file-finder-site" class="sr-only">Game site for file search</label><select id="file-finder-site"><option value="">Production + dev</option><option value="production">Production</option><option value="development">dev</option></select><button class="button primary" type="submit">Find</button></div><label class="check-label"><input id="file-finder-exact" type="checkbox"> Exact path</label></form><p id="file-finder-status" class="helper" role="status">Enter a filename or part of its path.</p><div id="file-finder-results"></div><button id="file-finder-more" class="text-button" hidden>Show more paths</button></section>
+      <section id="credits" class="about-section" aria-labelledby="credits-heading"><div class="about-copy"><h2 id="credits-heading">Sources & credits</h2><dl class="curation-credits"><div><dt>Curator</dt><dd>onlypuppy7</dd></div><div><dt>In collaboration with</dt><dd>StateFarm Client developers,<br>the LegacyShell project and<br>the yolkbot library</dd></div></dl><p>Files retain their source records, including shared credits for identical contents. Files saved counts distinct file contents per collection, including shared credits. Dates are recorded observations, not release dates.</p><a id="provenance-link" href="#provenance">Read the provenance notes</a></div><div class="credits-scroll"><table class="credits-table"><thead><tr><th scope="col">Collection</th><th scope="col">Source credit</th><th scope="col">Captures</th><th scope="col">Files saved</th><th scope="col">Approx. date range</th></tr></thead><tbody id="credits-list"></tbody></table></div></section>
+      <section id="provenance" class="provenance-section" aria-labelledby="provenance-heading"><h2 id="provenance-heading">Provenance notes</h2><p>Sources, dates and what a recovered version contains.</p><details id="provenance-notes"><summary>About the recovered files</summary><div id="provenance-content"><p><strong>Sources.</strong> Wayback captures and community collections are credited above. Each file keeps its own source record, including shared credits when collections supplied identical content.</p><p><strong>Dates.</strong> Capture dates, imported file dates and repository commit dates have different meanings. Unknown timezones are marked; a commit date does not confirm when a version went live.</p><p><strong>Recovered versions.</strong> Unchanged files can carry forward from earlier captures. Missing files stay missing, and files from different dates are not guaranteed to work together or run offline.</p><p><strong>Game sites.</strong> Production is <code>shellshock.io</code>; dev is <code>dev.shellshock.io</code>. Dev files stay under <code>_dev/</code>, and an export can contain both.</p><p><strong>Decoded copies.</strong> Original files are preserved. Decoded and processed companions are labelled separately. Downloads include the source credits and manifests.</p></div></details></section>
+      <details id="overview" class="collection-overview"><summary>Collection overview</summary><p>Distinct file contents are counted once. The file total above counts physical files in the dated archive, excluding metadata and recovery caches.</p><div id="category-stats" class="category-stats"></div><h3>Captures by year</h3><div id="timeline" class="timeline"></div><button id="clear-year" class="text-button" hidden>Clear year filter</button><span id="timeline-help" class="helper">Select a year to filter the capture list.</span></details>
+    </main>
+    <footer><span>Shell Shockers Archive · Community preservation</span><span id="footer-date"></span></footer>
+  </div>
+  <noscript><p class="notice error">The browser and exporter need JavaScript. Original files and JSON manifests are also available in the repository.</p></noscript>
+</body>
+</html>

@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preserve recovered payload bytes and integrity hashes.
+web_archived/** -text
+js_archive/** -text
+index.html text eol=lf
+archive-site/** text eol=lf
+.github/workflows/*.yml text eol=lf

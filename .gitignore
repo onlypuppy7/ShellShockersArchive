@@ -1,0 +1,36 @@
+exported_versions/
+/_site/
+/.impeccable/
+
+# Local recovery tools, research tools, caches, and generated working outputs.
+/tools/
+/generated_maps/
+/docs/lighting/
+/docs/seeded-maps/
+/docs/*_comparison.json
+/web_archived/working_status_integration_*.json
+/web_archived/working_status_integration_report.md
+/web_archived/source_integration_*.json
+/web_archived/source_integration_report.md
+/web_archived/_recovery/
+/web_archived/assets_2017-2020/
+/web_archived/*.py
+/web_archived/*.cjs
+/web_archived/*.mjs
+/web_archived/*.ps1
+/web_archived/*.cmd
+
+# Interpreter caches and temporary files (archived game files remain eligible).
+__pycache__/
+*.pyc
+*.pyo
+
+# Preserve previous local working copies without publishing them.
+/.migration-backup/
+
+# Local design notes, research records, and generated verification reports.
+/DESIGN.md
+/PRODUCT.md
+/archive-site/HOSTING.md
+/archive-site/preview/*.md
+/docs/github-repo-survey/

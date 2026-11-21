@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="referrer" content="no-referrer">
+  <title>Game preview · Shell Shockers Archive</title>
+  <link rel="icon" href="../icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="preview.css">
+  <script type="module" src="preview.mjs"></script>
+</head>
+<body class="game-preview">
+  <header class="preview-toolbar">
+    <div class="preview-identity"><h1>Game preview <span id="version"></span></h1><p id="capture" class="helper">Reading capture…</p></div>
+    <div class="preview-tools"><button id="account" class="button secondary" disabled>Log into spoof account</button><button id="reload" class="button secondary" disabled>Reload preview</button><button id="close" class="button secondary" onclick="window.close()">Close</button></div>
+  </header>
+  <main>
+    <p id="pairing-disclaimer" class="helper pairing-disclaimer" hidden></p>
+    <div id="game-stage" class="game-stage"><p id="placeholder" class="helper">The archived client will appear here.</p></div>
+    <p id="map-disclaimer" class="helper pairing-disclaimer" role="note">Offline play may use map files from much newer versions when original maps are unavailable. These maps may differ from this client’s original maps.</p>
+    <details id="diagnostics" class="preview-diagnostics"><summary>Loading details <span id="issue-count"></span></summary><p id="status" class="helper" role="status" aria-live="polite">Preparing preview…</p><p class="helper">Missing files and startup errors explain why a capture may not finish loading. Reload retries failed requests.</p><ul id="messages"></ul></details>
+  </main>
+</body>
+</html>
