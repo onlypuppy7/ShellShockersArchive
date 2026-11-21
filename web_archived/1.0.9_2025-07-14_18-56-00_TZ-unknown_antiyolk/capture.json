@@ -1,0 +1,258 @@
+{
+  "folder": "1.0.9_2025-07-14_18-56-00_TZ-unknown_antiyolk",
+  "version": "1.0.9",
+  "version_source": "embedded_changelog",
+  "origin_id": "antiyolk_1ust",
+  "capture_kind": "supplemental_collection_reconstruction",
+  "event": {
+    "timestamp": "20250714185600",
+    "timezone": "unspecified",
+    "timestamp_basis": "collection filename; sortable wall clock, not verified UTC"
+  },
+  "missing_scripts": [],
+  "pairing_verified": false,
+  "warning": "Imported collection dates are not independently verified and have no stated timezone. Other files are carried forward from the preceding reconstructed snapshot; this does not establish simultaneous use or a working historical build.",
+  "inherited_inventory_from": "1.0.8_2025-07-06_16-40-30_UTC",
+  "files": [
+    {
+      "path": "index.html",
+      "origin_id": "antiyolk_1ust",
+      "source": {
+        "origin_id": "antiyolk_1ust",
+        "archive": "1794483673436.zip",
+        "archive_sha256": "adea2f83999df1546312cd66bc9a76c33ae8ac1e89e08ce008259745944471d0",
+        "recorded_date": "25-7-14---6:56PM",
+        "timestamp": "20250714185600",
+        "timezone": "unspecified",
+        "date_interpretation": null,
+        "sha256": "f26ae9499ca975534ad35bb53c118f6f72b160a4a29391af890cc6788b6abcbe",
+        "bytes": 601946,
+        "path": "index.html",
+        "path_basis": "Collection packaging mapped to game paths; original internal path retained",
+        "version": null,
+        "version_evidence": null,
+        "version_basis": null,
+        "provided_processed_copy": false,
+        "credit": "antiyolk by 1ust"
+      },
+      "requested_capture": null,
+      "exact_event_timestamp": false,
+      "association": "supplied in the same collection directory"
+    },
+    {
+      "path": "js/screenShot.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/screenshot.js?1736816866",
+        "timestamp": "20250703052919",
+        "original": "https://shellshock.io/js/screenShot.js?1736816866",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/js/screenshot.js?1685645622",
+        "timestamp": "20230602024210",
+        "original": "https://shellshock.io/js/screenShot.js?1685645622",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS",
+        "replay_url": "https://web.archive.org/web/20230602024210id_/https://shellshock.io/js/screenShot.js?1685645622",
+        "final_url": "https://web.archive.org/web/20230602024210id_/https://shellshock.io/js/screenShot.js?1685645622",
+        "sha256": "e87e550794322e574a1fda0c1549a3c70dae5a93d9113417a429016838eab8cb",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS",
+        "encoded_sha256": "38b06febfa9f1f5a3b41c8cf4b7f100f15cc8a63456612088c32ba1dcc687497",
+        "decoded_sha1": "XGD5YDGGZ7G4FY2ETE3V6UCUODC23OER",
+        "replay_capture_timestamp": "20230602024210"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org"
+    },
+    {
+      "path": "js/shellshock.js",
+      "origin_id": "antiyolk_1ust",
+      "source": {
+        "origin_id": "antiyolk_1ust",
+        "archive": "1794483673436.zip",
+        "archive_sha256": "adea2f83999df1546312cd66bc9a76c33ae8ac1e89e08ce008259745944471d0",
+        "recorded_date": "25-7-14---6:56PM",
+        "timestamp": "20250714185600",
+        "timezone": "unspecified",
+        "date_interpretation": null,
+        "sha256": "cdb159bbee71f59b14c96a5759131e55db7e27add28ecb6ba166ed826d34e03d",
+        "bytes": 3700139,
+        "path": "js/shellshock.js",
+        "path_basis": "Collection packaging mapped to game paths; original internal path retained",
+        "version": "1.0.9",
+        "version_evidence": {
+          "version": "1.0.9",
+          "kind": "xor_decoded_game_javascript_changelog",
+          "offset": 2833168,
+          "expression": "version:\"1.0.9\",date:",
+          "original_sha256": "cdb159bbee71f59b14c96a5759131e55db7e27add28ecb6ba166ed826d34e03d",
+          "analyzed_sha256": "c28310121126807061e66ad032b9aef4dc8be65b3c6b64827675d02e580f5c37",
+          "analysis_method": "XOR each byte with (byte_offset + 88) % 128; analysis only; original served file unchanged"
+        },
+        "version_basis": "embedded_changelog",
+        "provided_processed_copy": false,
+        "credit": "antiyolk by 1ust"
+      },
+      "requested_capture": null,
+      "exact_event_timestamp": false,
+      "association": "supplied in the same collection directory"
+    },
+    {
+      "path": "js/vue/vue.min.2.6.10.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20250704015538",
+        "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "INGN5QLGT4WGY5AGFF5HEEQJG26FN3KS"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20190819213520",
+        "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "INGN5QLGT4WGY5AGFF5HEEQJG26FN3KS",
+        "replay_url": "https://web.archive.org/web/20190819213520id_/https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "final_url": "https://web.archive.org/web/20190819213520id_/https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "sha256": "72194d152571dd375c4365e5c3b4af9db2c06af0102ced18fcb062597d38be26"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org"
+    },
+    {
+      "path": "service-worker.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/service-worker.js",
+        "timestamp": "20250704015544",
+        "original": "https://shellshock.io/service-worker.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "ENBDFDQDKDYGQERNQRGQJULS4F733PIS"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/service-worker.js",
+        "timestamp": "20200717224432",
+        "original": "https://shellshock.io/service-worker.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "ENBDFDQDKDYGQERNQRGQJULS4F733PIS",
+        "replay_url": "https://web.archive.org/web/20200717224432id_/https://shellshock.io/service-worker.js",
+        "final_url": "https://web.archive.org/web/20200717224432id_/https://shellshock.io/service-worker.js",
+        "sha256": "d4892cd5810cef1bc7aeee86e4ece1165165f0f1723afabb51e0a9fbd3017913"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org"
+    }
+  ],
+  "imported_files": [
+    {
+      "origin_id": "antiyolk_1ust",
+      "archive": "1794483673436.zip",
+      "archive_sha256": "adea2f83999df1546312cd66bc9a76c33ae8ac1e89e08ce008259745944471d0",
+      "recorded_date": "25-7-14---6:56PM",
+      "timestamp": "20250714185600",
+      "timezone": "unspecified",
+      "date_interpretation": null,
+      "sha256": "f26ae9499ca975534ad35bb53c118f6f72b160a4a29391af890cc6788b6abcbe",
+      "bytes": 601946,
+      "path": "index.html",
+      "path_basis": "Collection packaging mapped to game paths; original internal path retained",
+      "version": null,
+      "version_evidence": null,
+      "version_basis": null,
+      "provided_processed_copy": false
+    },
+    {
+      "origin_id": "antiyolk_1ust",
+      "archive": "1794483673436.zip",
+      "archive_sha256": "adea2f83999df1546312cd66bc9a76c33ae8ac1e89e08ce008259745944471d0",
+      "recorded_date": "25-7-14---6:56PM",
+      "timestamp": "20250714185600",
+      "timezone": "unspecified",
+      "date_interpretation": null,
+      "sha256": "cdb159bbee71f59b14c96a5759131e55db7e27add28ecb6ba166ed826d34e03d",
+      "bytes": 3700139,
+      "path": "js/shellshock.js",
+      "path_basis": "Collection packaging mapped to game paths; original internal path retained",
+      "version": "1.0.9",
+      "version_evidence": {
+        "version": "1.0.9",
+        "kind": "xor_decoded_game_javascript_changelog",
+        "offset": 2833168,
+        "expression": "version:\"1.0.9\",date:",
+        "original_sha256": "cdb159bbee71f59b14c96a5759131e55db7e27add28ecb6ba166ed826d34e03d",
+        "analyzed_sha256": "c28310121126807061e66ad032b9aef4dc8be65b3c6b64827675d02e580f5c37",
+        "analysis_method": "XOR each byte with (byte_offset + 88) % 128; analysis only; original served file unchanged"
+      },
+      "version_basis": "embedded_changelog",
+      "provided_processed_copy": false
+    },
+    {
+      "origin_id": "antiyolk_1ust",
+      "archive": "1794483673436.zip",
+      "archive_sha256": "adea2f83999df1546312cd66bc9a76c33ae8ac1e89e08ce008259745944471d0",
+      "recorded_date": "25-7-14---6:56PM",
+      "timestamp": "20250714185600",
+      "timezone": "unspecified",
+      "date_interpretation": null,
+      "sha256": "217dc412fb9483b7c49f776bc5507859382a7b76a8682a09c27bb2ec5fbc054d",
+      "bytes": 3700139,
+      "path": "js/shellshock.processed.js",
+      "path_basis": "Collection packaging mapped to game paths; original internal path retained",
+      "version": "1.0.9",
+      "version_evidence": {
+        "version": "1.0.9",
+        "kind": "game_javascript_changelog",
+        "offset": 2833168,
+        "expression": "version:\"1.0.9\",date:",
+        "original_sha256": "217dc412fb9483b7c49f776bc5507859382a7b76a8682a09c27bb2ec5fbc054d",
+        "analyzed_sha256": "217dc412fb9483b7c49f776bc5507859382a7b76a8682a09c27bb2ec5fbc054d",
+        "analysis_method": "original plaintext"
+      },
+      "version_basis": "embedded_changelog",
+      "provided_processed_copy": true
+    },
+    {
+      "origin_id": "antiyolk_1ust",
+      "archive": "1794483673436.zip",
+      "archive_sha256": "adea2f83999df1546312cd66bc9a76c33ae8ac1e89e08ce008259745944471d0",
+      "recorded_date": "25-7-14---6:56PM",
+      "timestamp": "20250714185600",
+      "timezone": "unspecified",
+      "date_interpretation": null,
+      "sha256": "b701c20a3a9c7740d459f52e00bbcc5545c9761c0c73e64cd86c5a703fe333bb",
+      "bytes": 20029,
+      "path": "js/wasm_loader.js",
+      "path_basis": "Collection packaging mapped to game paths; original internal path retained",
+      "version": null,
+      "version_evidence": null,
+      "version_basis": null,
+      "provided_processed_copy": false
+    },
+    {
+      "origin_id": "antiyolk_1ust",
+      "archive": "1794483673436.zip",
+      "archive_sha256": "adea2f83999df1546312cd66bc9a76c33ae8ac1e89e08ce008259745944471d0",
+      "recorded_date": "25-7-14---6:56PM",
+      "timestamp": "20250714185600",
+      "timezone": "unspecified",
+      "date_interpretation": null,
+      "sha256": "6d130b78040b19f738f25e0a639d5d20cccabada786cac45e116d2cdab62e741",
+      "bytes": 80519,
+      "path": "js/wasm_loader.wasm",
+      "path_basis": "Collection packaging mapped to game paths; original internal path retained",
+      "version": null,
+      "version_evidence": null,
+      "version_basis": null,
+      "provided_processed_copy": false
+    }
+  ],
+  "origins_catalog": "origins.json (archive root; included in exports)"
+}

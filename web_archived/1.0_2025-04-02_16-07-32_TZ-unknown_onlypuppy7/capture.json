@@ -1,0 +1,107 @@
+{
+  "folder": "1.0_2025-04-02_16-07-32_TZ-unknown_onlypuppy7",
+  "version": "1.0",
+  "version_source": "embedded_changelog",
+  "origin_id": "onlypuppy7_statefarm_bot",
+  "capture_kind": "supplemental_collection_reconstruction",
+  "event": {
+    "timestamp": "20250402160732",
+    "timezone": "unspecified",
+    "timestamp_basis": "collection filename; sortable wall clock, not verified UTC"
+  },
+  "missing_scripts": [],
+  "pairing_verified": false,
+  "warning": "Imported collection dates are not independently verified and have no stated timezone. Other files are carried forward from the preceding reconstructed snapshot; this does not establish simultaneous use or a working historical build.",
+  "inherited_inventory_from": "unversioned_2025-04-01_20-08-40_UTC",
+  "files": [
+    {
+      "path": "index.html",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20250401200840",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "GDAZGKKCC2EPJ6B4RNLUQS4DGQTOUSMB"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20250401200840",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "GDAZGKKCC2EPJ6B4RNLUQS4DGQTOUSMB",
+        "replay_url": "https://web.archive.org/web/20250401200840id_/https://shellshock.io/",
+        "final_url": "https://web.archive.org/web/20250401200840id_/https://shellshock.io/",
+        "sha256": "e6e7bc91b70245a2d1b951dcc35b280894e4b9b7f22aa82291dde1c9ff2f6036",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/GDAZGKKCC2EPJ6B4RNLUQS4DGQTOUSMB",
+        "encoded_sha256": "ad9885bc61e11dc57ee7f5a971ff2081f05afb277105cb0d58d80b110e1516a9",
+        "decoded_sha1": "PJLCBY6P5AJQB5PEFJCU5RS3D2BLTHZF",
+        "replay_capture_timestamp": "20250401200840"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org"
+    },
+    {
+      "path": "js/shellshock.js",
+      "origin_id": "onlypuppy7_statefarm_bot",
+      "source": {
+        "origin_id": "onlypuppy7_statefarm_bot",
+        "recorded_date": "2025-04-02_16-07-32",
+        "timestamp": "20250402160732",
+        "timezone": "unspecified",
+        "sha256": "cb7114c66fb96f2ae9600bfe63848ccf59ea3317096435f5b7c9e9f2776722d0",
+        "bytes": 3750546,
+        "path": "js/shellshock.js",
+        "path_basis": "Reconstructed game path; original serving URL was not retained in filename",
+        "version": "1.0",
+        "version_evidence": {
+          "version": "1.0",
+          "kind": "game_javascript_changelog",
+          "offset": 2762743,
+          "expression": "version:\"1.0\",date:",
+          "original_sha256": "cb7114c66fb96f2ae9600bfe63848ccf59ea3317096435f5b7c9e9f2776722d0",
+          "analyzed_sha256": "cb7114c66fb96f2ae9600bfe63848ccf59ea3317096435f5b7c9e9f2776722d0",
+          "analysis_method": "original plaintext"
+        },
+        "version_basis": "embedded_changelog",
+        "filename_sha256": "cb7114c66fb96f2ae9600bfe63848ccf59ea3317096435f5b7c9e9f2776722d0",
+        "wayback_wrapper_present": false,
+        "filename_hash_matches_bytes": true,
+        "credit": "onlypuppy7 via statefarm_bot"
+      },
+      "requested_capture": null,
+      "exact_event_timestamp": false,
+      "association": "supplied in the same collection directory"
+    }
+  ],
+  "imported_files": [
+    {
+      "origin_id": "onlypuppy7_statefarm_bot",
+      "recorded_date": "2025-04-02_16-07-32",
+      "timestamp": "20250402160732",
+      "timezone": "unspecified",
+      "sha256": "cb7114c66fb96f2ae9600bfe63848ccf59ea3317096435f5b7c9e9f2776722d0",
+      "bytes": 3750546,
+      "path": "js/shellshock.js",
+      "path_basis": "Reconstructed game path; original serving URL was not retained in filename",
+      "version": "1.0",
+      "version_evidence": {
+        "version": "1.0",
+        "kind": "game_javascript_changelog",
+        "offset": 2762743,
+        "expression": "version:\"1.0\",date:",
+        "original_sha256": "cb7114c66fb96f2ae9600bfe63848ccf59ea3317096435f5b7c9e9f2776722d0",
+        "analyzed_sha256": "cb7114c66fb96f2ae9600bfe63848ccf59ea3317096435f5b7c9e9f2776722d0",
+        "analysis_method": "original plaintext"
+      },
+      "version_basis": "embedded_changelog",
+      "filename_sha256": "cb7114c66fb96f2ae9600bfe63848ccf59ea3317096435f5b7c9e9f2776722d0",
+      "wayback_wrapper_present": false,
+      "filename_hash_matches_bytes": true
+    }
+  ],
+  "origins_catalog": "origins.json (archive root; included in exports)"
+}
