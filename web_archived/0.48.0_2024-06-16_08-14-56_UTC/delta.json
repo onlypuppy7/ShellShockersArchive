@@ -1,0 +1,722 @@
+{
+  "format_version": 1,
+  "folder": "0.48.0_2024-06-16_08-14-56_UTC",
+  "parent": "0.48.1_2024-06-15_01-27-21_TZ-unknown_onlypuppy7",
+  "timestamp": "20240616081456",
+  "added": [
+    "language/es.json"
+  ],
+  "changed": [
+    "data/shellYouTube.json",
+    "data/twitchStreams.json",
+    "index.html"
+  ],
+  "removed": [
+    "_asset_alternatives/00820e5c325de0b1/data/twitchStreams.json",
+    "_capture_variants/1925d1abe81137c6/data/twitchStreams.json",
+    "_capture_variants/25b6cc997fc50c15/index.html",
+    "_capture_variants/28a2d81ebe9593c8/index.html",
+    "_capture_variants/4bae74f6b628ff32/index.html",
+    "_capture_variants/4bc03d65b2476829/data/twitchStreams.json",
+    "_capture_variants/55c7887fe731db7c/data/twitchStreams.json",
+    "_capture_variants/5fa379bb72c63b41/index.html",
+    "_capture_variants/77e8cab829ccd57b/index.html",
+    "_capture_variants/918a6e5bdb685264/index.html",
+    "_capture_variants/94655c02f06b121c/data/twitchStreams.json",
+    "_capture_variants/969148698792c7dd/data/twitchStreams.json",
+    "_capture_variants/9f7c953287628d49/index.html",
+    "_capture_variants/a3e03a30f01fbaee/index.html",
+    "_capture_variants/aafa7427d2fb98ff/data/twitchStreams.json",
+    "_capture_variants/ada2dcff2ec63bbf/data/twitchStreams.json",
+    "_capture_variants/b56ae00b0692a5f2/index.html",
+    "_capture_variants/b9afca3ceb2b2312/index.html",
+    "_capture_variants/bb6d5e07f3c750f0/data/shellYouTube.json",
+    "_capture_variants/cc6c83628199d8c6/data/housePromo.json",
+    "changelog/oldChangelog.json",
+    "data/housePromo.json",
+    "data/img/art/lx9hwcpgf.png",
+    "img/black-friday-banner.jpg",
+    "img/ico_grenadeEmpty.png",
+    "img/incentivized-mini-game/svg/Egg00.svg",
+    "img/previewImage_shellShockers.jpg",
+    "img/skyboxes/default/skybox_nx.jpg",
+    "img/skyboxes/default/skybox_ny.jpg",
+    "img/skyboxes/default/skybox_nz.jpg",
+    "img/skyboxes/default/skybox_px.jpg",
+    "img/skyboxes/default/skybox_py.jpg",
+    "img/skyboxes/default/skybox_pz.jpg",
+    "img/skyboxes/moonbase/skybox_nx.jpg",
+    "img/skyboxes/moonbase/skybox_ny.jpg",
+    "img/skyboxes/moonbase/skybox_nz.jpg",
+    "img/skyboxes/moonbase/skybox_px.jpg",
+    "img/skyboxes/moonbase/skybox_py.jpg",
+    "img/skyboxes/moonbase/skybox_pz.jpg",
+    "img/skyboxes/skybox_nx.jpg",
+    "img/skyboxes/skybox_ny.jpg",
+    "img/skyboxes/skybox_nz.jpg",
+    "img/skyboxes/skybox_px.jpg",
+    "img/skyboxes/skybox_py.jpg",
+    "img/skyboxes/skybox_pz.jpg",
+    "img/social-media/footer-social-media-bubble-discord.png",
+    "img/social-media/footer-social-media-bubble-facebook.png",
+    "img/social-media/footer-social-media-bubble-instagram.png",
+    "img/social-media/footer-social-media-bubble-steam.png",
+    "img/social-media/footer-social-media-bubble-tiktok.png",
+    "img/social-media/footer-social-media-bubble-twitch.png",
+    "img/social-media/footer-social-media-bubble-twitter.png",
+    "img/stamps.png",
+    "img/store/items/gun_eggk47_techno.gif",
+    "img/store/items/hat_thermal_wings.gif",
+    "img/store/items/item_9mm_cloud.gif",
+    "img/store/items/item_gre_blood.gif",
+    "img/store/items/item_gre_bumble.gif",
+    "img/store/items/item_gre_diablo.gif",
+    "img/store/items/item_gre_football.gif",
+    "img/store/items/item_gre_glitterbomb.gif",
+    "img/store/items/item_gre_octopus.gif",
+    "img/store/items/item_gre_skullnado.gif",
+    "img/store/items/item_gre_supernova.gif",
+    "img/store/items/item_gre_thermal.gif",
+    "img/store/items/item_gre_toilet_papr.gif",
+    "img/store/items/item_gre_unicorn.gif",
+    "img/store/items/item_gun_ak_retro.gif",
+    "img/store/items/item_gun_aug_retro.gif",
+    "img/store/items/item_gun_bros.gif",
+    "img/store/items/item_gun_crack_retro.gif",
+    "img/store/items/item_gun_csg1_retro.gif",
+    "img/store/items/item_gun_csg1_techno.gif",
+    "img/store/items/item_gun_m24_retro.gif",
+    "img/store/items/item_gun_retro_9mm.gif",
+    "img/store/items/item_gun_rpeggTechno.gif",
+    "img/store/items/item_gun_rpegg_retro.gif",
+    "img/store/items/item_gun_smg_retro.gif",
+    "img/store/items/item_hat_airplane.gif",
+    "img/store/items/item_hat_bloodwing.gif",
+    "img/store/items/item_hat_chrome_wing.gif",
+    "img/store/items/item_hat_crosswing.gif",
+    "img/store/items/item_hat_dinowings.gif",
+    "img/store/items/item_hat_fairy_wings.gif",
+    "img/store/items/item_hat_fall.gif",
+    "img/store/items/item_hat_glitch_wing.gif",
+    "img/store/items/item_hat_moth_wings.gif",
+    "img/store/items/item_hat_pixel_fire.gif",
+    "img/store/items/item_hat_pixel_wings.gif",
+    "img/store/items/item_hat_robot_wings.gif",
+    "img/store/items/item_hat_skull_wings.gif",
+    "img/store/items/item_hat_steamWings.gif",
+    "img/store/items/item_hat_teggtris.gif",
+    "img/store/items/item_hat_toilet_papr.gif",
+    "img/store/items/item_hat_ukraine.gif",
+    "img/store/items/item_hat_uni_wing.gif",
+    "img/store/items/item_holy_wings.gif",
+    "img/store/items/shack-gun-9mm-techno.gif",
+    "img/store/items/shack-gun-cluck9mm-space.gif",
+    "img/store/items/shack-gun-csg1-space.gif",
+    "img/store/items/shack-gun-csg1-techno.gif",
+    "img/store/items/shack-gun-smg-techno.gif",
+    "img/store/items/shack-gun-techno-dozen-gauge.gif",
+    "img/store/items/shack-hat-cape.gif",
+    "img/store/items/shack-hat-demon-wings.gif",
+    "img/store/items/shack-hat-dragon.gif",
+    "img/store/items/shack-hat-fallen-wings.gif",
+    "img/store/items/shack-hat-galeggsy.gif",
+    "img/store/items/shack-hat-gladiator.gif",
+    "img/store/items/shack-hat-oni.gif",
+    "img/store/items/shack-hat-yolk-arms.gif",
+    "img/store/items/shack-hat-zombie-mask.gif",
+    "img/store/items/untz-untz.gif",
+    "img/twitch-drops/twitch-drops-parachute.svg",
+    "img/twitch-drops/twitch-reward-popup-bg.png",
+    "img/vip-club/vip-club-popup-item-1-month-membership-bg.png",
+    "img/vip-club/vip-club-popup-item-12-month-membership-bg.png",
+    "img/vip-club/vip-club-popup-item-3-month-membership-bg.png",
+    "js/screenShot.js",
+    "js/shellshock.js",
+    "language/de.json",
+    "language/en.json",
+    "language/fr.json",
+    "language/ko.json",
+    "language/nl.json",
+    "language/pt.json",
+    "language/ru.json",
+    "language/zh.json",
+    "models/gun_rpegg.babylon.manifest",
+    "sound/sounds.json",
+    "sound/sounds.mp3",
+    "sound/sounds.ogg",
+    "sound/sounds.webm",
+    "video/tiny.mp4"
+  ],
+  "files": [
+    {
+      "path": "_capture_variants/20ae98da89b76581/index.html",
+      "sha256": "20ae98da89b76581aa9ae20e02619fbf039bb10d6f8a4d9aa81ce8bdc1243b9b",
+      "source": "0.48.0_2024-06-16_08-14-56_UTC/_capture_variants/20ae98da89b76581/index.html"
+    },
+    {
+      "path": "_capture_variants/9f4851bcb42089e9/index.html",
+      "sha256": "9f4851bcb42089e974325c2abb11a32718375fd2d707733430e2ab7a0829d0fa",
+      "source": "0.48.0_2024-06-16_08-14-56_UTC/_capture_variants/9f4851bcb42089e9/index.html"
+    },
+    {
+      "path": "_capture_variants/b0bb63d063718ba7/data/twitchStreams.json",
+      "sha256": "b0bb63d063718ba703f2037e6e99c195947f41c62f6ffe510ec62527f3d8b74c",
+      "source": "0.48.0_2024-06-16_08-14-56_UTC/_capture_variants/b0bb63d063718ba7/data/twitchStreams.json"
+    },
+    {
+      "path": "_capture_variants/e1803bd5b2e06f71/data/housePromo.json",
+      "sha256": "e1803bd5b2e06f718dbc9151d806156549ae909ed90ab200f695b019d92fdd60",
+      "source": "0.48.0_2024-06-16_08-14-56_UTC/_capture_variants/e1803bd5b2e06f71/data/housePromo.json"
+    },
+    {
+      "path": "_capture_variants/eeef33a7ab181c64/data/twitchStreams.json",
+      "sha256": "eeef33a7ab181c646a38f96a64dbe1da140b19dc0a286b914822a5d9a85c00c6",
+      "source": "0.48.0_2024-06-16_08-14-56_UTC/_capture_variants/eeef33a7ab181c64/data/twitchStreams.json"
+    },
+    {
+      "path": "data/img/art/lws0ab67e.png",
+      "sha256": "ff970a1fba37e709b909c8ab1edc67651c622f80ec74109ed4b16d55f87f3ab1",
+      "source": "0.48.0_2024-06-16_08-14-56_UTC/data/img/art/lws0ab67e.png"
+    },
+    {
+      "path": "data/shellYouTube.json",
+      "sha256": "94644f2f2c2bd8fe71927f7fb499d908336d9db19efa4a58c69c685ea3f346a5",
+      "source": "0.48.0_2024-06-16_08-14-56_UTC/data/shellYouTube.json"
+    },
+    {
+      "path": "data/twitchStreams.json",
+      "sha256": "95391004f35fa99a56b8dba2f294173c7d88176754c23f076a8b773e82da16a3",
+      "source": "0.48.0_2024-06-16_08-14-56_UTC/data/twitchStreams.json"
+    },
+    {
+      "path": "favicon.ico",
+      "sha256": "f9194a3315d64d9fe5fcf3cefe511e05ec01248ffffb5082f91d38dca995ae73",
+      "source": "0.23.3a_2019-09-13_17-56-55_UTC/favicon.ico"
+    },
+    {
+      "path": "favicon.png",
+      "sha256": "dbc8ec457be7117cd6130aeb954bf6a206d588e058515ab2610955c3fb2ba3c8",
+      "source": "unversioned_2020-07-17_22-44-34_UTC_recovered-game_eeb40ff5/favicon.png"
+    },
+    {
+      "path": "favicon192.png",
+      "sha256": "c6be857b91742850113f3609e1c7b445f52b2eefad82f51a45eee5f29e159381",
+      "source": "0.27.7_2020-06-26_04-52-07_UTC/favicon192.png"
+    },
+    {
+      "path": "img/blue-wizard-logo-tiny-min.png",
+      "sha256": "b5e2562f7fde7fdc20e3ac0df2a98e349b8d30a25b912f736f6c33ac917f5fbe",
+      "source": "0.40.2_2021-07-12_20-02-36_UTC/img/blue-wizard-logo-tiny-min.png"
+    },
+    {
+      "path": "img/blueWizard_logo.png",
+      "sha256": "105ed318f15c6153a9ffd622943c0898288604e4f33d48610ebb0d5281d930ec",
+      "source": "0.47.4_2024-03-20_21-01-09_TZ-unknown_onlypuppy7/img/blueWizard_logo.png"
+    },
+    {
+      "path": "img/blueWizard_logo_borg.png",
+      "sha256": "28ab88d9c712688fa3572df1f0ac4ba711509c1c904a8bb7b1b17b818c5cb85e",
+      "source": "0.47.3_2024-03-18_19-32-59_UTC/img/blueWizard_logo_borg.png"
+    },
+    {
+      "path": "img/chicken-nugget/alt/cyborg/chickLoop_sleep.svg",
+      "sha256": "559bca8b08eb38b76fcca4c32cca07dd26e8bd9bd1e29bc1434e5b924af9bac5",
+      "source": "0.47.5_2024-04-02_06-43-20_UTC/img/chicken-nugget/alt/cyborg/chickLoop_sleep.svg"
+    },
+    {
+      "path": "img/chicken-nugget/alt/cyborg/chickLoop_speak.svg",
+      "sha256": "52d1f829a061fa9b015a1804a4e2da8cac56ac6fb71e5029fbc96b796d07e76d",
+      "source": "0.48.0_2024-05-10_23-05-47_TZ-unknown_onlypuppy7/img/chicken-nugget/alt/cyborg/chickLoop_speak.svg"
+    },
+    {
+      "path": "img/chicken-nugget/chickLoop_daily_limit.svg",
+      "sha256": "6ad111f524ff10be86c8a370f961a57c4930f78cdc09ee55257addf45d1ee78a",
+      "source": "0.42.6_2022-03-15_01-05-07_UTC/img/chicken-nugget/chickLoop_daily_limit.svg"
+    },
+    {
+      "path": "img/chicken-nugget/chickLoop_idle.svg",
+      "sha256": "6afe87300743f548b92694d4731327ce951bb01f91cb7a6d9b90814c3cd56371",
+      "source": "0.48.0_2024-05-10_23-05-47_TZ-unknown_onlypuppy7/img/chicken-nugget/chickLoop_idle.svg"
+    },
+    {
+      "path": "img/chicken-nugget/chickLoop_sleep.svg",
+      "sha256": "a776afe2912e17ecbb37612670852711fbff04ac8d55b55e8c5da2b082f47b4f",
+      "source": "unversioned_2022-02-17_16-36-44_UTC_script-capture_8e568311/img/chicken-nugget/chickLoop_sleep.svg"
+    },
+    {
+      "path": "img/chicken-nugget/chickLoop_speak.svg",
+      "sha256": "793b93c248b6887ca180a244835ad5a07ca95d13432ab365408a56ac9164db42",
+      "source": "0.42.7_2022-03-16_03-53-57_UTC/img/chicken-nugget/chickLoop_speak.svg"
+    },
+    {
+      "path": "img/chicken-nugget/chw-loot-btn.png",
+      "sha256": "ec9cada8201f04883f03f18f248cf0aea73c1aa73e5149b6cd690a30fe0896ed",
+      "source": "0.45.10_2023-07-14_08-22-33_UTC/img/chicken-nugget/chw-loot-btn.png"
+    },
+    {
+      "path": "img/chicken-nugget/goldenNuggetGIFWIP.gif",
+      "sha256": "d43a0e88908eef48cb695f151e367081a6842eb03ad1674119027d9cb8af5f48",
+      "source": "unversioned_2020-03-03_17-33-56_UTC_script-capture_6fdd524d/img/chicken-nugget/goldenNuggetGIFWIP.gif"
+    },
+    {
+      "path": "img/chicken-nugget/goldenNugget_static.png",
+      "sha256": "a63f5175d193587dafa8c8a85860e81cadc4f6b85234eaa4860fb5ba9227133b",
+      "source": "unversioned_2020-03-03_17-33-56_UTC_script-capture_6fdd524d/img/chicken-nugget/goldenNugget_static.png"
+    },
+    {
+      "path": "img/chicken-nugget/ssAd_chicknWinner800x600-min.png",
+      "sha256": "892ba1022b11456a2a31d8a2bce379ffca841b62794318dc9d3df8985edb76d5",
+      "source": "0.45.10_2023-07-29_03-49-34_UTC/img/chicken-nugget/ssAd_chicknWinner800x600-min.png"
+    },
+    {
+      "path": "img/chicken-nugget/starburst.png",
+      "sha256": "6036750a7c72c12339218d06fff4e61fff65876cd0fe4f2fe28b8494b8307f52",
+      "source": "unversioned_2020-03-03_17-33-56_UTC_script-capture_6fdd524d/img/chicken-nugget/starburst.png"
+    },
+    {
+      "path": "img/controller/button_circle.svg",
+      "sha256": "74c035ea8201fc1e8dd0ba93029b312a9b59195a73c495d01d4f85ee7297532d",
+      "source": "0.27.4_2020-05-26_03-31-06_UTC/img/controller/button_circle.svg"
+    },
+    {
+      "path": "img/controller/button_cross.svg",
+      "sha256": "95f1b353cf5f365f6a6a6164aaf1951657b8aed2a69eb649b4c6d5a15e607f62",
+      "source": "0.27.4_2020-05-26_03-31-06_UTC/img/controller/button_cross.svg"
+    },
+    {
+      "path": "img/controller/button_dpaddown.svg",
+      "sha256": "fa94ed2b7075991567cc1da26dd1632f7c0c0a1b5961e6632e9e965af2d16390",
+      "source": "0.27.4_2020-05-26_03-31-06_UTC/img/controller/button_dpaddown.svg"
+    },
+    {
+      "path": "img/controller/button_dpadleft.svg",
+      "sha256": "7ec74d96d4ee156de7bcdac5d348f1703c19a8cf93398ba46b5b42b442e221f0",
+      "source": "0.27.4_2020-05-26_03-31-06_UTC/img/controller/button_dpadleft.svg"
+    },
+    {
+      "path": "img/controller/button_dpadright.svg",
+      "sha256": "c20be869c5429086bdfe3d617efd3598e41136c40115ddb7118fb02e0671c372",
+      "source": "0.27.4_2020-05-26_03-31-06_UTC/img/controller/button_dpadright.svg"
+    },
+    {
+      "path": "img/controller/button_dpadup.svg",
+      "sha256": "019c18d86fd1bf0ef2dea81636e5d40202d5652bf557b191492fa20456485357",
+      "source": "0.27.4_2020-05-26_03-31-06_UTC/img/controller/button_dpadup.svg"
+    },
+    {
+      "path": "img/controller/button_square.svg",
+      "sha256": "3fb662f30c3f064822887e9ae05e896d8772a442c40305cc250a45ffcbe3d0f3",
+      "source": "0.27.4_2020-05-26_03-31-06_UTC/img/controller/button_square.svg"
+    },
+    {
+      "path": "img/controller/button_stickleft.svg",
+      "sha256": "ebf120b409791439a8333339a6d372d95dd91496f02cc6309ac397c8de7273a6",
+      "source": "0.27.4_2020-05-26_03-31-06_UTC/img/controller/button_stickleft.svg"
+    },
+    {
+      "path": "img/controller/button_stickright.svg",
+      "sha256": "1391f69ab1e048f239bcabfebf76cc340afc6574e9a8711eb890ed9e9e1946a0",
+      "source": "0.27.4_2020-05-26_03-31-06_UTC/img/controller/button_stickright.svg"
+    },
+    {
+      "path": "img/controller/button_triangle.svg",
+      "sha256": "2bbffbba652d5e8459e523d4003905d0f6c086de4d0b00e2012cdc7f183093ab",
+      "source": "0.27.4_2020-05-26_03-31-06_UTC/img/controller/button_triangle.svg"
+    },
+    {
+      "path": "img/egg-org/eggOrg_timeTravel_splash800x600-min.png",
+      "sha256": "1a9064f74f737966bf0fb51493c888362ecd57089e100798b6c6f3f6ac5e3873",
+      "source": "0.42.8_2022-04-02_23-51-58_UTC/img/egg-org/eggOrg_timeTravel_splash800x600-min.png"
+    },
+    {
+      "path": "img/egg-org/logo_EggOrg.svg",
+      "sha256": "2973f97c3512dc512ce2e8092901945add2ed58881d7699f5ed51b928c7da5d5",
+      "source": "0.42.8_2022-04-02_23-51-58_UTC/img/egg-org/logo_EggOrg.svg"
+    },
+    {
+      "path": "img/eggPose01.png",
+      "sha256": "51cba45ddd3f0fd36ffac9228945b397967fc9f39bffd93ed71e13459dcc4158",
+      "source": "0.25.7_2019-11-26_14-36-08_UTC/img/eggPose01.png"
+    },
+    {
+      "path": "img/eggPose05.png",
+      "sha256": "6383353070129c103b1a78f595ea41b2bbdb5b0c130e04d0076e29bb30ac8c92",
+      "source": "0.25.7_2019-11-26_14-36-08_UTC/img/eggPose05.png"
+    },
+    {
+      "path": "img/egg_pack_small.png",
+      "sha256": "c07d109d2618b2a12c1d5e2bace1a9d974b32bbd852a5f09fdf5f146a713ded4",
+      "source": "0.34_2020-12-06_07-52-42_UTC/img/egg_pack_small.png"
+    },
+    {
+      "path": "img/events/2XEggWeekend_cominSoon.png",
+      "sha256": "f8a4675d8be6a4a901a0963f52396c5f9accb586ebc5cf765297e397f4c1c185",
+      "source": "0.45.1_2023-03-04_21-15-54_UTC/img/events/2XEggWeekend_cominSoon.png"
+    },
+    {
+      "path": "img/events/2XEggWeekend_onNow.png",
+      "sha256": "a665ffab02c5caba389ba14a3d5e088f746618b640addf6dd781c501b66e63b6",
+      "source": "0.45.1_2023-03-04_21-15-54_UTC/img/events/2XEggWeekend_onNow.png"
+    },
+    {
+      "path": "img/events/twitch-drops-btn-link-now.png",
+      "sha256": "69e60fbc3db9dc29a80f5a6f23e8b550c70e992965153888e25ef42e92f07230",
+      "source": "0.42.2_2022-01-19_13-43-43_UTC/img/events/twitch-drops-btn-link-now.png"
+    },
+    {
+      "path": "img/events/twitch-drops-btn-linked.png",
+      "sha256": "37fc6665db0f3ab947ee3c67a7b1bc473d39277a1df2a7bfb26187f92be2b7d7",
+      "source": "0.42.7_2022-03-16_03-53-57_UTC/img/events/twitch-drops-btn-linked.png"
+    },
+    {
+      "path": "img/free-games-io.png",
+      "sha256": "9b8800e9f268886e1c6a99b65e3078f693e66f3cdab5fdb8ef8a0a0334dcfe1b",
+      "source": "0.45.11_2023-08-02_08-53-47_UTC/img/free-games-io.png"
+    },
+    {
+      "path": "img/gauge-bar/hero-vs-monster-bar.png",
+      "sha256": "8a5a1cdc0e98c01e8830bd44ff290c5e538c7bf7dfd2fa5b99e5cb922c1cf5d6",
+      "source": "0.45.3_2023-04-04_00-11-11_UTC/img/gauge-bar/hero-vs-monster-bar.png"
+    },
+    {
+      "path": "img/gauge-bar/hero-vs-monster-pointer.svg",
+      "sha256": "15d66a2c6137972d9f4038f69fa0285f02811851d7a96554b3403801416f87e5",
+      "source": "0.45.3_2023-04-04_00-11-11_UTC/img/gauge-bar/hero-vs-monster-pointer.svg"
+    },
+    {
+      "path": "img/gauge-bar/shell_E&E_evil_popup.png",
+      "sha256": "3a217c24c9ae8e15f78df4ad388de9a7f1e82203eba57da769be2b3ce6929bd4",
+      "source": "0.45.3_2023-04-04_00-11-11_UTC/img/gauge-bar/shell_E&E_evil_popup.png"
+    },
+    {
+      "path": "img/gauge-bar/shell_E&E_good_popup.png",
+      "sha256": "b00687b8ed69aac03a599a57e1790d4731b18794841e9c77aec9f4dbe8298073",
+      "source": "0.45.3_2023-04-05_00-46-09_UTC/img/gauge-bar/shell_E&E_good_popup.png"
+    },
+    {
+      "path": "img/hardBoiledEmpty.png",
+      "sha256": "e4d021284a3c9a0aa722c49db61768a76df22a12772567e4debe0c2410a89fa9",
+      "source": "0.28.3_2020-08-18_00-34-55_UTC/img/hardBoiledEmpty.png"
+    },
+    {
+      "path": "img/hardBoiledFilled.png",
+      "sha256": "3a7a4d3334819d42546afef980db7d5fb63231ebe93969fad0f2d76ee9bc9951",
+      "source": "0.28.3_2020-08-18_00-34-55_UTC/img/hardBoiledFilled.png"
+    },
+    {
+      "path": "img/ico_ammo.png",
+      "sha256": "217312f337a70cf81babfe24bc2a9c2b6c3f24274509bb9af903d2263929a460",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/ico_ammo.png"
+    },
+    {
+      "path": "img/ico_eggBreaker.png",
+      "sha256": "7748c982c0a1b855637f9751d39be5e51194d6c635ffd17666929adbe2c6fa20",
+      "source": "0.28.3_2020-08-18_00-34-55_UTC/img/ico_eggBreaker.png"
+    },
+    {
+      "path": "img/ico_gamepad.svg",
+      "sha256": "2d0ddf66aa6bd54b388f0283cc65ba224d660af6f92525e47bb74a35813ab43e",
+      "source": "unversioned_2020-03-27_02-36-34_UTC_recovered-game_bfa09ef6/img/ico_gamepad.svg"
+    },
+    {
+      "path": "img/ico_goldenEgg.png",
+      "sha256": "9bc493724fbc4c37c524b9bb01e40df75b7250e7e61e2424823305e301ed9d6b",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_goldenEgg.png"
+    },
+    {
+      "path": "img/ico_goldenEgg.svg",
+      "sha256": "8b0d13e4d26e7bf7e8d21e7dc2fd72dcba3101e6c25d70802af874420d71d554",
+      "source": "unversioned_2022-02-17_16-36-44_UTC_script-capture_8e568311/img/ico_goldenEgg.svg"
+    },
+    {
+      "path": "img/ico_keyboard.svg",
+      "sha256": "6d9751aa51126a5018b63433052703ef3e228c5f713b34ef46cd3310c1f0d736",
+      "source": "unversioned_2020-03-27_02-36-34_UTC_recovered-game_bfa09ef6/img/ico_keyboard.svg"
+    },
+    {
+      "path": "img/ico_monitor.svg",
+      "sha256": "dfe964bd56c9b38868eb7572a38984a4e358d96bdab15a87b6be1bfe4f2a9d43",
+      "source": "unversioned_2020-03-27_02-36-34_UTC_recovered-game_bfa09ef6/img/ico_monitor.svg"
+    },
+    {
+      "path": "img/ico_mouse.svg",
+      "sha256": "6c1ec3a17b70fd364702b74bc20cba6bc9f9ccdb89a87c75828f5bddf65f18d5",
+      "source": "unversioned_2020-03-27_02-36-34_UTC_recovered-game_bfa09ef6/img/ico_mouse.svg"
+    },
+    {
+      "path": "img/ico_nav_help.png",
+      "sha256": "f60c91f35bd78263c6b2a8105aaedaf7d3628be83270796281177014abebab36",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/ico_nav_help.png"
+    },
+    {
+      "path": "img/ico_nav_leaderboards.png",
+      "sha256": "9da7cd202f02d3a4f00ba869358ccd6db120482eed3e6eb70dd31b06ea29b18b",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/ico_nav_leaderboards.png"
+    },
+    {
+      "path": "img/ico_nav_shop.png",
+      "sha256": "2afdcb7f2c62411bbe83d5dbafecf12ab1d9d0898f9b09080fbb2b1afcde4996",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/ico_nav_shop.png"
+    },
+    {
+      "path": "img/ico_speaker.svg",
+      "sha256": "0b4fd36123c14417d71cbc5521b24e45cb4cd06069695f807a8e56f49c1f1379",
+      "source": "unversioned_2020-03-27_02-36-34_UTC_recovered-game_bfa09ef6/img/ico_speaker.svg"
+    },
+    {
+      "path": "img/ico_streak.png",
+      "sha256": "75e458cf7fa7341e80432ed095959cf88241d62c35114cedde80ee65b138271b",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/ico_streak.png"
+    },
+    {
+      "path": "img/ico_twitch.png",
+      "sha256": "634e4fbea7224b00e31e7fe9daa205e6c6e553e27a5ef96305d8997325a9b960",
+      "source": "0.23.3a_2019-08-21_12-39-17_UTC/img/ico_twitch.png"
+    },
+    {
+      "path": "img/ico_youtube.png",
+      "sha256": "f6066eaa3f6ac0d3892d0adc4cdaa740b14ad1da8a34c11664655b0edeef0a9c",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/ico_youtube.png"
+    },
+    {
+      "path": "img/inventory-icons/ico_grenade.svg",
+      "sha256": "9f7afac9fcb63409517c8ae63dc7429f524d38995d043ae6d4cbd172e1cd8b12",
+      "source": "0.41.1_2021-11-18_01-25-50_UTC/img/inventory-icons/ico_grenade.svg"
+    },
+    {
+      "path": "img/inventory-icons/ico_hat.svg",
+      "sha256": "b593305a425c1536c88c16d2271443d42e95972f95d848cc98afef9f18301d27",
+      "source": "0.41.1_2021-11-18_01-25-50_UTC/img/inventory-icons/ico_hat.svg"
+    },
+    {
+      "path": "img/inventory-icons/ico_stamp.svg",
+      "sha256": "a119ae002eba961d35c7d12546c37e8fd359d78ef7c36c1ac2bad7834f74f6df",
+      "source": "0.41.1_2021-11-18_01-25-50_UTC/img/inventory-icons/ico_stamp.svg"
+    },
+    {
+      "path": "img/inventory-icons/ico_weaponPrimary.svg",
+      "sha256": "13be644b583fe1c021650b4b272a4e076ec2f2707ebe56113839a641d3b42300",
+      "source": "0.41.1_2021-11-18_01-25-50_UTC/img/inventory-icons/ico_weaponPrimary.svg"
+    },
+    {
+      "path": "img/inventory-icons/ico_weaponSecondary.svg",
+      "sha256": "676aa4f86e6ebddf660cfeaa012333175e2686905bf18de6139d8f9e12ef9ad4",
+      "source": "0.41.1_2021-11-18_01-25-50_UTC/img/inventory-icons/ico_weaponSecondary.svg"
+    },
+    {
+      "path": "img/kotc/kotc-arrow.svg",
+      "sha256": "72a928b4ea4c4e420dfd86e2c1c03608f6ecd18e5ce7c495d3d44e5228db3b19",
+      "source": "0.42.0_2021-12-05_11-41-02_UTC/img/kotc/kotc-arrow.svg"
+    },
+    {
+      "path": "img/kotc/kotc-bg-popup.png",
+      "sha256": "1e8ca48ea3cb0c70aed0346f6c9510abf37d1b0db0c2b0c1911da2fd3201def9",
+      "source": "0.42.0_2021-12-05_11-41-02_UTC/img/kotc/kotc-bg-popup.png"
+    },
+    {
+      "path": "img/kotc/kotc-crown.svg",
+      "sha256": "e0746d96fa606597d2e7152e2df6f261b4792fa59239a78bb15782779b66ebe9",
+      "source": "0.42.0_2021-12-05_11-41-02_UTC/img/kotc/kotc-crown.svg"
+    },
+    {
+      "path": "img/kotc/kotc-rooster.svg",
+      "sha256": "0da93c421ca12d7c35660be31634b957c0985b922d6922ab8c85ce9382e0a885",
+      "source": "0.42.0_2021-12-05_11-41-02_UTC/img/kotc/kotc-rooster.svg"
+    },
+    {
+      "path": "img/kotc/kotc-screenshot-one.png",
+      "sha256": "f7ec9be2fef9b11fb9b6872783fb5b22c0cd4bab04940c5c12edfd74a9663ad4",
+      "source": "0.42.0_2021-12-05_11-41-02_UTC/img/kotc/kotc-screenshot-one.png"
+    },
+    {
+      "path": "img/kotc/kotc-screenshot-two.png",
+      "sha256": "c63fc89d0753d182aad06054115cba7174bae81ddd53ab8d8fcf5ce083d9b02f",
+      "source": "0.42.0_2021-12-05_11-41-02_UTC/img/kotc/kotc-screenshot-two.png"
+    },
+    {
+      "path": "img/kotc/kotc-wordmark.svg",
+      "sha256": "2e20387329d37cd605e35c3513e9025cc8a029c24321b1f2946837bb101c2654",
+      "source": "0.42.0_2021-12-05_11-41-02_UTC/img/kotc/kotc-wordmark.svg"
+    },
+    {
+      "path": "img/logo.svg",
+      "sha256": "186dc3174ad9f21803148ff17b7bb6b3d775da8bbad831d9dd56c7d7cc32e5f8",
+      "source": "unversioned_2021-05-19_05-31-12_UTC_script-capture_9d3024a0/img/logo.svg"
+    },
+    {
+      "path": "img/photo-booth/ico_shelfieStars.svg",
+      "sha256": "bfcd72bf49c9c4308e60eba8181698e5e273c344234236060699eb317239e854",
+      "source": "0.45.7_2023-06-01_22-45-56_UTC/img/photo-booth/ico_shelfieStars.svg"
+    },
+    {
+      "path": "img/pricetag_left.png",
+      "sha256": "7ad9c5ee402e304d171e3e9180f171a4bf5b5908a613ab41636353500747ee0a",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/pricetag_left.png"
+    },
+    {
+      "path": "img/pricetag_right.png",
+      "sha256": "b299af9c83fe2ba8f76917612fdfbc3fb7bab9ecd363a2059781ead807b8f630",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/pricetag_right.png"
+    },
+    {
+      "path": "img/rickroll.gif",
+      "sha256": "f1ab144efb12def335355d06e7da59e797903ff70478f61102b4f7c41ca49f9b",
+      "source": "0.39.4_2021-03-17_03-18-47_UTC/img/rickroll.gif"
+    },
+    {
+      "path": "img/scope.png",
+      "sha256": "9c56591207c800a7c1abb64893ddd149e42390b75a92f68e25cb2d51ecd7f18d",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/scope.png"
+    },
+    {
+      "path": "img/shellShockers_loadingTipEgg.png",
+      "sha256": "1840739a13d4150c4632f55c5d8d3a1146094757b5aeb59e9f1f0c41343c1302",
+      "source": "unversioned_2023-06-16_17-39-35_UTC_script-capture_14d00631/img/shellShockers_loadingTipEgg.png"
+    },
+    {
+      "path": "img/shellshockers-unite-lg.png",
+      "sha256": "4c21c94b172942d124a1633b6410fc7c946878918276cf0d9dcb313e964ec477",
+      "source": "0.42.9_2022-04-15_08-32-13_UTC/img/shellshockers-unite-lg.png"
+    },
+    {
+      "path": "img/spatulaIcon.png",
+      "sha256": "4f47ecaa3aa4df505f824ac81a03f970675d8e39b38134187c5d1b5402af9cd4",
+      "source": "0.18.2_2019-02-19_22-36-18_UTC/img/spatulaIcon.png"
+    },
+    {
+      "path": "img/speechtail.png",
+      "sha256": "982961a9c5e9ffb5ba693336ac783018685768a0ccfc011a608b9802f1088e42",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/speechtail.png"
+    },
+    {
+      "path": "img/store/PremiumTag.png",
+      "sha256": "7967b56b4e5ab02fb9f02810db69831053ebca70fd9eb980b7ca4bc3188e0ca2",
+      "source": "0.45.13_2023-09-07_21-59-00_UTC/img/store/PremiumTag.png"
+    },
+    {
+      "path": "img/store/VIPTag.png",
+      "sha256": "e0e09a8f835cb9c6a1298d0281496e116ff5f0b298d6ca4c53f984cd3599ce60",
+      "source": "0.45.13_2023-09-07_21-59-00_UTC/img/store/VIPTag.png"
+    },
+    {
+      "path": "img/svg-icons/ico-disabled.svg",
+      "sha256": "ced2df821bea725e332933ba7d5f0ed22632e6e3447a76e8a3358c32debf76d6",
+      "source": "0.47.0_2024-02-06_02-20-06_UTC/img/svg-icons/ico-disabled.svg"
+    },
+    {
+      "path": "img/svg-icons/ico-private-game-config.svg",
+      "sha256": "da6fcb104b00f74fa947d8982f2f7b1155615f20f6d998d412e37d4c94aa4901",
+      "source": "0.47.0_2024-02-04_07-31-20_UTC/img/svg-icons/ico-private-game-config.svg"
+    },
+    {
+      "path": "img/svg/ico-arrow-colorPicker.svg",
+      "sha256": "09a0488aae4b2895c93bad043e80db2728f48eba880577bb61fa8b6743d2648a",
+      "source": "0.45.1_2023-03-04_21-15-54_UTC/img/svg/ico-arrow-colorPicker.svg"
+    },
+    {
+      "path": "img/svg/ico_goldenEgg.svg",
+      "sha256": "282b621afeee771be2128758e219ba9dbcda8d53289c56909088e1c841561ffc",
+      "source": "0.45.1_2023-03-04_21-15-54_UTC/img/svg/ico_goldenEgg.svg"
+    },
+    {
+      "path": "img/svg/ico_goldenEgg_callout.svg",
+      "sha256": "b1732bdb70b78d23d2b8f569e11a0fa9cfbe8c97f83b4d14c6187f48a7bcfbbc",
+      "source": "0.45.0_2023-02-16_06-39-20_UTC/img/svg/ico_goldenEgg_callout.svg"
+    },
+    {
+      "path": "img/svg/ico_star_gold.svg",
+      "sha256": "299d5ec756183e101b2d08b3a503ad15d495662f054f2c98999033dbf1eaa8f9",
+      "source": "0.47.1_2024-02-20_13-20-18_UTC/img/svg/ico_star_gold.svg"
+    },
+    {
+      "path": "img/tutorial/ss_tutorial_EggTarget.png",
+      "sha256": "24e1d40ae4533d48d7df0b7c8ad2251c8b20816fda20efa35ed7fdf9bcb31dae",
+      "source": "0.45.6_2023-05-16_06-53-31_UTC/img/tutorial/ss_tutorial_EggTarget.png"
+    },
+    {
+      "path": "img/tutorial/ss_tutorial_Keyboard.png",
+      "sha256": "026cdea6b42db2c6ea69a923830e4a2d4ce11769c5eb456c4531199d3776a9c6",
+      "source": "0.45.6_2023-05-16_06-53-31_UTC/img/tutorial/ss_tutorial_Keyboard.png"
+    },
+    {
+      "path": "img/tutorial/ss_tutorial_Mouse.png",
+      "sha256": "a302c1d2841a12f6039485ae8959ab084771ce27bb02ecab5e90348d46377d99",
+      "source": "0.45.6_2023-05-16_06-53-31_UTC/img/tutorial/ss_tutorial_Mouse.png"
+    },
+    {
+      "path": "img/tutorial/ss_tutorial_Star.png",
+      "sha256": "a075e165226dd8662ed22972691490f1664755d5ee50968de4d566a4fa87e753",
+      "source": "0.45.6_2023-05-27_07-48-29_UTC/img/tutorial/ss_tutorial_Star.png"
+    },
+    {
+      "path": "img/vip-club/very-important-poultry.png",
+      "sha256": "794e2e3d154a35b23045dc4a054775cff072da54289cc5d8f9ab9048c04bf939",
+      "source": "0.40.9_2021-10-16_19-20-18_UTC/img/vip-club/very-important-poultry.png"
+    },
+    {
+      "path": "img/vip-club/vip-banner.png",
+      "sha256": "e8f1b1f0372fa8757478e52a0e5bf8d34901b01a2db4c41d790db64a42ea6ac4",
+      "source": "unversioned_2021-10-20_14-11-15_UTC_script-capture_add2ef4e/img/vip-club/vip-banner.png"
+    },
+    {
+      "path": "img/vip-club/vip-club-emblem-sm.png",
+      "sha256": "4f3290f38fc4f2f9a4a8611c767ca2b2f2a83eac6fdd92c59c6af8217438e8f2",
+      "source": "0.37_2021-01-19_08-28-01_UTC/img/vip-club/vip-club-emblem-sm.png"
+    },
+    {
+      "path": "img/vip-club/vip-club-popup-background.png",
+      "sha256": "dd60a19c003cfd7697cf549e7defd622a78765daf0e10f5aec2c6e3f61a364d9",
+      "source": "unversioned_2021-10-20_14-11-15_UTC_script-capture_add2ef4e/img/vip-club/vip-club-popup-background.png"
+    },
+    {
+      "path": "img/vip-club/vip-club-popup-bullet-point-star.png",
+      "sha256": "1b7ac63e525406f3d8e05ae957d270b4ad2772d45458239cf756b9f74efbcc34",
+      "source": "unversioned_2021-10-20_14-11-15_UTC_script-capture_add2ef4e/img/vip-club/vip-club-popup-bullet-point-star.png"
+    },
+    {
+      "path": "img/vip-club/vip-club-popup-emblem.png",
+      "sha256": "2b2e2c077d8eed77b8721414493cf1d515d2ab6167f29021fb7daf88f78471e4",
+      "source": "0.40.9_2021-10-16_19-20-18_UTC/img/vip-club/vip-club-popup-emblem.png"
+    },
+    {
+      "path": "index.html",
+      "sha256": "640848d714296b3080b27566c55489ba34c2d25303500188d8a56c122bc09013",
+      "source": "0.48.0_2024-06-16_08-14-56_UTC/index.html"
+    },
+    {
+      "path": "js/vue/vue.min.2.6.10.js",
+      "sha256": "72194d152571dd375c4365e5c3b4af9db2c06af0102ced18fcb062597d38be26",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/js/vue/vue.min.2.6.10.js"
+    },
+    {
+      "path": "language/es.json",
+      "sha256": "dd2754676bba6acedfa473a922c2510b449a552077c304792930e8919c2daceb",
+      "source": "0.48.0_2024-06-16_08-14-56_UTC/language/es.json"
+    },
+    {
+      "path": "service-worker.js",
+      "sha256": "d4892cd5810cef1bc7aeee86e4ece1165165f0f1723afabb51e0a9fbd3017913",
+      "source": "unversioned_2020-07-17_22-44-34_UTC_recovered-game_eeb40ff5/service-worker.js"
+    },
+    {
+      "path": "styles/forms.css",
+      "sha256": "977f56df51c73dc573b419a3f334215fd9776673e0ba68f4ed28b5819d206526",
+      "source": "0.48.0_2024-06-03_23-05-30_UTC/styles/forms.css"
+    },
+    {
+      "path": "styles/game.css",
+      "sha256": "cff34d1c20ace139a356da6cf54dfb9eeae4ff910329f584d7e3912c21499af4",
+      "source": "0.48.0_2024-06-03_23-05-30_UTC/styles/game.css"
+    },
+    {
+      "path": "styles/style.css",
+      "sha256": "57e0972ab56e43a99ed644640e9b50050d9ff996f0ac0e042afb33ebc02b1020",
+      "source": "0.48.0_2024-06-03_23-05-30_UTC/styles/style.css"
+    },
+    {
+      "path": "styles/transitions.css",
+      "sha256": "46f8e0089928b9a26775217f79a106cf55a24c51df5bfc8a74f2fbf1e1b2fdfc",
+      "source": "0.48.0_2024-06-03_23-05-30_UTC/styles/transitions.css"
+    }
+  ]
+}
