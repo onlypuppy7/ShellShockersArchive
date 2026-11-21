@@ -1,0 +1,129 @@
+{
+  "folder": "unversioned_2026-08-04_23-16-52_UTC_script-capture_84a294a2",
+  "version": "1.0.26",
+  "version_source": "javascript",
+  "origin_id": "archive_org",
+  "capture_kind": "script_capture",
+  "event": {
+    "timestamp": "20260804231652",
+    "timezone": "UTC"
+  },
+  "files": [
+    {
+      "path": "js/shellshock.js",
+      "origin_id": "archive_org",
+      "source": {
+        "urlkey": "io,shellshock)/js/shellshock.js?1785876036",
+        "timestamp": "20260804231652",
+        "original": "https://shellshock.io/js/shellshock.js?1785876036",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "D5I6WAJBVVRO36L4G5FW3EFHYYR2WD7D",
+        "replay_url": "https://web.archive.org/web/20260804231652id_/https://shellshock.io/js/shellshock.js?1785876036",
+        "final_url": "https://web.archive.org/web/20260804231652id_/https://shellshock.io/js/shellshock.js?1785876036",
+        "verification": "indexed_capture_digest_matches_verified_payload",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/D5I6WAJBVVRO36L4G5FW3EFHYYR2WD7D",
+        "encoded_sha256": "03b6c8356ae2295bd6c6798acd52edffc7378dd1eef1cb19b75ce48389c6f6ce",
+        "decoded_sha1": "BCUSA6AZDZAESXDS3ZLSI3BK53NLWVFI",
+        "replay_capture_timestamp": "20260804231652",
+        "sha256": "84a294a2bb2865925203bb50bb8704f150ee599bce0605e24d59aa832c9cb1d1"
+      },
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/shellshock.js?1785876036",
+        "timestamp": "20260804231652",
+        "original": "https://shellshock.io/js/shellshock.js?1785876036",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "D5I6WAJBVVRO36L4G5FW3EFHYYR2WD7D",
+        "replay_url": "https://web.archive.org/web/20260804231652id_/https://shellshock.io/js/shellshock.js?1785876036",
+        "final_url": "https://web.archive.org/web/20260804231652id_/https://shellshock.io/js/shellshock.js?1785876036",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/D5I6WAJBVVRO36L4G5FW3EFHYYR2WD7D",
+        "encoded_sha256": "03b6c8356ae2295bd6c6798acd52edffc7378dd1eef1cb19b75ce48389c6f6ce",
+        "decoded_sha1": "BCUSA6AZDZAESXDS3ZLSI3BK53NLWVFI",
+        "replay_capture_timestamp": "20260804231652"
+      },
+      "exact_event_timestamp": true,
+      "capture_association": {
+        "observation": {
+          "timestamp": "20260804231652",
+          "original": "https://shellshock.io/js/shellshock.js?1785876036",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "D5I6WAJBVVRO36L4G5FW3EFHYYR2WD7D"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "missing_scripts": [],
+  "html_available": false,
+  "javascript_release_version_verified": false,
+  "pairing_verified": false,
+  "warning": "Standalone verified script capture. No HTML or release version is assigned from a cachebuster or nearby page.",
+  "version_evidence": {
+    "version": "1.0.26",
+    "kind": "xor_decoded_game_javascript_changelog",
+    "offset": 2836595,
+    "expression": "version:\"1.0.26\",date:",
+    "original_sha256": "84a294a2bb2865925203bb50bb8704f150ee599bce0605e24d59aa832c9cb1d1",
+    "analyzed_sha256": "67c4039ba1d8478784ff94c2bb510b7ab21c0e2b41d42821bded6c21b21537e2",
+    "analysis_method": "XOR each byte with (byte_offset + 88) % 128; analysis only; original served file unchanged",
+    "path": "js/shellshock.js",
+    "sha256": "84a294a2bb2865925203bb50bb8704f150ee599bce0605e24d59aa832c9cb1d1",
+    "observation": {
+      "timestamp": "20260804231652",
+      "original": "https://shellshock.io/js/shellshock.js?1785876036",
+      "mimetype": "application/javascript",
+      "statuscode": "200",
+      "digest": "D5I6WAJBVVRO36L4G5FW3EFHYYR2WD7D"
+    }
+  },
+  "version_scope": "Version declared by the observed game script only; simultaneous HTML/resource membership is unverified.",
+  "version_audit": {
+    "declarations": [
+      {
+        "version": "1.0.26",
+        "kind": "xor_decoded_game_javascript_changelog",
+        "offset": 2836595,
+        "expression": "version:\"1.0.26\",date:",
+        "original_sha256": "84a294a2bb2865925203bb50bb8704f150ee599bce0605e24d59aa832c9cb1d1",
+        "analyzed_sha256": "67c4039ba1d8478784ff94c2bb510b7ab21c0e2b41d42821bded6c21b21537e2",
+        "analysis_method": "XOR each byte with (byte_offset + 88) % 128; analysis only; original served file unchanged",
+        "path": "js/shellshock.js",
+        "sha256": "84a294a2bb2865925203bb50bb8704f150ee599bce0605e24d59aa832c9cb1d1",
+        "observation": {
+          "timestamp": "20260804231652",
+          "original": "https://shellshock.io/js/shellshock.js?1785876036",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "D5I6WAJBVVRO36L4G5FW3EFHYYR2WD7D"
+        }
+      },
+      {
+        "version": "1.0.26",
+        "kind": "game_javascript_changelog",
+        "offset": 2836595,
+        "expression": "version:\"1.0.26\",date:",
+        "original_sha256": "0937002fbd484bdda1e22b855f9a1fe96100ba9c283d9b28dff2cab93d6a6aab",
+        "analyzed_sha256": "0937002fbd484bdda1e22b855f9a1fe96100ba9c283d9b28dff2cab93d6a6aab",
+        "analysis_method": "original plaintext",
+        "path": "js/shellshock.decoded.js",
+        "sha256": "0937002fbd484bdda1e22b855f9a1fe96100ba9c283d9b28dff2cab93d6a6aab",
+        "observation": {
+          "timestamp": "20260804231652",
+          "original": "https://shellshock.io/js/shellshock.js?1785876036",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "D5I6WAJBVVRO36L4G5FW3EFHYYR2WD7D"
+        }
+      }
+    ],
+    "release_membership_verified": false
+  }
+}

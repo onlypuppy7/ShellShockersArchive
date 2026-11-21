@@ -1,0 +1,48 @@
+{
+  "folder": "unversioned_2025-07-16_01-14-42_UTC_script-capture_cdb159bb",
+  "event_timestamp": "20250716011442",
+  "files": [
+    {
+      "path": "js/shellshock.processed.js",
+      "sha256": "217dc412fb9483b7c49f776bc5507859382a7b76a8682a09c27bb2ec5fbc054d",
+      "origin_id": "antiyolk_1ust",
+      "source_import": {
+        "origin_id": "antiyolk_1ust",
+        "archive": "1794483673436.zip",
+        "archive_sha256": "adea2f83999df1546312cd66bc9a76c33ae8ac1e89e08ce008259745944471d0",
+        "recorded_date": "25-7-14---6:56PM",
+        "timestamp": "20250714185600",
+        "timezone": "unspecified",
+        "date_interpretation": null,
+        "sha256": "217dc412fb9483b7c49f776bc5507859382a7b76a8682a09c27bb2ec5fbc054d",
+        "bytes": 3700139,
+        "path": "js/shellshock.processed.js",
+        "path_basis": "Collection packaging mapped to game paths; original internal path retained",
+        "version": "1.0.9",
+        "version_evidence": {
+          "version": "1.0.9",
+          "kind": "game_javascript_changelog",
+          "offset": 2833168,
+          "expression": "version:\"1.0.9\",date:",
+          "original_sha256": "217dc412fb9483b7c49f776bc5507859382a7b76a8682a09c27bb2ec5fbc054d",
+          "analyzed_sha256": "217dc412fb9483b7c49f776bc5507859382a7b76a8682a09c27bb2ec5fbc054d",
+          "analysis_method": "original plaintext"
+        },
+        "version_basis": "embedded_changelog",
+        "provided_processed_copy": true,
+        "credit": "antiyolk by 1ust"
+      },
+      "integration": "credited_user_collection_v1",
+      "derived": true,
+      "derivation": {
+        "method": "Processed copy supplied by collection",
+        "independently_decoded_or_validated": false
+      }
+    }
+  ],
+  "references": [],
+  "status_counts": {
+    "placed": 1
+  },
+  "policy": "Supporting resources are part of the game capture; each file retains its own digest-proven observation date and URL. Release membership is unverified."
+}
