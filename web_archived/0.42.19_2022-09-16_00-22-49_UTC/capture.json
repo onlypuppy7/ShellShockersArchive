@@ -1,0 +1,415 @@
+{
+  "folder": "0.42.19_2022-09-16_00-22-49_UTC",
+  "version": "unversioned",
+  "version_source": null,
+  "version_evidence": null,
+  "html_version": null,
+  "event": {
+    "urlkey": "io,shellshock)/",
+    "timestamp": "20220916002249",
+    "original": "https://shellshock.io/",
+    "mimetype": "text/html",
+    "statuscode": "200",
+    "digest": "DHV44NQGF3Q4UEWZJEM6CIDX3Q3IUXZU"
+  },
+  "missing_scripts": [
+    "https://shellshock.io/gtm.js",
+    "https://shellshock.io/js/shellshock.js?1663265839"
+  ],
+  "pairing_verified": false,
+  "warning": "Reconstruction from independently captured files. Each selection retains its own date; nearest captures and inferred release labels are unverified.",
+  "files": [
+    {
+      "path": "index.html",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20220916002249",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DHV44NQGF3Q4UEWZJEM6CIDX3Q3IUXZU"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20220916002249",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DHV44NQGF3Q4UEWZJEM6CIDX3Q3IUXZU",
+        "replay_url": "https://web.archive.org/web/20220916002249id_/https://shellshock.io/",
+        "final_url": "https://web.archive.org/web/20220916002249id_/https://shellshock.io/",
+        "sha256": "e33ae564b139899fe4c1c8f37c764edf015c1aa3eeb39cddf810d7d38e3e48c4",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20220916002249"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20220916002249",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "DHV44NQGF3Q4UEWZJEM6CIDX3Q3IUXZU"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "consolidation": {
+    "comparison": "Ignore only Cloudflare rayId in HTML; all other primary bytes compared exactly",
+    "equivalent_captures": [
+      {
+        "folder": "0.42.19_2022-09-16_00-22-49_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20220916002249",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "DHV44NQGF3Q4UEWZJEM6CIDX3Q3IUXZU"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-17_16-02-41_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/js/shellshock.js?1663265839",
+          "timestamp": "20220917160241",
+          "original": "https://shellshock.io/js/shellshock.js?1663265839",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "EFLA6CUORJBPOIW6LDBNYGHJCVUWBYRZ"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-18_10-49-35_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20220918104935",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "P4MPTMPG4TFAR2QKSAXTPZKNS7QQ34WA"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-18_17-26-53_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20220918172653",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "J24DJHPGXIFHYBGSKQSOTIURJLXJBOMZ"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-18_23-13-40_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20220918231340",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "6E66SZBHVSCFLDAAR4K33LY23OBQER6I"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-19_15-32-23_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20220919153223",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "J452ZB6JSMCWP6LIVQN6NEJL5TXZG4WK"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-20_16-20-11_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20220920162011",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "S3DBU4YWDRWHXSICTH2JSLYO4UDONXID"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-21_17-47-09_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20220921174709",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "NV53FHRGG347GG6P3LCABF6RKKPCQQWN"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-22_12-32-56_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20220922123256",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "MOGW4FZMYPNDDF4WIZ67I3D33WHHWAKU"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-22_21-23-16_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20220922212316",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "M2GOUCOMWLTPGE4ZH2IC2MWUGMOVFQNY"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-23_07-26-55_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=2&countrycode=en&locale=en&siteid=79&sitelocale=en&timestamp=1663910590",
+          "timestamp": "20220923072655",
+          "original": "https://shellshock.io/?timestamp=1663910590&countryCode=en&siteid=79&channelid=2&siteLocale=en&locale=en",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "ZM6ESHOBEWWPVPCWH5MP3NA7HRYVJLXG"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-23_07-26-57_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=2&countrycode=id&locale=id&siteid=79&sitelocale=id&timestamp=1663910593",
+          "timestamp": "20220923072657",
+          "original": "https://shellshock.io/?timestamp=1663910593&countryCode=id&siteid=79&channelid=2&siteLocale=id&locale=id",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "K62MWBNFVFA6OKZZMGAKOQ3WYZREJQR2"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-23_07-26-59_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=2&countrycode=ru&locale=ru&siteid=79&sitelocale=ru&timestamp=1663910594",
+          "timestamp": "20220923072659",
+          "original": "https://shellshock.io/?timestamp=1663910594&countryCode=ru&siteid=79&channelid=2&siteLocale=ru&locale=ru",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "PSOINKEYU5UTLSBTQBAEW7TUBSVPLUKB"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-23_07-27-00_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=2&countrycode=nl&locale=nl&siteid=79&sitelocale=nl&timestamp=1663910595",
+          "timestamp": "20220923072700",
+          "original": "https://shellshock.io/?timestamp=1663910595&countryCode=nl&siteid=79&channelid=2&siteLocale=nl&locale=nl",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "DUCHS7KUANCWS7YDDWH6QTMTFJAHBKCP"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-23_07-27-03_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=2&countrycode=de&locale=de&siteid=79&sitelocale=de&timestamp=1663910596",
+          "timestamp": "20220923072703",
+          "original": "https://shellshock.io/?timestamp=1663910596&countryCode=de&siteid=79&channelid=2&siteLocale=de&locale=de",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "UZVZY7I7JLZCM4EFANI5ANZJCZ5APXQZ"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-23_07-27-05_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=2&countrycode=it&locale=it&siteid=79&sitelocale=it&timestamp=1663910596",
+          "timestamp": "20220923072705",
+          "original": "https://shellshock.io/?timestamp=1663910596&countryCode=it&siteid=79&channelid=2&siteLocale=it&locale=it",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "4HE5GQIXL4INA7EY4LANX2I5QZ4CFVDP"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-23_07-27-06_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=2&countrycode=fr&locale=fr&siteid=79&sitelocale=fr&timestamp=1663910596",
+          "timestamp": "20220923072706",
+          "original": "https://shellshock.io/?timestamp=1663910596&countryCode=fr&siteid=79&channelid=2&siteLocale=fr&locale=fr",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "KIGJBFNR5KGWRO5YU2HM5E3RCLKNAYCN"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-23_15-10-01_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20220923151001",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "YJCFUKZQXPAY3YT7LTLMTVML6QNIXADK"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-25_10-42-41_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20220925104241",
+          "original": "https://shellshock.io",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "ZV6RR73HAK52XUH5B2DRAPGEPO6REYH3"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-25_10-43-28_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?showad=18097870",
+          "timestamp": "20220925104328",
+          "original": "https://shellshock.io/?showAd=18097870",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "43PJTITN6ZUUCEXUVGBFLXEG7WXA3EVS"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-25_10-51-16_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?utm_medium=referral&utm_source=ss-splash-ad",
+          "timestamp": "20220925105116",
+          "original": "https://shellshock.io/?utm_source=ss-splash-ad&utm_medium=referral",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "AWEJ6PDXTZ5Y56IJMHJROSR2XVBTZVYT"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-25_11-53-47_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20220925115347",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "JQW5AEX4WJT55C6GYES332M6MNOEGAZM"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-25_18-06-31_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20220925180631",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "Q3FNBLE65JV5DNRFXA4O5U643HLU7ZJM"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-26_00-30-59_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20220926003059",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "EAU7UIROV7ECPG44A5DXWVYPMWABLLIN"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-26_02-27-23_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20220926022723",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "KFEL5Y3VPOGMXB2Q7L5NBVRNSHXVV2NQ"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-26_13-51-33_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?mp_assets=https://s2.minijuegosgratis.com/&mp_game_id=230942&mp_game_uid=zombies-io&mp_game_url=https://www.minijogos.com.br/jogo/zombies-io&mp_iframe=0&mp_int=1&mp_locale=pt_br&mp_player_type=iframe&mp_site_https_url=https://www.minijogos.com.br/&mp_site_name=minijogos.com.br&mp_site_url=https://www.minijogos.com.br/&mp_timezone=america/sao_paulo&mp_view_type=large",
+          "timestamp": "20220926135133",
+          "original": "https://shellshock.io?mp_assets=https%3A%2F%2Fs2.minijuegosgratis.com%2F&mp_iframe=0&mp_game_id=230942&mp_game_uid=zombies-io&mp_game_url=https%3A%2F%2Fwww.minijogos.com.br%2Fjogo%2Fzombies-io&mp_int=1&mp_locale=pt_BR&mp_player_type=IFRAME&mp_site_https_url=https%3A%2F%2Fwww.minijogos.com.br%2F&mp_site_name=minijogos.com.br&mp_site_url=https%3A%2F%2Fwww.minijogos.com.br%2F&mp_timezone=America%2FSao_Paulo&mp_view_type=large",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "3GK6STDFH7E7KVZOVADUUUYUC6BBWGXA"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-26_13-56-56_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?gd_sdk_referrer_url=https://www.yzgames.com/games/zombies-io/",
+          "timestamp": "20220926135656",
+          "original": "https://shellshock.io?gd_sdk_referrer_url=https://www.yzgames.com/games/zombies-io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "T73RQBEW2XOSGCWL5I4HR7GJYW6657DZ"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-27_01-04-28_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20220927010428",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "EZ6ZZDX5B5LVD6SFFCWJ4QJU65JDPRDB"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-09-29_23-57-36_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?gd_sdk_referrer_url=https://www.yzgames.com/games/bowroyale-io/",
+          "timestamp": "20220929235736",
+          "original": "https://shellshock.io?gd_sdk_referrer_url=https://www.yzgames.com/games/bowroyale-io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "V4A6XTU7NTC4T2TP6LKJBREUD6SH72FC"
+        }
+      }
+    ],
+    "warning": "Union preserves distinct assets and original HTML variants; it does not assert simultaneous historical availability"
+  },
+  "origin_id": "archive_org",
+  "origins_catalog": "origins.json (archive root; included in exports)",
+  "javascript_release_version_verified": false,
+  "version_scope": "HTML label only; not an authenticated JavaScript release",
+  "game_script_pairing": {
+    "max_gap_seconds": 86400,
+    "cachebuster_used_as_release_evidence": false,
+    "missing": [
+      {
+        "path": "js/shellshock.js",
+        "reason": "no_verified_capture_within_24_hours",
+        "referenced_url": "https://shellshock.io/js/shellshock.js?1663265839"
+      }
+    ],
+    "associations": []
+  },
+  "previous_version_assignment": {
+    "version": "0.42.19",
+    "basis": "javascript",
+    "reason": "No explicit version declaration in the resources supported at this capture time."
+  },
+  "version_audit": {
+    "declarations": [],
+    "release_membership_verified": false
+  }
+}

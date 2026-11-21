@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shell Shockers | Twitch Auth</title>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', 'UA-105800112-1', {
+            cookieDomain: 'auto',
+            siteSpeedSampleRate: 10,
+            cookieFlags: 'samesite=none;secure'
+        });
+        ga('send', 'pageview');
+
+        var firebase,
+            dynamicContentRoot;
+    </script>
+
+	<!-- Google Tag Manager -->
+	<script>
+		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-K5MSJHJ');
+	</script>
+	<!-- End Google Tag Manager -->
+
+	<meta name="viewport" content="minimal-ui, user-scalable=no, initial-scale=1, maximum-scale=1, width=device-width" />
+<script>
+    var aiptag = aiptag || {};
+    aiptag.cmd = aiptag.cmd || [];
+    aiptag.cmd.display = aiptag.cmd.display || [];
+    aiptag.cmd.player = aiptag.cmd.player || [];
+</script>
+
+        <script async src="//api.adinplay.com/libs/aiptag/pub/SSK/shellshock.io/tag.min.js"></script>
+
+    <!-- Firebase -->
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.css" />
+    <link href="https://fonts.googleapis.com/css?family=Sigmar+One|Nunito:100,200,600,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css?1651527957" />
+    <link rel="stylesheet" href="../styles/forms.css?1650403550" />
+    <link rel="stylesheet" href="css/third-party-apps.css?1650403550" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" crossorigin="anonymous">
+
+</head>
+<body id="top" class="box_relative">
+    <header class="box_relative">
+        <a href="https://www.shellshock.io"><img class="shell-logo" src="../img/logo.svg"></a>
+        <!-- <h1 class="main-title title-shadow">Twitch Drops: <span>Relics!</span></h1> -->
+        <h1 class="main-title title-shadow">Twitch Drops</h1>
+        <img class="box_absolute parachute-icon" src="img/twitch-drops-parachute.svg" alt="Twitch drop parachute">
+    </header>
+    <main class="content-wrapper roundme_lg box_relative">
+
+        <h2 class="twitch-sub-title text-center title-shadow text_white">Earn Shell Shockers Relics On Twitch!</h2>
+        <p class="text-center">EGG ORG has been defeated, and have left behind some ancient relics now available through Twitch Drops. All you need to do to get rare in-game loot is link your Twitch account with your Shell Shockers account, and then watch any Shell Shockers Stream to start earning these eggsclusive items!</p>
+            <h6 class="login-status text-center">Checking status</h6>
+            <div id="action-wrapper-btn-group" class="display-grid grid-column-1-eq grid-gap-1">
+                <button id="action-wrapper-actionable-btn" class="ss_button btn_small twitch-btn twitch-btn-pink display-grid grid-column-1-2 grid-column-1-4 grid-justify-self-center grid-align-items-center grid-gap-1"><i class="fab fa-twitch fa-2x"></i> Checking...</button>
+                <button id="action-wrapper-unlink-btn" class="ss_button btn_small twitch-btn twitch-btn-purple display-grid grid-column-1-2 grid-column-1-4 hideme unlink-btn grid-justify-self-start grid-align-items-center grid-gap-1">
+                    <span class="fa-stack fa-1x">
+                        <i class="fas fa-link fa-stack-1x"></i>
+                        <i class="fas fa-slash fa-stack-1x"></i>
+                    </span>
+                    Unlink twitch account</button>
+            </div>
+        <section class="box-wrapper text-center title-shadow text-twitch-yellow roundme_lg fullwidth">
+
+            <h2 id="countdown-status">Time Remaining Until Live!!!</h2>
+			<!-- <h2 id="countdown-status">Next drop TBD</h2> -->
+            <section id="countdown-container" class="countdown-container display-grid grid-column-4-eq text-center">
+                <div class="days-container dates-container">
+                    <div class="days dates text_white">0</div>
+                    <div class="days-label dates-label">days</div>
+                </div>
+                
+                <div class="hours-container dates-container">
+                    <div class="hours dates text_white">00 : </div>
+                    <div class="hours-label dates-label">hours</div>
+                </div>
+                
+                <div class="minutes-container dates-container">
+                    <div class="minutes dates text_white">00 : </div>
+                    <div class="minutes-label dates-label">minutes</div>
+                </div>
+                
+                <div class="seconds-container dates-container">
+                    <div class="seconds dates text_white">00</div>
+                    <div class="seconds-label dates-label">seconds</div>
+                </div>
+			</section>
+
+			<!-- <section>
+				<a href="https://www.twitch.tv/directory/game/Shell%20Shockers" target="_blank" class="ss_button btn_big btn_yolk bevel_yolk nospace play-button">Follow Shell</a>
+			</section> -->
+
+        </section>
+        <!-- #countdown-container -->
+        </div>
+		<div id="shellshock-io-twitch_970x250" class="twitch-display-ad box-wrapper">
+			<script type='text/javascript'>
+				aiptag.cmd.display.push(function() { aipDisplayTag.display('shellshock-io-twitch_970x250'); });
+			</script>
+		</div>
+        <section class="entitlements-wrapper box-wrapper text-center title-shadow text-twitch-yellow roundme_lg">
+            <h1 id="current-drops-title" class="text_white">Past Drops</h1>
+            <!-- <h2 id="entitlement-msg">Stay tuned for our next Twitch Drops</h2> -->
+            <div id="entitlements" class="entitlements display-grid grid-column-3-eq grid-gap-1">
+            </div>
+        </section>
+
+        <div class="accordion roundme_lg">
+            <h2 class="text-center">Last Drops Event FAQ</h2>
+        <!-- First accordian  -->
+        <div class="a-container"> 
+            <p class="a-btn">What's a Drop? <span class="plus-sign"></span></p>
+            <div class="a-panel">A Twitch Drop is an eggsclusive Shell Shockers item, gained from a Drop Enabled stream on Twitch. Shell Shockers is teaming up with some of our best streamers to drop SEVEN EGGSCLUSIVE ITEMS, only available through this event from April 15th - May 2nd!</div>
+        </div>
+    
+        <!-- Second accordian  -->
+        <div class="a-container"> 
+            <p class="a-btn">How do I get the eggsclusive Drops? <span class="plus-sign"></span></p>
+            <div class="a-panel">
+            To enable Twitch Drop rewards, you must link your Shell Shockers account to your Twitch account on your computer. This is the most important thing. After you’ve done that, you just need to watch anyone streaming Shell Shockers!
+                <ul>
+                    <li>Log into your Shell Shockers account on <a href="https://shellshock.io" target="_blank">Shellshock.io</a>
+                    <li>At the <a href="#top">top</a> of this page, click the “Link Twitch Account” button
+                    <li>In the pop-up, sign in to Twitch. Once signed in your account will be linked
+                    <li>Click on any of the Twitch Drops items on this page to be sent to the Twitch Shell Shockers Category. Make sure to follow to be notified when streamers go live! 
+                    <li>After you've done that, you just need to watch anyone streaming Shell Shockers with Drops Enabled!
+                    <li>The first few drops are awarded quickly, but the time between drops increases for the most rare Relic Drops!
+                    <li>Once you have earned a drop, claim it from your profile on Twitch to start earning the next item!
+                    <li>You will receive a notification on Shell Shockers letting you know the item is now in your inventory! If you already have Shell Shockers open, you might need to refresh the page.
+                </ul>
+            </div>
+        </div>
+
+        <!-- third accordian  -->
+        <div class="a-container"> 
+            <p class="a-btn">What Shell Shockers items can I earn during this drops event? How long do I need to watch? <span class="plus-sign"></span></p>
+            <div class="a-panel">For Twitch Drops Relics, ALL streamers streaming Shell Shockers will be giving drops! Just  <a href="https://www.twitch.tv/directory/game/Shell%20Shockers" target="_blank">follow the category</a> and choose your favourite! 
+            <ul>
+                    <li>1st drop - Watch for 15 minutes to receive the Relic Knight Helmut
+                    <li>2nd drop - Watch for 45 minutes to receive Relic Cluck 9mm BWD
+                    <li>3rd drop - Watch for 1 hours to receive the Relic Cape
+                    <li>4th drop - Watch for 1.5 hours to receive the Relic Yoyo Grenade
+                    <li>5th drop - Watch for 2 hours to receive the Relic Warrior Helmet
+                    <li>6th drop - Watch for 3 hours to receive the Relic Thee_Owl Scrambler
+                    <li>7th drop - Watch for 4 hours to receive the Relic Gold Joker Crown
+                </ul>
+            </div>
+        </div>
+
+        <!-- forth accordian  -->
+        <div class="a-container"> 
+            <p class="a-btn">How do I know my account is connected? <span class="plus-sign"></span></p>
+            <div class="a-panel">We’ve added a bunch of ways to  know if your account has been successfully connected:
+                <ul>
+                    <li>At the <a href="#top">top</a> of this page, you should see a checkmark and the text: Account Linked As “your_Twitch_name”. If your name is missing, refresh the page.
+                    <li>On the Shell Shockers Homepage: The Twitch Drops button will now show a checkmark, and your profile icon will now have a small Twitch logo on it.
+                </ul>
+            </div>
+        </div>
+
+        <!-- fifth accordian  -->
+        <div class="a-container"> 
+            <p class="a-btn">How do I see my progress on Twitch? How do I redeem my Drops? <span class="plus-sign"></span></p>
+            <div class="a-panel">
+                <ul>
+                    <li>First off, make sure you've followed the above steps for linking your account
+                    <li>Then, navigate to any Shell Shockers stream during the event, they will all be Drops Enabled
+                    <li>When you are watching a Drops Enabled stream, you will see a panel on the top right letting you know what percentage you have remaining to receive your drop.
+                    <li>Once complete, you may get a popup allowing you to claim. If not, click on your Twitch profile, then click on Drops to claim the item
+                    <li>Nice one! Now head to your Shell Shockers page and look for a popup. If you do not see one, refresh the page! 
+                    <li>Once claimed, you will be able to earn the next Relic! 
+                </ul>
+            </div>
+        </div>
+
+        <!-- sixth accordian  -->
+        <div class="a-container"> 
+            <p class="a-btn">I’ve done the thing, now where are my items? <span class="plus-sign"></span></p>
+            <div class="a-panel">Some things to check on if you feel like you should have received Drops already:
+                <ul>
+                    <li>Make sure the streamer you are watching has the "Drops Enabled" tag on their stream
+                    <li>Was the streamer live and in the Shell Shockers category?
+                    <li>Did you watch that streamer for the required amount of time to get the item? On Twitch, click your profile, then Drops to check your Drops status
+                    <li>Check the <a href="#top">top</a> of this page making sure the correct Twitch account is linked.
+                    <li>Check Shellshock.io and make sure the correct account is logged in, then relink the account on this FAQ page.
+                    <li>Are you trying to claim the drop using a proxy site like eggcombat.com? If it's not working, try https://shellshock.io
+                    <li>Was the streamer streaming Shell Shockers the whole time? Their streaming category matters; if they are streaming Shell Shockers, your Drops will be prepared in the background :)
+                </ul>
+            </div>
+        </div>
+
+        <!-- seventh accordian  -->
+        <div class="a-container"> 
+            <p class="a-btn">Can I just watch multiple streams at the same time? <span class="plus-sign"></span></p>
+            <div class="a-panel">No, shame on you. You can only watch one Drops Enabled streamer at a time. Make sure you show the streamer some love! They will be more active in the category than normal during this time!</div>
+        </div>
+
+        <!-- eighth accordian  -->
+        <div class="a-container"> 
+            <p class="a-btn">The link accounts page has timed out!!! <span class="plus-sign"></span></p>
+            <div class="a-panel">
+                Fear not, if you've linked your Shell Shockers account to this page, this message no longer matters. Refresh the page to see an updated status.
+            </div>
+        </div>
+
+        <!-- ninth accordian  -->
+            <div class="a-container"> 
+                <p class="a-btn">Can I watch on mobile? <span class="plus-sign"></span></p>
+            <div class="a-panel">As long as you’ve paired your Twitch account with your Shell Shockers account on a computer first, you can watch and redeem your Drops on mobile. Once you've redeemed your Drop on Twitch, head back to ShellShock.io on your computer to get your reward! </div>
+        </div>
+
+                <!-- tenth accordian  -->
+                <div class="a-container"> 
+                <p class="a-btn">Wait I can watch anyone in the Shell Category? <span class="plus-sign"></span></p>
+            <div class="a-panel">As long as they are streaming Shell Shockers during the event, yes! It's worth mentioning that as we are not doing specific creators this time around, some of the streams may not be ones we recommend and their opinions may not be the same as Blue Wizard Digital's. If you do see a stream you think is inappropriate please let us know on our discord and we will remove it from the Shell homepage. </div>
+        </div>
+
+    </div>
+     <hr />
+     <footer class="box-wrapper">
+        <h6>Twitch Drops - Official Terms & Conditions</h6>
+        <p>In-game cosmetics require a Shell Shockers account. Limit: 1 of each of the Shell Shockers cosmetics currently offered above per account linked. In-game cosmetics will appear in-game within 72 hours of linking your Twitch and Shell Shockers accounts and watching a participating stream on the advertised dates, between the advertised times and for the required duration. You may need to watch on different dates for the required times, which may be different, to receive different rewards. Any individual entitlement to rewards is at Blue Wizard Digital's sole and final discretion. For more information about Blue Wizard Digital's use of your personal information, see the Blue Wizard Digital's <a href="https://bluewizard.com/privacypolicy/" target="_blank">Privacy Statement</a>.</p>
+        <hr />
+        <nav>
+            <ul class="display-grid grid-column-3-eq fullwidth text-center list-no-style">
+                <li class="text-center"><a href="https://bluewizard.com/privacypolicy/" target="_blank">Privacy Policy</a></li>
+                <li class="text-center"><a href="https://shellshock.io">Shell Shockers Home</a></li>
+                <li class="text-center"><a href="#top">Back to top</a></li>
+            </ul>
+        </nav>
+    </footer>
+    </main>
+    <figure class="box_absolute">
+        <img src="img/twitch-drops-promo.png" alt="Hurray Twitch Drops">
+    </figure>
+    <div class="notifications-area">
+        <p class="notification roundme_lg login-warning invisible"></p>
+        <p class="notification roundme_lg login-warning-two invisible"></p>
+    </div>
+    <!-- container for all  -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5MSJHJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.js"></script>
+	<script src="../src/servers.js?1651527957"></script>
+	<script>
+    var parsedUrl = (function parseUrl () {
+        var url = {};
+        var loc = window.location;
+        url.root = loc.origin + loc.pathname;
+        var query = loc.search.substring(1).split('&');
+        url.query = {};
+        for (let i = 0; i < query.length; i++)  {
+            var arr = query[i].split('=');
+            if (arr[0]) {
+                if (arr[1] === undefined) {
+                    arr[1] = true;
+                } else if (!isNaN(arr[1])) {
+                    arr[1] = parseFloat(arr[1]);
+                }
+                url.query[arr[0]] = arr[1];
+            }
+        }
+        url.hash = loc.hash.substring(1);
+
+        var host = loc.host.split('.');
+
+        url.dom = host[0];
+        url.top = host[1];
+
+        if (url.hash.length == 0) url.hash = undefined;
+        return url;
+    })();
+</script>
+	<script src="js/third-party-apps.js?1650994025"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"70a11d27bfc4aab7","token":"b4cd973aeca34b509bef2ed0c9e0b720","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+</body>
+
+</html>

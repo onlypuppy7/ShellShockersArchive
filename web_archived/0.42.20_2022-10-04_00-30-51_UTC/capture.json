@@ -1,0 +1,216 @@
+{
+  "folder": "0.42.20_2022-10-04_00-30-51_UTC",
+  "version": "0.42.20",
+  "version_source": "javascript",
+  "version_evidence": {
+    "version": "0.42.20",
+    "kind": "game_javascript_changelog",
+    "offset": 2108014,
+    "expression": "version:\"0.42.20\",date:",
+    "original_sha256": "282e0318d10a88f17567ee35dd22378bb41a5e2dc68c39365e9bb8f3d4e68aee",
+    "analyzed_sha256": "282e0318d10a88f17567ee35dd22378bb41a5e2dc68c39365e9bb8f3d4e68aee",
+    "analysis_method": "original plaintext",
+    "path": "js/shellshock.js",
+    "sha256": "282e0318d10a88f17567ee35dd22378bb41a5e2dc68c39365e9bb8f3d4e68aee",
+    "observation": {
+      "timestamp": "20221004223944",
+      "original": "https://shellshock.io/js/shellshock.js?1664832863",
+      "mimetype": "application/javascript",
+      "statuscode": "200",
+      "digest": "E73H3K57CYHBUNFTCPSAANNUPKJZFQLE"
+    }
+  },
+  "html_version": null,
+  "event": {
+    "urlkey": "io,shellshock)/?gd_sdk_referrer_url=http://www.39games.net/games/shell-shockers/",
+    "timestamp": "20221004003051",
+    "original": "https://www.shellshock.io/?gd_sdk_referrer_url=http://www.39games.net/games/shell-shockers/",
+    "mimetype": "text/html",
+    "statuscode": "200",
+    "digest": "JASZPSKNJ7M56YNKE5QA4AYOWGZI6SRG"
+  },
+  "missing_scripts": [
+    "https://www.shellshock.io/gtm.js"
+  ],
+  "pairing_verified": false,
+  "warning": "Reconstruction from independently captured files. Each selection retains its own date; nearest captures and inferred release labels are unverified.",
+  "files": [
+    {
+      "path": "index.html",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/?gd_sdk_referrer_url=http://www.39games.net/games/shell-shockers/",
+        "timestamp": "20221004003051",
+        "original": "https://www.shellshock.io/?gd_sdk_referrer_url=http://www.39games.net/games/shell-shockers/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "JASZPSKNJ7M56YNKE5QA4AYOWGZI6SRG"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/?gd_sdk_referrer_url=http://www.39games.net/games/shell-shockers/",
+        "timestamp": "20221004003051",
+        "original": "https://www.shellshock.io/?gd_sdk_referrer_url=http://www.39games.net/games/shell-shockers/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "JASZPSKNJ7M56YNKE5QA4AYOWGZI6SRG",
+        "replay_url": "https://web.archive.org/web/20221004003051id_/https://www.shellshock.io/?gd_sdk_referrer_url=http://www.39games.net/games/shell-shockers/",
+        "final_url": "https://web.archive.org/web/20221004003051id_/https://www.shellshock.io/?gd_sdk_referrer_url=http://www.39games.net/games/shell-shockers/",
+        "sha256": "0e1674dd91d1c9b762cee9e9c6a22bd844d6a73a077421d639331ee40caf2848",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20221004003051"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20221004003051",
+          "original": "https://www.shellshock.io/?gd_sdk_referrer_url=http://www.39games.net/games/shell-shockers/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "JASZPSKNJ7M56YNKE5QA4AYOWGZI6SRG"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "js/shellshock.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/shellshock.js?1664832863",
+        "timestamp": "20221004223944",
+        "original": "https://shellshock.io/js/shellshock.js?1664832863",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "E73H3K57CYHBUNFTCPSAANNUPKJZFQLE"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/js/shellshock.js?1664832863",
+        "timestamp": "20221004223944",
+        "original": "https://shellshock.io/js/shellshock.js?1664832863",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "E73H3K57CYHBUNFTCPSAANNUPKJZFQLE",
+        "replay_url": "https://web.archive.org/web/20221004223944id_/https://shellshock.io/js/shellshock.js?1664832863",
+        "final_url": "https://web.archive.org/web/20221004223944id_/https://shellshock.io/js/shellshock.js?1664832863",
+        "sha256": "282e0318d10a88f17567ee35dd22378bb41a5e2dc68c39365e9bb8f3d4e68aee",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/E73H3K57CYHBUNFTCPSAANNUPKJZFQLE",
+        "encoded_sha256": "c139bae09116da26375340b983c074ea9cb6a182bda9b5ca86300696cc4607a7",
+        "decoded_sha1": "O36UCJZGZ56XKF6BQHCKXLXKPHD24Y4Z",
+        "replay_capture_timestamp": "20221004223944"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20221004223944",
+          "original": "https://shellshock.io/js/shellshock.js?1664832863",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "E73H3K57CYHBUNFTCPSAANNUPKJZFQLE"
+        },
+        "offset_seconds": 79733,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "js/vue/vue.min.2.6.10.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20221004015625",
+        "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "INGN5QLGT4WGY5AGFF5HEEQJG26FN3KS"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20190819213520",
+        "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "INGN5QLGT4WGY5AGFF5HEEQJG26FN3KS",
+        "replay_url": "https://web.archive.org/web/20190819213520id_/https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "final_url": "https://web.archive.org/web/20190819213520id_/https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "sha256": "72194d152571dd375c4365e5c3b4af9db2c06af0102ced18fcb062597d38be26"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20221004015625",
+          "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+          "mimetype": "warc/revisit",
+          "statuscode": "-",
+          "digest": "INGN5QLGT4WGY5AGFF5HEEQJG26FN3KS"
+        },
+        "offset_seconds": 5134,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "consolidation": {
+    "comparison": "Ignore only Cloudflare rayId in HTML; all other primary bytes compared exactly",
+    "equivalent_captures": [
+      {
+        "folder": "0.42.20_2022-10-04_00-30-51_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?gd_sdk_referrer_url=http://www.39games.net/games/shell-shockers/",
+          "timestamp": "20221004003051",
+          "original": "https://www.shellshock.io/?gd_sdk_referrer_url=http://www.39games.net/games/shell-shockers/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "JASZPSKNJ7M56YNKE5QA4AYOWGZI6SRG"
+        }
+      },
+      {
+        "folder": "0.42.20_2022-10-04_01-20-59_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?gd_sdk_referrer_url=https://www.toomad.com/games/shell-shockers/",
+          "timestamp": "20221004012059",
+          "original": "https://www.shellshock.io/?gd_sdk_referrer_url=https://www.toomad.com/games/shell-shockers/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "G5ZVUYWOU5KM6LYQYPLKJDQ4JKT33DAR"
+        }
+      }
+    ],
+    "warning": "Union preserves distinct assets and original HTML variants; it does not assert simultaneous historical availability"
+  },
+  "origin_id": "archive_org",
+  "origins_catalog": "origins.json (archive root; included in exports)",
+  "version_scope": "Version declared by the observed game script only; simultaneous HTML/resource membership is unverified.",
+  "javascript_release_version_verified": false,
+  "version_audit": {
+    "declarations": [
+      {
+        "version": "0.42.20",
+        "kind": "game_javascript_changelog",
+        "offset": 2108014,
+        "expression": "version:\"0.42.20\",date:",
+        "original_sha256": "282e0318d10a88f17567ee35dd22378bb41a5e2dc68c39365e9bb8f3d4e68aee",
+        "analyzed_sha256": "282e0318d10a88f17567ee35dd22378bb41a5e2dc68c39365e9bb8f3d4e68aee",
+        "analysis_method": "original plaintext",
+        "path": "js/shellshock.js",
+        "sha256": "282e0318d10a88f17567ee35dd22378bb41a5e2dc68c39365e9bb8f3d4e68aee",
+        "observation": {
+          "timestamp": "20221004223944",
+          "original": "https://shellshock.io/js/shellshock.js?1664832863",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "E73H3K57CYHBUNFTCPSAANNUPKJZFQLE"
+        }
+      }
+    ],
+    "release_membership_verified": false
+  }
+}

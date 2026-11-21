@@ -1,0 +1,118 @@
+{
+  "folder": "0.42.17_2022-08-19_17-28-00_UTC",
+  "version": "unversioned",
+  "version_source": null,
+  "version_evidence": null,
+  "html_version": null,
+  "event": {
+    "urlkey": "io,shellshock)/?gd_sdk_referrer_url=https://www.calfgames.com/games/shellshockers-io/",
+    "timestamp": "20220819172800",
+    "original": "https://www.shellshock.io/?gd_sdk_referrer_url=https://www.calfgames.com/games/shellshockers-io/",
+    "mimetype": "text/html",
+    "statuscode": "200",
+    "digest": "PKXTLHTE66ZBKFPD6KEM35WA5SSCH4KD"
+  },
+  "missing_scripts": [
+    "https://www.shellshock.io/gtm.js",
+    "https://shellshock.io/src/shellshock.js?1660599255"
+  ],
+  "pairing_verified": false,
+  "warning": "Reconstruction from independently captured files. Each selection retains its own date; nearest captures and inferred release labels are unverified.",
+  "files": [
+    {
+      "path": "index.html",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/?gd_sdk_referrer_url=https://www.calfgames.com/games/shellshockers-io/",
+        "timestamp": "20220819172800",
+        "original": "https://www.shellshock.io/?gd_sdk_referrer_url=https://www.calfgames.com/games/shellshockers-io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PKXTLHTE66ZBKFPD6KEM35WA5SSCH4KD"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/?gd_sdk_referrer_url=https://www.calfgames.com/games/shellshockers-io/",
+        "timestamp": "20220819172800",
+        "original": "https://www.shellshock.io/?gd_sdk_referrer_url=https://www.calfgames.com/games/shellshockers-io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PKXTLHTE66ZBKFPD6KEM35WA5SSCH4KD",
+        "replay_url": "https://web.archive.org/web/20220819172800id_/https://www.shellshock.io/?gd_sdk_referrer_url=https://www.calfgames.com/games/shellshockers-io/",
+        "final_url": "https://web.archive.org/web/20220819172800id_/https://www.shellshock.io/?gd_sdk_referrer_url=https://www.calfgames.com/games/shellshockers-io/",
+        "sha256": "018b6cc6f1205ab630c33624916d7e95271523e93c716ce4a9a216c8a6fcc84d",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20220819172800"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20220819172800",
+          "original": "https://www.shellshock.io/?gd_sdk_referrer_url=https://www.calfgames.com/games/shellshockers-io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "PKXTLHTE66ZBKFPD6KEM35WA5SSCH4KD"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "consolidation": {
+    "comparison": "Ignore only Cloudflare rayId in HTML; all other primary bytes compared exactly",
+    "equivalent_captures": [
+      {
+        "folder": "0.42.17_2022-08-19_17-28-00_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?gd_sdk_referrer_url=https://www.calfgames.com/games/shellshockers-io/",
+          "timestamp": "20220819172800",
+          "original": "https://www.shellshock.io/?gd_sdk_referrer_url=https://www.calfgames.com/games/shellshockers-io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "PKXTLHTE66ZBKFPD6KEM35WA5SSCH4KD"
+        }
+      },
+      {
+        "folder": "0.42.17_2022-08-19_18-11-26_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?gd_sdk_referrer_url=https://www.makeupgames.info/games/shellshockers-io/",
+          "timestamp": "20220819181126",
+          "original": "https://www.shellshock.io/?gd_sdk_referrer_url=https://www.makeupgames.info/games/shellshockers-io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "O3E657FA3KHRTDZ5LTZIR4ARQQBJX24J"
+        }
+      }
+    ],
+    "warning": "Union preserves distinct assets and original HTML variants; it does not assert simultaneous historical availability"
+  },
+  "origin_id": "archive_org",
+  "origins_catalog": "origins.json (archive root; included in exports)",
+  "javascript_release_version_verified": false,
+  "version_scope": "HTML label only; not an authenticated JavaScript release",
+  "game_script_pairing": {
+    "max_gap_seconds": 86400,
+    "cachebuster_used_as_release_evidence": false,
+    "missing": [
+      {
+        "path": "src/shellshock.js",
+        "reason": "no_verified_capture_within_24_hours",
+        "referenced_url": "https://shellshock.io/src/shellshock.js?1660599255"
+      }
+    ],
+    "associations": []
+  },
+  "previous_version_assignment": {
+    "version": "0.42.17",
+    "basis": "javascript",
+    "reason": "No explicit version declaration in the resources supported at this capture time."
+  },
+  "version_audit": {
+    "declarations": [],
+    "release_membership_verified": false
+  }
+}

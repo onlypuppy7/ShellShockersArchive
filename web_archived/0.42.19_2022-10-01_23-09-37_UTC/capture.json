@@ -1,0 +1,141 @@
+{
+  "folder": "0.42.19_2022-10-01_23-09-37_UTC",
+  "version": "unversioned",
+  "version_source": null,
+  "version_evidence": null,
+  "html_version": null,
+  "event": {
+    "urlkey": "io,shellshock)/",
+    "timestamp": "20221001230937",
+    "original": "https://shellshock.io/",
+    "mimetype": "text/html",
+    "statuscode": "200",
+    "digest": "OLEB2DE2LSPL4UGV24HROYZ43WRAREF4"
+  },
+  "missing_scripts": [
+    "https://shellshock.io/gtm.js",
+    "https://shellshock.io/js/shellshock.js?1663265839"
+  ],
+  "pairing_verified": false,
+  "warning": "Reconstruction from independently captured files. Each selection retains its own date; nearest captures and inferred release labels are unverified.",
+  "files": [
+    {
+      "path": "index.html",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20221001230937",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "OLEB2DE2LSPL4UGV24HROYZ43WRAREF4"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20221001230937",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "OLEB2DE2LSPL4UGV24HROYZ43WRAREF4",
+        "replay_url": "https://web.archive.org/web/20221001230937id_/https://shellshock.io/",
+        "final_url": "https://web.archive.org/web/20221001230937id_/https://shellshock.io/",
+        "sha256": "9597cb21b2618f414f137301223c5dfa67f1e2091db0a84fb48dffd7430f5374",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/OLEB2DE2LSPL4UGV24HROYZ43WRAREF4",
+        "encoded_sha256": "355988722cf085cfe007426d2e663c0419f6c6a7b82db84a23c223cc10a7ce09",
+        "decoded_sha1": "UJFAALMMINSANIKVPEW7C4HNG2H63EBL",
+        "replay_capture_timestamp": "20221001230937"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20221001230937",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "OLEB2DE2LSPL4UGV24HROYZ43WRAREF4"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "consolidation": {
+    "comparison": "Ignore only Cloudflare rayId in HTML; all other primary bytes compared exactly",
+    "equivalent_captures": [
+      {
+        "folder": "0.42.19_2022-10-01_23-09-37_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20221001230937",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "OLEB2DE2LSPL4UGV24HROYZ43WRAREF4"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-10-02_03-26-47_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?gd_sdk_referrer_url=http://www.39games.net/games/killstreak-tv/",
+          "timestamp": "20221002032647",
+          "original": "https://shellshock.io?gd_sdk_referrer_url=http://www.39games.net/games/killstreak-tv/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "7AWWUQLM3ZEVVTUQV76NJH5FQBBGUJE7"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-10-02_19-39-15_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20221002193915",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "DURWBVY3AKWQMVB5X6JZA5CPRN2LU2XV"
+        }
+      },
+      {
+        "folder": "0.42.19_2022-10-03_01-32-59_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20221003013259",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "PG4KWDVH3SAJHUKDTOPTZ2PVEXE3RV44"
+        }
+      }
+    ],
+    "warning": "Union preserves distinct assets and original HTML variants; it does not assert simultaneous historical availability"
+  },
+  "origin_id": "archive_org",
+  "origins_catalog": "origins.json (archive root; included in exports)",
+  "javascript_release_version_verified": false,
+  "version_scope": "HTML label only; not an authenticated JavaScript release",
+  "game_script_pairing": {
+    "max_gap_seconds": 86400,
+    "cachebuster_used_as_release_evidence": false,
+    "missing": [
+      {
+        "path": "js/shellshock.js",
+        "reason": "no_verified_capture_within_24_hours",
+        "referenced_url": "https://shellshock.io/js/shellshock.js?1663265839"
+      }
+    ],
+    "associations": []
+  },
+  "previous_version_assignment": {
+    "version": "0.42.19",
+    "basis": "javascript",
+    "reason": "No explicit version declaration in the resources supported at this capture time."
+  },
+  "version_audit": {
+    "declarations": [],
+    "release_membership_verified": false
+  }
+}
