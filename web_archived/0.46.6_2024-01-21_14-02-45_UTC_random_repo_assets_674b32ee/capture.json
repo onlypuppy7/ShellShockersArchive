@@ -1,0 +1,2678 @@
+{
+  "folder": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee",
+  "version": "0.46.6",
+  "version_source": "javascript",
+  "version_evidence": {
+    "version": "0.46.6",
+    "kind": "game_javascript_version",
+    "expression": "version:\"0.46.6\"",
+    "offset": 2138161,
+    "selected_capture": {
+      "urlkey": "io,shellshock)/js/shellshock.js?1705384488",
+      "timestamp": "20240118051311",
+      "original": "https://shellshock.io/js/shellshock.js?1705384488",
+      "mimetype": "warc/revisit",
+      "statuscode": "-",
+      "digest": "KDUFM7UQGHXC7DLSJXGRDO2TLMCTYPXH"
+    }
+  },
+  "html_version": null,
+  "event": {
+    "timestamp": "20240121140245",
+    "timezone": "UTC",
+    "timestamp_basis": "Asset collection observation; not a deployment date."
+  },
+  "missing_scripts": [
+    "https://shellshock.io/gtm.js"
+  ],
+  "pairing_verified": false,
+  "warning": "Supplemental assets from a community repository; source modifications are not independently ruled out. Repository HTML and JavaScript are excluded. Game code and HTML are inherited from the original Wayback snapshot 0.46.6_2024-01-18_05-13-11_UTC. Repository observation time is not a release date; simultaneous use and offline playability are unverified.",
+  "files": [
+    {
+      "path": "index.html",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20240118051311",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DJO5VBOU7P7L5LKRZSJXLGWD2TABGZQU"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20240118051311",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DJO5VBOU7P7L5LKRZSJXLGWD2TABGZQU",
+        "replay_url": "https://web.archive.org/web/20240118051311id_/https://shellshock.io/",
+        "final_url": "https://web.archive.org/web/20240118051311id_/https://shellshock.io/",
+        "sha256": "b26b802f086ed0eb982bd2692c29d3795fc48289251580e7b80f2c51edf8e398",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/DJO5VBOU7P7L5LKRZSJXLGWD2TABGZQU",
+        "encoded_sha256": "3b0f7bbb68fef27654f772b5400e049dc4b9c75a8028b8e6e8586f759707e524",
+        "decoded_sha1": "3ASWNWBLXGPI272KLEVPMRADIUM7ZAGO",
+        "replay_capture_timestamp": "20240118051311"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org"
+    },
+    {
+      "path": "js/screenShot.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/screenshot.js?1702420217",
+        "timestamp": "20240118051311",
+        "original": "https://shellshock.io/js/screenShot.js?1702420217",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/js/screenshot.js?1685645622",
+        "timestamp": "20230602024210",
+        "original": "https://shellshock.io/js/screenShot.js?1685645622",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS",
+        "replay_url": "https://web.archive.org/web/20230602024210id_/https://shellshock.io/js/screenShot.js?1685645622",
+        "final_url": "https://web.archive.org/web/20230602024210id_/https://shellshock.io/js/screenShot.js?1685645622",
+        "sha256": "e87e550794322e574a1fda0c1549a3c70dae5a93d9113417a429016838eab8cb",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/JJG2COHDRIVXQKL7TXGL4VE4IZVSSVSS",
+        "encoded_sha256": "38b06febfa9f1f5a3b41c8cf4b7f100f15cc8a63456612088c32ba1dcc687497",
+        "decoded_sha1": "XGD5YDGGZ7G4FY2ETE3V6UCUODC23OER",
+        "replay_capture_timestamp": "20230602024210"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org"
+    },
+    {
+      "path": "js/shellshock.js",
+      "origin_id": "archive_org",
+      "source": {
+        "urlkey": "io,shellshock)/js/shellshock.js?1705384488",
+        "timestamp": "20240118051311",
+        "original": "https://shellshock.io/js/shellshock.js?1705384488",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "KDUFM7UQGHXC7DLSJXGRDO2TLMCTYPXH",
+        "sha256": "c953d0914a535f44184a8923aa4918364ea3ebd5a2a593afb78ed2003725b71c",
+        "verification": "indexed_capture_digest_matches_verified_payload",
+        "replay_url": "https://web.archive.org/web/20240118051311id_/https://shellshock.io/js/shellshock.js?1705384488",
+        "replay_capture_timestamp": "20240118051311"
+      },
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/shellshock.js?1705384488",
+        "timestamp": "20240118051311",
+        "original": "https://shellshock.io/js/shellshock.js?1705384488",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "KDUFM7UQGHXC7DLSJXGRDO2TLMCTYPXH"
+      },
+      "exact_event_timestamp": true,
+      "association": "Nearest verified same-path capture within 24 hours, ignoring cachebuster; release pairing unverified"
+    },
+    {
+      "path": "js/vue/vue.min.2.6.10.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20240118051311",
+        "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "SE2B2HI7ST56RPFSB7VH5ETHC3UAANSF"
+      },
+      "source": {
+        "urlkey": "io,shellshock,new)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20221216093150",
+        "original": "https://new.shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "SE2B2HI7ST56RPFSB7VH5ETHC3UAANSF",
+        "replay_url": "https://web.archive.org/web/20221216093150id_/https://new.shellshock.io/js/vue/vue.min.2.6.10.js",
+        "final_url": "https://web.archive.org/web/20221216093150id_/https://new.shellshock.io/js/vue/vue.min.2.6.10.js",
+        "sha256": "72194d152571dd375c4365e5c3b4af9db2c06af0102ced18fcb062597d38be26",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/SE2B2HI7ST56RPFSB7VH5ETHC3UAANSF",
+        "encoded_sha256": "9c2ab05d68d27ca6851eb1c6bb4f96020a6e73938954bc157c0e79d615f84823",
+        "decoded_sha1": "INGN5QLGT4WGY5AGFF5HEEQJG26FN3KS",
+        "replay_capture_timestamp": "20221216093150"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org"
+    },
+    {
+      "path": "service-worker.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/service-worker.js",
+        "timestamp": "20240112064902",
+        "original": "https://shellshock.io/service-worker.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "ENBDFDQDKDYGQERNQRGQJULS4F733PIS"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/service-worker.js",
+        "timestamp": "20200717224432",
+        "original": "https://shellshock.io/service-worker.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "ENBDFDQDKDYGQERNQRGQJULS4F733PIS",
+        "replay_url": "https://web.archive.org/web/20200717224432id_/https://shellshock.io/service-worker.js",
+        "final_url": "https://web.archive.org/web/20200717224432id_/https://shellshock.io/service-worker.js",
+        "sha256": "d4892cd5810cef1bc7aeee86e4ece1165165f0f1723afabb51e0a9fbd3017913"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org"
+    }
+  ],
+  "consolidation": {
+    "comparison": "Ignore only Cloudflare rayId in HTML; all other primary bytes compared exactly",
+    "equivalent_captures": [
+      {
+        "folder": "0.46.6_2024-01-18_05-13-11_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20240118051311",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "DJO5VBOU7P7L5LKRZSJXLGWD2TABGZQU"
+        }
+      },
+      {
+        "folder": "0.46.6_2024-01-21_16-53-53_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20240121165353",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "6EBLE22TDODG3HFFDXSEZT2GWGMVTIHA"
+        }
+      },
+      {
+        "folder": "0.46.6_2024-01-24_11-22-43_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20240124112243",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "OUDRFEREY3VAFUGAN5NZ4UHYR3CEGEAA"
+        }
+      },
+      {
+        "folder": "0.46.6_2024-01-24_20-03-32_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20240124200332",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "PRSWZIDVGPU4IDG2XQV327OGG4WWZ4BL"
+        }
+      },
+      {
+        "folder": "0.46.6_2024-01-26_12-21-07_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20240126122107",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "CAFOCAIJ5T5UF56KQKXYNCCTIKQMCEAL"
+        }
+      },
+      {
+        "folder": "0.46.6_2024-01-29_20-12-12_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20240129201212",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "46LUJIUNAPMFP7FXV4VWXV74T25NXMFZ"
+        }
+      },
+      {
+        "folder": "0.46.6_2024-02-01_02-59-33_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20240201025933",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "Y6RE3LQ5UGRXVIFNNBMQIHWAKVKAVXIF"
+        }
+      }
+    ],
+    "warning": "Union preserves distinct assets and original HTML variants; it does not assert simultaneous historical availability"
+  },
+  "origin_id": "random_repo",
+  "origins_catalog": "origins.json (archive root; included in exports)",
+  "javascript_release_version_verified": false,
+  "version_scope": "HTML label only; not an authenticated JavaScript release",
+  "game_script_pairing": {
+    "max_gap_seconds": 86400,
+    "cachebuster_used_as_release_evidence": false,
+    "missing": [],
+    "associations": [
+      {
+        "path": "js/shellshock.js",
+        "script_timestamp": "20240118051311",
+        "pairing_verified": false
+      }
+    ]
+  },
+  "capture_kind": "supplemental_collection_reconstruction",
+  "inherited_inventory_from": "0.46.6_2024-01-18_05-13-11_UTC",
+  "imported_files": [
+    {
+      "origin_id": "random_repo",
+      "path": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/LICENSE"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/01ba4719c80b/img/chicken-nugget/a",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/01ba4719c80b/img/chicken-nugget/a"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/01ba4719c80b/img/egg-org/a",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/01ba4719c80b/img/chicken-nugget/a"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/01ba4719c80b/img/events/a",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/01ba4719c80b/img/chicken-nugget/a"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/01ba4719c80b/img/incentivized-mini-game/svg/a",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/01ba4719c80b/img/chicken-nugget/a"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/01ba4719c80b/img/kotc/a",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/01ba4719c80b/img/chicken-nugget/a"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/01ba4719c80b/img/photo-booth/a",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/01ba4719c80b/img/chicken-nugget/a"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/01ba4719c80b/img/skyboxes/a",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/01ba4719c80b/img/chicken-nugget/a"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/01ba4719c80b/img/skyboxes/default/a",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/01ba4719c80b/img/chicken-nugget/a"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/01ba4719c80b/img/skyboxes/whimsical/a",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/01ba4719c80b/img/chicken-nugget/a"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/01ba4719c80b/img/social-media/a",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/01ba4719c80b/img/chicken-nugget/a"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/01ba4719c80b/img/svg/a",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/01ba4719c80b/img/chicken-nugget/a"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/01ba4719c80b/img/tutorial/a",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/01ba4719c80b/img/chicken-nugget/a"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/01ba4719c80b/img/vip-club/a",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/01ba4719c80b/img/chicken-nugget/a"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/01ba4719c80b/models/a",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/01ba4719c80b/img/chicken-nugget/a"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/0b4fd36123c1/img/svg/ico_speaker.svg",
+      "sha256": "0b4fd36123c14417d71cbc5521b24e45cb4cd06069695f807a8e56f49c1f1379",
+      "bytes": 1403,
+      "preserved_source": "unversioned_2020-03-27_02-36-34_UTC_recovered-game_bfa09ef6/img/ico_speaker.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/2d0ddf66aa6b/img/svg/ico_gamepad.svg",
+      "sha256": "2d0ddf66aa6bd54b388f0283cc65ba224d660af6f92525e47bb74a35813ab43e",
+      "bytes": 2060,
+      "preserved_source": "unversioned_2020-03-27_02-36-34_UTC_recovered-game_bfa09ef6/img/ico_gamepad.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/433a37cafc9e/img/skyboxes/default/skybox_ny.jpg",
+      "sha256": "433a37cafc9efd9cf4c7814b7cce7e8689a718b0d40e0f069272c89380b8473f",
+      "bytes": 35061,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/433a37cafc9e/img/skyboxes/default/skybox_ny.jpg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/47628e278180/catacombs.lightmap",
+      "sha256": "47628e278180320af3cfaf7c032f8b40e798c50ab5516033a3a8bbb5c6db0925",
+      "bytes": 2552115,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/47628e278180/catacombs.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/5dfdce1565aa/catacombs.png",
+      "sha256": "5dfdce1565aaad86ea311f3c7e640167467bc709a2b3013ae466c93860e7591c",
+      "bytes": 130102,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/5dfdce1565aa/catacombs.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/6c1ec3a17b70/img/svg/ico_mouse.svg",
+      "sha256": "6c1ec3a17b70fd364702b74bc20cba6bc9f9ccdb89a87c75828f5bddf65f18d5",
+      "bytes": 723,
+      "preserved_source": "unversioned_2020-03-27_02-36-34_UTC_recovered-game_bfa09ef6/img/ico_mouse.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/6d367733f084/sounds.json",
+      "sha256": "6d367733f084fc11b4b41bd0a8b76b48d939c831206c8cb2031b4c37a5548e05",
+      "bytes": 19067,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/6d367733f084/sounds.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/6d9751aa5112/img/svg/ico_keyboard.svg",
+      "sha256": "6d9751aa51126a5018b63433052703ef3e228c5f713b34ef46cd3310c1f0d736",
+      "bytes": 1441,
+      "preserved_source": "unversioned_2020-03-27_02-36-34_UTC_recovered-game_bfa09ef6/img/ico_keyboard.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/8483b5a8f3ed/js/vue/vue.min.2.6.10.j",
+      "sha256": "8483b5a8f3ed4b0bd7a998a928a85cf07bc4ad09b478d8edf2f7b7b1785d8fc6",
+      "bytes": 93676,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/8483b5a8f3ed/js/vue/vue.min.2.6.10.j"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/99c79e5fa7e7/maps/outerReach.json",
+      "sha256": "99c79e5fa7e700bdb316c3cc3bcaae3ae85da8a90cbc633c681d1f164cf5962d",
+      "bytes": 21633,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/99c79e5fa7e7/maps/outerReach.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/b099d8bbd0f1/maps/outerreach.lightmap",
+      "sha256": "b099d8bbd0f1d47947c85bb29eb1b77af87b9bd5390b63434b78570924499b8c",
+      "bytes": 428001,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/b099d8bbd0f1/maps/outerreach.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/b5aeff809352/launguage/en.json",
+      "sha256": "b5aeff8093528b01cff89089cae3bc85fc76a348eff632b384abb53f9c721d15",
+      "bytes": 72555,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/b5aeff809352/launguage/en.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/b5aeff809352/launguage/en.query-0.46.6.json",
+      "sha256": "b5aeff8093528b01cff89089cae3bc85fc76a348eff632b384abb53f9c721d15",
+      "bytes": 72555,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/b5aeff809352/launguage/en.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/c89ce3b57e9f/maps/outerreach.png",
+      "sha256": "c89ce3b57e9fd063d97c285bf2c0d1f01e54fa45f0ebbb22ea11238628b15fad",
+      "bytes": 153931,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/c89ce3b57e9f/maps/outerreach.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/d2652091df50/maps/skyScratcher.json",
+      "sha256": "d2652091df505f6e27dace2b2cfec8667297990edea289f6aef7a2ab10ab4b48",
+      "bytes": 27181,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/d2652091df50/maps/skyScratcher.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/dfe964bd56c9/img/svg/ico_monitor.svg",
+      "sha256": "dfe964bd56c9b38868eb7572a38984a4e358d96bdab15a87b6be1bfe4f2a9d43",
+      "bytes": 598,
+      "preserved_source": "unversioned_2020-03-27_02-36-34_UTC_recovered-game_bfa09ef6/img/ico_monitor.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "data/housePromo.json",
+      "sha256": "c7c93821d51ca88d87db69caaf5599fca45b06f34bb2097b2d915f85b0858680",
+      "bytes": 16587,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/data/housePromo.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "data/img/art/a",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/01ba4719c80b/img/chicken-nugget/a"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "data/img/art/laskudoj10.png",
+      "sha256": "0e9cc2810f559fe2678bb62e4b017176ee8c08ee8480e1f2fae13fb3f3a05512",
+      "bytes": 83858,
+      "preserved_source": "0.46.2_2023-11-04_19-49-26_UTC/data/img/art/laskudoj10.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "data/shellNews.json",
+      "sha256": "5d91f0d1298f42d72f5b1b0917a6320ab077daba8be735fe9559abff68c565e9",
+      "bytes": 2169,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/data/shellNews.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "_asset_alternatives/bb92a4ad887d/data/shellYoutube.json",
+      "sha256": "bb92a4ad887db11beb41aded95dccae34a48e4b18aa9eba497e6dfd0534b78fa",
+      "bytes": 4299,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/bb92a4ad887d/data/shellYoutube.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "favicon.ico",
+      "sha256": "f9194a3315d64d9fe5fcf3cefe511e05ec01248ffffb5082f91d38dca995ae73",
+      "bytes": 1150,
+      "preserved_source": "0.23.3a_2019-09-13_17-56-55_UTC/favicon.ico"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "favicon192.png",
+      "sha256": "cd50e18cfc6f958780aaad0b7bd5ff720d2e601f9184346448e321aa5aae7267",
+      "bytes": 11668,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/favicon192.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/BlueWizard-Logo-min.png",
+      "sha256": "e8c382fddc8b01afedafdebd852572cdef949b84135153d69d5e56c630641e0d",
+      "bytes": 33354,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/BlueWizard-Logo-min.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/black-friday-banner.jpg",
+      "sha256": "45bfbd37d6c46a8b6ea269a823e353fb1710c35505172e21ef64cabb1af44624",
+      "bytes": 53832,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/black-friday-banner.jpg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/blue-wizard-logo-tiny-min.png",
+      "sha256": "b5e2562f7fde7fdc20e3ac0df2a98e349b8d30a25b912f736f6c33ac917f5fbe",
+      "bytes": 4145,
+      "preserved_source": "0.40.2_2021-07-12_20-02-36_UTC/img/blue-wizard-logo-tiny-min.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/chicken-nugget/chickLoop_daily_limit.svg",
+      "sha256": "6ad111f524ff10be86c8a370f961a57c4930f78cdc09ee55257addf45d1ee78a",
+      "bytes": 31820,
+      "preserved_source": "0.42.6_2022-03-15_01-05-07_UTC/img/chicken-nugget/chickLoop_daily_limit.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/chicken-nugget/chickLoop_sleep.svg",
+      "sha256": "a776afe2912e17ecbb37612670852711fbff04ac8d55b55e8c5da2b082f47b4f",
+      "bytes": 133497,
+      "preserved_source": "unversioned_2022-02-17_16-36-44_UTC_script-capture_8e568311/img/chicken-nugget/chickLoop_sleep.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/chicken-nugget/chickLoop_speak.svg",
+      "sha256": "793b93c248b6887ca180a244835ad5a07ca95d13432ab365408a56ac9164db42",
+      "bytes": 23898,
+      "preserved_source": "0.42.7_2022-03-16_03-53-57_UTC/img/chicken-nugget/chickLoop_speak.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/chicken-nugget/chw-loot-btn.png",
+      "sha256": "ec9cada8201f04883f03f18f248cf0aea73c1aa73e5149b6cd690a30fe0896ed",
+      "bytes": 34613,
+      "preserved_source": "0.45.10_2023-07-14_08-22-33_UTC/img/chicken-nugget/chw-loot-btn.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/chicken-nugget/ssAd_chicknWinner800x600-min.png",
+      "sha256": "892ba1022b11456a2a31d8a2bce379ffca841b62794318dc9d3df8985edb76d5",
+      "bytes": 159627,
+      "preserved_source": "0.45.10_2023-07-29_03-49-34_UTC/img/chicken-nugget/ssAd_chicknWinner800x600-min.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/egg-org/eggOrg_timeTravel_splash800x600-min.png",
+      "sha256": "25c41ff8942ef155adc564e777de654d5c731824f7790bba6a7cab37a07f6e4d",
+      "bytes": 219150,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/egg-org/eggOrg_timeTravel_splash800x600-min.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/eggPose01.png",
+      "sha256": "a91b91277606c4dbf26a3c5d5c2a24653ca947626921a0f4ed7610d710a562c8",
+      "bytes": 68770,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/eggPose01.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/eggPose05.png",
+      "sha256": "72e635089cb6d76360592c9a2f3e747d08bde0f67d97cc6c28614d9be9e06bee",
+      "bytes": 52578,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/eggPose05.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/egg_pack_large.png",
+      "sha256": "309a1e08cfc9b208c66fa6a7ad060e1c1556117f77d6a3b8e091adc61b3f7371",
+      "bytes": 15699,
+      "preserved_source": "0.23.3a_2019-08-22_14-57-20_UTC/img/eggshop_egg3.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/egg_pack_medium.png",
+      "sha256": "c9c0b88c4eb7fd8f50425c4a8ede8c7df6000f9ed09a5050c42751d575a76afe",
+      "bytes": 13522,
+      "preserved_source": "0.23.3a_2019-08-22_14-57-20_UTC/img/eggshop_egg2.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/egg_pack_small.png",
+      "sha256": "a06a2fc5651b0888690f0d4dd9ba585cf435a98b7c97b14cf873102ad13a23c0",
+      "bytes": 12652,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/egg_pack_small.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/events/shell-mobile-popup-bg-qr.png",
+      "sha256": "e42c3388877fffd8ed5ecb5a92eb2b2f7a374a89112f60cf306ddbbc7447a894",
+      "bytes": 212934,
+      "preserved_source": "0.44.0_2023-01-21_21-47-04_UTC/img/mobile/shell-mobile-popup-bg-qr.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/free-games-io.png",
+      "sha256": "1947c314b88b08a3c1729a802b1dcd525d24b5d77fcaee1ad5e0f584ca7ea63d",
+      "bytes": 9785,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/free-games-io.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/hardBoiledEmpty.png",
+      "sha256": "a6352361625c9a5497e847bc0d6d4413965410f0512628d023ee30050297d1f2",
+      "bytes": 2173,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/hardBoiledEmpty.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/hardBoiledFilled.png",
+      "sha256": "c2ab8baef50e7aa7b80a5e44d67f017cfbafd1e31997d6823e548931ab6f7d82",
+      "bytes": 2513,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/hardBoiledFilled.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/ico_eggBreaker.png",
+      "sha256": "5f3c502427245435de5b0beb1db64b6a5d6912f89695149586ba5059c3584ea5",
+      "bytes": 30697,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/ico_eggBreaker.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/ico_gamepad.svg",
+      "sha256": "2d0ddf66aa6bd54b388f0283cc65ba224d660af6f92525e47bb74a35813ab43e",
+      "bytes": 2060,
+      "preserved_source": "unversioned_2020-03-27_02-36-34_UTC_recovered-game_bfa09ef6/img/ico_gamepad.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/ico_goldenEgg.png",
+      "sha256": "9bc493724fbc4c37c524b9bb01e40df75b7250e7e61e2424823305e301ed9d6b",
+      "bytes": 1592,
+      "preserved_source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_goldenEgg.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/ico_goldenEgg.svg",
+      "sha256": "04524dd6ac7ce36010d16b806a196858b9476014fcf395b071d725bdd691a88b",
+      "bytes": 918,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/ico_goldenEgg.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/ico_grenade.png",
+      "sha256": "fef5d5d9f1b6a0d8e762694d80b19412626544fa2b1f33a13a87f9e8eab63304",
+      "bytes": 846,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/ico_grenade.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/ico_grenadeEmpty.png",
+      "sha256": "a956613aa89254c5b121e29bc57ba6a429b991b7b476a05cb797e6f2b752944f",
+      "bytes": 2607,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/ico_grenadeEmpty.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/ico_keyboard.svg",
+      "sha256": "6d9751aa51126a5018b63433052703ef3e228c5f713b34ef46cd3310c1f0d736",
+      "bytes": 1441,
+      "preserved_source": "unversioned_2020-03-27_02-36-34_UTC_recovered-game_bfa09ef6/img/ico_keyboard.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/ico_monitor.svg",
+      "sha256": "dfe964bd56c9b38868eb7572a38984a4e358d96bdab15a87b6be1bfe4f2a9d43",
+      "bytes": 598,
+      "preserved_source": "unversioned_2020-03-27_02-36-34_UTC_recovered-game_bfa09ef6/img/ico_monitor.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/ico_mouse.svg",
+      "sha256": "6c1ec3a17b70fd364702b74bc20cba6bc9f9ccdb89a87c75828f5bddf65f18d5",
+      "bytes": 723,
+      "preserved_source": "unversioned_2020-03-27_02-36-34_UTC_recovered-game_bfa09ef6/img/ico_mouse.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/ico_speaker.svg",
+      "sha256": "0b4fd36123c14417d71cbc5521b24e45cb4cd06069695f807a8e56f49c1f1379",
+      "bytes": 1403,
+      "preserved_source": "unversioned_2020-03-27_02-36-34_UTC_recovered-game_bfa09ef6/img/ico_speaker.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/ico_streak.png",
+      "sha256": "75e458cf7fa7341e80432ed095959cf88241d62c35114cedde80ee65b138271b",
+      "bytes": 1504,
+      "preserved_source": "0.25.4_2019-11-04_16-56-11_UTC/img/ico_streak.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/incentivized-mini-game/svg/Egg00.svg",
+      "sha256": "d2d8a41675755d939804e3e363decdb7277191065873eee7ffaae995d9bd0e96",
+      "bytes": 2006,
+      "preserved_source": "unversioned_2022-02-17_16-36-44_UTC_script-capture_8e568311/img/incentivized-mini-game/svg/Egg00.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/incentivized-mini-game/svg/Egg01.svg",
+      "sha256": "d2d8a41675755d939804e3e363decdb7277191065873eee7ffaae995d9bd0e96",
+      "bytes": 2006,
+      "preserved_source": "unversioned_2022-02-17_16-36-44_UTC_script-capture_8e568311/img/incentivized-mini-game/svg/Egg00.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/incentivized-mini-game/svg/Egg02.svg",
+      "sha256": "4a98c3da8b476e738c1d915c7adc7244dd8f60b110328922443f6573c0d4eafa",
+      "bytes": 4138,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/incentivized-mini-game/svg/Egg02.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/incentivized-mini-game/svg/Egg03.svg",
+      "sha256": "4a98c3da8b476e738c1d915c7adc7244dd8f60b110328922443f6573c0d4eafa",
+      "bytes": 4138,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/incentivized-mini-game/svg/Egg02.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/incentivized-mini-game/svg/Egg04.svg",
+      "sha256": "be356bf606a9f2725d467baf1720f732bfbb5a4568084f9cd56237125b056f93",
+      "bytes": 8526,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/incentivized-mini-game/svg/Egg04.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/incentivized-mini-game/svg/Egg05.svg",
+      "sha256": "be356bf606a9f2725d467baf1720f732bfbb5a4568084f9cd56237125b056f93",
+      "bytes": 8526,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/incentivized-mini-game/svg/Egg04.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/incentivized-mini-game/svg/Egg06.svg",
+      "sha256": "b4d0a3d6dfb645c98496afd16cec93df34a528d8fda96b7ed37381fa4c61d6d3",
+      "bytes": 54748,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/incentivized-mini-game/svg/Egg06.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/incentivized-mini-game/svg/Egg07.svg",
+      "sha256": "829a977abdf671ce5ffbaf7049f4eb5b76916f04d9382d85843bce6e70b9fd6e",
+      "bytes": 30311,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/incentivized-mini-game/svg/Egg07.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/kotc/kotc-arrow.svg",
+      "sha256": "72a928b4ea4c4e420dfd86e2c1c03608f6ecd18e5ce7c495d3d44e5228db3b19",
+      "bytes": 2203,
+      "preserved_source": "0.42.0_2021-12-05_11-41-02_UTC/_hosts/dev.shellshock.io/img/kotc/kotc-arrow.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/kotc/kotc-bg-popup.png",
+      "sha256": "8505fd1f3a53ddade99866beb219e938efa9a0cf2eed8cc8450542190aa330ac",
+      "bytes": 109106,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/kotc/kotc-bg-popup.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/kotc/kotc-crown.svg",
+      "sha256": "e0746d96fa606597d2e7152e2df6f261b4792fa59239a78bb15782779b66ebe9",
+      "bytes": 759,
+      "preserved_source": "0.42.0_2021-12-05_11-41-02_UTC/_hosts/dev.shellshock.io/img/kotc/kotc-crown.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/kotc/kotc-rooster.svg",
+      "sha256": "0da93c421ca12d7c35660be31634b957c0985b922d6922ab8c85ce9382e0a885",
+      "bytes": 37251,
+      "preserved_source": "0.42.0_2021-12-05_11-41-02_UTC/_hosts/dev.shellshock.io/img/kotc/kotc-rooster.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/kotc/kotc-wordmark.svg",
+      "sha256": "2e20387329d37cd605e35c3513e9025cc8a029c24321b1f2946837bb101c2654",
+      "bytes": 43010,
+      "preserved_source": "0.42.0_2021-12-05_11-41-02_UTC/_hosts/dev.shellshock.io/img/kotc/kotc-wordmark.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/logo.svg",
+      "sha256": "186dc3174ad9f21803148ff17b7bb6b3d775da8bbad831d9dd56c7d7cc32e5f8",
+      "bytes": 14632,
+      "preserved_source": "unversioned_2021-05-19_05-31-12_UTC_script-capture_9d3024a0/img/logo.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/particles.png",
+      "sha256": "239e86dd7c9eb594a17420709ef3119a4f4b6584387058c670beb39c486c2d26",
+      "bytes": 360717,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/particles.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/photo-booth/ico_shelfieStars.svg",
+      "sha256": "bfcd72bf49c9c4308e60eba8181698e5e273c344234236060699eb317239e854",
+      "bytes": 870,
+      "preserved_source": "0.45.7_2023-06-01_22-45-56_UTC/img/photo-booth/ico_shelfieStars.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/rickroll.gif",
+      "sha256": "f1ab144efb12def335355d06e7da59e797903ff70478f61102b4f7c41ca49f9b",
+      "bytes": 2274717,
+      "preserved_source": "0.39.3_2021-03-12_09-56-05_UTC/_hosts/dev.shellshock.io/img/rickroll.gif"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/scavenger-800x600.png",
+      "sha256": "1c2205593272633bfa6b25210a30b78e85a535f08ae47133968b9b53d4dd0af6",
+      "bytes": 207920,
+      "preserved_source": "0.42.17_2022-08-16_07-00-21_UTC/img/scavenger-800x600.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/shellShockers_loadingTipEgg.png",
+      "sha256": "4fb004ec50d9cb2d8d9100de362bf3ee01dec12d9c68837d8295a5ee460b245e",
+      "bytes": 15229,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/shellShockers_loadingTipEgg.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/shellshockers-unite-lg.png",
+      "sha256": "81fcc6141755ec344fdbdb933dd62196ff6ed98a04a8882061665a1922009007",
+      "bytes": 460036,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/shellshockers-unite-lg.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/skyboxes/default/skybox_nx.jpg",
+      "sha256": "c5ff39012e8940ffd1ebd923f085c9ee5b5e476bacd5dd2d88c253ba903f4019",
+      "bytes": 51515,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/skyboxes/default/skybox_nx.jpg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/skyboxes/default/skybox_ny.jpg",
+      "sha256": "8ba49b65bbfdb6107e8d0dd3d0ca55ffbc038a52e41549ce2db54e01a71ebebf",
+      "bytes": 2336,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/skyboxes/default/skybox_ny.jpg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/skyboxes/default/skybox_nz.jpg",
+      "sha256": "b5e7bec2c851a27831358e25a22a7e4c512a275de181941a5e0bd963d9a6e733",
+      "bytes": 45390,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/skyboxes/default/skybox_nz.jpg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/skyboxes/default/skybox_px.jpg",
+      "sha256": "da14a4953087336241eb17588aa4b212474d2065dbc3d65df5f2becf21e2217d",
+      "bytes": 50748,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/skyboxes/default/skybox_px.jpg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/skyboxes/default/skybox_py.jpg",
+      "sha256": "5a454ac9436389048954827431568f11e26d48dff0783372feda5d750c25afd2",
+      "bytes": 19984,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/skyboxes/default/skybox_py.jpg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/skyboxes/default/skybox_pz.jpg",
+      "sha256": "1edabdb0f3185b06152de2e25eb8fceeaa133c2bf3a0d89f99034caed0394d5e",
+      "bytes": 27520,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/skyboxes/default/skybox_pz.jpg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/skyboxes/whimsical/skybox_nx.jpg",
+      "sha256": "85e978e5ddbe7a02a03e41dc9d19d84957670a32704756909bdaaa3d92dbac98",
+      "bytes": 50716,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/skyboxes/whimsical/skybox_nx.jpg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/skyboxes/whimsical/skybox_ny.jpg",
+      "sha256": "433a37cafc9efd9cf4c7814b7cce7e8689a718b0d40e0f069272c89380b8473f",
+      "bytes": 35061,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/433a37cafc9e/img/skyboxes/default/skybox_ny.jpg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/skyboxes/whimsical/skybox_nz.jpg",
+      "sha256": "a926061078a842aa6a036fbe0c84b6bfcaf4650516104771bc6a4104e5015b5c",
+      "bytes": 50300,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/skyboxes/whimsical/skybox_nz.jpg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/skyboxes/whimsical/skybox_py.jpg",
+      "sha256": "4e0916e5a58a60c1691d0fa339cfccc3dc185cd7531f98a04a53643fc2da7b88",
+      "bytes": 84104,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/skyboxes/whimsical/skybox_py.jpg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/skyboxes/whimsical/skybox_pz.jpg",
+      "sha256": "9d0f2bda29c7f4bd0f9e2b4a29aeb474e9aef5c06079b8824d76f9e0491056dc",
+      "bytes": 51140,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/skyboxes/whimsical/skybox_pz.jpg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/social-media/footer-social-media-bubble-twitter.png",
+      "sha256": "08a15cc77ab6f75cfa3f00a57c7645e1220d7e6b6913988b3e290d4bec76ea1d",
+      "bytes": 21012,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/social-media/footer-social-media-bubble-twitter.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/spatulaIcon.png",
+      "sha256": "8ef51b0c24b1c9232129ef0a51698cb9bdf855c0f829647ac7fca29a037af45d",
+      "bytes": 18900,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/spatulaIcon.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/stamps.png",
+      "sha256": "a4713e6c77affb65f9e8d24277cd9e99621d3b396765a65968a8d20302de397e",
+      "bytes": 5315977,
+      "preserved_source": "0.46.6_2024-01-16_12-23-33_UTC/img/stamps.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/store/items/a",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/01ba4719c80b/img/chicken-nugget/a"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/store/items/item_gre_racecar.gif",
+      "sha256": "741e76fa6ba462b55046080fdb35741bef142b398d0dda456c421fb67d43184f",
+      "bytes": 285473,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/store/items/item_gre_racecar.gif"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/svg/Egg00.svg",
+      "sha256": "d2d8a41675755d939804e3e363decdb7277191065873eee7ffaae995d9bd0e96",
+      "bytes": 2006,
+      "preserved_source": "unversioned_2022-02-17_16-36-44_UTC_script-capture_8e568311/img/incentivized-mini-game/svg/Egg00.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/svg/chickLoop_sleep.svg",
+      "sha256": "a776afe2912e17ecbb37612670852711fbff04ac8d55b55e8c5da2b082f47b4f",
+      "bytes": 133497,
+      "preserved_source": "unversioned_2022-02-17_16-36-44_UTC_script-capture_8e568311/img/chicken-nugget/chickLoop_sleep.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/svg/crown.svg",
+      "sha256": "2bea97cade95d292d8d504b1581bdc255ecdc6aa0433361bcc3e95a1062f3d06",
+      "bytes": 874,
+      "preserved_source": "0.42.0_2021-12-08_03-22-56_UTC/img/kotc/crown.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/svg/ico_goldenEgg.svg",
+      "sha256": "282b621afeee771be2128758e219ba9dbcda8d53289c56909088e1c841561ffc",
+      "bytes": 917,
+      "preserved_source": "0.45.1_2023-03-04_21-15-54_UTC/img/svg/ico_goldenEgg.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/svg/ico_goldenEgg_callout.svg",
+      "sha256": "b1732bdb70b78d23d2b8f569e11a0fa9cfbe8c97f83b4d14c6187f48a7bcfbbc",
+      "bytes": 1449,
+      "preserved_source": "0.45.0_2023-02-16_06-39-20_UTC/img/svg/ico_goldenEgg_callout.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/svg/ico_shelfieStars.svg",
+      "sha256": "bfcd72bf49c9c4308e60eba8181698e5e273c344234236060699eb317239e854",
+      "bytes": 870,
+      "preserved_source": "0.45.7_2023-06-01_22-45-56_UTC/img/photo-booth/ico_shelfieStars.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/svg/logo.svg",
+      "sha256": "186dc3174ad9f21803148ff17b7bb6b3d775da8bbad831d9dd56c7d7cc32e5f8",
+      "bytes": 14632,
+      "preserved_source": "unversioned_2021-05-19_05-31-12_UTC_script-capture_9d3024a0/img/logo.svg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/tutorial/ss_tutorial_EggTarget.png",
+      "sha256": "0a490730959842376db48cf8bc7724c68d97afd481ff88f3d6449b67e5bd7a90",
+      "bytes": 4144,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/tutorial/ss_tutorial_EggTarget.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/tutorial/ss_tutorial_Keyboard.png",
+      "sha256": "cb53c3defb9d3843c01a413a99b6ce8efce36aa166c5f13e505c9aaf117f95be",
+      "bytes": 5473,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/tutorial/ss_tutorial_Keyboard.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/tutorial/ss_tutorial_Mouse.png",
+      "sha256": "29a988e8c39fa750b7193eeae6795e6ded4b1597b345aae4fb984ebb1d52c2ee",
+      "bytes": 5474,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/tutorial/ss_tutorial_Mouse.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/very-important-poultry.png",
+      "sha256": "cb0f115561bfc42ccfcf1b36e21f233d728377d27afb5b5dfb9730adb9764719",
+      "bytes": 3449,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/very-important-poultry.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/vip-club-popup-emblem.png",
+      "sha256": "a363833fa8dfee7eaebac88c4a0043576edeca60706dafb26edcae3089f53f3a",
+      "bytes": 11019,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/vip-club-popup-emblem.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/vip-club/very-important-poultry.png",
+      "sha256": "cb0f115561bfc42ccfcf1b36e21f233d728377d27afb5b5dfb9730adb9764719",
+      "bytes": 3449,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/very-important-poultry.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/vip-club/vip-club-popup-background.png",
+      "sha256": "ad99f1a789d80fe752663df6b5ab9b746938456cbb4ce59f5fc655e817711126",
+      "bytes": 166225,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/vip-club/vip-club-popup-background.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/vip-club/vip-club-popup-emblem.png",
+      "sha256": "a363833fa8dfee7eaebac88c4a0043576edeca60706dafb26edcae3089f53f3a",
+      "bytes": 11019,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/vip-club-popup-emblem.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/vip-club/vip-club-popup-item-1-month-membership-bg.png",
+      "sha256": "0aa4d6bfb885bf66b0a67cf82eee9bed136d6c6746b9646ee92aeb68526a43f5",
+      "bytes": 763,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/vip-club/vip-club-popup-item-1-month-membership-bg.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/vip-club/vip-club-popup-item-12-month-membership-bg.png",
+      "sha256": "623142ea4478093b22c051f8a2a75eb9ad33c7d2b3e3e72705b5de9b1a59fd0e",
+      "bytes": 815,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/vip-club/vip-club-popup-item-12-month-membership-bg.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "img/vip-club/vip-club-popup-item-3-month-membership-bg.png",
+      "sha256": "b22ddbf569780d748650d1e39f754799b59bab967dc4c8d67cf752039aecaa86",
+      "bytes": 751,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/img/vip-club/vip-club-popup-item-3-month-membership-bg.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "language/en.json",
+      "sha256": "b5aeff8093528b01cff89089cae3bc85fc76a348eff632b384abb53f9c721d15",
+      "bytes": 72555,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/b5aeff809352/launguage/en.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/aqueduct.json",
+      "sha256": "ddec02ffd37a99d7858db772fb865d6daaf617cd01de287eeba6ec245fe59c20",
+      "bytes": 41228,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/aqueduct.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/aqueduct.lightmap",
+      "sha256": "7f96982c3abaccb77c6e4b4b353a4ff050e7795fc4168130009ccaa17c4d8421",
+      "bytes": 503784,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/aqueduct.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/aqueduct.png",
+      "sha256": "7e31d98eaf5a1167ae194fb0cf0585b43ba0fd73154cdc9147a90dda5d009a4d",
+      "bytes": 86013,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/aqueduct.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/backstage.json",
+      "sha256": "280c73726cb7a031438bfc9aa61d8215d0dc865ce7e283e18b481da9b6b6e5e9",
+      "bytes": 40728,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/backstage.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/backstage.lightmap",
+      "sha256": "86b6484cae8529cdc55746a035d286a0590d5f9fa3e68bbb19f1b0753b1e018c",
+      "bytes": 318948,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/backstage.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/backstage.png",
+      "sha256": "e01976550d9c21d3cd9c3438f780ebe2fa3c87ce24c9ba9afb04517f2e7bd674",
+      "bytes": 112640,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/backstage.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/bastion.json",
+      "sha256": "58a3f274030aede58a49693cd003edb3eadbb92871b19345777c43ca77d3f459",
+      "bytes": 29959,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/bastion.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/bastion.lightmap",
+      "sha256": "9834afaa5c3c6e8f23f60539f1a19184ee0a1c4513b3d63598fe73a20c3d356d",
+      "bytes": 1207434,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/bastion.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/bastion.png",
+      "sha256": "9a953aa4201a3ad5d83a551ab300812b6c9bf8bf189c65faa79b728e82cf2742",
+      "bytes": 116194,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/bastion.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/bedrock.json",
+      "sha256": "bfdb2fbe0870d91302e5be5ba9d50d3d12ef51ec736e68b0c7cd0cc7eed9391e",
+      "bytes": 28419,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/bedrock.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/bedrock.lightmap",
+      "sha256": "9c0dd3507b4f995ec94dc4428be904c1670ede734f398bb8d870cb60d85daf57",
+      "bytes": 245973,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/bedrock.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/bedrock.png",
+      "sha256": "8fff8ae54cdc19e22e6347465a0fd144921c3125bf7cf679b07ca5efdc442ee9",
+      "bytes": 73282,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/bedrock.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/biohazard.json",
+      "sha256": "c90065edc19372c07edd1150633ae974a291281058e26dc6fa9679da48759875",
+      "bytes": 22364,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/biohazard.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/biohazard.lightmap",
+      "sha256": "f5a3dd3c1f942bd40b8af001e3a33c6ec41a372e59024aa6316c999e6ffcf9b4",
+      "bytes": 683235,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/biohazard.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/biohazard.png",
+      "sha256": "8d39c47acbc3aa5102c83dd6697842d039837a59ceb020b496d7475feeae311d",
+      "bytes": 86283,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/biohazard.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/blender.json",
+      "sha256": "d68cefc337e145fa62d70ff873ffee25d3fb0887e8c9fcfb42da0604c3cdd614",
+      "bytes": 18867,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/blender.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/blender.lightmap",
+      "sha256": "3fa6c0cf2b48769125ace551653d4e0fffc5e9a38b9a616a6f602f279d89938a",
+      "bytes": 589215,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/blender.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/blender.png",
+      "sha256": "d469eccd453b97ce4dda457c522f944fffcb47febcfc092d28e68c89d6867046",
+      "bytes": 93956,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/blender.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/blue.json",
+      "sha256": "499086a4af4e0c747445eb5e24084e5f781554b746ef050e562df79b01355a58",
+      "bytes": 22480,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/blue.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/blue.lightmap",
+      "sha256": "26e5a8e4577d6ee4f7f4870b2863845b4ced27bb62bc21436ca148d724751f78",
+      "bytes": 224013,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/blue.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/blue.png",
+      "sha256": "db72d9703654359ce62b6f5931f97dc62345e39ef1c575d468a3d2864b71cfbc",
+      "bytes": 98053,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/blue.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/bridge.json",
+      "sha256": "fe3d0af652a897d594bb3b1fe9f97c6ab97af14c4accbbb01d376063caace4f7",
+      "bytes": 14191,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/bridge.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/bridge.lightmap",
+      "sha256": "a7f0cd35c9ffabfe0538e07ccd754aed73bec61f5157585d289e9edaa2c232ba",
+      "bytes": 669231,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/bridge.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/bridge.png",
+      "sha256": "fd1e78c70190e0ff3dd235b1647cc22b00640b11512262aa10f5708ece43d76a",
+      "bytes": 101926,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/bridge.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/cash.json",
+      "sha256": "cecbaf3193aff09c214212cdf888eb072a349041ce7c7a5aca9f51fb1e6e90d0",
+      "bytes": 51797,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/cash.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/cash.lightmap",
+      "sha256": "42a7438447517942be8fe4e4537946f812603e3a0701511a23aa4b6abca2ef32",
+      "bytes": 740475,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/cash.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/cash.png",
+      "sha256": "03382262cd955fce19466b49962c0d1e175f525cfcf6d93dd8e81dece492f604",
+      "bytes": 102986,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/cash.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/castle.json",
+      "sha256": "83c776e089f3bd9c77d0f9cf9f046023c7c7af5affda61883f854017122be0ff",
+      "bytes": 28951,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/castle.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/castle.lightmap",
+      "sha256": "55c3a1b140f63401b4a6ee57e23b71b316ab8b54c7541886d3e9b10170f91f21",
+      "bytes": 1154058,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/castle.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/castle.png",
+      "sha256": "4acf6df850fa2c86d1a8241300d7f3e98bd6e4c197b93cfe31bae68e5b9be697",
+      "bytes": 132377,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/castle.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/castleArena.lightmap",
+      "sha256": "f9290da15648290e9ca2570b4e9feaae02e2290707783ccd789a77f5eaf3f445",
+      "bytes": 752169,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/castleArena.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/castleArena.png",
+      "sha256": "0a0e20e3bb09f597a39e7ad980d1ff25afced1fbab931426bcf6470009d6822a",
+      "bytes": 94917,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/castleArena.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/catacombs.json",
+      "sha256": "f36b49ed187a78461159233a24d0bcd9e098a85c924a9d7ad2abadef3b2297c8",
+      "bytes": 42487,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/catacombs.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/catacombs.lightmap",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "bytes": 2,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/catacombs.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/catacombs.png",
+      "sha256": "5dfdce1565aaad86ea311f3c7e640167467bc709a2b3013ae466c93860e7591c",
+      "bytes": 130102,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/5dfdce1565aa/catacombs.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/chickenItza.json",
+      "sha256": "7ed8c45e64182ce1d337928a50dc0e3161159cb4559d4d6a817ab9e6b62bc68b",
+      "bytes": 43608,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/chickenItza.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/chickenItza.lightmap",
+      "sha256": "cd329d87c5bcd3a500c64cc9499c79ae34e84ed2425e9e53cfa69f51da167317",
+      "bytes": 886590,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/chickenItza.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/chickenItza.png",
+      "sha256": "e5491fd2f9b9351651d2ffbe9f275888877e7e830f2800bb4ad7d79850ecfd45",
+      "bytes": 93803,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/chickenItza.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/cluckgrounds.json",
+      "sha256": "348ed58f11e27db3d196e60ad9134e417a7ef9ac384efe7ab96d69e152cd4b94",
+      "bytes": 22215,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/cluckgrounds.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/cluckgrounds.lightmap",
+      "sha256": "54343be78822b0eaae2e06fa98517c50c61cf86bc25414ea39fff358321cb303",
+      "bytes": 290988,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/cluckgrounds.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/cluckgrounds.png",
+      "sha256": "cd2abc623074116c91a75a516895c205bf1a25e6db70ccfa7c0465ea5b0b5b80",
+      "bytes": 116105,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/cluckgrounds.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/crowsnest.lightmap",
+      "sha256": "ff2ab4db04b3400de950843a7e46c24cfe6c05dd043adfe35d5a15caa77af57e",
+      "bytes": 576075,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/crowsnest.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/crowsnest.png",
+      "sha256": "7ec03f90611093d807ba85cc42cdd182ec87a8ae9ba637f7456a68172ac7f1cb",
+      "bytes": 93730,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/crowsnest.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/deathpit.json",
+      "sha256": "97f6da897cf1692ec4272229e84f8fefaf3fed5a0c75f4836556e73df1ca0573",
+      "bytes": 25105,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/deathpit.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/deathpit.lightmap",
+      "sha256": "239f0dcbdcf196ee0693dbc43b5430e4fe826ed997dd5028033a0e685a208dc3",
+      "bytes": 1015113,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/deathpit.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/deathpit.png",
+      "sha256": "5711a294ff573c05b418c8a108c09c36335680dd18a0277256e554f82ed93b27",
+      "bytes": 138107,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/deathpit.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/dirt.json",
+      "sha256": "18eeabd1171513a5e153c69a2c7307c2dfa6fc17f66d0cf2b0c94a2c17a64388",
+      "bytes": 52773,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/dirt.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/dirt.lightmap",
+      "sha256": "62fd35f91a27e1d56855819affffdb90c49f4813fedf5835072c8478613cd120",
+      "bytes": 2643375,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/dirt.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/dirt.png",
+      "sha256": "45442420087d92f9956072fe83f85949c803e6bc05df7b6e440dbdf9a37738c1",
+      "bytes": 119421,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/dirt.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/dirt2.json",
+      "sha256": "470daf88971a52c2d17da31d8f73c981a2156423f26780956456cec4497dd446",
+      "bytes": 54240,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/dirt2.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/dirt2.lightmap",
+      "sha256": "df3e5a5102f5a87c54f5eea3e1b99aceb3486fb831e625336308dad999d1e591",
+      "bytes": 3086823,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/dirt2.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/dirt2.png",
+      "sha256": "7ffe54389b9d3cbda09122d496a6e8afbf98a134cde7a541ae671008faf5a1bc",
+      "bytes": 109770,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/dirt2.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/dirtbase.json",
+      "sha256": "77f5adea0e09c86221280377983d617c3a760d6ec35eeca8d5942eac2f65cce2",
+      "bytes": 18803,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/dirtbase.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/dirtbase.lightmap",
+      "sha256": "4d80939455cbd6b49362e3352046b63a072fbea65167e50d4a501c1fe5dbc640",
+      "bytes": 931668,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/dirtbase.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/dirtbase.png",
+      "sha256": "72985f92607d63aec143c09f1a75565403203fd44138823cc2283713dff6de21",
+      "bytes": 103090,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/dirtbase.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/downfall.json",
+      "sha256": "b0323e29fa9ef3f1a36e1ebda3d8265330eb34bd0d02b3d97af2fe30da1b853a",
+      "bytes": 13965,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/downfall.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/downfall.lightmap",
+      "sha256": "399010fb3170725fbe54b78e90ddc67f0ad63dfe397c546cbc4a73c5fdc3246a",
+      "bytes": 314556,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/downfall.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/downfall.png",
+      "sha256": "67c02692de7208ac14c440f11822e9ef58499c6816d1c3226cdfa9420eb80671",
+      "bytes": 70946,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/downfall.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/duelPyramidLG.json",
+      "sha256": "c131171682d9d089aaea28cb5fcd950affd6e0ae86f1fedf82911fb550885904",
+      "bytes": 14116,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/duelPyramidLG.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/duelPyramidLG.lightmap",
+      "sha256": "670d15f311c2d63f408047f04ec67e4be41ff24c681b82a5527531022611df37",
+      "bytes": 516078,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/duelPyramidLG.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/duelPyramidLG.png",
+      "sha256": "e038c2ff987808286e7feaf48652589f855e4d9c97f2c8404d8ea929241eeed9",
+      "bytes": 139347,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/duelPyramidLG.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/eggcrates.json",
+      "sha256": "ea9a2423068791d2224559675eef79aa1a497a5ead369024cf6f2df1d2aad1f9",
+      "bytes": 10171,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/eggcrates.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/eggcrates.lightmap",
+      "sha256": "b0271a6103daba6cda2e1b653d72a20fa69468801c29b2d4fccf9906a93c757a",
+      "bytes": 210606,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/eggcrates.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/eggcrates.png",
+      "sha256": "127d3d62f66fdc7b9840d92f18397e899f8da8e746dc85bc2b64915f997f0909",
+      "bytes": 102871,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/eggcrates.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/enchanted.json",
+      "sha256": "0e5aa130a3c291cbd35202d6a21acc3339f2a71ec00095e5ea5071845365e812",
+      "bytes": 43527,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/enchanted.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/enchanted.lightmap",
+      "sha256": "6e3aba193a5937990b411255b297a34fc9a6bf05ca0102ede169742a7161a271",
+      "bytes": 1221930,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/enchanted.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/enchanted.png",
+      "sha256": "a4c8051f5db428ed74a1131806315c742c4c72ab976e40fd10a3937f3223eeb3",
+      "bytes": 91174,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/enchanted.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/exposure.json",
+      "sha256": "83a6bbd878744a5b3957f80c5608145c393ef10f0613aa8aa4d44fa016632062",
+      "bytes": 31843,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/exposure.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/exposure.lightmap",
+      "sha256": "2e2edc32aae7e8b688ebcd3913d2afc16baa3c302840f62d0bed8d4938ce0cba",
+      "bytes": 481938,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/exposure.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/exposure.png",
+      "sha256": "26ff8da9b7815dec16d5c14218254add1f9ada8fbd9ac1245c7976059b7c8cad",
+      "bytes": 65587,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/exposure.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/feedlot.json",
+      "sha256": "b38155ede6f13e45ba3b171874945c60224575d82109c193828caa6b7d6b0788",
+      "bytes": 26653,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/feedlot.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/feedlot.lightmap",
+      "sha256": "5f2f7b09f7aa46d62c426d6b032331be577281ef0aafe204aaf951db3b7e1081",
+      "bytes": 648846,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/feedlot.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/feedlot.png",
+      "sha256": "81bc5bbdab5571f4767d5c390c8516f8740fee4a54bb5788af204643eba5f121",
+      "bytes": 85403,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/feedlot.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/field.json",
+      "sha256": "1a7cb8de38891bb7748ae61974f99c01c8d3f8fdab69a8797a24cd0657957df8",
+      "bytes": 17220,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/field.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/field.lightmap",
+      "sha256": "1b2c06a444cd1d6ffec38f706df4271b2e0e3f38ccb9e8a237a92e10143ba593",
+      "bytes": 324129,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/field.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/field.png",
+      "sha256": "ce2a3f03e22907d40ca0601945b21954d955f2e0c0387448c6e434cf17ed6e4c",
+      "bytes": 93004,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/field.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/fortFlip.json",
+      "sha256": "9addb5007f9756dc5f90a5769dd7709e2e4ba4cab8fdef9aa27fda64a31ffbab",
+      "bytes": 51594,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/fortFlip.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/fortFlip.lightmap",
+      "sha256": "f496e00e4a09f9a4dca345825bec9961b060069bcd9b29981054f1f77b245458",
+      "bytes": 536931,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/fortFlip.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/fortFlip.png",
+      "sha256": "120bcccf2d51f4fc062486f0b9c836a0ce12ca46c3f79713abb8c3171108e309",
+      "bytes": 83531,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/fortFlip.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/fourQuarters.json",
+      "sha256": "b07f94b8da377228c9adff6a81b88c28cee3490f98ec75e21f30a7cdb00478b7",
+      "bytes": 25041,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/fourQuarters.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/fourQuarters.lightmap",
+      "sha256": "6fb37053d3c1fafb1d91cb47d72e80716d4d53402ea8bc238305d6b6f8c29538",
+      "bytes": 1045803,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/fourQuarters.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/fourQuarters.png",
+      "sha256": "be0c13a891e49133ebfbe0f550b4ef2e3565cc1fdf63c594885a4f99410b9d51",
+      "bytes": 112442,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/fourQuarters.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/growler.json",
+      "sha256": "bf5e9d80d1a1482b0dbaa58ce39e6ab92963398f663019533d1a31ce9a25a941",
+      "bytes": 23249,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/growler.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/growler.lightmap",
+      "sha256": "9714141fa17ae142443b6bd92effb2a9f6abb5cff40f7c9b5de0b1edce3f4359",
+      "bytes": 752574,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/growler.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/growler.png",
+      "sha256": "b2c91ba79ea6b17e0e2cef32f727bc57acab6f8da2166b256a3b048bfa8e0a71",
+      "bytes": 115594,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/growler.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/haunted.json",
+      "sha256": "f29b33bde939a6f392af791e5c715cc5d43102e3ed1fc47e7715a6765f071343",
+      "bytes": 29594,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/haunted.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/haunted.lightmap",
+      "sha256": "7daaac872a3d61b773d54d39f5dc3a19c03045240fa5e69d72450e2f64e54193",
+      "bytes": 914133,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/haunted.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/haunted.png",
+      "sha256": "13763c92ce4c15083801078e3cf8d80162b7f281d10a0cc82eca297cbeb35dea",
+      "bytes": 96755,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/haunted.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/helix.json",
+      "sha256": "ec398b283bc311a8d65ada3b72648ab36459776828ff664474364949b392b193",
+      "bytes": 20322,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/helix.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/helix.lightmap",
+      "sha256": "4fae78611670ed24ee0933fd9eec02a7c3e921373130d6f071bcabeb694a4e41",
+      "bytes": 472209,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/helix.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/helix.png",
+      "sha256": "05fe79c32ffd6ac114e517a5972fee1d2ce08128a8f8f8a6de87e5d2c3272d54",
+      "bytes": 83132,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/helix.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/jailbreak.lightmap",
+      "sha256": "2d53fe3cc5969635630e80ed3b49c4ff3093d77dd7fa473d345d752df138a55d",
+      "bytes": 639345,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/jailbreak.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/jailbreak.png",
+      "sha256": "bca9ad86910f3307a2bae4ac96490b804d00e93b98517736fe6563fc48e86d9e",
+      "bytes": 97027,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/jailbreak.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/jinx.json",
+      "sha256": "3342130987c5c645a437d9320755b8c27f47f44a6c2a47c92b3866369e69d772",
+      "bytes": 45216,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/jinx.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/jinx.lightmap",
+      "sha256": "92082bfaced9e202e5bc374ba0e897a39d1b9288d80fa8f25e4124d3e506b55b",
+      "bytes": 1901469,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/jinx.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/jinx.png",
+      "sha256": "2946cb2c4b716ea51d4a8c0200a1e88bbdaef43f68a8cdf24e15ff2657b027a1",
+      "bytes": 87424,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/jinx.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/junction.json",
+      "sha256": "2895c6ab6c16ceb98a4b2f50c48fdd933a3c13b066fc25d0e7f4cb67cceea47b",
+      "bytes": 26740,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/junction.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/junction.lightmap",
+      "sha256": "3e00087b888b2428932c368ee4b3f82f804d15919fbc1ab65a4c5d81acdee606",
+      "bytes": 849051,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/junction.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/junction.png",
+      "sha256": "9f4d1ec9e658cb0b2347c5732a6a342f799fe18e91a25f8eb9d66a4e75f415bc",
+      "bytes": 92005,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/junction.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/kingsCourt.json",
+      "sha256": "841a9795cd01198671bc87d00df7c4e94e7002bfa16c812c6f54a00c7847addb",
+      "bytes": 28564,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/kingsCourt.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/kingsCourt.lightmap",
+      "sha256": "7789742e4c08d9f65e91c281d61091d29d9f65e6d1c8819eef57d91acd20b3a5",
+      "bytes": 957615,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/kingsCourt.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/kingsCourt.png",
+      "sha256": "180cb671d7b52842f2179ac0efafe2bc85bfb892e27620ebe5206d36a77267cc",
+      "bytes": 102831,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/kingsCourt.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/mansion.json",
+      "sha256": "3f6bf2463b313efdf48cf0576deaec9549417daf9bca458eda72bdff75b2528e",
+      "bytes": 38677,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/mansion.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/mansion.lightmap",
+      "sha256": "5a3c719163e3844913117646e405b87d8374185466570c10bb9131ecc8538ff9",
+      "bytes": 1519962,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/mansion.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/mansion.png",
+      "sha256": "9c21bef71b05366d084b82a14c839a39fa0fd28ef72aab8e82455f5091bf79aa",
+      "bytes": 94748,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/mansion.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/moonbase.json",
+      "sha256": "5799917af027be4e3dbbf425e193ccc598c71efa3e27013938222c062f57f623",
+      "bytes": 27033,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/moonbase.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/moonbase.lightmap",
+      "sha256": "655b0946d03733c288df9d947741fcd32846d8e344858e386ef0f8ae644bcedf",
+      "bytes": 1667358,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/moonbase.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/moonbase.png",
+      "sha256": "eef4e95bb30f18d38ed9ee761f6412c395454514617abc38ccc3f9b852d0fb31",
+      "bytes": 117084,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/moonbase.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/mudGulch.json",
+      "sha256": "3369400ce66857d20c70412a69bac36c7492a28b566a8126776c074cf425fbcd",
+      "bytes": 26501,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/mudGulch.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/mudGulch.lightmap",
+      "sha256": "eccdddb4792fb06a9d2bba935982fc0a5044a077653c0da799fd43aef71f4ce6",
+      "bytes": 365349,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/mudGulch.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/mudGulch.png",
+      "sha256": "98e87e9996291d5bec5771ee82eefa3f42f70211ed5fdeb89ffba8826baa65a6",
+      "bytes": 101187,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/mudGulch.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/outer.json",
+      "sha256": "99c79e5fa7e700bdb316c3cc3bcaae3ae85da8a90cbc633c681d1f164cf5962d",
+      "bytes": 21633,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/99c79e5fa7e7/maps/outerReach.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/outer.lightmap",
+      "sha256": "b099d8bbd0f1d47947c85bb29eb1b77af87b9bd5390b63434b78570924499b8c",
+      "bytes": 428001,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/b099d8bbd0f1/maps/outerreach.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/outer.png",
+      "sha256": "c89ce3b57e9fd063d97c285bf2c0d1f01e54fa45f0ebbb22ea11238628b15fad",
+      "bytes": 153931,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/c89ce3b57e9f/maps/outerreach.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/overcooked.json",
+      "sha256": "66c15d768a8dd73cf3af485ac48288ebf19afb8d3a94dd3ba7c70cd2f846a4b7",
+      "bytes": 21979,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/overcooked.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/overcooked.lightmap",
+      "sha256": "0291c6f3b1b8a4cb52a443fa806c7c9eab78f07e46ad3a85dfd5ad12c67b3057",
+      "bytes": 1010148,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/overcooked.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/overcooked.png",
+      "sha256": "8b17477fe7bfa19250598e42eb6c5d74ef107c16d78ace8cd13c9f274b593286",
+      "bytes": 95527,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/overcooked.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/palaceSiege.json",
+      "sha256": "8f42e6f768fff4238c7d57aba36af095a66c1d8111be9adb9d7e1807e794e700",
+      "bytes": 36397,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/palaceSiege.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/palaceSiege.lightmap",
+      "sha256": "cba305ad0f56f5f35ffeaec0f91bd28eee226db1c97e62700252ff84b7b53541",
+      "bytes": 2007405,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/palaceSiege.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/palaceSiege.png",
+      "sha256": "49d746b594def21970ec8eab827c7612c37250c4e929c2e6e29de6144ff29b9a",
+      "bytes": 118366,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/palaceSiege.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/quarry.json",
+      "sha256": "e7935afd5aeadca10b4c5adce84eb530d653bce90b163c9dc0c23a3c47262abb",
+      "bytes": 39315,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/quarry.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/quarry.lightmap",
+      "sha256": "277b395a3ac59921007ef2df769020bf1bac0b28ccba9db3fc499be4ff6d4093",
+      "bytes": 429543,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/quarry.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/quarry.png",
+      "sha256": "da07bede7cce4289bae0f295bccf1dd6fe7da9b764a1c7f6d6cecb66fcbfa93d",
+      "bytes": 97009,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/quarry.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/raceway.json",
+      "sha256": "cd1678aadd5450cdb116bdca83e473f77ff01bc60779efee9e30487551c99d09",
+      "bytes": 33462,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/raceway.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/raceway.lightmap",
+      "sha256": "a0b58b4b07878fdb53cd151f36941171ff4e5f21ae921f3102af3bf499e45057",
+      "bytes": 1120269,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/raceway.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/raceway.png",
+      "sha256": "3fa69621a95c38ac39667aeb65c2bb05958a4e7a9975feba01c333841f036a29",
+      "bytes": 92451,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/raceway.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/rameses.json",
+      "sha256": "5d50595daf1ad2e78173a81ef087d582954b738fd6a0514bfc646c7025de0da7",
+      "bytes": 35814,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/rameses.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/rameses.lightmap",
+      "sha256": "2a162a2de8761a8b3540b7165506870f07d9ee6931885132ce0f37627b1e2883",
+      "bytes": 1965912,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/rameses.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/rameses.png",
+      "sha256": "928e581d9622cf04c5368d36e1f131d03663ea93b75f744f3906cc1070cad24d",
+      "bytes": 82143,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/rameses.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/rats.json",
+      "sha256": "bd2611e1e5a6ec1bfd0fc8f06e4899619b4bb30fefbb3c95c621db94704fec33",
+      "bytes": 75586,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/rats.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/rats.lightmap",
+      "sha256": "0ec3661400a1b36fcfe84d0191ea6040013ed63435cbef04f8ff6f53d2ea94e9",
+      "bytes": 678042,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/rats.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/rats.png",
+      "sha256": "fc60f1602f10bc046ccb7a1fc90e8cce9961366730cd9e5cb971a13639b1eef3",
+      "bytes": 86834,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/rats.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/rivals.json",
+      "sha256": "0984493ed1b442f043edeecf5bfe727a6973e9230c85a5e5cf965a4428781ba1",
+      "bytes": 14598,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/rivals.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/rivals.lightmap",
+      "sha256": "8abaebd9a362ac8fffb1b6471e3d255e835b9cef0cad2261411c776222b89371",
+      "bytes": 831858,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/rivals.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/rivals.png",
+      "sha256": "d6608dc2ca186f067586ef29795d721f2afc3b0579c6678a5eafeda1c3d3be3f",
+      "bytes": 125315,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/rivals.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/road.json",
+      "sha256": "bbf895854e18e2c7aea431a2a73aacc27d83c46dc0471da0b4e6f9e737fff7d9",
+      "bytes": 29122,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/road.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/road.lightmap",
+      "sha256": "bf202932c3c484e7d1876e2ab0facc80c81b80d3c235581ac469aad8ea7eaac4",
+      "bytes": 1540947,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/road.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/road.png",
+      "sha256": "59652101b7f21d62edae30926e14347c32bd8bc31fcbfbc8384de6eb03e74a91",
+      "bytes": 155465,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/road.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/ruins.json",
+      "sha256": "e10773cdedf3726a88ae98c6b26e76f5cd50a86fa4ec720fa5be8c603470cda4",
+      "bytes": 53062,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/ruins.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/ruins.lightmap",
+      "sha256": "c796e7dfb6cb3c104ac54f888c01bc1f0a27aeca7742702fba64a6758c96f4dd",
+      "bytes": 351081,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/ruins.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/ruins.png",
+      "sha256": "1d5777f1dce52d79d6346b7e76ee3fcfc465bdd2cdd3f9f329af8c56c497ad82",
+      "bytes": 99734,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/ruins.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/scales.json",
+      "sha256": "32572b594c803c5b281e26607d3bf8c1ed89867351e7657ce7c892fb23e6bad5",
+      "bytes": 20829,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/scales.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/scales.lightmap",
+      "sha256": "94c93fe641246c4fba4988d7b9aa683077b393ac9172e6434438798c10df018e",
+      "bytes": 1114437,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/scales.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/scales.png",
+      "sha256": "97c45ff78fa97742ae551947eed5b77851f729ee6d426b63a8de16911fdcb0fb",
+      "bytes": 105108,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/scales.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/shellville.json",
+      "sha256": "cf6c87737f9669b28946765680db91008743a35df72c09333ef42703a16c95a1",
+      "bytes": 24836,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/shellville.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/shellville.lightmap",
+      "sha256": "4d830fd962433b52cd0130b3b4d533ecb05b7804433f69ebaec1be961d751edb",
+      "bytes": 1632195,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/shellville.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/shellville.png",
+      "sha256": "8aa12085327597813498d1fb6e66a0aea07ea7a52fdcb89f1241992ffc341d3e",
+      "bytes": 114814,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/shellville.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/shipyard.json",
+      "sha256": "ddf83250f053d61518b779a9ffb586cfb3f9c0366e30539c35b5359ed6f02925",
+      "bytes": 31378,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/shipyard.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/shipyard.lightmap",
+      "sha256": "e35ecdfd1c87a8e24b9a138a468536784683e62775c25ffaaca02262e0195686",
+      "bytes": 440859,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/shipyard.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/shipyard.png",
+      "sha256": "3cb16bd1daf38ff4b6a8c55f868f6266dda69d53724b2aa4fdfbb18a71d3b34c",
+      "bytes": 68056,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/shipyard.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/skyScratcher.json",
+      "sha256": "27ccd87a420a51e7281ec02469db415a9ca85b11472b6803589a1ad31624d393",
+      "bytes": 27180,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/skyScratcher.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/skyScratcher.lightmap",
+      "sha256": "61705896b54dd0989ffb8f67b3388116c78571bc0454f354adb07d978d1d0d77",
+      "bytes": 827913,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/skyScratcher.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/skyScratcher.png",
+      "sha256": "46fe88eb2df75090b9209cded9c250ba1e537c4069378e3c5a2afe4f72f63cbc",
+      "bytes": 145574,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/skyScratcher.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/spaceFactory.json",
+      "sha256": "5de5e4d935f8a09883c48567c14b23e3ff29352a57c48946f9434ed75c2cd17d",
+      "bytes": 28006,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/spaceFactory.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/spaceFactory.lightmap",
+      "sha256": "e12488b3fb0ec5c7385c0d26a3f21000c14aed4464142c8aa75bcf1a9658b798",
+      "bytes": 995139,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/spaceFactory.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/spaceFactory.png",
+      "sha256": "304091518a84baca85a32af7cd62b8adcc84e8f2152d806b7ff28a837fd70c28",
+      "bytes": 160409,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/spaceFactory.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/spacearena.json",
+      "sha256": "36a938b1d5f98b6171d1bb6c9f59bc5e14bbc249f313575655a69c727f047630",
+      "bytes": 33753,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/spacearena.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/spacearena.lightmap",
+      "sha256": "496b877a51e6f4bc8fff3f3ba8bce9cc40e9fc6e025ce4c5f956c9580be0081b",
+      "bytes": 1696497,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/spacearena.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/spacearena.png",
+      "sha256": "106fbe69cbd0b251727cc86827be5086bc602ef302a52b7e708f7ff35aefef3b",
+      "bytes": 159454,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/spacearena.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/sparta.json",
+      "sha256": "2a1464567883d76ce8c538f889b5d449f951b8cf0548966133c697c1aed6292c",
+      "bytes": 38656,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/sparta.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/sparta.lightmap",
+      "sha256": "652f8437fd2cd1c208aaac96b502d6ace64b6bf5d9b3db4781d6d6cb9ee228cd",
+      "bytes": 2534739,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/sparta.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/sparta.png",
+      "sha256": "13bc5df470c90e7cbf06a4bb75aa82dcd99c594050482de0d8769f5de6b24696",
+      "bytes": 134582,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/sparta.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/spellbound.json",
+      "sha256": "34f5a0a89ed1c33457650e11f62d50a988ff100e393ab729d88900049578bdaa",
+      "bytes": 32362,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/spellbound.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/spellbound.lightmap",
+      "sha256": "f301b6b3fe7171ad9bb0a2fb6860a09251a8b8bce1d7de210ffec8e46c8ccfce",
+      "bytes": 980202,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/spellbound.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/spellbound.png",
+      "sha256": "3a4b2051baed0675d655dfff2a83cd4bd6ee8e6c5ade744a42f67454c66e5278",
+      "bytes": 104011,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/spellbound.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/stage.json",
+      "sha256": "c119cf0b8d723662055c6390c4382d53cbbf535541e6300209a473a74a3f7188",
+      "bytes": 43522,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/stage.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/stage.lightmap",
+      "sha256": "79f460a36abfbbc5c365092cb7ba06768c736c642b06bac4243377f358ff214c",
+      "bytes": 1296282,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/stage.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/stage.png",
+      "sha256": "a6177368945c7fddadb83e7108b6686aa0eb521787782a08f19837cc6dff2026",
+      "bytes": 116057,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/stage.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/staxarena.json",
+      "sha256": "3ce7bc53e603d18b1ee15e1ca5f7e5270c3d7cb6cd9e5f96edaac4cc31e148ff",
+      "bytes": 9070,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/staxarena.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/staxarena.lightmap",
+      "sha256": "06c293ee36f6cb9f4225447bde5e36b03719c0cf8a69659c6f8c4af7205a1409",
+      "bytes": 202515,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/staxarena.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/staxarena.png",
+      "sha256": "8806a9e55e2f33eec086d08532850642083db6a2453d2da3aca062a9cc63b8bb",
+      "bytes": 67100,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/staxarena.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/teggtris.json",
+      "sha256": "8cd8ed44dbf642b82d4fe334a7d87a741200e02ff05817d67e027c021935163c",
+      "bytes": 34605,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/teggtris.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/teggtris.lightmap",
+      "sha256": "46f2558fa019e0eb8d4ff9ddde9309d0458891ab23be3239dfe630902bdfeb59",
+      "bytes": 552171,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/teggtris.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/teggtris.png",
+      "sha256": "1c9974af7f676c0a9b06a1dbe6c98861c21e3ad5ed03ab7988a78e98d32ba879",
+      "bytes": 116926,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/teggtris.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/temple.json",
+      "sha256": "6474a464165c6741a134bbb36c9a1db5621bf0c346bd6e72aa625eba5fd467a4",
+      "bytes": 27048,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/temple.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/temple.lightmap",
+      "sha256": "673ddae6b97d956e8e59525d3fd8af9fa1dbaa2f51bcee74f3747505720e77e9",
+      "bytes": 392283,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/temple.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/temple.png",
+      "sha256": "99d7804bbb1779880207660be6a36ff3103653903a19ff66b6382fa536dcfa10",
+      "bytes": 113822,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/temple.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/timetwist.json",
+      "sha256": "9a2c2f35177b13ae70eacf767080dc55611ca18a287373458f9e84ccf08f7eca",
+      "bytes": 65581,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/timetwist.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/timetwist.lightmap",
+      "sha256": "4ed7be45d4ae955bbe1cf0fe2943f48a879f95a4e9c2339e704fb0381a6ce4d1",
+      "bytes": 1423386,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/timetwist.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/timetwist.png",
+      "sha256": "482d4aebd8494b3c03d89a47af5dcd5b2fca10400a0969668250630bd8684cd0",
+      "bytes": 70106,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/timetwist.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/trainyard.json",
+      "sha256": "df4123a5b1706ee62fea492666d83273a05c2dd2f142d2ce4b3341e1e13e9064",
+      "bytes": 37664,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/trainyard.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/trainyard.lightmap",
+      "sha256": "d85877ccefed3d50feef1c2a43e588aa0a93923f12e040204d169a9f58d31fdb",
+      "bytes": 669516,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/trainyard.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/trainyard.png",
+      "sha256": "02517657fa9defeb0d810993b0b94ee405b35fef3da5f977902355e4118c3a10",
+      "bytes": 103736,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/trainyard.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/treefort.json",
+      "sha256": "e8eed7215183909249899db92bf4b3aa2692ce07c83ac3996c82989373f5cc8d",
+      "bytes": 8084,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/treefort.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/treefort.lightmap",
+      "sha256": "1c009d6e4bc423e89b49c61fcb9c73adf835c2d48bb01b1cf2b4afb687662569",
+      "bytes": 192573,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/treefort.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/treefort.png",
+      "sha256": "563e528a7a5ced650f1130262f12c7ce54429800bdc41e472572ed8b32fbb392",
+      "bytes": 60941,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/treefort.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/twoTowers.json",
+      "sha256": "5bc62bea5c36a2e5eebb240df55fb3db99a7d016f682b24d9b6338a96baa7121",
+      "bytes": 30505,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/twoTowers.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/twoTowers.lightmap",
+      "sha256": "24976b439cacc36185312ee6b1fdd448bd16ef5356644b24b7889313449e4f09",
+      "bytes": 254268,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/twoTowers.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/twoTowers.png",
+      "sha256": "b0da5a07a2b604a95955afd6188269166626252b034575d8dd8d74573b780d41",
+      "bytes": 89733,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/twoTowers.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/vert.json",
+      "sha256": "d7c1d29126948bd77337f017cb9153fad237ab19616d3c929f186883a624c45d",
+      "bytes": 24178,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/vert.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/vert.lightmap",
+      "sha256": "a0c98afff7ff119eb18c9e4081c0ab63c0abe51b4b5475ffdc1cb0137eab529c",
+      "bytes": 254160,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/vert.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/vert.png",
+      "sha256": "3618d551f8349812b0414b8af0e41af576c3cee4a5977745c4070df09ebc3c49",
+      "bytes": 83698,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/vert.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/wimble.json",
+      "sha256": "5b5acd293c135080356222f80bc5908a4536b51f9e35edbf76c2bcc7cc775da9",
+      "bytes": 36639,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/wimble.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/wimble.lightmap",
+      "sha256": "c53d74e4c7bd469e8d172a879b4ae77aed14e262498ed4a9897eaef97a0d6fc5",
+      "bytes": 660276,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/wimble.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/wimble.png",
+      "sha256": "86ac0752678460cbb98ced91f7f45f7858750cd2eb6448b99369679d7a081d63",
+      "bytes": 115184,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/wimble.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/wreckage.json",
+      "sha256": "b4887412bbc9eeec6e9c9264fc5c2f291b69674ee84e3a8672b1136de5dea0d2",
+      "bytes": 37830,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/wreckage.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/wreckage.lightmap",
+      "sha256": "252282618d48d21438b4316104a34a6a2040688b4f30caa08edcde003f705533",
+      "bytes": 1874331,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/wreckage.lightmap"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "maps/wreckage.png",
+      "sha256": "0eb72c6c23199243b199ea7e839ac9018b49b1d632df6236a5377eb3f0516713",
+      "bytes": 123918,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/maps/wreckage.png"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "models/egg.babylon",
+      "sha256": "4320535baff5ef5a60e6d831425a5810d6f41a68a1cc5ebfd3675d8d47be50c3",
+      "bytes": 15757529,
+      "preserved_source": "0.46.6_2024-01-16_12-23-33_UTC/models/egg.babylon"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "models/gun_aug.babylon",
+      "sha256": "9ab6e591d7e565018fc7e801c977a60a2c88caeee71320cfa20f286f62691753",
+      "bytes": 7876632,
+      "preserved_source": "0.46.6_2024-01-16_12-23-33_UTC/models/gun_aug.babylon"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "models/gun_cluck9mm.babylon",
+      "sha256": "8931f23a78132fb7d36b8b3104c118306b3c2519cb6459208d49798e567e1850",
+      "bytes": 7382924,
+      "preserved_source": "0.46.6_2024-01-16_12-23-33_UTC/models/gun_cluck9mm.babylon"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "models/gun_csg1.babylon",
+      "sha256": "ff7e060ddaf62888ece9d6a36e1c9bbdd5df6f3cc86a09bb0576c7d1aa84600f",
+      "bytes": 8365690,
+      "preserved_source": "0.46.6_2024-01-16_12-23-33_UTC/models/gun_csg1.babylon"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "models/gun_dozenGauge.babylon",
+      "sha256": "4970b074b09fef281e49881774cc78f1999560f5c8a1fb776afad0679b029561",
+      "bytes": 10753428,
+      "preserved_source": "0.46.6_2024-01-16_12-23-33_UTC/models/gun_dozenGauge.babylon"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "models/gun_eggk47.babylon",
+      "sha256": "c7ed33f084b079271f705186fa8625cf3c33d265b61a15a5aaf0ba9870bdc647",
+      "bytes": 8165153,
+      "preserved_source": "0.46.6_2024-01-16_12-23-33_UTC/models/gun_eggk47.babylon"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "models/gun_m24.babylon",
+      "sha256": "6501e9d786a0cd33cd1d8a0987445d89df865e202a0e29fdf1ff406f38a3be74",
+      "bytes": 8439959,
+      "preserved_source": "0.46.6_2024-01-16_12-23-33_UTC/models/gun_m24.babylon"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "models/gun_rpegg.babylon",
+      "sha256": "fdf99b199d07158e5e0d695bad27c4247f26b5370a7f8099a4b35fad0a31e566",
+      "bytes": 8381564,
+      "preserved_source": "0.46.6_2024-01-16_12-23-33_UTC/models/gun_rpegg.babylon"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "models/gun_smg.babylon",
+      "sha256": "41c51524d4dcc73ca64104b91bb9562a52470c8ca4c6eaac46dfb7568caf2c15",
+      "bytes": 8726233,
+      "preserved_source": "0.46.6_2024-01-16_12-23-33_UTC/models/gun_smg.babylon"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "models/items.babylon",
+      "sha256": "e2f495d17d49dc491536a33fbb667060e573da39954a52eab110e43348e254e4",
+      "bytes": 36645,
+      "preserved_source": "0.17.0_2019-02-06_14-44-55_UTC_capture_a4a49c76/models/items.babylon"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "models/map.babylon",
+      "sha256": "0906615daa67f5886d4dc69d3b802480ca126697d1caf03b91f1acc295bd8e61",
+      "bytes": 12615505,
+      "preserved_source": "0.46.1_2023-10-17_11-11-38_UTC/models/map.babylon"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "models/melee.babylon",
+      "sha256": "447129e0531a1eab8cb95136499e6d750796d41bc8c59c385a770d1c73435188",
+      "bytes": 2451600,
+      "preserved_source": "0.46.6_2024-01-16_12-23-33_UTC/models/melee.babylon"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "models/munitions.babylon",
+      "sha256": "e82d41705a98eaeb633e15ee89d9e55ab5cd2174424cb5bbacc84c613d3ebd7c",
+      "bytes": 2733231,
+      "preserved_source": "0.46.6_2024-01-16_12-23-33_UTC/models/munitions.babylon"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "models/muzzleFlash.babylon",
+      "sha256": "c6982f7c46f20c0ffc1974c08d6804c4425f93002f4aae3f5efc069dbbcbc688",
+      "bytes": 2571,
+      "preserved_source": "0.13.4_2018-05-14_03-28-30_UTC/models/muzzleFlash.babylon"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "models/reticle.babylon",
+      "sha256": "657433b9a2988a392e27e63616b2ef926c89b3ebd9e876da41a61cfe66e0cf21",
+      "bytes": 1105,
+      "preserved_source": "0.13.4_2018-05-14_03-28-30_UTC/models/reticle.babylon"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "sound/sounds.json",
+      "sha256": "6d367733f084fc11b4b41bd0a8b76b48d939c831206c8cb2031b4c37a5548e05",
+      "bytes": 19067,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/_asset_alternatives/6d367733f084/sounds.json"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "sound/sounds.mp3",
+      "sha256": "ebd6fe1cbb17568ac0780dafd620d86cadcf457296301de04360f2c76ed5cb80",
+      "bytes": 7952971,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/sound/sounds.mp3"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "sound/sounds.ogg",
+      "sha256": "d48eaee265a50bcc0756def6c386a067528bf0c88b0a96ce8454e08c74b06485",
+      "bytes": 3045441,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/sound/sounds.ogg"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "sound/sounds.webm",
+      "sha256": "913efbe3b8fb13ee94e845c2c0d443897d707e5a640da3a0a9c86297277641f4",
+      "bytes": 3177847,
+      "preserved_source": "0.46.6_2024-01-16_12-23-33_UTC/sound/sounds.webm"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "styles/forms.css",
+      "sha256": "71090ce497c40e5a28a4a54d59213de1c31bb22ef97293ea3e164750cd14de58",
+      "bytes": 10023,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/styles/forms.css"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "styles/game.css",
+      "sha256": "f2b707b40a6d7c94f8eac06d56f158d4d3308400abcb162821d6c92436a1164f",
+      "bytes": 27247,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/styles/game.css"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "styles/style.css",
+      "sha256": "7c45dde72a553a216fa1e18374b2a98ef591c7bc26e891014e3c150fdfe2943a",
+      "bytes": 96841,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/styles/style.css"
+    },
+    {
+      "origin_id": "random_repo",
+      "path": "styles/transitions.css",
+      "sha256": "28a4defcc1e8ca5fcd1fede2cbaf3d5a766751c1efb54c9578c07778b02cb9ca",
+      "bytes": 3278,
+      "preserved_source": "0.46.6_2024-01-21_14-02-45_UTC_random_repo_assets_674b32ee/styles/transitions.css"
+    }
+  ],
+  "channel": "production",
+  "runtime_root": "."
+}

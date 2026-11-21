@@ -1,0 +1,483 @@
+{
+  "folder": "0.46.4_2023-12-01_23-07-23_UTC",
+  "version": "unversioned",
+  "version_source": null,
+  "version_evidence": null,
+  "html_version": null,
+  "event": {
+    "urlkey": "io,shellshock)/",
+    "timestamp": "20231201230723",
+    "original": "https://shellshock.io",
+    "mimetype": "text/html",
+    "statuscode": "200",
+    "digest": "MWMMPKT7TTW2JI6BRKDAMU7XPNGOKJ5Q"
+  },
+  "missing_scripts": [
+    "https://shellshock.io/gtm.js",
+    "https://shellshock.io/js/shellshock.js?1701467731"
+  ],
+  "pairing_verified": false,
+  "warning": "Reconstruction from independently captured files. Each selection retains its own date; nearest captures and inferred release labels are unverified.",
+  "files": [
+    {
+      "path": "index.html",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20231201230723",
+        "original": "https://shellshock.io",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "MWMMPKT7TTW2JI6BRKDAMU7XPNGOKJ5Q"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20231201230723",
+        "original": "https://shellshock.io",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "MWMMPKT7TTW2JI6BRKDAMU7XPNGOKJ5Q",
+        "replay_url": "https://web.archive.org/web/20231201230723id_/https://shellshock.io",
+        "final_url": "https://web.archive.org/web/20231201230723id_/https://shellshock.io/",
+        "sha256": "178c5997f56e62222e4912bac38aae3b2051d4c77ff72bda16b347d8f443b151",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20231201230723"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20231201230723",
+          "original": "https://shellshock.io",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "MWMMPKT7TTW2JI6BRKDAMU7XPNGOKJ5Q"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "js/vue/vue.min.2.6.10.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20231202221757",
+        "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "INGN5QLGT4WGY5AGFF5HEEQJG26FN3KS"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20190819213520",
+        "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "INGN5QLGT4WGY5AGFF5HEEQJG26FN3KS",
+        "replay_url": "https://web.archive.org/web/20190819213520id_/https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "final_url": "https://web.archive.org/web/20190819213520id_/https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "sha256": "72194d152571dd375c4365e5c3b4af9db2c06af0102ced18fcb062597d38be26"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20231202221757",
+          "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "INGN5QLGT4WGY5AGFF5HEEQJG26FN3KS"
+        },
+        "offset_seconds": 83434,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "consolidation": {
+    "comparison": "Ignore only Cloudflare rayId in HTML; all other primary bytes compared exactly",
+    "equivalent_captures": [
+      {
+        "folder": "0.46.4_2023-12-01_23-07-23_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20231201230723",
+          "original": "https://shellshock.io",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "MWMMPKT7TTW2JI6BRKDAMU7XPNGOKJ5Q"
+        }
+      },
+      {
+        "folder": "0.46.4_2023-12-02_22-17-46_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20231202221746",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "MEYLLOIJFNGUTPXAOBXOVKLCRE4IKXLE"
+        }
+      },
+      {
+        "folder": "0.46.4_2023-12-03_00-04-06_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20231203000406",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "PY4FZHJ4NGX4YDGT4FIZPZ6AYOKRSVIV"
+        }
+      },
+      {
+        "folder": "0.46.4_2023-12-03_20-03-13_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20231203200313",
+          "original": "https://shellshock.io",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "M74E7FW3AIAYN2XKP245DT44LGDE3TZQ"
+        }
+      },
+      {
+        "folder": "0.46.4_2023-12-03_21-08-11_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?utm_medium=onesignal&utm_source=24htest",
+          "timestamp": "20231203210811",
+          "original": "https://shellshock.io/?utm_source=24htest&utm_medium=onesignal",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "ROJ5MOF5QP4OYSTTTQT66GJRDJZ3MEXO"
+        }
+      },
+      {
+        "folder": "0.46.4_2023-12-03_21-10-25_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20231203211025",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "55GKJ6LMFMN2LZIXTT6BBAQ6OOZSAVAS"
+        }
+      },
+      {
+        "folder": "0.46.4_2023-12-03_21-11-00_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?home",
+          "timestamp": "20231203211100",
+          "original": "https://shellshock.io/?home",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "V6MNC5W7QNY42JMU7UOMOWLEJ7VYKSYA"
+        }
+      },
+      {
+        "folder": "0.46.4_2023-12-03_21-25-33_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?merczonefinalgift",
+          "timestamp": "20231203212533",
+          "original": "https://shellshock.io/?mercZoneFinalGift",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "CB5AY2K7L776XNQAX23Y3BWHM3GCDNFN"
+        }
+      },
+      {
+        "folder": "0.46.4_2023-12-09_23-56-47_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20231209235647",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "SC7JOK5VFWQPYF37HOWAOYVLZ7B4DIUB"
+        }
+      },
+      {
+        "folder": "0.46.4_2023-12-10_02-05-03_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20231210020503",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "M2Z7XVHYC3KPGDXC2PKO7IQHQR43UNL4"
+        }
+      },
+      {
+        "folder": "0.46.4_2023-12-11_12-29-27_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?gd_sdk_referrer_url=https://www.gamezoo.net/games/zombies-io/",
+          "timestamp": "20231211122927",
+          "original": "https://shellshock.io?gd_sdk_referrer_url=https://www.gamezoo.net/games/zombies-io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "N4JHAWXABKZYI2PZ3MNJKPDSHWS4DFAL"
+        }
+      },
+      {
+        "folder": "0.46.4_2023-12-11_12-57-31_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?gd_sdk_referrer_url=https://www.mzbox.com/games/zombies-io/",
+          "timestamp": "20231211125731",
+          "original": "https://shellshock.io?gd_sdk_referrer_url=https://www.mzbox.com/games/zombies-io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "2HVQHRKOOR3DLZ2TZH3PK7NRNFEEV3HS"
+        }
+      },
+      {
+        "folder": "0.46.4_2023-12-11_13-32-22_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?ref=danielbmarkham.com",
+          "timestamp": "20231211133222",
+          "original": "https://shellshock.io?ref=danielbmarkham.com",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "BCI6MYDHJQ6SMX6IQJ6OS5VHHC7DXEUG"
+        }
+      }
+    ],
+    "warning": "Union preserves distinct assets and original HTML variants; it does not assert simultaneous historical availability"
+  },
+  "origin_id": "archive_org",
+  "origins_catalog": "origins.json (archive root; included in exports)",
+  "javascript_release_version_verified": false,
+  "version_scope": "HTML label only; not an authenticated JavaScript release",
+  "game_script_pairing": {
+    "max_gap_seconds": 86400,
+    "cachebuster_used_as_release_evidence": false,
+    "missing": [
+      {
+        "path": "js/shellshock.js",
+        "reason": "no_verified_capture_within_24_hours",
+        "referenced_url": "https://shellshock.io/js/shellshock.js?1701467731"
+      }
+    ],
+    "associations": []
+  },
+  "resource_association_audit": {
+    "removed_paths": [
+      "_capture_variants/138a9d6445ad10f0/index.html",
+      "_capture_variants/278d108c07260dbc/index.html",
+      "_capture_variants/3f424b82b95ffcd7/index.html",
+      "_capture_variants/3fb1cd88cb4b58ba/data/shellYouTube.json",
+      "_capture_variants/4c1407c12c925487/index.html",
+      "_capture_variants/8bbd202114435d09/data/shellNews.json",
+      "_capture_variants/964a726627351b7c/index.html",
+      "_capture_variants/9e934fb93b923a45/index.html",
+      "_capture_variants/a7e43b3c904109bb/index.html",
+      "_capture_variants/ab8dbee7a1291e4a/index.html",
+      "_capture_variants/bd889cc11c951735/index.html",
+      "_capture_variants/d66b047b33bb25b4/index.html",
+      "_capture_variants/dbfc533b049b16e9/index.html",
+      "changelog/oldChangelog.json",
+      "data/housePromo.json",
+      "data/shellNews.json",
+      "data/shellYouTube.json",
+      "favicon.png",
+      "img/BlueWizard-Logo-min.png",
+      "img/blue-wizard-logo-tiny-min.png",
+      "img/chicken-nugget/chickLoop_daily_limit.svg",
+      "img/chicken-nugget/chickLoop_sleep.svg",
+      "img/chicken-nugget/chickLoop_speak.svg",
+      "img/chicken-nugget/goldenNuggetGIFWIP.gif",
+      "img/chicken-nugget/goldenNugget_static.png",
+      "img/chicken-nugget/ssAd_chicknWinner800x600-min.png",
+      "img/chicken-nugget/starburst.png",
+      "img/controller/button_circle.svg",
+      "img/controller/button_cross.svg",
+      "img/controller/button_dpaddown.svg",
+      "img/controller/button_dpadleft.svg",
+      "img/controller/button_dpadright.svg",
+      "img/controller/button_dpadup.svg",
+      "img/controller/button_square.svg",
+      "img/controller/button_stickleft.svg",
+      "img/controller/button_stickright.svg",
+      "img/controller/button_triangle.svg",
+      "img/egg-org/eggOrg_timeTravel_splash800x600-min.png",
+      "img/egg-org/logo_EggOrg.svg",
+      "img/egg_pack_small.png",
+      "img/events/2XEggWeekend_cominSoon.png",
+      "img/events/2XEggWeekend_onNow.png",
+      "img/events/twitch-drops-btn-link-now.png",
+      "img/events/twitch-drops-btn-linked.png",
+      "img/gauge-bar/hero-vs-monster-bar.png",
+      "img/gauge-bar/hero-vs-monster-pointer.svg",
+      "img/gauge-bar/shell_E&E_evil_popup.png",
+      "img/gauge-bar/shell_E&E_good_popup.png",
+      "img/hardBoiledEmpty.png",
+      "img/hardBoiledFilled.png",
+      "img/ico_ammo.png",
+      "img/ico_eggBreaker.png",
+      "img/ico_gamepad.svg",
+      "img/ico_goldenEgg.png",
+      "img/ico_goldenEgg.svg",
+      "img/ico_grenadeEmpty.png",
+      "img/ico_keyboard.svg",
+      "img/ico_monitor.svg",
+      "img/ico_mouse.svg",
+      "img/ico_nav_help.png",
+      "img/ico_nav_leaderboards.png",
+      "img/ico_nav_shop.png",
+      "img/ico_news.png",
+      "img/ico_speaker.svg",
+      "img/ico_streak.png",
+      "img/ico_twitch.png",
+      "img/ico_youtube.png",
+      "img/incentivized-mini-game/svg/Egg00.svg",
+      "img/inventory-icons/ico_grenade.svg",
+      "img/inventory-icons/ico_hat.svg",
+      "img/inventory-icons/ico_stamp.svg",
+      "img/inventory-icons/ico_weaponPrimary.svg",
+      "img/inventory-icons/ico_weaponSecondary.svg",
+      "img/kotc/kotc-bg-popup.png",
+      "img/kotc/kotc-screenshot-one.png",
+      "img/kotc/kotc-screenshot-two.png",
+      "img/logo.svg",
+      "img/photo-booth/ico_shelfieStars.svg",
+      "img/previewImage_shellShockers.jpg",
+      "img/pricetag_left.png",
+      "img/pricetag_right.png",
+      "img/rickroll.gif",
+      "img/scope.png",
+      "img/shellShockers_loadingTipEgg.png",
+      "img/skyboxes/default/skybox_nx.jpg",
+      "img/skyboxes/default/skybox_ny.jpg",
+      "img/skyboxes/default/skybox_nz.jpg",
+      "img/skyboxes/default/skybox_px.jpg",
+      "img/skyboxes/default/skybox_py.jpg",
+      "img/skyboxes/default/skybox_pz.jpg",
+      "img/skyboxes/moonbase/skybox_nx.jpg",
+      "img/skyboxes/moonbase/skybox_ny.jpg",
+      "img/skyboxes/moonbase/skybox_nz.jpg",
+      "img/skyboxes/moonbase/skybox_px.jpg",
+      "img/skyboxes/moonbase/skybox_py.jpg",
+      "img/skyboxes/moonbase/skybox_pz.jpg",
+      "img/skyboxes/skybox_nx.jpg",
+      "img/skyboxes/skybox_ny.jpg",
+      "img/skyboxes/skybox_nz.jpg",
+      "img/skyboxes/skybox_px.jpg",
+      "img/skyboxes/skybox_py.jpg",
+      "img/skyboxes/skybox_pz.jpg",
+      "img/social-media/footer-social-media-bubble-discord.png",
+      "img/social-media/footer-social-media-bubble-facebook.png",
+      "img/social-media/footer-social-media-bubble-instagram.png",
+      "img/social-media/footer-social-media-bubble-tiktok.png",
+      "img/social-media/footer-social-media-bubble-twitch.png",
+      "img/social-media/footer-social-media-bubble-twitter.png",
+      "img/spatulaIcon.png",
+      "img/speechtail.png",
+      "img/stamps.png",
+      "img/store/PremiumTag.png",
+      "img/store/VIPTag.png",
+      "img/store/items/gun_eggk47_techno.gif",
+      "img/store/items/hat_thermal_wings.gif",
+      "img/store/items/item_9mm_cloud.gif",
+      "img/store/items/item_gre_blood.gif",
+      "img/store/items/item_gre_bumble.gif",
+      "img/store/items/item_gre_diablo.gif",
+      "img/store/items/item_gre_football.gif",
+      "img/store/items/item_gre_glitterbomb.gif",
+      "img/store/items/item_gre_octopus.gif",
+      "img/store/items/item_gre_skullnado.gif",
+      "img/store/items/item_gre_supernova.gif",
+      "img/store/items/item_gre_thermal.gif",
+      "img/store/items/item_gre_toilet_papr.gif",
+      "img/store/items/item_gre_unicorn.gif",
+      "img/store/items/item_gun_ak_retro.gif",
+      "img/store/items/item_gun_aug_retro.gif",
+      "img/store/items/item_gun_bros.gif",
+      "img/store/items/item_gun_crack_retro.gif",
+      "img/store/items/item_gun_csg1_retro.gif",
+      "img/store/items/item_gun_csg1_techno.gif",
+      "img/store/items/item_gun_m24_retro.gif",
+      "img/store/items/item_gun_retro_9mm.gif",
+      "img/store/items/item_gun_rpeggTechno.gif",
+      "img/store/items/item_gun_rpegg_retro.gif",
+      "img/store/items/item_gun_smg_retro.gif",
+      "img/store/items/item_hat_airplane.gif",
+      "img/store/items/item_hat_bloodwing.gif",
+      "img/store/items/item_hat_chrome_wing.gif",
+      "img/store/items/item_hat_crosswing.gif",
+      "img/store/items/item_hat_dinowings.gif",
+      "img/store/items/item_hat_fairy_wings.gif",
+      "img/store/items/item_hat_fall.gif",
+      "img/store/items/item_hat_glitch_wing.gif",
+      "img/store/items/item_hat_moth_wings.gif",
+      "img/store/items/item_hat_pixel_fire.gif",
+      "img/store/items/item_hat_pixel_wings.gif",
+      "img/store/items/item_hat_robot_wings.gif",
+      "img/store/items/item_hat_skull_wings.gif",
+      "img/store/items/item_hat_steamWings.gif",
+      "img/store/items/item_hat_teggtris.gif",
+      "img/store/items/item_hat_toilet_papr.gif",
+      "img/store/items/item_hat_ukraine.gif",
+      "img/store/items/item_hat_uni_wing.gif",
+      "img/store/items/item_holy_wings.gif",
+      "img/store/items/shack-gun-9mm-techno.gif",
+      "img/store/items/shack-gun-cluck9mm-space.gif",
+      "img/store/items/shack-gun-csg1-space.gif",
+      "img/store/items/shack-gun-csg1-techno.gif",
+      "img/store/items/shack-gun-smg-techno.gif",
+      "img/store/items/shack-gun-techno-dozen-gauge.gif",
+      "img/store/items/shack-hat-cape.gif",
+      "img/store/items/shack-hat-demon-wings.gif",
+      "img/store/items/shack-hat-dragon.gif",
+      "img/store/items/shack-hat-fallen-wings.gif",
+      "img/store/items/shack-hat-galeggsy.gif",
+      "img/store/items/shack-hat-gladiator.gif",
+      "img/store/items/shack-hat-oni.gif",
+      "img/store/items/shack-hat-yolk-arms.gif",
+      "img/store/items/shack-hat-zombie-mask.gif",
+      "img/store/items/untz-untz.gif",
+      "img/svg/ico-arrow-colorPicker.svg",
+      "img/svg/ico_goldenEgg.svg",
+      "img/svg/ico_goldenEgg_callout.svg",
+      "img/tutorial/ss_tutorial_Star.png",
+      "img/twitch-drops/twitch-reward-popup-bg.png",
+      "img/vip-club/very-important-poultry.png",
+      "img/vip-club/vip-banner.png",
+      "img/vip-club/vip-club-emblem-sm.png",
+      "img/vip-club/vip-club-popup-background.png",
+      "img/vip-club/vip-club-popup-bullet-point-star.png",
+      "img/vip-club/vip-club-popup-item-1-month-membership-bg.png",
+      "img/vip-club/vip-club-popup-item-12-month-membership-bg.png",
+      "img/vip-club/vip-club-popup-item-3-month-membership-bg.png",
+      "js/screenShot.js",
+      "language/de.json",
+      "language/en.json",
+      "language/es.json",
+      "language/ko.json",
+      "models/egg.babylon",
+      "models/gun_csg1.babylon",
+      "models/munitions.babylon",
+      "service-worker.js",
+      "sound/sounds.json",
+      "sound/sounds.mp3",
+      "sound/sounds.ogg",
+      "sound/sounds.webm",
+      "video/tiny.mp4"
+    ],
+    "max_gap_seconds": 86400,
+    "release_pairing_verified": false,
+    "note": "Unsupported resource associations removed; original bytes preserved separately at observed capture times."
+  },
+  "previous_version_assignment": {
+    "version": "0.46.4",
+    "basis": "javascript",
+    "reason": "No explicit version declaration in the resources supported at this capture time."
+  },
+  "version_audit": {
+    "declarations": [],
+    "release_membership_verified": false
+  }
+}
