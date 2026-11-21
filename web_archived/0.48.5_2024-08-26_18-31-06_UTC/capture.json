@@ -1,0 +1,119 @@
+{
+  "folder": "0.48.5_2024-08-26_18-31-06_UTC",
+  "version": "unversioned",
+  "version_source": null,
+  "version_evidence": null,
+  "html_version": null,
+  "event": {
+    "urlkey": "io,shellshock)/",
+    "timestamp": "20240826183106",
+    "original": "https://shellshock.io/",
+    "mimetype": "text/html",
+    "statuscode": "200",
+    "digest": "RLL3NBFVE2FIXPGQG7F4BLSA4WM6YKOE"
+  },
+  "missing_scripts": [
+    "https://shellshock.io/gtm.js",
+    "https://shellshock.io/js/shellshock.js?1724186332"
+  ],
+  "pairing_verified": false,
+  "warning": "Reconstruction from independently captured files. Each selection retains its own date; nearest captures and inferred release labels are unverified.",
+  "files": [
+    {
+      "path": "index.html",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20240826183106",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RLL3NBFVE2FIXPGQG7F4BLSA4WM6YKOE"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/",
+        "timestamp": "20240826183106",
+        "original": "https://shellshock.io/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RLL3NBFVE2FIXPGQG7F4BLSA4WM6YKOE",
+        "replay_url": "https://web.archive.org/web/20240826183106id_/https://shellshock.io/",
+        "final_url": "https://web.archive.org/web/20240826183106id_/https://shellshock.io/",
+        "sha256": "ed46c3efed8dba2b37e885eebe8ef4aeae67e967705b71726ebd207150ad8b4c",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/RLL3NBFVE2FIXPGQG7F4BLSA4WM6YKOE",
+        "encoded_sha256": "5a3afbabc841ce21c349a8261e569724c20fb14e5eb9db4cb8684ec0dec361ed",
+        "decoded_sha1": "PD66YAIVPGV2YHMISCI7NKXCZA6OSCDL",
+        "replay_capture_timestamp": "20240826183106"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20240826183106",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "RLL3NBFVE2FIXPGQG7F4BLSA4WM6YKOE"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "consolidation": {
+    "comparison": "Ignore only Cloudflare rayId in HTML; all other primary bytes compared exactly",
+    "equivalent_captures": [
+      {
+        "folder": "0.48.5_2024-08-26_18-31-06_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20240826183106",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "RLL3NBFVE2FIXPGQG7F4BLSA4WM6YKOE"
+        }
+      },
+      {
+        "folder": "0.48.5_2024-08-30_15-36-31_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20240830153631",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "RLL3NBFVE2FIXPGQG7F4BLSA4WM6YKOE"
+        }
+      }
+    ],
+    "warning": "Union preserves distinct assets and original HTML variants; it does not assert simultaneous historical availability"
+  },
+  "origin_id": "archive_org",
+  "origins_catalog": "origins.json (archive root; included in exports)",
+  "javascript_release_version_verified": false,
+  "version_scope": "HTML label only; not an authenticated JavaScript release",
+  "game_script_pairing": {
+    "max_gap_seconds": 86400,
+    "cachebuster_used_as_release_evidence": false,
+    "missing": [
+      {
+        "path": "js/shellshock.js",
+        "reason": "no_verified_capture_within_24_hours",
+        "referenced_url": "https://shellshock.io/js/shellshock.js?1724186332"
+      }
+    ],
+    "associations": []
+  },
+  "previous_version_assignment": {
+    "version": "0.48.5",
+    "basis": "javascript",
+    "reason": "No explicit version declaration in the resources supported at this capture time."
+  },
+  "version_audit": {
+    "declarations": [],
+    "release_membership_verified": false
+  }
+}

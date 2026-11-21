@@ -1,0 +1,585 @@
+{
+  "format_version": 1,
+  "folder": "0.50.0_2024-09-17_08-05-59_UTC",
+  "parent": "0.50.0_2024-09-16_23-40-09_TZ-unknown_onlypuppy7",
+  "timestamp": "20240917080559",
+  "added": [
+    "_asset_alternatives/a6349149523f5b01/data/twitchStreams.json",
+    "_capture_variants/1c357d67da131825/index.html",
+    "_capture_variants/1f59b39616e5d257/index.html",
+    "_capture_variants/46977d6301cb1d8e/data/shellYouTube.json",
+    "_capture_variants/68eabbbf339cedcc/data/housePromo.json",
+    "_capture_variants/ad30c570547931d9/index.html",
+    "_capture_variants/f2c2d83871d693ff/data/twitchStreams.json",
+    "data/housePromo.json",
+    "data/img/newsItems/news_m15jwp2h0.png",
+    "data/shellNews.json",
+    "data/shellYouTube.json",
+    "data/twitchStreams.json",
+    "models/egg.glb",
+    "models/gun_aug.glb",
+    "models/gun_cluck9mm.glb",
+    "models/gun_csg1.glb",
+    "models/gun_dozenGauge.glb",
+    "models/gun_eggk47.glb",
+    "models/gun_m24.glb",
+    "models/gun_rpegg.glb",
+    "models/gun_smg.glb",
+    "models/items.glb",
+    "models/melee.glb",
+    "models/munitions.glb",
+    "models/muzzleFlash.glb",
+    "models/reticle.glb",
+    "twitch/index.html"
+  ],
+  "changed": [
+    "index.html",
+    "js/shellshock.js"
+  ],
+  "removed": [
+    "_capture_variants/cedfa1be3bebaea4/index.html",
+    "changelog/oldChangelog.json",
+    "favicon.png",
+    "img/black-friday-banner.jpg",
+    "img/blueWizard_logo_borg.png",
+    "img/chicken-nugget/alt/cyborg/chickLoop_speak.svg",
+    "img/chicken-nugget/chickLoop_daily_limit.svg",
+    "img/chicken-nugget/chickLoop_idle.svg",
+    "img/chicken-nugget/chickLoop_sleep.svg",
+    "img/chicken-nugget/chickLoop_speak.svg",
+    "img/chicken-nugget/goldenNuggetGIFWIP.gif",
+    "img/chicken-nugget/goldenNugget_static.png",
+    "img/chicken-nugget/starburst.png",
+    "img/controller/button_circle.svg",
+    "img/controller/button_cross.svg",
+    "img/controller/button_dpaddown.svg",
+    "img/controller/button_dpadleft.svg",
+    "img/controller/button_dpadright.svg",
+    "img/controller/button_dpadup.svg",
+    "img/controller/button_square.svg",
+    "img/controller/button_stickleft.svg",
+    "img/controller/button_stickright.svg",
+    "img/controller/button_triangle.svg",
+    "img/egg-org/logo_EggOrg.svg",
+    "img/events/2XEggWeekend_cominSoon.png",
+    "img/events/2XEggWeekend_onNow.png",
+    "img/events/twitch-drops-btn-link-now.png",
+    "img/events/twitch-drops-btn-linked.png",
+    "img/gauge-bar/hero-vs-monster-bar.png",
+    "img/gauge-bar/hero-vs-monster-pointer.svg",
+    "img/gauge-bar/shell_E&E_evil_popup.png",
+    "img/gauge-bar/shell_E&E_good_popup.png",
+    "img/ico_ammo.png",
+    "img/ico_goldenEgg.svg",
+    "img/ico_nav_help.png",
+    "img/ico_nav_leaderboards.png",
+    "img/ico_nav_shop.png",
+    "img/ico_twitch.png",
+    "img/ico_youtube.png",
+    "img/inventory-icons/ico_grenade.svg",
+    "img/inventory-icons/ico_hat.svg",
+    "img/inventory-icons/ico_stamp.svg",
+    "img/inventory-icons/ico_weaponPrimary.svg",
+    "img/inventory-icons/ico_weaponSecondary.svg",
+    "img/previewImage_shellShockers.jpg",
+    "img/pricetag_left.png",
+    "img/pricetag_right.png",
+    "img/scope.png",
+    "img/skyboxes/default/skybox_nx.jpg",
+    "img/skyboxes/default/skybox_ny.jpg",
+    "img/skyboxes/default/skybox_nz.jpg",
+    "img/skyboxes/default/skybox_px.jpg",
+    "img/skyboxes/default/skybox_py.jpg",
+    "img/skyboxes/default/skybox_pz.jpg",
+    "img/skyboxes/moonbase/skybox_nx.jpg",
+    "img/skyboxes/moonbase/skybox_ny.jpg",
+    "img/skyboxes/moonbase/skybox_nz.jpg",
+    "img/skyboxes/moonbase/skybox_px.jpg",
+    "img/skyboxes/moonbase/skybox_py.jpg",
+    "img/skyboxes/moonbase/skybox_pz.jpg",
+    "img/skyboxes/skybox_nx.jpg",
+    "img/skyboxes/skybox_ny.jpg",
+    "img/skyboxes/skybox_nz.jpg",
+    "img/skyboxes/skybox_px.jpg",
+    "img/skyboxes/skybox_py.jpg",
+    "img/skyboxes/skybox_pz.jpg",
+    "img/social-media/footer-social-media-bubble-discord.png",
+    "img/social-media/footer-social-media-bubble-facebook.png",
+    "img/social-media/footer-social-media-bubble-instagram.png",
+    "img/social-media/footer-social-media-bubble-steam.png",
+    "img/social-media/footer-social-media-bubble-tiktok.png",
+    "img/social-media/footer-social-media-bubble-twitch.png",
+    "img/social-media/footer-social-media-bubble-twitter.png",
+    "img/spatulaIcon.png",
+    "img/speechtail.png",
+    "img/stamps.png",
+    "img/store/PremiumTag.png",
+    "img/store/VIPTag.png",
+    "img/store/items/gun_eggk47_techno.gif",
+    "img/store/items/hat_thermal_wings.gif",
+    "img/store/items/item_9mm_cloud.gif",
+    "img/store/items/item_gre_blood.gif",
+    "img/store/items/item_gre_bumble.gif",
+    "img/store/items/item_gre_diablo.gif",
+    "img/store/items/item_gre_football.gif",
+    "img/store/items/item_gre_glitterbomb.gif",
+    "img/store/items/item_gre_octopus.gif",
+    "img/store/items/item_gre_skullnado.gif",
+    "img/store/items/item_gre_supernova.gif",
+    "img/store/items/item_gre_thermal.gif",
+    "img/store/items/item_gre_toilet_papr.gif",
+    "img/store/items/item_gre_unicorn.gif",
+    "img/store/items/item_gun_ak_retro.gif",
+    "img/store/items/item_gun_aug_retro.gif",
+    "img/store/items/item_gun_bros.gif",
+    "img/store/items/item_gun_crack_retro.gif",
+    "img/store/items/item_gun_csg1_retro.gif",
+    "img/store/items/item_gun_csg1_techno.gif",
+    "img/store/items/item_gun_m24_retro.gif",
+    "img/store/items/item_gun_retro_9mm.gif",
+    "img/store/items/item_gun_rpeggTechno.gif",
+    "img/store/items/item_gun_rpegg_retro.gif",
+    "img/store/items/item_gun_smg_retro.gif",
+    "img/store/items/item_hat_airplane.gif",
+    "img/store/items/item_hat_bloodwing.gif",
+    "img/store/items/item_hat_chrome_wing.gif",
+    "img/store/items/item_hat_crosswing.gif",
+    "img/store/items/item_hat_dinowings.gif",
+    "img/store/items/item_hat_fairy_wings.gif",
+    "img/store/items/item_hat_fall.gif",
+    "img/store/items/item_hat_glitch_wing.gif",
+    "img/store/items/item_hat_moth_wings.gif",
+    "img/store/items/item_hat_pixel_fire.gif",
+    "img/store/items/item_hat_pixel_wings.gif",
+    "img/store/items/item_hat_robot_wings.gif",
+    "img/store/items/item_hat_skull_wings.gif",
+    "img/store/items/item_hat_steamWings.gif",
+    "img/store/items/item_hat_teggtris.gif",
+    "img/store/items/item_hat_toilet_papr.gif",
+    "img/store/items/item_hat_ukraine.gif",
+    "img/store/items/item_hat_uni_wing.gif",
+    "img/store/items/item_holy_wings.gif",
+    "img/store/items/shack-gun-9mm-techno.gif",
+    "img/store/items/shack-gun-cluck9mm-space.gif",
+    "img/store/items/shack-gun-csg1-space.gif",
+    "img/store/items/shack-gun-csg1-techno.gif",
+    "img/store/items/shack-gun-smg-techno.gif",
+    "img/store/items/shack-gun-techno-dozen-gauge.gif",
+    "img/store/items/shack-hat-cape.gif",
+    "img/store/items/shack-hat-demon-wings.gif",
+    "img/store/items/shack-hat-dragon.gif",
+    "img/store/items/shack-hat-fallen-wings.gif",
+    "img/store/items/shack-hat-galeggsy.gif",
+    "img/store/items/shack-hat-gladiator.gif",
+    "img/store/items/shack-hat-oni.gif",
+    "img/store/items/shack-hat-yolk-arms.gif",
+    "img/store/items/shack-hat-zombie-mask.gif",
+    "img/store/items/untz-untz.gif",
+    "img/svg-icons/ico-disabled.svg",
+    "img/svg-icons/ico-private-game-config.svg",
+    "img/svg/ico-arrow-colorPicker.svg",
+    "img/svg/ico_star_gold.svg",
+    "img/tutorial/ss_tutorial_Star.png",
+    "img/twitch-drops/twitch-drops-parachute.svg",
+    "img/twitch-drops/twitch-reward-popup-bg.png",
+    "img/vip-club/vip-banner.png",
+    "img/vip-club/vip-club-emblem-sm.png",
+    "img/vip-club/vip-club-popup-item-1-month-membership-bg.png",
+    "img/vip-club/vip-club-popup-item-12-month-membership-bg.png",
+    "img/vip-club/vip-club-popup-item-3-month-membership-bg.png",
+    "js/draco_decoder.js",
+    "language/de.json",
+    "language/es.json",
+    "language/fr.json",
+    "language/ko.json",
+    "language/pt.json",
+    "language/zh.json",
+    "service-worker.js",
+    "sound/sounds.mp3",
+    "sound/sounds.ogg",
+    "unblocked/json/proxy-list.json",
+    "video/tiny.mp4"
+  ],
+  "files": [
+    {
+      "path": "_asset_alternatives/a6349149523f5b01/data/twitchStreams.json",
+      "sha256": "a6349149523f5b01c7689566f8782fa4fa6852ad3b7ccccba9183e86d364a73c",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/_asset_alternatives/a6349149523f5b01/data/twitchStreams.json"
+    },
+    {
+      "path": "_capture_variants/1c357d67da131825/index.html",
+      "sha256": "1c357d67da1318256b4eb281be9f811401f5def7491bab0285dc01624d11eee7",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/_capture_variants/1c357d67da131825/index.html"
+    },
+    {
+      "path": "_capture_variants/1f59b39616e5d257/index.html",
+      "sha256": "1f59b39616e5d257b4f6f09280bd6e46bedf49afde11ca27ed6a13a8d3fdf149",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/_capture_variants/1f59b39616e5d257/index.html"
+    },
+    {
+      "path": "_capture_variants/46977d6301cb1d8e/data/shellYouTube.json",
+      "sha256": "46977d6301cb1d8e1423a58e2fd1f93c9c30261f312c673dfc6d3cbc4e247849",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/_capture_variants/46977d6301cb1d8e/data/shellYouTube.json"
+    },
+    {
+      "path": "_capture_variants/68eabbbf339cedcc/data/housePromo.json",
+      "sha256": "68eabbbf339cedccdf7d06c5ee8acd19676f3360d08c9e6bc7aa2a3372676661",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/_capture_variants/68eabbbf339cedcc/data/housePromo.json"
+    },
+    {
+      "path": "_capture_variants/ad30c570547931d9/index.html",
+      "sha256": "ad30c570547931d9842ee2f0116aa6091258550c885927dc7686ffd0db8da6a1",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/_capture_variants/ad30c570547931d9/index.html"
+    },
+    {
+      "path": "_capture_variants/f2c2d83871d693ff/data/twitchStreams.json",
+      "sha256": "f2c2d83871d693ff3ed6fbb7a56dde7d41c521379e302c3ea0327a57903ab79c",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/_capture_variants/f2c2d83871d693ff/data/twitchStreams.json"
+    },
+    {
+      "path": "data/housePromo.json",
+      "sha256": "a8f339f20c2e03169739a16d7bf22c8a900bbfb882c80a4782ebdbc584635ee9",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/data/housePromo.json"
+    },
+    {
+      "path": "data/img/newsItems/news_m15jwp2h0.png",
+      "sha256": "e298d06ddb84ac46c850e92216975045d8834ad5d564b05149bdd9247fe7fb24",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/data/img/newsItems/news_m15jwp2h0.png"
+    },
+    {
+      "path": "data/shellNews.json",
+      "sha256": "34ccfa49a9d8e5b61c832a465dd91e4c51902c2709a671e045a556787beff237",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/data/shellNews.json"
+    },
+    {
+      "path": "data/shellYouTube.json",
+      "sha256": "32806ab3ff85550021fe7bfb6e5dc19f17502d5018944fdb25fbaf71013c8717",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/data/shellYouTube.json"
+    },
+    {
+      "path": "data/twitchStreams.json",
+      "sha256": "9c8595c35dfae72a4bfa17c0882b51bf7516e9bd0d747f10196b98997b466b2c",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/data/twitchStreams.json"
+    },
+    {
+      "path": "favicon.ico",
+      "sha256": "f9194a3315d64d9fe5fcf3cefe511e05ec01248ffffb5082f91d38dca995ae73",
+      "source": "0.23.3a_2019-09-13_17-56-55_UTC/favicon.ico"
+    },
+    {
+      "path": "favicon192.png",
+      "sha256": "c6be857b91742850113f3609e1c7b445f52b2eefad82f51a45eee5f29e159381",
+      "source": "0.27.7_2020-06-26_04-52-07_UTC/favicon192.png"
+    },
+    {
+      "path": "img/blue-wizard-logo-tiny-min.png",
+      "sha256": "b5e2562f7fde7fdc20e3ac0df2a98e349b8d30a25b912f736f6c33ac917f5fbe",
+      "source": "0.40.2_2021-07-12_20-02-36_UTC/img/blue-wizard-logo-tiny-min.png"
+    },
+    {
+      "path": "img/blueWizard_logo.png",
+      "sha256": "105ed318f15c6153a9ffd622943c0898288604e4f33d48610ebb0d5281d930ec",
+      "source": "0.47.4_2024-03-20_21-01-09_TZ-unknown_onlypuppy7/img/blueWizard_logo.png"
+    },
+    {
+      "path": "img/chicken-nugget/alt/cyborg/chickLoop_sleep.svg",
+      "sha256": "559bca8b08eb38b76fcca4c32cca07dd26e8bd9bd1e29bc1434e5b924af9bac5",
+      "source": "0.47.5_2024-04-02_06-43-20_UTC/img/chicken-nugget/alt/cyborg/chickLoop_sleep.svg"
+    },
+    {
+      "path": "img/chicken-nugget/chw-loot-btn.png",
+      "sha256": "ec9cada8201f04883f03f18f248cf0aea73c1aa73e5149b6cd690a30fe0896ed",
+      "source": "0.45.10_2023-07-14_08-22-33_UTC/img/chicken-nugget/chw-loot-btn.png"
+    },
+    {
+      "path": "img/chicken-nugget/ssAd_chicknWinner800x600-min.png",
+      "sha256": "892ba1022b11456a2a31d8a2bce379ffca841b62794318dc9d3df8985edb76d5",
+      "source": "0.45.10_2023-07-29_03-49-34_UTC/img/chicken-nugget/ssAd_chicknWinner800x600-min.png"
+    },
+    {
+      "path": "img/egg-org/eggOrg_timeTravel_splash800x600-min.png",
+      "sha256": "1a9064f74f737966bf0fb51493c888362ecd57089e100798b6c6f3f6ac5e3873",
+      "source": "0.42.8_2022-04-02_23-51-58_UTC/img/egg-org/eggOrg_timeTravel_splash800x600-min.png"
+    },
+    {
+      "path": "img/eggPose01.png",
+      "sha256": "51cba45ddd3f0fd36ffac9228945b397967fc9f39bffd93ed71e13459dcc4158",
+      "source": "0.25.7_2019-11-26_14-36-08_UTC/img/eggPose01.png"
+    },
+    {
+      "path": "img/eggPose05.png",
+      "sha256": "6383353070129c103b1a78f595ea41b2bbdb5b0c130e04d0076e29bb30ac8c92",
+      "source": "0.25.7_2019-11-26_14-36-08_UTC/img/eggPose05.png"
+    },
+    {
+      "path": "img/egg_pack_small.png",
+      "sha256": "c07d109d2618b2a12c1d5e2bace1a9d974b32bbd852a5f09fdf5f146a713ded4",
+      "source": "0.34_2020-12-06_07-52-42_UTC/img/egg_pack_small.png"
+    },
+    {
+      "path": "img/free-games-io.png",
+      "sha256": "0eb8a82f48d824c7cdabcff47d8df0d435aae180b0c5be3f17c4cb511ca84cf0",
+      "source": "0.48.2_2024-07-05_01-40-13_UTC/img/free-games-io.png"
+    },
+    {
+      "path": "img/ico_gamepad.svg",
+      "sha256": "2d0ddf66aa6bd54b388f0283cc65ba224d660af6f92525e47bb74a35813ab43e",
+      "source": "unversioned_2020-03-27_02-36-34_UTC_recovered-game_bfa09ef6/img/ico_gamepad.svg"
+    },
+    {
+      "path": "img/ico_goldenEgg.png",
+      "sha256": "9bc493724fbc4c37c524b9bb01e40df75b7250e7e61e2424823305e301ed9d6b",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/img/ico_goldenEgg.png"
+    },
+    {
+      "path": "img/ico_grenadeEmpty.png",
+      "sha256": "833512d7323dfa598388f61ca00aa0a907c744c80490337f17407313d49fd001",
+      "source": "0.23.3a_2019-08-22_14-57-20_UTC/img/ico_grenadeEmpty.png"
+    },
+    {
+      "path": "img/ico_keyboard.svg",
+      "sha256": "6d9751aa51126a5018b63433052703ef3e228c5f713b34ef46cd3310c1f0d736",
+      "source": "unversioned_2020-03-27_02-36-34_UTC_recovered-game_bfa09ef6/img/ico_keyboard.svg"
+    },
+    {
+      "path": "img/ico_monitor.svg",
+      "sha256": "dfe964bd56c9b38868eb7572a38984a4e358d96bdab15a87b6be1bfe4f2a9d43",
+      "source": "unversioned_2020-03-27_02-36-34_UTC_recovered-game_bfa09ef6/img/ico_monitor.svg"
+    },
+    {
+      "path": "img/ico_mouse.svg",
+      "sha256": "6c1ec3a17b70fd364702b74bc20cba6bc9f9ccdb89a87c75828f5bddf65f18d5",
+      "source": "unversioned_2020-03-27_02-36-34_UTC_recovered-game_bfa09ef6/img/ico_mouse.svg"
+    },
+    {
+      "path": "img/ico_speaker.svg",
+      "sha256": "0b4fd36123c14417d71cbc5521b24e45cb4cd06069695f807a8e56f49c1f1379",
+      "source": "unversioned_2020-03-27_02-36-34_UTC_recovered-game_bfa09ef6/img/ico_speaker.svg"
+    },
+    {
+      "path": "img/ico_streak.png",
+      "sha256": "75e458cf7fa7341e80432ed095959cf88241d62c35114cedde80ee65b138271b",
+      "source": "0.25.4_2019-11-04_16-56-11_UTC/img/ico_streak.png"
+    },
+    {
+      "path": "img/incentivized-mini-game/svg/Egg00.svg",
+      "sha256": "d2d8a41675755d939804e3e363decdb7277191065873eee7ffaae995d9bd0e96",
+      "source": "unversioned_2022-02-17_16-36-44_UTC_script-capture_8e568311/img/incentivized-mini-game/svg/Egg00.svg"
+    },
+    {
+      "path": "img/kotc/kotc-arrow.svg",
+      "sha256": "72a928b4ea4c4e420dfd86e2c1c03608f6ecd18e5ce7c495d3d44e5228db3b19",
+      "source": "0.42.0_2021-12-05_11-41-02_UTC/img/kotc/kotc-arrow.svg"
+    },
+    {
+      "path": "img/kotc/kotc-crown.svg",
+      "sha256": "e0746d96fa606597d2e7152e2df6f261b4792fa59239a78bb15782779b66ebe9",
+      "source": "0.42.0_2021-12-05_11-41-02_UTC/img/kotc/kotc-crown.svg"
+    },
+    {
+      "path": "img/kotc/kotc-rooster.svg",
+      "sha256": "0da93c421ca12d7c35660be31634b957c0985b922d6922ab8c85ce9382e0a885",
+      "source": "0.42.0_2021-12-05_11-41-02_UTC/img/kotc/kotc-rooster.svg"
+    },
+    {
+      "path": "img/kotc/kotc-wordmark.svg",
+      "sha256": "2e20387329d37cd605e35c3513e9025cc8a029c24321b1f2946837bb101c2654",
+      "source": "0.42.0_2021-12-05_11-41-02_UTC/img/kotc/kotc-wordmark.svg"
+    },
+    {
+      "path": "img/logo.svg",
+      "sha256": "186dc3174ad9f21803148ff17b7bb6b3d775da8bbad831d9dd56c7d7cc32e5f8",
+      "source": "unversioned_2021-05-19_05-31-12_UTC_script-capture_9d3024a0/img/logo.svg"
+    },
+    {
+      "path": "img/photo-booth/ico_shelfieStars.svg",
+      "sha256": "bfcd72bf49c9c4308e60eba8181698e5e273c344234236060699eb317239e854",
+      "source": "0.45.7_2023-06-01_22-45-56_UTC/img/photo-booth/ico_shelfieStars.svg"
+    },
+    {
+      "path": "img/rickroll.gif",
+      "sha256": "f1ab144efb12def335355d06e7da59e797903ff70478f61102b4f7c41ca49f9b",
+      "source": "0.39.4_2021-03-17_03-18-47_UTC/img/rickroll.gif"
+    },
+    {
+      "path": "img/shellShockers_loadingTipEgg.png",
+      "sha256": "1840739a13d4150c4632f55c5d8d3a1146094757b5aeb59e9f1f0c41343c1302",
+      "source": "unversioned_2023-06-16_17-39-35_UTC_script-capture_14d00631/img/shellShockers_loadingTipEgg.png"
+    },
+    {
+      "path": "img/shellshockers-unite-lg.png",
+      "sha256": "4c21c94b172942d124a1633b6410fc7c946878918276cf0d9dcb313e964ec477",
+      "source": "0.42.9_2022-04-15_08-32-13_UTC/img/shellshockers-unite-lg.png"
+    },
+    {
+      "path": "img/store/UI_paymentOptions.png",
+      "sha256": "9fbd30b163a9385cd47804dffaae1e56aff5066b03f5c4c2f2d64bc202abcccd",
+      "source": "0.48.3_2024-07-16_16-59-59_UTC/img/store/UI_paymentOptions.png"
+    },
+    {
+      "path": "img/svg/ico_goldenEgg.svg",
+      "sha256": "282b621afeee771be2128758e219ba9dbcda8d53289c56909088e1c841561ffc",
+      "source": "0.45.1_2023-03-04_21-15-54_UTC/img/svg/ico_goldenEgg.svg"
+    },
+    {
+      "path": "img/svg/ico_goldenEgg_callout.svg",
+      "sha256": "b1732bdb70b78d23d2b8f569e11a0fa9cfbe8c97f83b4d14c6187f48a7bcfbbc",
+      "source": "0.45.0_2023-02-16_06-39-20_UTC/img/svg/ico_goldenEgg_callout.svg"
+    },
+    {
+      "path": "img/tutorial/ss_tutorial_EggTarget.png",
+      "sha256": "24e1d40ae4533d48d7df0b7c8ad2251c8b20816fda20efa35ed7fdf9bcb31dae",
+      "source": "0.45.6_2023-05-16_06-53-31_UTC/img/tutorial/ss_tutorial_EggTarget.png"
+    },
+    {
+      "path": "img/tutorial/ss_tutorial_Keyboard.png",
+      "sha256": "026cdea6b42db2c6ea69a923830e4a2d4ce11769c5eb456c4531199d3776a9c6",
+      "source": "0.45.6_2023-05-16_06-53-31_UTC/img/tutorial/ss_tutorial_Keyboard.png"
+    },
+    {
+      "path": "img/tutorial/ss_tutorial_Mouse.png",
+      "sha256": "a302c1d2841a12f6039485ae8959ab084771ce27bb02ecab5e90348d46377d99",
+      "source": "0.45.6_2023-05-16_06-53-31_UTC/img/tutorial/ss_tutorial_Mouse.png"
+    },
+    {
+      "path": "img/vip-club/very-important-poultry.png",
+      "sha256": "794e2e3d154a35b23045dc4a054775cff072da54289cc5d8f9ab9048c04bf939",
+      "source": "0.40.9_2021-10-16_19-20-18_UTC/img/vip-club/very-important-poultry.png"
+    },
+    {
+      "path": "img/vip-club/vip-club-popup-background.png",
+      "sha256": "dd60a19c003cfd7697cf549e7defd622a78765daf0e10f5aec2c6e3f61a364d9",
+      "source": "unversioned_2021-10-20_14-11-15_UTC_script-capture_add2ef4e/img/vip-club/vip-club-popup-background.png"
+    },
+    {
+      "path": "img/vip-club/vip-club-popup-bullet-point-star.png",
+      "sha256": "1b7ac63e525406f3d8e05ae957d270b4ad2772d45458239cf756b9f74efbcc34",
+      "source": "unversioned_2021-10-20_14-11-15_UTC_script-capture_add2ef4e/img/vip-club/vip-club-popup-bullet-point-star.png"
+    },
+    {
+      "path": "img/vip-club/vip-club-popup-emblem.png",
+      "sha256": "2b2e2c077d8eed77b8721414493cf1d515d2ab6167f29021fb7daf88f78471e4",
+      "source": "0.40.9_2021-10-16_19-20-18_UTC/img/vip-club/vip-club-popup-emblem.png"
+    },
+    {
+      "path": "index.html",
+      "sha256": "28d934fc07d86afefff0eb8bdd8795aff5c9f26c8e6ee0da0d41977a20ba426a",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/index.html"
+    },
+    {
+      "path": "js/draco_decoder.wasm",
+      "sha256": "2516a4e43526d71787bf2f678f951329f7f858f8f15f42d4bc9e370b31a0da3a",
+      "source": "unversioned_2024-09-17_10-29-59_UTC_script-capture_fc092a2a/js/draco_decoder.wasm"
+    },
+    {
+      "path": "js/screenShot.js",
+      "sha256": "e87e550794322e574a1fda0c1549a3c70dae5a93d9113417a429016838eab8cb",
+      "source": "0.45.7_2023-06-01_22-45-56_UTC/js/screenShot.js"
+    },
+    {
+      "path": "js/shellshock.js",
+      "sha256": "fc092a2aa834504cb0ad546f61e8351ee5047153540ff25519e771f63fd10678",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/js/shellshock.js"
+    },
+    {
+      "path": "js/vue/vue.min.2.6.10.js",
+      "sha256": "72194d152571dd375c4365e5c3b4af9db2c06af0102ced18fcb062597d38be26",
+      "source": "unversioned_2019-08-19_21-35-21_UTC_script-capture_41172780/js/vue/vue.min.2.6.10.js"
+    },
+    {
+      "path": "language/en.json",
+      "sha256": "4e1a9e72b9106a1631324e6989f21e9d17cdf48145e1859b52c6277a0f0882b8",
+      "source": "unversioned_2024-09-17_10-29-59_UTC_script-capture_fc092a2a/language/en.json"
+    },
+    {
+      "path": "models/egg.glb",
+      "sha256": "88a84848cfb85540a8651df048e2854e484cf1c4bbff96eae12aed213a7f8055",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/models/egg.glb"
+    },
+    {
+      "path": "models/gun_aug.glb",
+      "sha256": "fdde3335b9dd58a8b00eab3ce8fad6110a363d447d7644e45a066264eeb2ddea",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/models/gun_aug.glb"
+    },
+    {
+      "path": "models/gun_cluck9mm.glb",
+      "sha256": "02b78bc36f3eb552eb71073a211d89d2d1863cb123e6cf6e1de2fa6ad83f5fd8",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/models/gun_cluck9mm.glb"
+    },
+    {
+      "path": "models/gun_csg1.glb",
+      "sha256": "9f0a4a85efae1af1e9e1f3b1925a719af6d63bc451b99d471f64d0921f2486c1",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/models/gun_csg1.glb"
+    },
+    {
+      "path": "models/gun_dozenGauge.glb",
+      "sha256": "08cb9331891af04adc0ee166dd88ff3c9d154f226ca6a8b9565635a2772e81be",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/models/gun_dozenGauge.glb"
+    },
+    {
+      "path": "models/gun_eggk47.glb",
+      "sha256": "b4857fea7be588d816446f823ef4c183a250a6c792cbb81e9795b067216eeb81",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/models/gun_eggk47.glb"
+    },
+    {
+      "path": "models/gun_m24.glb",
+      "sha256": "2f5641c9fa0151c10aa8da2cbb1dde9233e6c98445080bdbf087b6a1fb198ecd",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/models/gun_m24.glb"
+    },
+    {
+      "path": "models/gun_rpegg.glb",
+      "sha256": "a37f83519271faa954d66cd5ffac6eda08e48306ad96f7da7cdf65ddfa2215dc",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/models/gun_rpegg.glb"
+    },
+    {
+      "path": "models/gun_smg.glb",
+      "sha256": "41dee85734d5433d339ef7c7cb57700594e14f11be3237914ad27252495853e3",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/models/gun_smg.glb"
+    },
+    {
+      "path": "models/items.glb",
+      "sha256": "f8de43e13007d08a484b0f241dc3c8f5966620faa915ccf1d296fa9463a29050",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/models/items.glb"
+    },
+    {
+      "path": "models/melee.glb",
+      "sha256": "7713dea05ffc5e9f8e82ff0698784116c0397e2178d1c808c95adc29de007e1c",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/models/melee.glb"
+    },
+    {
+      "path": "models/munitions.glb",
+      "sha256": "3f42661ddf1c96211287a3f8d05b609c62e06c90faf692455ff4f5a70db882a2",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/models/munitions.glb"
+    },
+    {
+      "path": "models/muzzleFlash.glb",
+      "sha256": "cf9dfeb46f3fe63e2d4d6245e860a733a7f5621c64c2aed32ab8d6b0256bc25c",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/models/muzzleFlash.glb"
+    },
+    {
+      "path": "models/reticle.glb",
+      "sha256": "7186be7cc928e55e1131f53fbb3745bba4d4bb59d8173f1d8e0a64d196b2b1a7",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/models/reticle.glb"
+    },
+    {
+      "path": "sound/sounds.json",
+      "sha256": "82efdb10d430261279f376e7b80e7e57c16d0ac19b1b8574fc9be9a0d025d8bf",
+      "source": "unversioned_2024-09-17_10-29-59_UTC_script-capture_fc092a2a/sound/sounds.json"
+    },
+    {
+      "path": "sound/sounds.webm",
+      "sha256": "757cb75df55c160bd9e60eaa381b74bb6ec35bfaf48648a26c8f282463885ae2",
+      "source": "unversioned_2024-09-17_10-29-59_UTC_script-capture_fc092a2a/sound/sounds.webm"
+    },
+    {
+      "path": "styles/style.min.css",
+      "sha256": "b6bc34eb9f74560df49665b06130f3dd34c6b4011cf11053f35680102c503fe4",
+      "source": "unversioned_2024-09-17_10-29-59_UTC_script-capture_fc092a2a/styles/style.min.css"
+    },
+    {
+      "path": "twitch/index.html",
+      "sha256": "2afea90752a7da13f966307920639659154e398f1c4648efe0bea9eba625f70a",
+      "source": "0.50.0_2024-09-17_08-05-59_UTC/twitch/index.html"
+    }
+  ]
+}
