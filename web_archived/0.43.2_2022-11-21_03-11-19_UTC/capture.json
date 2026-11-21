@@ -1,0 +1,670 @@
+{
+  "folder": "0.43.2_2022-11-21_03-11-19_UTC",
+  "version": "0.43.2",
+  "version_source": "javascript",
+  "version_evidence": {
+    "version": "0.43.2",
+    "kind": "game_javascript_changelog",
+    "offset": 2107997,
+    "expression": "version:\"0.43.2\",date:",
+    "original_sha256": "f348b006d975d9a886b032f7a7bfd9e33019f5ab7f6bf94d4095f6b704ffadf4",
+    "analyzed_sha256": "f348b006d975d9a886b032f7a7bfd9e33019f5ab7f6bf94d4095f6b704ffadf4",
+    "analysis_method": "original plaintext",
+    "path": "js/shellshock.js",
+    "sha256": "f348b006d975d9a886b032f7a7bfd9e33019f5ab7f6bf94d4095f6b704ffadf4",
+    "observation": {
+      "timestamp": "20221121160409",
+      "original": "https://shellshock.io/js/shellshock.js?1668791515",
+      "mimetype": "application/javascript",
+      "statuscode": "200",
+      "digest": "4ZLFLO77EMKVYBBNRJBB2HYCMXRTZFKE"
+    }
+  },
+  "html_version": null,
+  "event": {
+    "urlkey": "io,shellshock)/?home",
+    "timestamp": "20221121031119",
+    "original": "https://shellshock.io/?home",
+    "mimetype": "text/html",
+    "statuscode": "200",
+    "digest": "NUXN4BUBT2SSSOXKZPLVUEGVDZXDEMM5"
+  },
+  "missing_scripts": [
+    "https://shellshock.io/gtm.js"
+  ],
+  "pairing_verified": false,
+  "warning": "Reconstruction from independently captured files. Each selection retains its own date; nearest captures and inferred release labels are unverified.",
+  "files": [
+    {
+      "path": "index.html",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/?home",
+        "timestamp": "20221121031119",
+        "original": "https://shellshock.io/?home",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "NUXN4BUBT2SSSOXKZPLVUEGVDZXDEMM5"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/?home",
+        "timestamp": "20221121031119",
+        "original": "https://shellshock.io/?home",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "NUXN4BUBT2SSSOXKZPLVUEGVDZXDEMM5",
+        "replay_url": "https://web.archive.org/web/20221121031119id_/https://shellshock.io/?home",
+        "final_url": "https://web.archive.org/web/20221121031119id_/https://shellshock.io/?home",
+        "sha256": "3cd9078ba2d1ea4190e041ed750576e8e61dbb53888d0e6dd28ef8e7276353f9",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/NUXN4BUBT2SSSOXKZPLVUEGVDZXDEMM5",
+        "encoded_sha256": "20b85d9bfe1a349c7c70adb6467c8e08ff0e7f1bb8227939047d07e00ec18637",
+        "decoded_sha1": "DYZNXIIHFXUUN2SZ5A4RBTNUBBAY2VNH",
+        "replay_capture_timestamp": "20221121031119"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20221121031119",
+          "original": "https://shellshock.io/?home",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "NUXN4BUBT2SSSOXKZPLVUEGVDZXDEMM5"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "js/shellshock.js",
+      "origin_id": "archive_org",
+      "source": {
+        "urlkey": "io,shellshock)/js/shellshock.js?1668791515",
+        "timestamp": "20221121160409",
+        "original": "https://shellshock.io/js/shellshock.js?1668791515",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "4ZLFLO77EMKVYBBNRJBB2HYCMXRTZFKE",
+        "replay_url": "https://web.archive.org/web/20221121160409id_/https://shellshock.io/js/shellshock.js?1668791515",
+        "final_url": "https://web.archive.org/web/20221121160409id_/https://shellshock.io/js/shellshock.js?1668791515",
+        "verification": "indexed_capture_digest_matches_verified_payload",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20221121160409",
+        "sha256": "f348b006d975d9a886b032f7a7bfd9e33019f5ab7f6bf94d4095f6b704ffadf4"
+      },
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/shellshock.js?1668791515",
+        "timestamp": "20221121160409",
+        "original": "https://shellshock.io/js/shellshock.js?1668791515",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "4ZLFLO77EMKVYBBNRJBB2HYCMXRTZFKE",
+        "replay_url": "https://web.archive.org/web/20221121160409id_/https://shellshock.io/js/shellshock.js?1668791515",
+        "final_url": "https://web.archive.org/web/20221121160409id_/https://shellshock.io/js/shellshock.js?1668791515",
+        "verification": "cdx_sha1_plain",
+        "replay_transfer_encodings_removed": [
+          "gzip"
+        ],
+        "replay_capture_timestamp": "20221121160409"
+      },
+      "exact_event_timestamp": false,
+      "association": "Nearest verified same-path capture within 24 hours, ignoring cachebuster; release pairing unverified",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20221121160409",
+          "original": "https://shellshock.io/js/shellshock.js?1668791515",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "4ZLFLO77EMKVYBBNRJBB2HYCMXRTZFKE"
+        },
+        "offset_seconds": 46370,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "js/vue/vue.min.2.6.10.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20221121200041",
+        "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "INGN5QLGT4WGY5AGFF5HEEQJG26FN3KS"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20190819213520",
+        "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "INGN5QLGT4WGY5AGFF5HEEQJG26FN3KS",
+        "replay_url": "https://web.archive.org/web/20190819213520id_/https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "final_url": "https://web.archive.org/web/20190819213520id_/https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "sha256": "72194d152571dd375c4365e5c3b4af9db2c06af0102ced18fcb062597d38be26"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20221121200041",
+          "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+          "mimetype": "warc/revisit",
+          "statuscode": "-",
+          "digest": "INGN5QLGT4WGY5AGFF5HEEQJG26FN3KS"
+        },
+        "offset_seconds": 60562,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "consolidation": {
+    "comparison": "Ignore only Cloudflare rayId in HTML; all other primary bytes compared exactly",
+    "equivalent_captures": [
+      {
+        "folder": "0.43.2_2022-11-21_03-11-19_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?home",
+          "timestamp": "20221121031119",
+          "original": "https://shellshock.io/?home",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "NUXN4BUBT2SSSOXKZPLVUEGVDZXDEMM5"
+        }
+      },
+      {
+        "folder": "0.43.2_2022-11-21_03-14-39_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?game-language=en",
+          "timestamp": "20221121031439",
+          "original": "https://shellshock.io/?game-language=en",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "IXSNQGN3KZXJ7TE5HTZCXTJJSNA7O5OS"
+        }
+      },
+      {
+        "folder": "0.43.2_2022-11-21_19-59-21_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=it&locale=it&siteid=88&sitelocale=it&timestamp=1669057424",
+          "timestamp": "20221121195921",
+          "original": "https://shellshock.io/?timestamp=1669057424&countryCode=it&siteid=88&channelid=1&siteLocale=it&locale=it",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "EXQW7TADNAL2XMDNVO752TWYBKALZGYN"
+        }
+      },
+      {
+        "folder": "0.43.2_2022-11-21_19-59-27_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20221121195927",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "KQEC7RMNC63OXJEVG4GYP5DTZPUBEX32"
+        }
+      },
+      {
+        "folder": "0.43.2_2022-11-21_19-59-29_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=en-gb&locale=en-gb&siteid=88&sitelocale=en-gb&timestamp=1669057426",
+          "timestamp": "20221121195929",
+          "original": "https://shellshock.io/?timestamp=1669057426&countryCode=en-GB&siteid=88&channelid=1&siteLocale=en-GB&locale=en-GB",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "LXXR2E3VQSDS3HFTAOU3A3YO3WDAYLUI"
+        }
+      },
+      {
+        "folder": "0.43.2_2022-11-21_19-59-32_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=nl&locale=nl&siteid=88&sitelocale=nl&timestamp=1669057426",
+          "timestamp": "20221121195932",
+          "original": "https://shellshock.io/?timestamp=1669057426&countryCode=nl&siteid=88&channelid=1&siteLocale=nl&locale=nl",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "UNXLWF76VW6EHEE5WUTEZGIMPEN6B5FK"
+        }
+      },
+      {
+        "folder": "0.43.2_2022-11-21_19-59-34_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=fr&locale=fr&siteid=88&sitelocale=fr&timestamp=1669057427",
+          "timestamp": "20221121195934",
+          "original": "https://shellshock.io/?timestamp=1669057427&countryCode=fr&siteid=88&channelid=1&siteLocale=fr&locale=fr",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "BIN6ZACEQKLQQAK4GGJMFZD46ZZ5333T"
+        }
+      },
+      {
+        "folder": "0.43.2_2022-11-21_19-59-38_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=de&locale=de&siteid=88&sitelocale=de&timestamp=1669057428",
+          "timestamp": "20221121195938",
+          "original": "https://shellshock.io/?timestamp=1669057428&countryCode=de&siteid=88&channelid=1&siteLocale=de&locale=de",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "6IGNFE3XONMWU65SUVB76YFE5V2AP3W5"
+        }
+      },
+      {
+        "folder": "0.43.2_2022-11-21_19-59-40_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=pl&locale=pl&siteid=88&sitelocale=pl&timestamp=1669057428",
+          "timestamp": "20221121195940",
+          "original": "https://shellshock.io/?timestamp=1669057428&countryCode=pl&siteid=88&channelid=1&siteLocale=pl&locale=pl",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "LQ5YCJJEPGML4GZWH2JUO25OOKI3ELYI"
+        }
+      },
+      {
+        "folder": "0.43.2_2022-11-21_19-59-42_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=tr&locale=tr&siteid=88&sitelocale=tr&timestamp=1669057428",
+          "timestamp": "20221121195942",
+          "original": "https://shellshock.io/?timestamp=1669057428&countryCode=tr&siteid=88&channelid=1&siteLocale=tr&locale=tr",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "3J76FO6HYB2JRO54YH6DITY7ZPRDRNLU"
+        }
+      },
+      {
+        "folder": "0.43.2_2022-11-21_19-59-44_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=en&locale=en&siteid=88&sitelocale=en&timestamp=1669057429",
+          "timestamp": "20221121195944",
+          "original": "https://shellshock.io/?timestamp=1669057429&countryCode=en&siteid=88&channelid=1&siteLocale=en&locale=en",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "NTV4SW4NCXEVY3WS5DOX3NQQJ7LD5CCW"
+        }
+      },
+      {
+        "folder": "0.43.2_2022-11-21_19-59-47_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=ru&locale=ru&siteid=88&sitelocale=ru&timestamp=1669057430",
+          "timestamp": "20221121195947",
+          "original": "https://shellshock.io/?timestamp=1669057430&countryCode=ru&siteid=88&channelid=1&siteLocale=ru&locale=ru",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "VVZM7DHRHPNFXAQ6B7QYNISO5LQU4PMY"
+        }
+      },
+      {
+        "folder": "0.43.2_2022-11-21_19-59-49_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=pt-br&locale=pt-br&siteid=88&sitelocale=pt-br&timestamp=1669057431",
+          "timestamp": "20221121195949",
+          "original": "https://shellshock.io/?timestamp=1669057431&countryCode=pt-BR&siteid=88&channelid=1&siteLocale=pt-BR&locale=pt-BR",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "YGHKK4UCNVOYNLXDFGXSOWPT3N47M7K7"
+        }
+      },
+      {
+        "folder": "0.43.2_2022-11-21_19-59-51_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=es&locale=es&siteid=88&sitelocale=es&timestamp=1669057432",
+          "timestamp": "20221121195951",
+          "original": "https://shellshock.io/?timestamp=1669057432&countryCode=es&siteid=88&channelid=1&siteLocale=es&locale=es",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "KVQXXE4OBXSOLT2J2M3VTAHYGL5YIIUP"
+        }
+      },
+      {
+        "folder": "0.43.2_2022-11-21_19-59-53_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=id&locale=id&siteid=88&sitelocale=id&timestamp=1669057432",
+          "timestamp": "20221121195953",
+          "original": "https://shellshock.io/?timestamp=1669057432&countryCode=id&siteid=88&channelid=1&siteLocale=id&locale=id",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "VFBCYPUJLYHKH25FTGJXBWUFGUYGPQWC"
+        }
+      },
+      {
+        "folder": "0.43.2_2022-11-21_19-59-54_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=sv&locale=sv&siteid=88&sitelocale=sv&timestamp=1669057434",
+          "timestamp": "20221121195954",
+          "original": "https://shellshock.io/?timestamp=1669057434&countryCode=sv&siteid=88&channelid=1&siteLocale=sv&locale=sv",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "LUQ67DPAA7JF5AORQLD4NAU56GX5LDCW"
+        }
+      },
+      {
+        "folder": "0.43.2_2022-11-22_07-17-36_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20221122071736",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "5RMOO4VQXVS2G4HCB4U3FL7QXOTADPEJ"
+        }
+      }
+    ],
+    "warning": "Union preserves distinct assets and original HTML variants; it does not assert simultaneous historical availability"
+  },
+  "origin_id": "archive_org",
+  "origins_catalog": "origins.json (archive root; included in exports)",
+  "javascript_release_version_verified": false,
+  "version_scope": "Version declared by the observed game script only; simultaneous HTML/resource membership is unverified.",
+  "game_script_pairing": {
+    "max_gap_seconds": 86400,
+    "cachebuster_used_as_release_evidence": false,
+    "missing": [],
+    "associations": [
+      {
+        "path": "js/shellshock.js",
+        "script_timestamp": "20221121160409",
+        "pairing_verified": false
+      }
+    ]
+  },
+  "resource_association_audit": {
+    "removed_paths": [
+      "_capture_variants/24480a75485ce4c6/index.html",
+      "changelog/oldChangelog.json",
+      "favicon.png",
+      "img/BlueWizard-Logo-min.png",
+      "img/arrowLeft.png",
+      "img/arrowRight.png",
+      "img/attention_indicator.png",
+      "img/blue-wizard-logo-tiny-min.png",
+      "img/bug.png",
+      "img/bulletHoles.png",
+      "img/chicken-nugget/chickLoop_daily_limit.svg",
+      "img/chicken-nugget/chickLoop_sleep.svg",
+      "img/chicken-nugget/chickLoop_speak.svg",
+      "img/chicken-nugget/goldenNuggetGIFWIP.gif",
+      "img/chicken-nugget/goldenNugget_static.png",
+      "img/chicken-nugget/speechBubble_static2_tail1.svg",
+      "img/chicken-nugget/starburst.png",
+      "img/chicken_shadow.png",
+      "img/closeAd.png",
+      "img/controller/button_circle.svg",
+      "img/controller/button_cross.svg",
+      "img/controller/button_dpaddown.svg",
+      "img/controller/button_dpadleft.svg",
+      "img/controller/button_dpadright.svg",
+      "img/controller/button_dpadup.svg",
+      "img/controller/button_square.svg",
+      "img/controller/button_stickleft.svg",
+      "img/controller/button_stickright.svg",
+      "img/controller/button_triangle.svg",
+      "img/deadEgg.png",
+      "img/discordLogo.png",
+      "img/egg-org/eggOrg_timeTravel_houseAd2-min.jpg",
+      "img/egg-org/eggOrg_timeTravel_splash800x600-min.png",
+      "img/egg-org/logo_EggOrg.svg",
+      "img/eggPose01.png",
+      "img/eggPose05.png",
+      "img/egg_icon.png",
+      "img/egg_icon2.png",
+      "img/egg_pack_large.png",
+      "img/egg_pack_medium.png",
+      "img/egg_pack_small.png",
+      "img/eggshop_egg1.png",
+      "img/eggshop_egg2.png",
+      "img/eggshop_egg3.png",
+      "img/eggshop_egg4.png",
+      "img/equipment.png",
+      "img/events/bad-egg-promo-house-ad.png",
+      "img/events/shellshockers_doubleEgg01.png",
+      "img/events/shellshockers_doubleEgg02.png",
+      "img/events/small-house-ad-chw-min.png",
+      "img/events/twitch-drops-btn-link-now.png",
+      "img/events/twitch-drops-btn-linked.png",
+      "img/explosion2.png",
+      "img/fbLogo.png",
+      "img/feedback.png",
+      "img/friends.png",
+      "img/fullScreen.png",
+      "img/grenadeIcon.png",
+      "img/grenadeIconDark.png",
+      "img/hardBoiledEmpty.png",
+      "img/hardBoiledFilled.png",
+      "img/home.png",
+      "img/ico_ammo.png",
+      "img/ico_arrowLeft.png",
+      "img/ico_arrowLeftSheet.png",
+      "img/ico_arrowRight.png",
+      "img/ico_arrowRightSheet.png",
+      "img/ico_cart.png",
+      "img/ico_chicken.png",
+      "img/ico_chickenBadge.png",
+      "img/ico_closeButton_states.png",
+      "img/ico_eggBreaker.png",
+      "img/ico_eggColour_normal.png",
+      "img/ico_gamepad.svg",
+      "img/ico_goldenEgg.png",
+      "img/ico_goldenEgg.svg",
+      "img/ico_grenadeEmpty.png",
+      "img/ico_hat.png",
+      "img/ico_hat_faded.png",
+      "img/ico_keyboard.svg",
+      "img/ico_merch.png",
+      "img/ico_monitor.svg",
+      "img/ico_mouse.svg",
+      "img/ico_nav_fullscreen.png",
+      "img/ico_nav_help.png",
+      "img/ico_nav_leaderboards.png",
+      "img/ico_nav_settings.png",
+      "img/ico_nav_share.png",
+      "img/ico_nav_shop.png",
+      "img/ico_news.png",
+      "img/ico_nugget.png",
+      "img/ico_padlock.png",
+      "img/ico_privacy.svg",
+      "img/ico_social_discord.png",
+      "img/ico_social_facebook.png",
+      "img/ico_social_newsletter.png",
+      "img/ico_social_twitter.png",
+      "img/ico_speaker.svg",
+      "img/ico_specialItem.png",
+      "img/ico_stamp.png",
+      "img/ico_stamp_faded.png",
+      "img/ico_streak.png",
+      "img/ico_twitch.png",
+      "img/ico_weaponPrimary.png",
+      "img/ico_weaponPrimary_faded.png",
+      "img/ico_weaponSecondary.png",
+      "img/ico_weaponSecondary_faded.png",
+      "img/ico_weapon_SMG.png",
+      "img/ico_weapon_assaultRifle.png",
+      "img/ico_weapon_aug.png",
+      "img/ico_weapon_boltAction.png",
+      "img/ico_weapon_rocketLauncher.png",
+      "img/ico_weapon_shotgun.png",
+      "img/ico_weapon_sniper.png",
+      "img/ico_youtube.png",
+      "img/incentivized-mini-game/svg/Egg00.svg",
+      "img/inventory-icons/ico_grenade.svg",
+      "img/inventory-icons/ico_hat.svg",
+      "img/inventory-icons/ico_specialItem.svg",
+      "img/inventory-icons/ico_stamp.svg",
+      "img/inventory-icons/ico_weaponPrimary.svg",
+      "img/inventory-icons/ico_weaponSecondary.svg",
+      "img/kotc/kotc-bg-popup.png",
+      "img/kotc/kotc-screenshot-one.png",
+      "img/kotc/kotc-screenshot-two.png",
+      "img/kotc/new-game-mode-king-of-coop.png",
+      "img/logo.png",
+      "img/logo.svg",
+      "img/mobile/shell-mobile-cta-min.png",
+      "img/noHat.png",
+      "img/noItem.png",
+      "img/noStamp.png",
+      "img/notificationIcon.png",
+      "img/nugget_shadow.png",
+      "img/physical_unlock.png",
+      "img/physical_unlock_lg.png",
+      "img/previewImage_shellShockers.jpg",
+      "img/pricetag_left.png",
+      "img/pricetag_loop.png",
+      "img/pricetag_right.png",
+      "img/rickroll.gif",
+      "img/scavenger-536x307.png",
+      "img/scavenger-attn-btn.png",
+      "img/scope.png",
+      "img/settings.png",
+      "img/shellfrag.png",
+      "img/skyboxes/default/skybox_nx.jpg",
+      "img/skyboxes/default/skybox_ny.jpg",
+      "img/skyboxes/default/skybox_nz.jpg",
+      "img/skyboxes/default/skybox_px.jpg",
+      "img/skyboxes/default/skybox_py.jpg",
+      "img/skyboxes/default/skybox_pz.jpg",
+      "img/skyboxes/moonbase/skybox_nx.jpg",
+      "img/skyboxes/moonbase/skybox_ny.jpg",
+      "img/skyboxes/moonbase/skybox_nz.jpg",
+      "img/skyboxes/moonbase/skybox_px.jpg",
+      "img/skyboxes/moonbase/skybox_py.jpg",
+      "img/skyboxes/moonbase/skybox_pz.jpg",
+      "img/skyboxes/skybox_nx.jpg",
+      "img/skyboxes/skybox_ny.jpg",
+      "img/skyboxes/skybox_nz.jpg",
+      "img/skyboxes/skybox_px.jpg",
+      "img/skyboxes/skybox_py.jpg",
+      "img/skyboxes/skybox_pz.jpg",
+      "img/social-media/footer-social-media-bubble-discord.png",
+      "img/social-media/footer-social-media-bubble-facebook.png",
+      "img/social-media/footer-social-media-bubble-instagram.png",
+      "img/social-media/footer-social-media-bubble-tiktok.png",
+      "img/social-media/footer-social-media-bubble-twitch.png",
+      "img/social-media/footer-social-media-bubble-twitter.png",
+      "img/spatulaIcon.png",
+      "img/speechBubble01.png",
+      "img/speechtail.png",
+      "img/stamps.png",
+      "img/stand-with-ukraine-min.png",
+      "img/store-black-friday/black-fryday-home-screen-ad.png",
+      "img/store/items/gun_eggk47_techno.gif",
+      "img/store/items/hat_thermal_wings.gif",
+      "img/store/items/item_gre_blood.gif",
+      "img/store/items/item_gre_bumble.gif",
+      "img/store/items/item_gre_diablo.gif",
+      "img/store/items/item_gre_football.gif",
+      "img/store/items/item_gre_glitterbomb.gif",
+      "img/store/items/item_gre_octopus.gif",
+      "img/store/items/item_gre_skullnado.gif",
+      "img/store/items/item_gre_supernova.gif",
+      "img/store/items/item_gre_thermal.gif",
+      "img/store/items/item_gre_toilet_papr.gif",
+      "img/store/items/item_gre_unicorn.gif",
+      "img/store/items/item_gun_ak_retro.gif",
+      "img/store/items/item_gun_aug_retro.gif",
+      "img/store/items/item_gun_bros.gif",
+      "img/store/items/item_gun_crack_retro.gif",
+      "img/store/items/item_gun_csg1_retro.gif",
+      "img/store/items/item_gun_csg1_techno.gif",
+      "img/store/items/item_gun_m24_retro.gif",
+      "img/store/items/item_gun_retro_9mm.gif",
+      "img/store/items/item_gun_rpeggTechno.gif",
+      "img/store/items/item_gun_rpegg_retro.gif",
+      "img/store/items/item_gun_smg_retro.gif",
+      "img/store/items/item_hat_airplane.gif",
+      "img/store/items/item_hat_bloodwing.gif",
+      "img/store/items/item_hat_chrome_wing.gif",
+      "img/store/items/item_hat_crosswing.gif",
+      "img/store/items/item_hat_dinowings.gif",
+      "img/store/items/item_hat_fairy_wings.gif",
+      "img/store/items/item_hat_fall.gif",
+      "img/store/items/item_hat_glitch_wing.gif",
+      "img/store/items/item_hat_moth_wings.gif",
+      "img/store/items/item_hat_pixel_fire.gif",
+      "img/store/items/item_hat_pixel_wings.gif",
+      "img/store/items/item_hat_robot_wings.gif",
+      "img/store/items/item_hat_skull_wings.gif",
+      "img/store/items/item_hat_steamWings.gif",
+      "img/store/items/item_hat_teggtris.gif",
+      "img/store/items/item_hat_toilet_papr.gif",
+      "img/store/items/item_hat_ukraine.gif",
+      "img/store/items/item_hat_uni_wing.gif",
+      "img/store/items/shack-gun-9mm-techno.gif",
+      "img/store/items/shack-gun-cluck9mm-space.gif",
+      "img/store/items/shack-gun-csg1-space.gif",
+      "img/store/items/shack-gun-csg1-techno.gif",
+      "img/store/items/shack-gun-smg-techno.gif",
+      "img/store/items/shack-gun-techno-dozen-gauge.gif",
+      "img/store/items/shack-hat-cape.gif",
+      "img/store/items/shack-hat-demon-wings.gif",
+      "img/store/items/shack-hat-dragon.gif",
+      "img/store/items/shack-hat-fallen-wings.gif",
+      "img/store/items/shack-hat-galeggsy.gif",
+      "img/store/items/shack-hat-gladiator.gif",
+      "img/store/items/shack-hat-oni.gif",
+      "img/store/items/shack-hat-yolk-arms.gif",
+      "img/store/items/shack-hat-zombie-mask.gif",
+      "img/store/items/untz-untz.gif",
+      "img/switchTeam.png",
+      "img/tip.png",
+      "img/twitch-drops/twitch-drops-3-house-ad-536x307.png",
+      "img/twitch-drops/twitch-drops-parachute.svg",
+      "img/twitch-drops/twitch-reward-popup-bg.png",
+      "img/twitchIcon.png",
+      "img/twitterLogo.png",
+      "img/vip-club/very-important-poultry.png",
+      "img/vip-club/vip-banner.png",
+      "img/vip-club/vip-club-call-to-action.png",
+      "img/vip-club/vip-club-give-stuff-popup-background.jpg",
+      "img/vip-club/vip-club-popup-background.png",
+      "img/vip-club/vip-club-popup-bullet-point-star.png",
+      "img/vip-club/vip-club-popup-item-1-month-membership-bg.png",
+      "img/vip-club/vip-club-popup-item-12-month-membership-bg.png",
+      "img/vip-club/vip-club-popup-item-3-month-membership-bg.png",
+      "language/en.json",
+      "language/es.json",
+      "language/fr.json",
+      "language/ko.json",
+      "language/zh.json",
+      "manifest.json",
+      "service-worker.js",
+      "sound/sounds.json",
+      "sound/sounds.mp3",
+      "sound/sounds.ogg",
+      "sound/sounds.webm",
+      "video/tiny.mp4"
+    ],
+    "max_gap_seconds": 86400,
+    "release_pairing_verified": false,
+    "note": "Unsupported resource associations removed; original bytes preserved separately at observed capture times."
+  },
+  "version_audit": {
+    "declarations": [
+      {
+        "version": "0.43.2",
+        "kind": "game_javascript_changelog",
+        "offset": 2107997,
+        "expression": "version:\"0.43.2\",date:",
+        "original_sha256": "f348b006d975d9a886b032f7a7bfd9e33019f5ab7f6bf94d4095f6b704ffadf4",
+        "analyzed_sha256": "f348b006d975d9a886b032f7a7bfd9e33019f5ab7f6bf94d4095f6b704ffadf4",
+        "analysis_method": "original plaintext",
+        "path": "js/shellshock.js",
+        "sha256": "f348b006d975d9a886b032f7a7bfd9e33019f5ab7f6bf94d4095f6b704ffadf4",
+        "observation": {
+          "timestamp": "20221121160409",
+          "original": "https://shellshock.io/js/shellshock.js?1668791515",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "4ZLFLO77EMKVYBBNRJBB2HYCMXRTZFKE"
+        }
+      }
+    ],
+    "release_membership_verified": false
+  }
+}

@@ -1,0 +1,585 @@
+{
+  "folder": "0.43.4_2022-12-26_06-08-18_UTC",
+  "version": "unversioned",
+  "version_source": null,
+  "version_evidence": null,
+  "html_version": null,
+  "event": {
+    "urlkey": "io,shellshock)/?home",
+    "timestamp": "20221226060818",
+    "original": "https://shellshock.io/?home",
+    "mimetype": "text/html",
+    "statuscode": "200",
+    "digest": "2BWNJCB6FJNPK54KAVIHHWTJ22BSHT4A"
+  },
+  "missing_scripts": [
+    "https://shellshock.io/gtm.js",
+    "https://shellshock.io/js/shellshock.js?1672027398"
+  ],
+  "pairing_verified": false,
+  "warning": "Reconstruction from independently captured files. Each selection retains its own date; nearest captures and inferred release labels are unverified.",
+  "files": [
+    {
+      "path": "index.html",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/?home",
+        "timestamp": "20221226060818",
+        "original": "https://shellshock.io/?home",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "2BWNJCB6FJNPK54KAVIHHWTJ22BSHT4A"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/?home",
+        "timestamp": "20221226060818",
+        "original": "https://shellshock.io/?home",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "2BWNJCB6FJNPK54KAVIHHWTJ22BSHT4A",
+        "replay_url": "https://web.archive.org/web/20221226060818id_/https://shellshock.io/?home",
+        "final_url": "https://web.archive.org/web/20221226060818id_/https://shellshock.io/?home",
+        "sha256": "a1265dd4de92e581a387f075729db7a488b385e384ffcac8824020505743600b",
+        "verification": "cdx_sha1_encoded",
+        "content_encoding": "gzip",
+        "encoded_payload": "_recovery/encoded/2BWNJCB6FJNPK54KAVIHHWTJ22BSHT4A",
+        "encoded_sha256": "13524e6529dcebb6445ce4e4e08e6db60f90073a9a512312614a6fc993c70be0",
+        "decoded_sha1": "JAIEWSRMYVSUG4REZFEB6S3HATBOHJ63",
+        "replay_capture_timestamp": "20221226060818"
+      },
+      "exact_event_timestamp": true,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20221226060818",
+          "original": "https://shellshock.io/?home",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "2BWNJCB6FJNPK54KAVIHHWTJ22BSHT4A"
+        },
+        "offset_seconds": 0,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    },
+    {
+      "path": "js/vue/vue.min.2.6.10.js",
+      "requested_capture": {
+        "urlkey": "io,shellshock)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20221226234929",
+        "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "warc/revisit",
+        "statuscode": "-",
+        "digest": "INGN5QLGT4WGY5AGFF5HEEQJG26FN3KS"
+      },
+      "source": {
+        "urlkey": "io,shellshock)/js/vue/vue.min.2.6.10.js",
+        "timestamp": "20190819213520",
+        "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "INGN5QLGT4WGY5AGFF5HEEQJG26FN3KS",
+        "replay_url": "https://web.archive.org/web/20190819213520id_/https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "final_url": "https://web.archive.org/web/20190819213520id_/https://shellshock.io/js/vue/vue.min.2.6.10.js",
+        "sha256": "72194d152571dd375c4365e5c3b4af9db2c06af0102ced18fcb062597d38be26"
+      },
+      "exact_event_timestamp": false,
+      "origin_id": "archive_org",
+      "capture_association": {
+        "observation": {
+          "timestamp": "20221226234929",
+          "original": "https://shellshock.io/js/vue/vue.min.2.6.10.js",
+          "mimetype": "warc/revisit",
+          "statuscode": "-",
+          "digest": "INGN5QLGT4WGY5AGFF5HEEQJG26FN3KS"
+        },
+        "offset_seconds": 63671,
+        "max_gap_seconds": 86400,
+        "release_pairing_verified": false,
+        "basis": "Digest-proven observation of these bytes at the same host/path within 24 hours; release pairing is unverified."
+      }
+    }
+  ],
+  "consolidation": {
+    "comparison": "Ignore only Cloudflare rayId in HTML; all other primary bytes compared exactly",
+    "equivalent_captures": [
+      {
+        "folder": "0.43.4_2022-12-26_06-08-18_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?home",
+          "timestamp": "20221226060818",
+          "original": "https://shellshock.io/?home",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "2BWNJCB6FJNPK54KAVIHHWTJ22BSHT4A"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-26_23-48-42_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=it&locale=it&siteid=88&sitelocale=it&timestamp=1672093166",
+          "timestamp": "20221226234842",
+          "original": "https://shellshock.io/?timestamp=1672093166&countryCode=it&siteid=88&channelid=1&siteLocale=it&locale=it",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "NVRNOBWMW2WWDPKJDVLMTPY3SOXGHFHT"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-26_23-48-48_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20221226234848",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "PCD4LTBZKMPXXEY3EN3KJLY3QSGW6QY6"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-26_23-48-51_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=pt-br&locale=pt-br&siteid=88&sitelocale=pt-br&timestamp=1672093168",
+          "timestamp": "20221226234851",
+          "original": "https://shellshock.io/?timestamp=1672093168&countryCode=pt-BR&siteid=88&channelid=1&siteLocale=pt-BR&locale=pt-BR",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "DGGVMIEGKYPRJ733MEYNDWWU6HCTG37E"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-26_23-48-54_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=en&locale=en&siteid=88&sitelocale=en&timestamp=1672093168",
+          "timestamp": "20221226234854",
+          "original": "https://shellshock.io/?timestamp=1672093168&countryCode=en&siteid=88&channelid=1&siteLocale=en&locale=en",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "HVX6RQ3DRLLJFYJQI53D45MMTWPSN62J"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-26_23-48-55_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=pl&locale=pl&siteid=88&sitelocale=pl&timestamp=1672093169",
+          "timestamp": "20221226234855",
+          "original": "https://shellshock.io/?timestamp=1672093169&countryCode=pl&siteid=88&channelid=1&siteLocale=pl&locale=pl",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "LMLKIGNK7DORUTBQ3DFJ3AD5NXGU32MP"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-26_23-48-57_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=en-gb&locale=en-gb&siteid=88&sitelocale=en-gb&timestamp=1672093169",
+          "timestamp": "20221226234857",
+          "original": "https://shellshock.io/?timestamp=1672093169&countryCode=en-GB&siteid=88&channelid=1&siteLocale=en-GB&locale=en-GB",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "E47WAWBC2Y5XZJ6VTPZWBDSZMOLXL6GP"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-26_23-48-58_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=ru&locale=ru&siteid=88&sitelocale=ru&timestamp=1672093169",
+          "timestamp": "20221226234858",
+          "original": "https://shellshock.io/?timestamp=1672093169&countryCode=ru&siteid=88&channelid=1&siteLocale=ru&locale=ru",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "TUM3QJBYDIGW56K22DTTOJE2YZCI6VRI"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-26_23-49-00_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=nl&locale=nl&siteid=88&sitelocale=nl&timestamp=1672093169",
+          "timestamp": "20221226234900",
+          "original": "https://shellshock.io/?timestamp=1672093169&countryCode=nl&siteid=88&channelid=1&siteLocale=nl&locale=nl",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "GFMLV6GK5H4MKUOUWX6WINKGUPTUTNAZ"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-26_23-49-02_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=tr&locale=tr&siteid=88&sitelocale=tr&timestamp=1672093170",
+          "timestamp": "20221226234902",
+          "original": "https://shellshock.io/?timestamp=1672093170&countryCode=tr&siteid=88&channelid=1&siteLocale=tr&locale=tr",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "DMGTYJSYHUBGODAQRI5FNYJGQIEK3SMN"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-26_23-49-04_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=id&locale=id&siteid=88&sitelocale=id&timestamp=1672093170",
+          "timestamp": "20221226234904",
+          "original": "https://shellshock.io/?timestamp=1672093170&countryCode=id&siteid=88&channelid=1&siteLocale=id&locale=id",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "YO5ZP75QIP4D7LAT3W5EKFCX7HXB3EQT"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-26_23-49-07_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=sv&locale=sv&siteid=88&sitelocale=sv&timestamp=1672093170",
+          "timestamp": "20221226234907",
+          "original": "https://shellshock.io/?timestamp=1672093170&countryCode=sv&siteid=88&channelid=1&siteLocale=sv&locale=sv",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "MIV4HL4K7K75JPKGM2KNJEVW2QQ3XNHG"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-26_23-49-10_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=es&locale=es&siteid=88&sitelocale=es&timestamp=1672093170",
+          "timestamp": "20221226234910",
+          "original": "https://shellshock.io/?timestamp=1672093170&countryCode=es&siteid=88&channelid=1&siteLocale=es&locale=es",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "6MHLRFERGJ4ZTEM7UO2MQ7KPFGHDQZUR"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-26_23-49-11_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=fr&locale=fr&siteid=88&sitelocale=fr&timestamp=1672093171",
+          "timestamp": "20221226234911",
+          "original": "https://shellshock.io/?timestamp=1672093171&countryCode=fr&siteid=88&channelid=1&siteLocale=fr&locale=fr",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "AWZBAAZFZOWBQPXXML42P3N2P3ZFQ5QQ"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-26_23-49-13_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=de&locale=de&siteid=88&sitelocale=de&timestamp=1672093171",
+          "timestamp": "20221226234913",
+          "original": "https://shellshock.io/?timestamp=1672093171&countryCode=de&siteid=88&channelid=1&siteLocale=de&locale=de",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "SHFU4YEV6UI3KUXCKAKENRJBFIDA5XRG"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-27_16-09-45_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20221227160945",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "VKHIG5NDMCLLV3YS3FHCQ6WM2FFZGXWS"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-28_06-56-49_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20221228065649",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "4UOW3XVXKLCJBL3LN5YFJ54S3R2IANKB"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-28_20-48-06_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20221228204806",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "AGAI2V3SZGWMI22KUVUNKDTROH2PXQFU"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-29_02-37-04_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20221229023704",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "IUZFGYAX3CHEWAJLZFLVNANAYUDQELBV"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-31_02-42-10_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=pl&locale=pl&siteid=88&sitelocale=pl&timestamp=1672449754",
+          "timestamp": "20221231024210",
+          "original": "https://shellshock.io/?timestamp=1672449754&countryCode=pl&siteid=88&channelid=1&siteLocale=pl&locale=pl",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "5VB6AUVKFYSTARWIWJBA4OHJYVXUKHET"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-31_02-42-13_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=nl&locale=nl&siteid=88&sitelocale=nl&timestamp=1672449756",
+          "timestamp": "20221231024213",
+          "original": "https://shellshock.io/?timestamp=1672449756&countryCode=nl&siteid=88&channelid=1&siteLocale=nl&locale=nl",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "KBHSC2OBDR7M3CY2T4SYPO3PIDZFW6BP"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-31_02-42-15_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=en-gb&locale=en-gb&siteid=88&sitelocale=en-gb&timestamp=1672449756",
+          "timestamp": "20221231024215",
+          "original": "https://shellshock.io/?timestamp=1672449756&countryCode=en-GB&siteid=88&channelid=1&siteLocale=en-GB&locale=en-GB",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "TN6QOFQY7LYFUWEXFTULNHEKEVR6KDE3"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-31_02-42-17_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=fr&locale=fr&siteid=88&sitelocale=fr&timestamp=1672449757",
+          "timestamp": "20221231024217",
+          "original": "https://shellshock.io/?timestamp=1672449757&countryCode=fr&siteid=88&channelid=1&siteLocale=fr&locale=fr",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "6C7JSDYIFK6HKKXAIV6TIWTUCHW5CXPA"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-31_02-42-19_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=de&locale=de&siteid=88&sitelocale=de&timestamp=1672449757",
+          "timestamp": "20221231024219",
+          "original": "https://shellshock.io/?timestamp=1672449757&countryCode=de&siteid=88&channelid=1&siteLocale=de&locale=de",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "JGQOPMCNZIINJJGK2NXTF2IUDU5TYTQG"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-31_02-42-22_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=sv&locale=sv&siteid=88&sitelocale=sv&timestamp=1672449757",
+          "timestamp": "20221231024222",
+          "original": "https://shellshock.io/?timestamp=1672449757&countryCode=sv&siteid=88&channelid=1&siteLocale=sv&locale=sv",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "7IT6KDFDK56W4WJMI4WPO7DNWBN67PLG"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-31_02-42-29_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/",
+          "timestamp": "20221231024229",
+          "original": "https://shellshock.io/",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "APP4FLKHJJFEPPW733BNA4MHNJL3J3ZQ"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-31_02-42-31_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=en&locale=en&siteid=88&sitelocale=en&timestamp=1672449758",
+          "timestamp": "20221231024231",
+          "original": "https://shellshock.io/?timestamp=1672449758&countryCode=en&siteid=88&channelid=1&siteLocale=en&locale=en",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "ZUR4VTKRRXQ5CEHOZRHKNQTGVJRIRRR2"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-31_02-42-33_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=it&locale=it&siteid=88&sitelocale=it&timestamp=1672449758",
+          "timestamp": "20221231024233",
+          "original": "https://shellshock.io/?timestamp=1672449758&countryCode=it&siteid=88&channelid=1&siteLocale=it&locale=it",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "GMEAZCOKE522E7LVQJZGDVLG7FFIBK54"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-31_02-42-35_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=tr&locale=tr&siteid=88&sitelocale=tr&timestamp=1672449758",
+          "timestamp": "20221231024235",
+          "original": "https://shellshock.io/?timestamp=1672449758&countryCode=tr&siteid=88&channelid=1&siteLocale=tr&locale=tr",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "6KLIO727C32ZXMXANQWIIQ7PUUETM7T5"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-31_02-42-37_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=es&locale=es&siteid=88&sitelocale=es&timestamp=1672449758",
+          "timestamp": "20221231024237",
+          "original": "https://shellshock.io/?timestamp=1672449758&countryCode=es&siteid=88&channelid=1&siteLocale=es&locale=es",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "ETPLCMMJ6TU2P35SMSYOU4WPW2DEIXND"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-31_02-42-39_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=pt-br&locale=pt-br&siteid=88&sitelocale=pt-br&timestamp=1672449760",
+          "timestamp": "20221231024239",
+          "original": "https://shellshock.io/?timestamp=1672449760&countryCode=pt-BR&siteid=88&channelid=1&siteLocale=pt-BR&locale=pt-BR",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "JSW2W2YRG66RMHDFAIIY55J5KC2FIICV"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-31_02-42-41_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=id&locale=id&siteid=88&sitelocale=id&timestamp=1672449760",
+          "timestamp": "20221231024241",
+          "original": "https://shellshock.io/?timestamp=1672449760&countryCode=id&siteid=88&channelid=1&siteLocale=id&locale=id",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "UVG72UZM7NAIABOSB7QZ6FAEZBDBUXSN"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-31_02-42-43_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=1&countrycode=ru&locale=ru&siteid=88&sitelocale=ru&timestamp=1672449760",
+          "timestamp": "20221231024243",
+          "original": "https://shellshock.io/?timestamp=1672449760&countryCode=ru&siteid=88&channelid=1&siteLocale=ru&locale=ru",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "VY7P42Q2MAI55QPFXMQAD6ESEWWH4CCC"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-31_03-51-24_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=2&countrycode=en&locale=en&siteid=79&sitelocale=en&timestamp=1672442938",
+          "timestamp": "20221231035124",
+          "original": "https://shellshock.io/?timestamp=1672442938&countryCode=en&siteid=79&channelid=2&siteLocale=en&locale=en",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "M2BZFT5ONTYLMTNVIPM73LVR5BDUYG2X"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-31_03-51-27_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=2&countrycode=fr&locale=fr&siteid=79&sitelocale=fr&timestamp=1672443897",
+          "timestamp": "20221231035127",
+          "original": "https://shellshock.io/?timestamp=1672443897&countryCode=fr&siteid=79&channelid=2&siteLocale=fr&locale=fr",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "XEQMFONCADNZOVC6M3X4NK2WTT3QM4YY"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-31_03-51-29_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=2&countrycode=it&locale=it&siteid=79&sitelocale=it&timestamp=1672443899",
+          "timestamp": "20221231035129",
+          "original": "https://shellshock.io/?timestamp=1672443899&countryCode=it&siteid=79&channelid=2&siteLocale=it&locale=it",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "UJWWKV37Z77ADHNHYIPNIHIA5QAU36GP"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-31_03-51-32_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=2&countrycode=id&locale=id&siteid=79&sitelocale=id&timestamp=1672443902",
+          "timestamp": "20221231035132",
+          "original": "https://shellshock.io/?timestamp=1672443902&countryCode=id&siteid=79&channelid=2&siteLocale=id&locale=id",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "MK55TTQIRU7VAQ7SKLBNGVKSPE5PV7SX"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-31_03-51-33_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=2&countrycode=de&locale=de&siteid=79&sitelocale=de&timestamp=1672443913",
+          "timestamp": "20221231035133",
+          "original": "https://shellshock.io/?timestamp=1672443913&countryCode=de&siteid=79&channelid=2&siteLocale=de&locale=de",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "PUN74PIJ2WO3DV54S5MCR6V5U62HB4AK"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-31_03-51-36_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=2&countrycode=nl&locale=nl&siteid=79&sitelocale=nl&timestamp=1672443923",
+          "timestamp": "20221231035136",
+          "original": "https://shellshock.io/?timestamp=1672443923&countryCode=nl&siteid=79&channelid=2&siteLocale=nl&locale=nl",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "LZQE6JPYU3G26CJFS3VRP4PD45N237TF"
+        }
+      },
+      {
+        "folder": "0.43.4_2022-12-31_03-51-39_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/?channelid=2&countrycode=ru&locale=ru&siteid=79&sitelocale=ru&timestamp=1672443932",
+          "timestamp": "20221231035139",
+          "original": "https://shellshock.io/?timestamp=1672443932&countryCode=ru&siteid=79&channelid=2&siteLocale=ru&locale=ru",
+          "mimetype": "text/html",
+          "statuscode": "200",
+          "digest": "TKB7XI4GGGIRSAJ5O62DWEZS3HKLRVMX"
+        }
+      },
+      {
+        "folder": "0.43.4_2023-01-02_12-42-10_UTC",
+        "event": {
+          "urlkey": "io,shellshock)/js/shellshock.js?1672027398",
+          "timestamp": "20230102124210",
+          "original": "https://shellshock.io/js/shellshock.js?1672027398",
+          "mimetype": "application/javascript",
+          "statuscode": "200",
+          "digest": "D3GULT3262IXAUUTUFPPJJSWLDWQO4B4"
+        }
+      }
+    ],
+    "warning": "Union preserves distinct assets and original HTML variants; it does not assert simultaneous historical availability"
+  },
+  "origin_id": "archive_org",
+  "origins_catalog": "origins.json (archive root; included in exports)",
+  "javascript_release_version_verified": false,
+  "version_scope": "HTML label only; not an authenticated JavaScript release",
+  "game_script_pairing": {
+    "max_gap_seconds": 86400,
+    "cachebuster_used_as_release_evidence": false,
+    "missing": [
+      {
+        "path": "js/shellshock.js",
+        "reason": "no_verified_capture_within_24_hours",
+        "referenced_url": "https://shellshock.io/js/shellshock.js?1672027398"
+      }
+    ],
+    "associations": []
+  },
+  "previous_version_assignment": {
+    "version": "0.43.4",
+    "basis": "javascript",
+    "reason": "No explicit version declaration in the resources supported at this capture time."
+  },
+  "version_audit": {
+    "declarations": [],
+    "release_membership_verified": false
+  }
+}

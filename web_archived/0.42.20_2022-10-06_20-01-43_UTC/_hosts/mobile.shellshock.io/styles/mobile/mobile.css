@@ -1,0 +1,2291 @@
+* {
+	--ss-mobile-wrap-pad: 1em;
+    --sat: env(safe-area-inset-top);
+    --sar: env(safe-area-inset-right);
+    --sab: env(safe-area-inset-bottom);
+    --sal: env(safe-area-inset-left);
+}
+
+/* localhost testing */
+/* .load_screen, #progress-container {
+	display: none;
+} */
+
+[type="radio"]:checked + label:before, [type="radio"]:not(:checked) + label:before  {
+    top: .4em;
+}
+
+[type="radio"]:checked + label:after, [type="radio"]:not(:checked) + label:after {
+    top: 0.64em;
+    left: 0.21em;
+}
+
+/* localhost testing */
+/* .load_screen, #progress-container {
+	display: none;
+} */
+
+/* #ss_background {
+    border-radius: 40pt;
+    border: 1px solid black;
+} */
+
+.notch {
+    background: black;
+    width: 30pt;
+    height: 209pt;
+    position: absolute;
+    border-radius: 0 20pt 20pt 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 500000;
+}
+
+.load_screen:not(#spinnerOverlay) {
+	width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Shared */
+.stats, #settings,
+.main-layout,
+.main-account-wrapper,
+#stats_panel,
+.front_panel,
+.egg-store-wrapper,
+.account_eggs,
+#corner-buttons,
+.popup_window.popup_lg,
+#createPrivateGame,
+#server_list_popup,
+.serverPingWrap,
+#subStorePopup {
+    width: 100%;
+}
+
+.popup_lg:not(#pausePopup) > div {
+	padding: var(--ss-space-lg) calc(var(--ss-space-lg)*3);
+	padding-left: calc(env(safe-area-inset-left) + 1em);
+	padding-right: calc(env(safe-area-inset-right) + 1em);
+}
+
+#pauseButtons .ss_button:disabled, .buy-now-btn:disabled, #egg-color-btn:disabled {
+    opacity: .5;
+}
+
+/* UI LAYER */
+.overlay_game,
+.overlay_dark {
+    z-index: 7;
+}
+
+/* Loading Screens */
+
+.load-msg-header {
+	margin-top: 1em;
+}
+
+.load-msg-footer {
+	margin-bottom: var(--ss-space-lg);
+}
+
+.mobile-pro-tip h1 {
+	font-size: 1.8em;
+}
+
+.mobile-pro-tip {
+	border: .3em solid var(--ss-blue3);
+	width: 50%;
+	padding: calc(var(--ss-space-lg)/2);
+}
+
+.mobile-pro-tip p {
+	color: var(--ss-blue3);
+}
+
+
+/* Home screen */
+.home-layout {
+    max-width: none;
+    min-width: auto;
+    justify-content: space-between;
+    height: 100vh;
+    /* grid-template-rows: 8em auto; */
+    padding: 2em;
+}
+.home-layout .column {
+	height: calc(100vh - 4em)
+}
+
+.home-play {
+	margin-top: var(--ss-space-md);
+}
+
+#panel_front_egg,
+#panel_front_play {
+    width: auto;
+}
+
+#panel_front_play {
+    height: auto;
+	/* min-width: 26.7em; */
+}
+
+#panel_front_egg {
+    background-size: auto;
+    min-width: auto;
+    padding-bottom: 0;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	height: auto;
+}
+
+#play_game .btn-account-nav:not(.play-button) {
+    border-width: 0.2em;
+    font-size: 1.4em;
+    height: 3.5em;
+    border-radius: .4em;
+}
+
+button.play-button.btn-account-nav {
+    font-size: 4.5vw;
+    /* font-size: 3.5em;
+    height: 2.5em;
+    border-width: .1em; */
+}
+
+.nickname-input input {
+    margin: 0 !important;
+}
+
+#play_game #btn_horizontal {
+    display: block;
+}
+
+/* #home_screen .content-wrapper {
+    height: 80vh;
+} */
+
+.custom-game-wrapper .btn_sm {
+	min-width: auto;
+}
+
+/** Equip screen **/
+
+#equip_screen {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+#equip_wrapper.equip-in-game {
+    background: var(--ss-lightoverlay) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#equip_screen .main-layout {
+    display: flex;
+}
+#game_account_panel.account-container {
+    z-index: 2001;
+}
+#equip_wrapper .account-container {
+    grid-template-columns: 1fr 1fr;
+    width: 9em;
+    /* z-index: 111; */
+}
+#home_screen .content-wrapper,
+.main-account-wrapper {
+    column-gap: 3em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#home_screen #weapon_select {
+    grid-template-rows: 6em 6em;
+    align-content: center;
+    position: relative;
+    display: block;
+    height: auto;
+}
+
+#equip_screen .content-wrapper {
+    display: flex;
+	height: 83vh;
+}
+
+#equip_screen .left_panel,
+#equip_screen .right_panel {
+    flex: 0 0 33.333333%;
+}
+
+#equip_screen .middle_panel {
+    flex: 0 1 33.333333%;
+}
+
+.equip_panel.right_panel {
+	/* margin-top: 2.25em; */
+	margin-top: 0;
+}
+
+#equip_screen #weapon_select {
+    display: block;
+}
+
+#equip_screen .weapon-container {
+    grid-template-columns: repeat(3, 1fr);
+	margin: 0 auto;
+}
+
+.main-account-wrapper {
+    height: auto;
+    max-width: none;
+    min-width: auto;
+}
+
+.equip_panelhead {
+    position: relative;
+    min-height: auto;
+    margin-bottom: 0;
+}
+
+#equip_sidebox {
+    background-image: none;
+    border: 0;
+    min-width: auto;
+}
+
+.middle_panel {
+    min-width: auto !important;
+    position: relative;
+}
+
+.btn_equip_show {
+    opacity: 0;
+    transition: all .3s cubic-bezier(1,.82,.09,1.21);
+}
+
+.btn_equip_show.active {
+    opacity: 1;
+    transform: translate(-13em, 0);
+}
+
+.left_panel, .right_panel, #canvas {
+    transition: transform .3s cubic-bezier(1,.82,.09,1.21);
+}
+
+.canvasleft {
+    transform: translate(-13em, 0);
+
+}
+
+.left-slide {
+    /* transform: translate(-6em, 0); */
+    transform: translate(-30em, 0);
+}
+
+.right-slide {
+    /* transform: translate(6em, 0); */
+    transform: none;
+}
+
+.equip_panel {
+    width: auto;
+    padding: 0;
+    display: grid;
+    position: relative;
+}
+
+.equip_panel.left_panel {
+    position: relative;
+    margin-top: 0;
+}
+
+
+
+.equip_panelhead .ss_bigtab{
+    height: 2.7em;
+}
+
+.left_panel {
+    margin-top: 0;
+}
+
+#equip_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    padding: 0;
+    width: 30em;
+    height: 32em !important;
+}
+
+#equip_sidebox h3 {
+    font-size: 1.6em;
+    color: var(--ss-white);
+}
+
+#equip_grid .store_item {
+    width: 7.4em;
+    height: 7.4em;
+    border-color: transparent;
+    margin: 0 auto;
+}
+
+.equip-weapon-select-arrow {
+    display: block;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-left: 7em solid transparent;
+    border-right: 7em solid transparent;
+    border-top: 2.3em solid var(--ss-white);
+}
+
+#equip_screen .tool-tip span {
+    display: none;
+}
+
+#equip_sidebox #item_mask {
+    width: 100%;
+    height: 5em;
+    bottom: 0;
+    left: .2em;
+}
+
+#equip_grid .highlight,
+#equip_grid .store_item {
+    border-width: .6em !important;
+}
+
+#equip_panel_middle.middle_panel {
+    align-items: end;
+    justify-content: center;
+    width: auto !important;
+}
+
+.equip_cost {
+    left: 1.8em;
+    font-size: 1em;
+}
+
+.soldout_head,
+.soldout_text {
+    top: auto;
+    position: relative;
+}
+
+.soldout_head {
+    margin-top: 1em;
+}
+
+
+/* #price_tag {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-27em, -50%);
+    bottom: 0;
+} */
+
+.equip_pricetag__tag {
+    background-image: none;
+    background: var(--ss-white);
+    align-items: center;
+    color: var(--ss-blue2);
+    text-shadow: none;
+    width: auto;
+    height: 1.3em;
+    -webkit-border-radius: 3px 4px 4px 3px;
+    -moz-border-radius: 3px 4px 4px 3px;
+    border-radius: 3px 4px 4px 3px;
+    border-left: 1px solid var(--ss-blue);
+    margin-left: .5em;
+    position: relative;
+    padding: 0 .2em;
+}
+
+.equip_pricetag__tag:before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: -.64em;
+    width: 0;
+    height: 0;
+    border-top: .65em solid transparent;
+    border-bottom: .65em solid transparent;
+    border-right: .65em solid var(--ss-white);
+}
+
+.equip_pricetag__tag i {
+    font-size: .9em;
+}
+.equip_smallprice {
+    margin-bottom: 0.7em;
+}
+
+.equip_smallprice .fa-dollar-sign {
+    font-size: 1.2em;
+    right: 0;
+    left: .1em;
+    top: .3em;
+}
+
+/* Makes the circle */
+.equip_pricetag__tag:after {
+    content: "";
+    background-color: var(--ss-blue2);
+    border-radius: 50%;
+    width: .2em;
+    height: .2em;
+    display: block;
+    position: absolute;
+    left: -.3em;
+    top: .55em;
+}
+
+.equip_pricetag__tag img {
+    height: 4.5em;
+}
+
+.equip_pricetag {
+    font-size: 3em;
+    margin: 0 auto;
+}
+
+/* Egg color select */
+.egg-color-select {
+    position: absolute;
+    top: 7.3em;
+    left: 2em;
+    z-index: 4;
+    background: var(--ss-blue3);
+    padding: .7em;
+    box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.35);
+}
+
+.egg-color-select:before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent;
+    border-top: 1.3em solid var(--ss-blue3);
+    transform: rotate(180deg);
+    position: absolute;
+    top: -1.2em;
+    /* right: 50%; */
+}
+
+#equip_free_colors,
+#equip_paid_colors {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.eggIcon {
+    width: 2em !important;
+    height: 2em !important;
+}
+
+/* Weapon type select */
+
+.weapon-container {
+    /* width: 30em; */
+    margin: 0;
+	position: relative;
+    max-width: 30em;
+}
+
+#home_screen .weapon-container {
+    height: auto;
+	margin: 0 auto;
+}
+
+#weapon_select {
+    position: relative;
+    display: grid;
+    grid-gap: 1.5em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 6em 6em 6em;
+    align-content: center;
+    margin: 0;
+    align-self: end;
+}
+
+#weapon_select img {
+    width: 8.6em;
+    height: auto !important;
+    margin: 0;
+}
+
+#equip_screen #weapon_select img {
+    width: 7.4em;
+    margin: 0;
+}
+
+.weapon_img {
+    background-color: var(--ss-blue3);
+    border-color: var(--ss-blue3);
+    height: 9em;
+}
+
+.weapon_img_autofire {
+    background-color: var(--ss-yolk);
+	border: 0.2em solid var(--ss-white);
+    width: 3em;
+    height: 3em;
+}
+
+.autofire_checkbox_label {
+    padding-left: 0.5em;
+}
+
+.autofire_checkbox {
+    display: flex !important;
+    align-items: center;
+    gap: 1em;
+    padding-left: 0.5em;
+}
+
+.autofire_checkbox .checkmark {
+    position: relative;
+}
+
+.autofire_checkbox .checkmark::after {
+    position: relative;
+}
+
+#weapon_select .ss_button {
+    display: block;
+}
+
+#weapon_select .tool-tip {
+    margin: 0;
+    position: static;
+    display: flex;
+    align-items: center;
+}
+
+#weapon_select .tool-tip span {
+    width: 30em;
+}
+#weapon_select .tool-tip span {
+    bottom: 1em;
+    color: var(--ss-blue4);
+    background: none;
+    box-shadow: none;
+}
+
+#weapon_select .tool-tip span::after {
+    display: none;
+}
+
+.tool-tip .weapon-title {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+.tool-tip .weapon-description {
+    text-align: left;
+}
+/* #home-layout .tool-tip.weapon_selected span:before {
+    height: 3em;
+    content: " ";
+    width: 5em;
+} */
+
+.btn_md {
+    font-size: 1.8em;
+    padding: .8em .5em;
+}
+.btn_big {
+    margin-bottom: 0;
+}
+
+/* Stats wrapper */
+.stats-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: .2em;
+}
+
+#stat_item {
+    display: block;
+    background: none;
+}
+
+.stat_stat {
+    /* color: var(--ss-white); */
+    font-size: 1.5em;
+}
+
+#stats_panel {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: 0;
+}
+
+#stats_panel h3 {
+    display: none;
+}
+
+#stat_item h4 {
+    background: var(--ss-blue4);
+    padding: .4em;
+    border-radius: 0.2em;
+    margin: .4em 0;
+    font-size: 1em;
+	margin-top: 0;
+}
+
+#stats_panel,
+.front_panel {
+    min-width: auto;
+    max-width: none;
+    background: none;
+    border: 0;
+}
+
+.front_panel {
+    padding: 0;
+    margin: 0;
+}
+
+.front_panel #btn_horizontal:not(.pause-popup--btn-group) .ss_button:first-child {
+    margin: 0 0 .5em !important;
+}
+
+div#play_game .front_panel > * {
+    margin-bottom: .5em;
+}
+
+.nickname-input br,
+.nickname-input #btn_horizontal {
+    display: none;
+}
+
+/* egg store */
+
+.account_eggs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    overflow: visible;
+}
+
+.egg_icon {
+    height: 2.5em;
+}
+
+.egg_count {
+    font-size: 1.3em;
+}
+
+#game_screen .egg_count {
+    font-size: 1.6em;
+}
+
+.single-egg-store-item-purchased {
+    width: calc(100% + 1em);
+}
+
+/* Account component */
+#account_panel {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-gap: 1em;
+    left: 0;
+    right: auto;
+    text-align: left;
+    position: static;
+    padding: 0;
+}
+.account-wrapper {
+    /* display: none; */
+    background: var(--ss-blue1);
+    left: 6.2em;
+    position: absolute;
+    top: 2em;
+    width: 15em;
+    box-shadow: .5em .5em var(--ss-blue4);
+    z-index: 1;
+}
+
+.account-wrapper .account_icon {
+    background: none;
+    font-size: 1.6em;
+    height: auto;
+    margin: 0 .5em 0 0;
+    order: 1;
+}
+
+.btn-account-nav {
+    padding-right: .5em !important;
+    padding-left: .5em !important;
+}
+
+.btn-account-nav .fas {
+    font-size: .9em;
+}
+
+#corner-buttons {
+    display: block;
+}
+
+.account-item {
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    color: var(--ss-blue4);
+    margin: 0;
+    padding: .2em .5em;
+}
+
+.account-item.current {
+    background: var(--ss-orange1);
+    color: var(--ss-white);
+}
+
+.account-item span {
+    order: 2;
+    font-size: 1.6em;
+    order: 2;
+    font-size: 1.6em;
+    position: relative;
+    padding: unset;
+    margin: unset;
+    clip: auto;
+    width: auto;
+    height: auto;
+}
+
+.account-wrapper input.account_icon {
+    width: 2em;
+    margin-left: -.2em;
+    margin: 0 .5em 0 -.4em !important;
+}
+
+.isOpened {
+    display: block;
+}
+
+/* Font family */
+
+.ss_button {
+    font-family: 'Sigmar One', Sans-Serif;
+    overflow: hidden;
+}
+
+#mainLayout .ss_button:not(.account_eggs) {
+    margin: 0;
+}
+
+.account-item {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Popups */
+/* .overlay {
+    display: none;
+} */
+
+#noAnonPopup {
+	width: 90% !important;
+}
+#noAnonPopup, #noAnonPopup .popup_sm_content {
+	max-width: 90%;
+}
+#noAnonPopup .popup_sm_content div {
+	font-size: 2.3em;
+	line-height: 1.6;
+}
+.popup_lg h1 {
+    font-size: 2.3em;
+    background: 0;
+}
+
+.popup_window.popup_lg {
+    height: calc(100vh - 6em);
+    margin-top: 6em;
+}
+
+.popup_window.popup_lg.centered {
+    top: 0;
+    left: 0;
+    transform: none;
+}
+
+.popup_close {
+    height: auto;
+    width: auto;
+}
+
+.popup_close:hover {
+    background-position: -4em 0;
+}
+
+#uiCustomPopup.popup_window.popup_lg,
+#chicknWinner.popup_window.popup_lg,
+#pickServerPopup.popup_window.popup_lg,
+#createPrivateGamePopup.popup_window.popup_lg {
+    height: 100vh !important;
+    margin-top: 0 !important;
+    /* border: 0; */
+    border-radius: 0;
+}
+
+#uiCustomPopup :disabled, #uiCustomPopup :disabled:active {
+    opacity: .5;
+}
+
+.control-game-custom .control-name {
+    font-family: 'Sigmar One', Sans-Serif;
+    font-size: 2em;
+	z-index: 10;
+	text-shadow: .1em .1em .3em rgba(0, 0, 0, .55);
+	line-height: 1.2;
+    pointer-events: none;
+}
+
+#giveStuffPopup.popup_window.popup_lg.centered {
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    width: auto;
+}
+
+#giveStuffPopup canvas {
+	max-width: 200px !important;
+}
+
+#giveStuffPopup #popup_title,
+#giveStuffPopup .ss_button {
+	font-size: 2em !important;
+}
+
+#giveStuffPopup #popup_title {
+    line-height: 1;
+    padding: 0;
+}
+
+#giveStuffPopup .store_item-premium {
+    font-size: 1em;
+    bottom: 1em;
+    transform: inherit;
+    clip-path: initial;
+    right: 0;
+    height: 2em;
+}
+
+/* Create game popup */
+
+.mobile-btn-group .deactive {
+    z-index: 5;
+}
+
+#private_maps {
+    width: auto;
+    height: auto;
+    border: none;
+}
+#createPrivateGame h3 {
+    font-size: 2em;
+    line-height: 1.5em;
+}
+#mapThumb {
+    object-fit: cover;
+}
+#private_maps #mapThumb {
+    position: relative;
+}
+#private_left {
+    width: auto;
+}
+#mapLeft, #mapRight {
+    width: 5em;
+    height: 5em;
+}
+#mapLeft:hover, #mapRight:hover {
+    background-position: -5em 0;
+}
+#mapText {
+    text-shadow: 7px 2px 7px rgba(0,0,0,0.76);
+    font-size: 1em;
+}
+.map_playercount img {
+    height: auto;
+}
+#private_maps #mapNav {
+    font-size: 3em;
+}
+
+/* Server list popup */
+.server-list {
+    overflow-y: scroll;
+    max-height: 26em;
+}
+.serverName,
+.serverPingNumber {
+    font-size: 2em;
+    line-height: 2;
+}
+#server_list_item {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.serverPingWrap {
+    height: 1em;
+}
+
+.serverPingWrap {
+    width: 35em;
+    height: 1em;
+}
+
+#pickServerPopup #btn_horizontal button:first-child{
+    margin-left: 0 !important;
+}
+
+/* FAQ popup */
+.faq-container {
+    max-height: 24em;
+    overflow-y: scroll;
+}
+
+.feedback_panel {
+    height: 36em;
+    overflow-y: hidden;
+}
+
+#feedback_panel select,
+#feedback_panel input,
+#feedbackText {
+	font-size: 2em;
+}
+
+#feedbackText {
+    width: 100%;
+    min-height: 4.5em;
+	max-height: 4.5em;
+}
+
+.tab-content-feedback .feedback_panel {
+    height: 41em;
+    overflow-y: hidden;
+}
+
+.faq-container div {
+    font-size: 2em;
+}
+
+.feedback_panel p,
+.feedback_panel b,
+.feedback_panel li,
+.feedback_panel select,
+.feedback_panel input,
+.feedback_panel textarea {
+    font-size: 1.6em;
+}
+
+.feedback_panel a {
+    font-size: .9em;
+}
+
+/* Leave game popup */
+.popup_sm div {
+    text-align: center;
+}
+
+.popup_sm h3 {
+    font-size: 3em;
+}
+
+.popup_sm_content p,
+.popup_sm button:not(.popup_close) {
+    font-size: 2em;
+}
+
+.popup_sm strong {
+    font-size: 1em;
+}
+
+
+.popup_sm_content p {
+    line-height: 1.4em;
+}
+
+.popup_sm_content input {
+    font-size: 1em;
+}
+
+.popup_sm_content {
+    max-width: 40em;
+}
+
+.popup_sm #btn_horizontal{
+    min-width: 44em;
+}
+
+#newsFeedPopup .popup_sm_content {
+    margin: 7em auto 4em;
+}
+
+.leave-game-popup-container .popup_close .fa-3x,
+#genericPopup .popup_close .fa-3x,
+#redeemCodePopup .popup_close .fa-3x,
+#joinPrivateGamePopup .popup_close .fa-3x,
+#shareLinkPopup .popup_close .fa-3x {
+    font-size: 3.5em;
+}
+
+/* .leave-game-popup-container .popup_close,
+#genericPopup .popup_close,
+#redeemCodePopup .popup_close,
+#joinPrivateGamePopup .popup_close,
+#shareLinkPopup .popup_close {
+    height: auto;
+    width: auto;
+    top: -1em;
+    right: 20.3em;
+} */
+
+.popup_close {
+    background: none;
+    color: var(--ss-white);
+    overflow: visible !important;
+    margin: 1em 1em 0 0;
+}
+
+.popup_close.popup_lg {
+    top: 2em;
+    right: 3em;
+}
+
+.popup_close .fa-3x {
+    font-size: 4em;
+}
+
+.popup_close:active {
+    text-shadow: var(--ss-yolk) .2em .2em;
+}
+/* flex helpers */
+
+.display-flex {
+    display: flex;
+}
+
+/* transition */
+.popup_window.popup_lg.centered.fade-leave-active,
+.popup_window.popup_lg.centered.fade-enter-active {
+transition: all .3s cubic-bezier(1,.82,.09,1.21);
+}
+.popup_window.popup_lg.centered.fade-enter, .popup_window.popup_lg.centered.fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+transform: translate(0, 100vh);
+}
+/* IN GAME */
+#inGameScaler {
+    float: none;
+    margin: 0 auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    height: 97vh;
+}
+#pausePopup {
+    transform: scale(1.1);
+	bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    width: auto !important;
+}
+#pausePopup.centered {
+    position: relative;
+}
+#pausePopup.popup_window {
+    height: auto;
+}
+.pause-popup--container {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+}
+.weapon-select-bg.pause-bg {
+    background: none;
+}
+
+#pausePopup #weapon_select {
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr;
+    height: auto;
+    position: relative;
+}
+
+#pausePopup #weapon_select .tool-tip span {
+    bottom: auto;
+    top: 4.8em;
+    font-size: 1.8em;
+    color: var(--ss-white);
+    width: 100%;
+}
+
+#pausePopup #weapon_select .tool-tip span strong {
+    font-size: 1em;
+}
+
+#pausePopup #weapon_select .tool-tip:focus span,
+#pausePopup #weapon_select .tool-tip:active span {
+    visibility: visible;
+    opacity: 1;
+}
+
+#inGameUI {
+    top: auto;
+    bottom: 4em;
+}
+
+.pause-btn-group .ss_button {
+    text-align: center;
+}
+
+.in-game-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .5em;
+    margin-top: 3.2em;
+}
+
+#pauseButtons .ss_button {
+    min-width: auto;
+}
+
+.in-game-buttons button {
+    font-size: 1.2em;
+    padding-top: 1.4em;
+    padding-bottom: 2.4em;
+}
+
+#inGameScaler .pause-btn-group {
+    margin: 0 auto;
+}
+
+#readouts {
+    position: absolute;
+    top: -2.2em;
+}
+
+#game_screen .account-wrapper {
+    /* left: -11.3em; */
+    /* top: 4.3em; */
+    left: auto;
+    z-index: 3444;
+}
+#game_screen .account_eggs  {
+	position: absolute;
+    bottom: .3em;
+    left: .3em;
+    width: auto;
+	max-height: 1.5em;
+	font-size: 1.2em;
+}
+#chickenBadge {
+    top: auto;
+    bottom: -.5em;
+    left: 0;
+    opacity: .7;
+}
+
+#playerList {
+    margin-top: 2em;
+}
+
+.player__collapse-container {
+    width: 12em
+}
+.collapse-pl-btn {
+	width: 2em;
+	min-width: auto;
+	z-index: 10;
+	position: relative;
+    padding: 0;
+    color: var(--ss-white);
+   	background-color: var(--ss-black);
+   	box-shadow: 0px 0px 5px #aaa !important;
+   	border: 0;
+
+}
+
+.player-count-ui-black {
+	color: var(--ss-white);
+   	background-color: var(--ss-black);
+   	box-shadow: 0px 0px 5px #aaa !important;
+   	border: 0;
+}
+
+.player-count {
+	/* background-color: blanchedalmond; */
+	border-radius: 0.2em;
+    padding: 0.2em;
+	color: var(--ss-white);
+}
+
+/* Settings popup */
+#settingsPopup.popup_window.popup_lg {
+	height: 100vh;
+	margin-top: 0;
+}
+#settings h2{
+    font-size: 2em;
+}
+
+#settings h3{
+    font-size: 1.5em;
+}
+#settings .ss_slider, #settings .ss_select, #settings .ss_checkbox {
+    font-size: 2em;
+}
+#settings .checkmark {
+    height: 2.5em;
+    width: 2.5em;
+}
+.ss_checkbox .checkmark:after {
+    left: 0.85em;
+    top: 0.2em;
+    width: 0.5em;
+    height: 1.4em;
+}
+#settingsPopup #popupInnards {
+    display: grid;
+    height: 33em;
+    justify-items: left;
+    align-items: self-end;
+    align-content: center;
+}
+
+.settings-footer {
+    height: 5em;
+    align-items: end;
+	grid-template-columns: 1fr 1fr 1fr auto;
+}
+.settings-bottom .ss_button, .settings-footer .ss_button {
+	font-size: 1.5em !important;
+}
+
+#settings_misc {
+	width: 100%;
+}
+
+/* Changelog popup */
+.changelog_content strong, .changelog_content li, .changelog_content i, .changelog_content p {
+	font-size: 2em;
+}
+
+.changelog_content a {
+	font-size: 1em;
+}
+
+.changelog_content {
+	height: auto;
+}
+/* Custom ui settings */
+
+.settings-ui-custom-controls {
+	margin-top: var(--ss-space-lg);
+}
+
+.settings-top {
+	grid-template-columns: 40% 1fr;
+}
+
+/** Sign in popup **/
+#firebaseSignInPopup .ss_button {
+    font-size: 2em;
+}
+#firebaseSignInPopup .firebaseui-container {
+    width: 100%;
+    max-width: none;
+}
+#firebaseSignInPopup .firebaseui-idp-button {
+    min-width: 38em;
+    padding: 2em 2em;
+    margin-bottom: 1em;
+}
+#firebaseSignInPopup .firebaseui-idp-icon {
+    height: 4em;
+    width: 4em;
+}
+
+#firebaseSignInPopup .firebaseui-idp-text{
+    font-size: 2.5em;
+}
+
+.enableChat {
+    display: none !important;
+}
+
+.mobile-controls svg,
+.mobile-contols div {
+    z-index: 7;
+}
+
+/** Custom UI **/
+
+.ui-custom-popup-btn-group {
+    transform: scale(.8);
+}
+
+.ui-custom-confirm-save {
+    padding: 1em 7em;
+    background: whitesmoke;
+}
+
+.drag {
+	opacity: 1 !important;
+	box-shadow: 0.05em 0.05em 1em var(--ss-blue4)
+}
+
+/* VIP */
+
+#subStorePopup {
+	min-width: auto;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	/* background-position: 31em -11em; */
+	background-image: url('../../img/vip-club/vip-club-popup-background-no-egg.png');
+}
+
+#subStorePopup .popup_close {
+    top: 0.5em;
+    right: 1.5em;
+}
+
+.vip-club {
+	margin: 0;
+}
+
+.vip-club .ss_button {
+	overflow: visible;
+}
+
+.vip-club-log-content--outer {
+	margin: 0;
+    grid-auto-rows: 12em;
+	width: 100%;
+	height: 100vh;
+	box-shadow: 6px -1px 10px rgb(0 0 0 / 50%);
+}
+
+.no-plan .vip-club-log-content--outer {
+	background: none;
+	box-shadow: none;
+	width: 100%;
+}
+
+.has-plan .plan-details {
+    background-color: rgba(0, 0, 0, .75);
+}
+
+.has-plan .plan-details.vip-club-log-content--outer {
+    height: 90vh;
+    width: 55em;
+    margin: 0 auto;
+    color: var(--ss-white);
+}
+
+.plan-details .plan-expiry {
+	font-size: var(--ss-space-db);
+    padding: var(--ss-space-md) var(--ss-space-db);
+    border: 0.1em var(--ss-vip-yellow) solid;
+	margin-bottom: var(--ss-space-lg);
+}
+
+.popup_lg h1.plan-renewal-title {
+	color: var(--ss-vip-yellow);
+	margin-top: var(--ss-space-lg);
+}
+
+.manage-details {
+	font-size: 1.5em;
+}
+
+.plan-details button {
+	font-size: 2em;
+}
+
+.plan-details .plan-expiry,
+.manage-details {
+    width: 24em;
+}
+
+.vip-club-log-content--outer,
+.subscription-plans,
+.vip-club-items--outer {
+	width: 100%;
+	min-width: auto;
+	max-width: none;
+}
+
+.vip-club-items--outer {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 var(--ss-space-xxl);
+}
+
+.vip-club-items--outer .vip-item:nth-child(2) {
+	justify-self: center;
+}
+
+.vip-club-items--outer .vip-item:nth-child(3) {
+	justify-self: end;
+}
+
+.subscription-plans {
+	padding: 0;
+}
+
+.vip-club--logo img {
+    max-width: 50%;
+	display: block;
+	margin: 1em auto;
+}
+
+.vip-club--content li {
+	font-size: 1.8em;
+	font-weight: 600;
+	margin-bottom: var(--ss-space-sm);
+}
+
+.vip-club--content li span {
+	font-size: 1em;
+}
+
+.vip-club--content li:before {
+	width: auto;
+}
+
+.subs-info button {
+    width: 100%;
+    font-size: 2em;
+	margin: 1em 0;
+}
+
+.subs-info a {
+	color: var(--ss-blue5) !important;
+}
+
+.twelve-month-membership {
+	/* background: var(--ss-gold);
+    width: 80%;
+    height: 17vw;
+	box-sizing: content-box;
+	border-width: 8px;
+	border-style: solid;
+	border-radius: var(--ss-space-lg);
+	border-image: linear-gradient(to right bottom, gold, darkgoldenrod);
+	border-image-slice: 1; */
+    /* padding: 2em; */
+}
+
+.twelve-month-membership img {
+	display: none;
+}
+.subscription-details {
+	height: auto;
+	display: grid;
+}
+
+#vip-help small {
+	font-size: 1.5em;
+    text-align: center;
+    display: block;
+    font-family: 'Sigmar One';
+}
+
+#vip-help h1 {
+	font-size: 2.5em;
+}
+
+#feedback_panel  p, #vip-help #feedback_panel .vip-help--intro {
+	font-size: 2em;
+}
+
+#vip-help #feedback_panel {
+    overflow-y: scroll;
+    height: calc(100vh - 17em);
+}
+
+#vip-help #btn_horizontal {
+	background: var(--ss-lightbackground);
+	padding: 0;
+	position: fixed;
+    width: 100%;
+	bottom: 0;
+    left: 0;
+}
+
+#vip-help #btn_horizontal button {
+	transform: scale(.5);
+}
+
+#vipPopup.popup_window.popup_lg {
+	margin-top: 0;
+}
+
+#vip-help #feedback_panel div, #vip-help #feedback_panel div li  {
+	font-size: 2em;
+}
+
+#vip-help #feedback_panel p, #vip-help #feedback_panel span {
+	font-size: 1em;
+}
+
+#vip-help p,
+#vip-help li {
+	color: var(--ss-blue5);
+	font-weight: 600;
+}
+
+#vip-help p, #vip-help ul {
+	max-width: 75vw;
+}
+
+.btn-join-vip {
+    overflow: visible;
+    position: relative;
+    text-align: left;
+    padding-left: 1.3em;
+    height: 3em;
+}
+
+.btn-join-vip img {
+    width: 9em;
+    position: absolute;
+    top: -.8em;
+    right: 1em;
+}
+
+.btn-inventory {
+	height: auto;
+}
+.btn-inventory img {
+	height: auto;
+    width: 6em;
+    vertical-align: middle;
+}
+
+.vip-item .price-tag--cents {
+	font-size: .5em;
+}
+
+.vip-item {
+	padding: var(--ss-space-lg) var(--ss-space-xxl);
+    width: 45em;
+	margin: 0;
+    background-size: cover;
+    height: 14em;
+    display: flex;
+	align-items: center;
+}
+
+.vip-item img {
+	top: 0;
+	left: 0;
+    width: 55%;
+}
+
+.vip-item .price-tag {
+	font-size: 5em;
+}
+
+.vip-item h3 {
+	font-size: 2.3em;
+}
+
+.vip-item--inner {
+	width: 100%;
+}
+
+.vip-item button {
+	font-size: 2em;
+}
+
+/** egg shop/shack **/
+#eggStorePopup {
+    margin: 0;
+	padding-top: 0;
+    height: 100vh;
+}
+
+.eggshop_image_wrap {
+    max-width: 75%;
+    margin: 0 auto !important;
+    display: block;
+}
+
+.eggshop_image {
+    max-width: 100%;
+	height: auto;
+	margin: 0 auto !important;
+}
+
+.eggshop_subtitle {
+	line-height: 1;
+	display: block;
+}
+
+#popupInnards {
+	min-height: auto;
+}
+
+.store-item-wrap, .eggshop_pricebox {
+	/* transform: scale(1.7); */
+	font-size: 2em;
+}
+
+.store_btn {
+	font-size: 1em;
+}
+
+.store-item-wrap > * {
+	margin-bottom: .5em !important;
+}
+
+#panel_front_play, .column-right .front_panel {
+	width: auto;
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    /** Sign in popup **/
+    #firebaseSignInPopup .ss_button {
+        font-size: 2em;
+    }
+    #firebaseSignInPopup .firebaseui-idp-button {
+        min-width: 14em;
+        padding: 1em;
+        margin-bottom: .5em;
+    }
+    #firebaseSignInPopup .firebaseui-idp-icon {
+        height: 2em;
+        width: 2em;
+    }
+
+    #firebaseSignInPopup .firebaseui-idp-text{
+        font-size: 1em;
+    }
+
+    #equip_screen .content-wrapper.active {
+        grid-template-columns: 0 42.7em 1fr;
+    }
+}
+
+
+/* ----------- iphone 6,7,8 -----------*/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) {
+    #weapon_select {
+        grid-gap: 3em;
+        grid-template-columns: 8.5em 8.5em 8.5em;
+        grid-template-rows: 7em 7em 7em;
+    }
+
+    /** Sign in popup -----------*/
+    #firebaseSignInPopup .ss_button {
+        font-size: 2em;
+    }
+    #firebaseSignInPopup .firebaseui-idp-button {
+        min-width: 14em;
+        padding: 1em;
+        margin-bottom: .5em;
+    }
+    #firebaseSignInPopup .firebaseui-idp-icon {
+        height: 2em;
+        width: 2em;
+    }
+
+    #firebaseSignInPopup .firebaseui-idp-text {
+        font-size: 1em;
+    }
+
+    .popup_sm_content #buyItemCanvas {
+        width: 50%;
+        height: auto;
+    }
+
+    #equip_screen .content-wrapper.active {
+        grid-template-columns: 0 50.7em 1fr;
+    }
+}
+
+/* ----------- Landscape -----------*/
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    .main-layout {
+        padding: 2em 4em;
+    }
+    #home_screen .weapon-container {
+        /* width: 31em; */
+    }
+
+    #home_screen #weapon_select img {
+        width: 8.6em;
+    }
+
+    .weapon-container, #equip_grid {
+        /* width: 34em; */
+    }
+    .player__container {
+        left: 2em;
+    }
+    #game_account_panel.account-container {
+        right: 4em;
+    }
+    .popup_window.popup_lg {
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+    .tab-content-feedback .feedback_panel {
+        height: 41em;
+        overflow-y: hidden;
+    }
+
+}
+
+/** ipad and mini **/
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+	/* #panel_front_play, .column-right .front_panel {
+		width: 17em;
+	} */
+
+	button.play-button.btn-account-nav {
+		font-size: 4vw !important;
+	}
+
+	.btn-join-vip {
+		padding-left: .3em !important;
+		height: 4em !important;
+		font-size: 1.4em !important;
+	}
+
+	.btn-join-vip img {
+		width: 5em !important;
+		position: absolute;
+		top: 50% !important;
+		right: 0 !important;
+		transform: translate(0, -50%);
+	}
+
+    #server_list_item{
+        grid-template-columns: 14em 1fr 1fr;
+        grid-gap: 1em;
+    }
+
+	.eggshop_image_wrap {
+		max-width: 100%;
+	}
+
+    /* #weapon_select img {
+        width: 8em;
+    } */
+
+	.ru #weapon_select img,
+	.fr #weapon_select img {
+		width: 5.6em !important;
+	}
+
+	.de #weapon_select img {
+		width: 7.6em !important;
+	}
+
+	.pt #weapon_select img {
+		width: 6.6em !important;
+	}
+
+	.ru #stat_item h4,
+	.de #stat_item h4,
+	.nl #stat_item h4 {
+		font-size: .8em;
+	}
+
+	.de #stat_item h4,
+	.es #stat_item h4 {
+		font-size: .7em;
+	}
+
+	.pt #stat_item h4,
+	.fr #stat_item h4 {
+		font-size: .6em;
+	}
+
+	.de .settings-footer .ss_button,
+	.ru .settings-footer .ss_button {
+		font-size: 1.6em;
+	}
+
+	.es .settings-footer .ss_button,
+	.nl .settings-footer .ss_button {
+		font-size: 1.4em;
+	}
+
+	.ru #settings .ss_checkbox {
+		font-size: 1.5em;
+	}
+
+	.pt #settings .ss_checkbox {
+		font-size: 1.6em;
+	}
+
+	.nl #settings .ss_checkbox {
+		font-size: 1.7em;
+	}
+
+    .weapon-container, #equip_grid {
+        /* width: 23em; */
+    }
+
+    #mapText {
+        font-size: 1em;
+    }
+
+    .right_panel #item_grid {
+        padding: 0
+    }
+
+    .equip_purchase_top {
+        /* margin-left: 3em; */
+        transform: scale(.7);
+    }
+    #signOutButton {
+        font-size: 1.8;
+    }
+	.store-item-wrap, .eggshop_pricebox {
+		/* transform: scale(1.7); */
+		/* font-size: 1.5em; */
+	}
+
+	/* .store_btn {
+		font-size: .8em;
+	} */
+
+	.eggshop_bigtitle {
+		font-size: 1em !important;
+	}
+
+	/* .eggshop_image {
+		max-width: 100% !important;
+		height: auto !important;
+	} */
+
+	.vip-club-items--outer > div {
+		justify-self: center !important;
+	}
+
+	.vip-item {
+		width: 38em;
+		height: 12em;
+	}
+
+	.has-plan .plan-details.vip-club-log-content--outer {
+		width: 44em;
+	}
+
+	.plan-details .plan-expiry, .manage-details {
+		width: 19em;
+	}
+
+	.eggshop_image {
+		max-width: 77%;
+	}
+	.store_btn {
+		font-size: .6em;
+	}
+
+	#settings  .settings--checkbox-wrapper  .ss_checkbox {
+		font-size: 1.25em;
+	}
+
+}
+
+/* ----------- iPhone 13 pro */
+@media only screen
+    and (device-width: 390px)
+    and (device-height: 844px)
+    and (-webkit-device-pixel-ratio: 3) {
+		/* .eggshop_image {
+			height: 15em !important;
+		} */
+
+		.btn-join-vip {
+			padding-left: .3em;
+			height: 4em;
+			font-size: 1.4em;
+		}
+
+		.btn-join-vip img {
+			width: 10em;
+			position: absolute;
+			top: 50% !important;
+			right: 0 !important;
+			transform: translate(0, -50%);
+		}
+
+}
+
+/* ----------- iPhone 13 pro max or whatever it wants to be called -----------*/
+@media only screen
+    and (device-width: 926px)
+    and (device-height: 428px)
+    and (-webkit-device-pixel-ratio: 3) {
+		/* .eggshop_image {
+			height: 16em !important;
+		} */
+		.store_btn {
+			font-size: 1em;
+		}
+}
+
+/* ipad pro */
+@media only screen
+  and (min-width: 1024px)
+  and (max-height: 1366px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+	/* #panel_front_play, .column-right .front_panel {
+		width: 17em;
+	} */
+
+	button.play-button.btn-account-nav {
+		font-size: 3em;
+	}
+
+	.btn-join-vip {
+		padding-left: .3em;
+		height: 4em;
+		font-size: 1.6em;
+	}
+
+	.btn-join-vip img {
+		top: 0.5em;
+		right: 0;
+		width: 6em;
+	}
+
+    #server_list_item{
+        grid-template-columns: 14em 1fr 1fr;
+        grid-gap: 1em;
+    }
+    .weapon-container {
+        position: relative;
+    }
+
+    #home_screen .content-wrapper {
+        grid-template-columns: 1fr 1fr 23em;
+    }
+
+    #weapon_select img {
+        width: 8em;
+    }
+
+    #equip_screen .content-wrapper {
+        /* grid-template-columns: 10em 22em 10em; */
+        /* grid-template-columns: 1fr 13em 1fr; */
+
+    }
+
+    #equip_screen .content-wrapper.active {
+        grid-template-columns: 0 34em 1fr;
+    }
+
+    .equip_purchase_top {
+        /* margin-left: 3em; */
+        margin: 0 auto;
+        transform: scale(.7);
+    }
+
+    #pausePopup #weapon_select img {
+        width: 6.5em;
+    }
+
+    #pausePopup #weapon_select .tool-tip span {
+        top: 4.5em;
+        font-size: 1.5em;
+    }
+
+    /* .weapon-container, */
+    #equip_grid {
+        width: 24em;
+    }
+	.store-item-wrap, .eggshop_pricebox {
+		/* transform: scale(1.7); */
+		/* font-size: 1.5em; */
+	}
+
+	/* .eggshop_subtitle {
+		font-size: .7em;
+	} */
+
+	/* .store_btn {
+		font-size: .8em;
+	} */
+
+	/* .eggshop_image {
+		height: auto;
+	} */
+
+	.vip-club-items--outer > div {
+		justify-self: center !important;
+	}
+
+	.vip-item {
+		width: 35em !important;
+		height: 10em !important;
+	}
+
+	.vip-item .price-tag {
+		font-size: 4em;
+	}
+
+	.has-plan .plan-details.vip-club-log-content--outer {
+		width: 40em !important;
+	}
+
+	.plan-details .plan-expiry, .manage-details {
+		width: 19em !important;
+	}
+}
+
+/* ----------- iphone 10 x -----------*/
+@media only screen
+and (min-device-width : 412px)
+and (max-device-width : 846px) {
+    #weapon_select {
+        grid-gap: 3em;
+        grid-template-columns: 8.5em 8.5em 8.5em;
+        grid-template-rows: 7em 7em 7em;
+    }
+
+    #equip_grid {
+        width: 35em;
+    }
+
+    #equip_screen #weapon_select img,
+    #equip_grid .store_item {
+        width: 8.4em;
+        height: 8.4em;
+        margin: 0;
+    }
+
+    .popup_sm_content #buyItemCanvas {
+        width: 70%;
+        height: auto;
+    }
+
+    #equip_screen .content-wrapper.active {
+        grid-template-columns: 0 63em 1fr;
+    }
+
+    .left-slide {
+        transform: translate(-35em, 0);
+    }
+
+	button.play-button.btn-account-nav {
+		font-size: 5em;
+	}
+
+	.btn-join-vip {
+		overflow: visible;
+		position: relative;
+		text-align: left;
+		padding-left: 1.3em;
+		height: 3em;
+	}
+
+	.btn-join-vip img {
+		width: 9em;
+		position: absolute;
+		top: -.8em;
+		right: 1em;
+	}
+
+	.store-item-wrap, .eggshop_pricebox {
+		/* transform: scale(1.7); */
+		/* font-size: 2em; */
+	}
+
+	.store_btn {
+		font-size: 1em;
+	}
+
+	/* .eggshop_image {
+		height: 15em;
+	} */
+
+	.vip-club-items--outer .vip-item:nth-child(1) {
+		justify-self: start !important;
+	}
+
+	.vip-club-items--outer .vip-item:nth-child(2) {
+		justify-self: center !important;
+	}
+
+	.vip-club-items--outer .vip-item:nth-child(3) {
+		justify-self: end !important;
+	}
+
+	.vip-item {
+		width: 48em;
+		height: 15em;
+	}
+
+	.has-plan .plan-details.vip-club-log-content--outer {
+		width: 55em;
+	}
+
+	.plan-details .plan-expiry,
+	.manage-details {
+		width: 24em;
+	}
+
+}
+
+.has-plan .vip-club-items--outer .vip-item:nth-child(1) {
+	justify-self: center !important;
+}
+
+/* Rating popups */
+
+.rate-eggs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 4em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.rate-eggs img {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.rate-eggs-desc {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+.rate-thanks {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.rate-thanks div:nth-child(1) {
+    font-size: 2em;
+}
+
+.rate-thanks div {
+    font-size: 1.5em;
+    line-height: 1.1em;
+}
+
+div.rate-thanks-egg {
+    font-size: 2.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+div.rate-thanks-egg img {
+    height: 2.5em;
+    display: inline;
+    vertical-align: middle;
+}
+
+.rate-feedback {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+/* Chick'n winner */
+
+.egg-chick-wrapper {
+	height: 32em;
+	margin-top: 3em;
+}
+
+.chw-progress-wrapper {
+	height: auto;
+}
+
+.chw-progress-bar-wrap {
+	height: 4.5em;
+}
+
+.egg-chick-footer {
+    position: absolute;
+    left: 50%;
+    bottom: 3em;
+    transform: translate(-50%, 0);
+}
+
+.chw-progress-bar-msg {
+	font-size: 1.8em;
+}
+
+.chw-eggs {
+    width: 8.7em;
+	top: -2em;
+}
+
+#gotWinnerOk.ss_button {
+	font-size: 2em;
+}
+
+/* Transitions */
+/* Fixes weirdness on mobile */
+.fadeout-leave-active {
+	transition: opacity .0s;
+}
+
+#deleteAccountApprovalPopup, #deleteAccountApprovalPopup .popup_sm_content {
+	width: 100%;
+	max-width: none;
+}
