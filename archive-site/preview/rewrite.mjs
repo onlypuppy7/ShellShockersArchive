@@ -271,6 +271,8 @@ export function patchScript(text,{version,path,files=[]}){
     text=text.replace(/\baBNoobInventory\.getVariant\(\)/g,'(typeof aBNoobInventory!=="undefined"?aBNoobInventory.getVariant():0)');
     text=text.replace(/vueApp\.((?:show|hide)WelcomeBundleCtaInGame)\(/g,'vueApp.$1?.(');
     text=text.replace(/vueApp\.(assetLoaded|assetSetup|progressBarReset|progressBarUpdate)\(/g,'vueApp.$1?.(');
+    // Native map-test packets use an array; the normal badge renderer expects JSON.
+    if(nativeOffline)text=text.replace(/this\.social=([\w$]+\.[\w$]+)/g,(_,value)=>`this.social=(typeof ${value}==="string"?${value}:JSON.stringify(${value}||[]))`);
     // A borrowed script can include a newer streak indicator than the retained
     // HTML. Keep the native HUD and skip only indicators absent from it.
     text=text.replace(/(([\w$]+\[[\w$]+\])=document\.getElementById\([\w$]+\)),\2\.style\.display="none"/g,'$1,$2&&($2.style.display="none")');
@@ -292,6 +294,10 @@ export function patchScript(text,{version,path,files=[]}){
     text=text.replace(/if\s*\(\s*([\w$]+)\s*\)\s*\{\s*(for\s*\(\s*var\s+[\w$]+\s*=\s*([\w$]+)\.getVerticesData\([\w$]+\.VertexBuffer\.ColorKind\))/g,(_,data,loop,mesh)=>{
       patches.push('skip baked lighting when map geometry differs');
       return `if(window.__archivePreview.validateLightmap(${data},${mesh})){${loop}`;
+    });
+    text=text.replace(/if\(([$\w]+)\)\{var ([$\w]+)=([$\w]+)\.getVerticesData\(([$\w]+)\.ColorKind\)/g,(_,data,colors,mesh,buffer)=>{
+      patches.push('validate baked lighting against native map geometry');
+      return `if(window.__archivePreview.validateLightmap(${data},${mesh})){var ${colors}=${mesh}.getVerticesData(${buffer}.ColorKind)`;
     });
     text=text.replace(/\|\|["']undefined["']==typeof firebase/g,'');
     text=text.replace(/\|\|\s*typeof firebase\s*===?\s*['"]undefined['"]/g,'');

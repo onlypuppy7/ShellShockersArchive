@@ -55,7 +55,15 @@ window.__archiveNativeGameAdapterSource='('+function(){
       phase='loading models';await loadAllObjectMeshes();
       phase='fetching map';
       const response=await fetch('maps/'+mapFile.filename+'.json');if(!response.ok)throw new Error('Missing map JSON: '+mapFile.filename);
-      const definition=await response.json();localStore.setItem('mapBackup',JSON.stringify(definition));localStorage.setItem('lightmap','null');
+      const definition=await response.json();localStore.setItem('mapBackup',JSON.stringify(definition));
+      // The native map-test loader reads lighting from storage instead of
+      // requesting it. Use the same verified pair selected for the map JSON.
+      localStorage.setItem('lightmap','null');
+      const lighting=await fetch('maps/'+mapFile.filename+'.lightmap');
+      if(lighting.ok){
+        const bytes=new Uint8Array(await lighting.arrayBuffer());
+        localStorage.setItem('lightmap',JSON.stringify(Array.from(bytes)));
+      }else window.__archivePreview.notice('No paired baked lighting is available for '+mapFile.name+'.');
       const spawn=position();mapTest={x:spawn.x-.5,y:spawn.y+.32,z:spawn.z-.5,pitch:0,yaw:0};
       playOffline=true;inGame=true;meId=0;ws={readyState:1,send(){},close(){stage='homescreen';}};
       if(typeof MetaGames!=='undefined'){const mode=MetaGames[gameType];metaGame=new mode.logic;metaGameUI=new mode.ui;}
@@ -71,7 +79,12 @@ window.__archiveNativeGameAdapterSource='('+function(){
       const wait=setInterval(()=>{
         if(me){
           clearInterval(wait);
-          try{window.__archivePreview.prepareOfflineUI();me.respawn?.(spawn.x,spawn.y,spawn.z);me[fields.hp]=100;resume();ensureGameLoop();stage='playing';phase='running';busy=false;vueApp.hideSpinner();if(session.private)inviteFriends();window.__archivePreview.notice('Local game: '+mapFile.name+' (native offline client).');}
+          try{window.__archivePreview.prepareOfflineUI();
+            // Map-editor test mode hides the hands deliberately. Offline play
+            // uses that loader but needs the normal first-person player model.
+            const actor=Object.values(me).find(value=>value&&typeof value==='object'&&value.hands?.skeleton);
+            actor?.hands.setEnabled(true);
+            me.respawn?.(spawn.x,spawn.y,spawn.z);me[fields.hp]=100;resume();ensureGameLoop();stage='playing';phase='running';busy=false;vueApp.hideSpinner();if(session.private)inviteFriends();window.__archivePreview.notice('Local game: '+mapFile.name+' (native offline client).');}
           catch(error){fail(error);}
         }
         else if(Date.now()-started>60000){clearInterval(wait);busy=false;stage='failed';window.__archivePreview.error('The native local game did not finish loading.');}
