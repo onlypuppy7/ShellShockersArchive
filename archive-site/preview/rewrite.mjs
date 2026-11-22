@@ -272,7 +272,7 @@ export function patchScript(text,{version,path,files=[]}){
     text=text.replace(/vueApp\.((?:show|hide)WelcomeBundleCtaInGame)\(/g,'vueApp.$1?.(');
     text=text.replace(/vueApp\.(assetLoaded|assetSetup|progressBarReset|progressBarUpdate)\(/g,'vueApp.$1?.(');
     // Native map-test packets use an array; the normal badge renderer expects JSON.
-    if(nativeOffline)text=text.replace(/this\.social=([\w$]+\.[\w$]+)/g,(_,value)=>`this.social=(typeof ${value}==="string"?${value}:JSON.stringify(${value}||[]))`);
+    if(nativeOffline)text=text.replace(/this\.social\s*=\s*([\w$]+\.[\w$]+)/g,(_,value)=>`this.social=(typeof ${value}==="string"?${value}:JSON.stringify(${value}||[]))`);
     // A borrowed script can include a newer streak indicator than the retained
     // HTML. Keep the native HUD and skip only indicators absent from it.
     text=text.replace(/(([\w$]+\[[\w$]+\])=document\.getElementById\([\w$]+\)),\2\.style\.display="none"/g,'$1,$2&&($2.style.display="none")');
